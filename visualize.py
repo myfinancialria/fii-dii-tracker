@@ -297,23 +297,11 @@ def _idx_card(name: str, d: dict | None) -> str:
 def _movers_table(title: str, rows: list[dict], cls: str) -> str:
     if not rows:
         return ""
-
-    def _row(r: dict) -> str:
-        why = r.get("catalyst") or r.get("headline") or ""
-        link = r.get("link") or ""
-        why_html = ""
-        if why:
-            txt = why[:140] + ("…" if len(why) > 140 else "")
-            why_html = (f"<div class='why'>{txt}</div>"
-                        if not link else
-                        f"<div class='why'><a href='{link}' target='_blank' rel='noopener'>{txt}</a></div>")
-        return (
-            f"<tr><td><div class='sym'>{r['symbol']}</div>{why_html}</td>"
-            f"<td>{r['ltp']:,.2f}</td>"
-            f"<td class='{cls}'>{r['pct']:+.2f}%</td></tr>"
-        )
-
-    tr = "\n".join(_row(r) for r in rows)
+    tr = "\n".join(
+        f"<tr><td>{r['symbol']}</td><td>{r['ltp']:,.2f}</td>"
+        f"<td class='{cls}'>{r['pct']:+.2f}%</td></tr>"
+        for r in rows
+    )
     return f"""
     <div class="mover">
       <h3>{title}</h3>
@@ -334,22 +322,11 @@ def _sectors_table(title: str, rows: list[dict]) -> str:
         "NIFTY REALTY": "Realty", "NIFTY ENERGY": "Energy",
         "NIFTY PSU BANK": "PSU Bank", "NIFTY FINANCIAL SERVICES": "Financials",
     }
-
     def _row(r: dict) -> str:
         name = from_disp.get(r["name"], r["name"].replace("NIFTY ", "").title())
         pct = r.get("pct") or 0
         cls = "pos" if pct >= 0 else "neg"
-        why = r.get("catalyst") or r.get("headline") or ""
-        link = r.get("link") or ""
-        why_html = ""
-        if why:
-            txt = why[:140] + ("…" if len(why) > 140 else "")
-            why_html = (f"<div class='why'>{txt}</div>"
-                        if not link else
-                        f"<div class='why'><a href='{link}' target='_blank' rel='noopener'>{txt}</a></div>")
-        return (f"<tr><td><div class='sym'>{name}</div>{why_html}</td>"
-                f"<td class='{cls}'>{pct:+.2f}%</td></tr>")
-
+        return (f"<tr><td>{name}</td><td class='{cls}'>{pct:+.2f}%</td></tr>")
     tr = "\n".join(_row(r) for r in rows)
     return f"""
     <div class="mover">
@@ -495,10 +472,6 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
   th:first-child, td:first-child {{ text-align:left; }}
   th {{ color:var(--grey); font-weight:600; font-size:11px; text-transform:uppercase; border-bottom:1px solid var(--grid); }}
   tr+tr td {{ border-top:1px solid var(--grid); }}
-  .sym {{ font-weight:600; font-size:14px; }}
-  .why {{ color:var(--grey); font-size:12px; margin-top:2px; line-height:1.35; }}
-  .why a {{ color:var(--grey); text-decoration:none; }}
-  .why a:hover {{ color:var(--navy); text-decoration:underline; }}
 
   footer {{ color:var(--grey); font-size:12px; text-align:center; margin-top:24px; }}
   footer a {{ color:var(--navy); }}
@@ -527,17 +500,13 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
     {_flow_card("DII", dii)}
   </div>
 
-  <div class="chart">
-    <img src="market_pulse.png" alt="Market pulse chart">
-  </div>
-
   <div class="section-title">Best &amp; Worst sectors today</div>
   <div class="two-col">
     {sector_top_tbl}
     {sector_bot_tbl}
   </div>
 
-  <div class="section-title">Top movers — with catalysts</div>
+  <div class="section-title">Top movers</div>
   <div class="two-col">
     {gainers_tbl}
     {losers_tbl}
