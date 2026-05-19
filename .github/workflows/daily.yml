@@ -1,0 +1,61 @@
+name: Daily FII/DII tracker
+
+on:
+  schedule:
+    # 19:30 IST = 14:00 UTC, Mon–Fri (NSE publishes ~18:30 IST)
+    - cron: "0 14 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scrape NSE
+        run: python scraper.py
+
+      - name: Build chart and dashboard
+        run: python visualize.py
+
+      - name: Commit data + output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ output/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: FII/DII update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: Deploy to GitHub Pages
+        id: pages
+        uses: actions/deploy-pages@v4
+
+      - name: Post to Slack
+        if: success()
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL:   ${{ secrets.SLACK_CHANNEL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          CHART_URL: ${{ steps.pages.outputs.page_url }}fii_dii_latest.png
+        run: python slack_post.py

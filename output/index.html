@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FII / DII Tracker — 2026-05-19</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#0B2545; --green:#16A34A; --red:#DC2626; --grey:#6B7280; --bg:#F8FAFC; --card:#FFFFFF; --grid:#E5E7EB; }
+  * { box-sizing:border-box; }
+  body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--navy); margin:0; padding:32px 20px; }
+  .wrap { max-width:1100px; margin:0 auto; }
+  header { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:24px; flex-wrap:wrap; gap:12px; }
+  h1 { font-size:32px; margin:0; font-weight:800; letter-spacing:-0.02em; }
+  .sub { color:var(--grey); font-size:14px; margin-top:4px; }
+  .brand { color:var(--navy); font-weight:700; font-size:14px; }
+  .cards { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:24px; }
+  @media (max-width:640px) { .cards { grid-template-columns:1fr; } }
+  .card { background:var(--card); border-radius:16px; padding:22px; box-shadow:0 1px 3px rgba(0,0,0,0.05); border:1px solid var(--grid); }
+  .card h2 { margin:0 0 14px; font-size:14px; letter-spacing:0.08em; color:var(--grey); text-transform:uppercase; font-weight:600; }
+  .row { display:flex; justify-content:space-between; font-size:15px; padding:6px 0; }
+  .row span:last-child { font-weight:600; }
+  .net { font-size:26px; font-weight:800; margin-top:12px; }
+  .pos { color:var(--green); } .neg { color:var(--red); }
+  .chart { background:var(--card); border-radius:16px; padding:14px; border:1px solid var(--grid); margin-bottom:24px; }
+  .chart img { width:100%; height:auto; display:block; border-radius:10px; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border-radius:16px; overflow:hidden; border:1px solid var(--grid); }
+  th,td { padding:12px 16px; text-align:right; font-size:14px; }
+  th:first-child,td:first-child { text-align:left; }
+  th { background:#F1F5F9; color:var(--grey); font-weight:600; font-size:12px; letter-spacing:0.05em; text-transform:uppercase; }
+  tr+tr td { border-top:1px solid var(--grid); }
+  footer { color:var(--grey); font-size:12px; text-align:center; margin-top:28px; }
+  footer a { color:var(--navy); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>FII / DII Activity</h1>
+      <div class="sub">Cash market • Tuesday, 19 May 2026 • Source: NSE</div>
+    </div>
+    <div class="brand">myfinancial.in</div>
+  </header>
+
+  <div class="cards">
+    <div class="card">
+      <h2>FII / FPI</h2>
+      <div class="row"><span>Buy</span><span>₹17,908 Cr</span></div>
+      <div class="row"><span>Sell</span><span>₹20,365 Cr</span></div>
+      <div class="net neg">Net −₹2,457 Cr</div>
+    </div>
+    <div class="card">
+      <h2>DII</h2>
+      <div class="row"><span>Buy</span><span>₹16,952 Cr</span></div>
+      <div class="row"><span>Sell</span><span>₹13,150 Cr</span></div>
+      <div class="net pos">Net +₹3,802 Cr</div>
+    </div>
+  </div>
+
+  <div class="chart">
+    <img src="fii_dii_latest.png" alt="FII DII chart">
+  </div>
+
+  <table>
+    <thead><tr><th>Date</th><th>FII Net (₹ Cr)</th><th>DII Net (₹ Cr)</th></tr></thead>
+    <tbody>
+      <tr><td>19 May 2026</td><td class='neg'>-2,457</td><td class='pos'>+3,802</td></tr>
+    </tbody>
+  </table>
+
+  <footer>
+    Auto-generated daily • Built by <a href="https://myfinancial.in">myfinancial.in</a> •
+    <a href="https://www.nseindia.com/reports/fii-dii">NSE source</a>
+  </footer>
+</div>
+</body>
+</html>
