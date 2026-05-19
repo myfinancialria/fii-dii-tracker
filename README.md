@@ -14,6 +14,7 @@ A daily, auto-generated market dashboard for the Indian markets. Pulls everythin
 | Global cues | Yahoo Finance | Dow, Nasdaq, S&P, FTSE, Nikkei, Hang Seng |
 | FX & commodities | Yahoo Finance | USD/INR, DXY, Brent crude, Gold, US 10Y yield |
 | Market mood | Derived | Risk-On / Risk-Off / Mixed / Range-bound (from Nifty + VIX) |
+| **News catalysts** | Google News + Claude (optional) | Why each top mover & best/worst sector moved today |
 
 ## Files
 
@@ -21,6 +22,7 @@ A daily, auto-generated market dashboard for the Indian markets. Pulls everythin
 |---|---|
 | `fetchers.py` | All data sources — NSE endpoints + yfinance |
 | `scraper.py` | Orchestrates fetch → writes `data/snapshot.json` + FII/DII history CSV |
+| `catalysts.py` | Fetches news headlines for top movers + best/worst sectors; optionally compresses to a 1-line catalyst via Claude |
 | `visualize.py` | Generates `output/market_pulse.png` + `output/index.html` |
 | `render_dashboard.py` | Renders the HTML dashboard to `output/dashboard.jpg` via headless Chromium |
 | `slack_post.py` | Posts the daily digest + dashboard JPG to Slack |
@@ -77,7 +79,8 @@ Then on GitHub:
 2. **Settings → Secrets and variables → Actions** → add either:
    - `SLACK_WEBHOOK_URL`, *or*
    - `SLACK_BOT_TOKEN` + `SLACK_CHANNEL`
-3. **Actions** tab → run "Daily FII/DII tracker" manually once to seed
+3. *(Optional)* Add `ANTHROPIC_API_KEY` to get AI-condensed 1-line catalysts. Without it, catalysts fall back to the cleanest matching news headline (still useful).
+4. **Actions** tab → run "Daily FII/DII tracker" manually once to seed
 
 Dashboard goes live at `https://<user>.github.io/fii-dii-tracker/`.
 

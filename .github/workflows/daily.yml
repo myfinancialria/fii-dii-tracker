@@ -30,6 +30,11 @@ jobs:
       - name: Scrape NSE
         run: python scraper.py
 
+      - name: Attach news catalysts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python catalysts.py || echo "catalysts step failed, continuing"
+
       - name: Build chart and dashboard
         run: python visualize.py
 

@@ -51,10 +51,14 @@
   .mover { background:var(--card); border:1px solid var(--grid); border-radius:14px; padding:18px; }
   .mover h3 { margin:0 0 10px; font-size:13px; letter-spacing:0.08em; color:var(--grey); text-transform:uppercase; font-weight:700; }
   table { width:100%; border-collapse:collapse; }
-  th, td { padding:8px 6px; text-align:right; font-size:13px; }
+  th, td { padding:10px 6px; text-align:right; font-size:13px; vertical-align:top; }
   th:first-child, td:first-child { text-align:left; }
   th { color:var(--grey); font-weight:600; font-size:11px; text-transform:uppercase; border-bottom:1px solid var(--grid); }
   tr+tr td { border-top:1px solid var(--grid); }
+  .sym { font-weight:600; font-size:14px; }
+  .why { color:var(--grey); font-size:12px; margin-top:2px; line-height:1.35; }
+  .why a { color:var(--grey); text-decoration:none; }
+  .why a:hover { color:var(--navy); text-decoration:underline; }
 
   footer { color:var(--grey); font-size:12px; text-align:center; margin-top:24px; }
   footer a { color:var(--navy); }
@@ -225,17 +229,42 @@
     <img src="market_pulse.png" alt="Market pulse chart">
   </div>
 
+  <div class="section-title">Best &amp; Worst sectors today</div>
+  <div class="two-col">
+    
+    <div class="mover">
+      <h3>Best Sectors</h3>
+      <table>
+        <thead><tr><th>Sector</th><th>Change</th></tr></thead>
+        <tbody><tr><td><div class='sym'>IT</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcnRadXdMQlMyZnVmZ0VtNmtkU2Z1VGJjd2NsaXVqZUlMbnZ4eHVQZGFkbExTeHg0XzFqX2t0NDEtTFBRdGVLek5NTnBURVB0UEpTc3VoQmwtMkxDOGFyRlNVc0ItSWpoNlcwekNaUlNfdVdDV2I1Vi1TVENqQnZBS1N6OGF1d0VKWDFkSjkyNExmRXhvY0NSeTZHRjN4amx0SHRhQ2k1U2h5Tk1VdzlYZkc0YUhYb3JvNkdKSUdBa2JOb1RobGVqSlZVSFBiamlNQzNwTFB30gHbAUFVX3lxTFA1TERoQUpUWlREVVRCbDVCVGpxS0tlU3NNTXI1VkwwM2pVNExkQ1pJUHc3amlzYzhab1hJZGJBanlCZFB0eF9NYkV3TDJsNmpPdUxUZFBEWWJwTllxc0dudTBXRWtGVS1LTVBoSTBRNm5FZEZzbTVUTjVWalp2LVVCam9pUVJreTJ1TEgwdy15blhaX1RzaDFCU0JGalRiek5uVnBmY3Z6SC1nZ1d5QzhyVHFzdmpnRTZtTXBBV0hRUEVObVF3UHdmT1NJSW5xQ1VMOVlEZ1FZRFFqOA?oc=5' target='_blank' rel='noopener'>Infosys, TCS, Tech Mahindra shares jump: Why IT stocks gained up to 6% today</a></div></td><td class='pos'>+3.23%</td></tr>
+<tr><td><div class='sym'>Realty</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQkJCTVA1b3JLcU9PbXVXSnF5RlVld25Cc19XT2J4cnpZbFAtaEFvNHBSbjNUN1R4QUdfRHp1WGIxYTdOSHRDcGwyaFhzSWg4OGJrMVBUaVd4UjRYTThXR01zTWdWSUpJTmRsUmRuOGt1YzV4X2lXZEFpV05GVDNHNWFaTFh5R0doQ0dkOXJVaEluZ0ZYN0NOdDlYT3p6U05LaGhLUHo3SHAwellWUGhaOW1DQTBZLU8wcGlJX2w5ZzB3cFFhQ0lTMDgzUnlNMGZGbk1KcThTalpCekdtWTdEZFpoNndaZjB3YXJWSjVrekRHWTZjQ0VCVA?oc=5' target='_blank' rel='noopener'>​Raymond Realty among top 7 unique stocks with over Rs 1 crore market value. Check details</a></div></td><td class='pos'>+1.43%</td></tr></tbody>
+      </table>
+    </div>
+    
+    
+    <div class="mover">
+      <h3>Worst Sectors</h3>
+      <table>
+        <thead><tr><th>Sector</th><th>Change</th></tr></thead>
+        <tbody><tr><td><div class='sym'>Financials</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi6AFBVV95cUxOem1CTEFtYmpSeF8zcEpfZkRVaUVvNUxZS3lRZURlbEduNzhWbXNfU0NjclQ1M3RkMG5xTE9CanZvSzlLUGE4ZTdVOXNLMm5nWmVPOTNJaC0tTWw1RjNhS013c0ZkZXdUZDk1QnktdXNTSkc2YnUzZU13a0JzLTBXX0d6NnNVeG9iNEQ2M1dzODNjbXpsN1hkRXdYb3FXNE4tQzJzbUpicUJjUURPYXZJNHBRcG9UbkNMVElWRUJZSDN1TWRPV0dyZ0FWUm5oY3BvM1ZFODJuaGRiZzJsVkU3RThuY0lzZXhp?oc=5' target='_blank' rel='noopener'>India Markets Poised for Long-Term Growth Despite Geopolitical Risks: Emkay Global Financial Services</a></div></td><td class='neg'>-0.26%</td></tr>
+<tr><td><div class='sym'>Bank Nifty</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbnY3bWdvZGg4WXFvcmkzWWpTOEo5SGhGUUtDOWkwLTFXLWNrdk12MDFGMWtIN05iUkppTXVDTmpPOGNibEVNUUt0QXZLQWtQemdwUF9pdmVUcmtKcGNRNVdQcWI4V3BlWlBEYlQ5Rll2Um1wbGVpYm5YaDNydjFPbGpfcXJEV3Z2ekhIM25TYnN1YmVBcjhUQUlhbWIycV84MkpUMmUyM3hud3lJaUtudGY5TS1UV09uQS1OS2JwVjRYbjhPYVpSUmdKbzluYmkyczNZ0gHYAUFVX3lxTE53YzZUeGk2TGdMT0hNc3ljTGFBNWJjY29DTUtlajRYVmdrSkVYbEYyekRYZWdBNmZQalZSSWRlWnVGOF9UbTlrVWZuSVJmaHk3djVrWjZkZzZZSVVSYmRwQ05fNjJtUzZXVWZ6ZkhRdWpaWWR6alhSS3kzZWRIWE0tbFktelNURE83OThKLXYwd2FSaElkaFA3ZXNRbkptaUFraDJsZjdLRTg2ZzU3S3hKdlhKeEdZS2FoSmh1R3RWUGh4LVF3SEhzbjNRZGNrNmhPYWt0anRKcQ?oc=5' target='_blank' rel='noopener'>Sensex, Nifty end lower as banking drag offsets IT rally; rupee hits record low</a></div></td><td class='neg'>-0.24%</td></tr></tbody>
+      </table>
+    </div>
+    
+  </div>
+
+  <div class="section-title">Top movers — with catalysts</div>
   <div class="two-col">
     
     <div class="mover">
       <h3>Top Gainers (Nifty 50)</h3>
       <table>
         <thead><tr><th>Symbol</th><th>LTP</th><th>Change</th></tr></thead>
-        <tbody><tr><td>INFY</td><td>1,194.00</td><td class='pos'>+4.51%</td></tr>
-<tr><td>HCLTECH</td><td>1,180.00</td><td class='pos'>+2.91%</td></tr>
-<tr><td>TECHM</td><td>1,467.00</td><td class='pos'>+2.59%</td></tr>
-<tr><td>TMPV</td><td>360.50</td><td class='pos'>+2.08%</td></tr>
-<tr><td>TCS</td><td>2,330.00</td><td class='pos'>+2.05%</td></tr></tbody>
+        <tbody><tr><td><div class='sym'>INFY</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaEU2MDNQVG1uTkNDYVY5T0dBdm9iUnFraEZ0N09CNENvLWEzWDA1NndiMm80Tm8wVl9RUzl0RGNaN3FmQWpoWmVmQkhMSUg1YmdFTmRVSk5BamxUU1NnY19oOTNvSmY5NjdTX3dmbTBjRENhbTdsX0tkVGE1akF3TUI3eS0yOFFFZk92eFlna1poXzhGZXdvUFhpbjh1UnQ0QzRwUzcyc0hucFlCbHlOZklDMjdZZmVNSVFmNWxPNGpxOVBQQjVsT3JQUS1qcTVWVUw4ek9mWW5aN0E4b19iMjFTbkthODRlTy11TmYyONIB9AFBVV95cUxQU0ZBUWpmT2FSaEdob1RhM3dLcUlzVV9CVHBVbTA2UWlOOXN6a0djNnprMk5mTHFaWXVlSjMzWHlpYllnYUQxWnRfMVd6NnNLdmR0VWxpZjhrb0R4UHo5aUdEYXlacGxZbzRpTWVvMUVTSDBRMzNrMkVXVGdJVEowY1hhTkxZQ21jY0Q4MDVjbDVOQVBFOEMtMG1aaVVwcUVWRjUwYkZtZ2VUZkY1RUtkUUhKbTZKblJDTUp0NnZqOXlzQ2k4Mk85bGlxeFBzV3FKTmZfUUIya2dJUXRtWFVXNHdfVi11QzVCX1R6QXFEWlAtbjJ2?oc=5' target='_blank' rel='noopener'>Sensex opens 300 points higher, Nifty above 23,700; Infosys up 4%</a></div></td><td>1,194.00</td><td class='pos'>+4.51%</td></tr>
+<tr><td><div class='sym'>HCLTECH</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTy13ZERpQVlCNl8zWHZ6STV4V3lURUVuLVM0T1dLT21uUkhQeU80REJ6ZzBYb0diOEZLU05fdWVVSDc4S09tSXMxQU9Gcm9vY3BMRTU1WGhTRHJUNXRVSi1MX2hheXlhZHk3YmxLYlU3VlNVdnlvWkRUelJNNTZfX1hodXlSUjAxenJlc3hfRHBGQ1pUTlotak11OVY2U1lneTVlb1c5OXB2OW82R0t5dnQyNXdBVDNZWDRKQkFrTER3MlB2VlZSOTkxQVRMZmlKZ1ptVDU5OVVMeXlHaWpQRzJSUUNZWVpwd2NzTWFuUzNmalFaMGNR0gH8AUFVX3lxTE9TYUVCWjhXWk9kWXdTQmxjX21vbkxIV0k1ODlqZFlwVThHX09VN1lhaUIySFcyOTdzTGdlZEF5YkdIZVVqenZvVFJ2NEtqWm5hM21mdUp4WkZxTTRJSGctSnU0cEZQZFZDdlRFakVMWmh1RE1ILU9uQmRaem1ObDlIOFJ5SllmeUtoVzY3SmkwVnJuTHUzMnQxR0duOUEyT2Y1SnBtQ1p5TUYyVGxsRXBlV2VrSEpGRW5mVl9mR3ZhbDkteVlXUTZVal8ycTBRZU1xTUJUaW9Jd0tCSmlLampDcVZMS0oxMEEwNG0wTEVGWm8yekR5WDlFS2VVTg?oc=5' target='_blank' rel='noopener'>IT stocks rebound: Infosys, TCS, Wipro, HCLTech, TechM, LTM, Coforge shares jump; what's behind the surge?</a></div></td><td>1,180.00</td><td class='pos'>+2.91%</td></tr>
+<tr><td><div class='sym'>TECHM</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi_AFBVV95cUxPa211d0pmc1Y4d0x3bk92VnNXc3Judk4ybFJpSVgzbDhzbVNncEpONUZFVDd6eUhsdDFGTXV2bFA5ZENuQUZ5VldPczJ3c3RVN2t6eUZJMnRWS0NOd1EtUGF6NnVWdkcySkJ6bUUxVUJNQW9qYnNkdkZINzJ4MFY3eE0xZFNiV1hHWjVydnJ1ZmZMcmd3TWdSMHcyYjdiaEt0dWlwa2NzV3FpdHNuaDVTRU05c0ZQOUFOeHFQS1hvQ245S0pnZWUzYXFVQ3pTZE5LdzZNWVRPNXRqSlFjS0JVWGU0Y0FrQ3QyUXRQOTUxX09ETmxiMjhmbGVoQjLSAYICQVVfeXFMTnB0ZDMwYnhlLTdYWlpqZGJNRkVsMXFGeGpZVWRScjZIM1BVVDFnMlhVemliR3JJU09mNmJGcU5lR1J2SnFnVlhlYlhuLUM5VlJyZHBUeWl1WlU5SnJpZW1VZzAybzdjLWRCZ3piM2Z3bWd2RXNHU1g3Q3lCMm5lbXk5VDBxbVgzRXhHdmFsbHNENHhtaU5hUFlxbWRLdlZpZE1CSlMtdmIwOGxjWUttbS12ZWNGLTRWYk0tTUxaOWhFTVB0b2JDNEw5Nkx0REU3dlgzV3lZN2xKTFFoZHNpQ2ZtOG1pYkRyVFUwRjdxTlFtazFWdXNlTUxTQlNfY3o4VjZ3?oc=5' target='_blank' rel='noopener'>Infosys, TCS, TechM and other IT stocks rally up to 5% even as sector valuations near 2008 levels</a></div></td><td>1,467.00</td><td class='pos'>+2.59%</td></tr>
+<tr><td><div class='sym'>TMPV</div></td><td>360.50</td><td class='pos'>+2.08%</td></tr>
+<tr><td><div class='sym'>TCS</div></td><td>2,330.00</td><td class='pos'>+2.05%</td></tr></tbody>
       </table>
     </div>
     
@@ -244,11 +273,11 @@
       <h3>Top Losers (Nifty 50)</h3>
       <table>
         <thead><tr><th>Symbol</th><th>LTP</th><th>Change</th></tr></thead>
-        <tbody><tr><td>KOTAKBANK</td><td>382.40</td><td class='neg'>-2.40%</td></tr>
-<tr><td>TITAN</td><td>4,095.00</td><td class='neg'>-1.79%</td></tr>
-<tr><td>ULTRACEMCO</td><td>11,355.00</td><td class='neg'>-1.78%</td></tr>
-<tr><td>TATACONSUM</td><td>1,211.00</td><td class='neg'>-1.62%</td></tr>
-<tr><td>BHARTIARTL</td><td>1,911.00</td><td class='neg'>-1.40%</td></tr></tbody>
+        <tbody><tr><td><div class='sym'>KOTAKBANK</div><div class='why'><a href='https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQ1dHRWZqZG42MEd3NkhLbFViNndRVHFLZnhXbGVzRlFaTi1hOWUweU56VTBYdEh0VkVDY1hzZHEyVzN6cnlmNkpmOFdYejlWb1dNa2h6R01lM05fdkQ0djJOOVRrVktpWVVqY1JiS0pZTHpmTllTQzBGeDRvRjNobEVVLTdrMm5wQWVnTXBSZ2V3U1B3THRwODdyVHRIVzhTdDFCdlJTY2lrajI3Rm92WWpYQlNBNXJSbnhTSTNJemw3bTBUYjdlMzVWNDFqbTA4RTN4dExhOUvSAd4BQVVfeXFMTzJSd3dWdWtUTEczUGlCMTlkVEZ3YmFGaEtyTGFGemQwTlNFRXRybTZzRkJoVTJTQ2tyc05weTRaM3VGMDRYTjg0OUwtM3V5aEFKVVB2UzV3Q0VoWUJrV29ReHdSY3ExV3hNN2hjSWt1NDhjekgwbTZUSkFOcUptRXFnaWtqeTdZdXJ5RHR3dFVnUkJRbGdhRkFZVkRZRHRCUENfLU4yZmtLeThwR1MyQllBQldVUGtkLTBtd2ttb01HUTFHVEk1aEFjSkRxSEJrUjlfdXNCOUNlaFNIWlRB?oc=5' target='_blank' rel='noopener'>Closing Bell: Sensex Settles 114 Pts Lower, Nifty Below 23,650; Kotak Bank, UltraTech Drop 2% Each</a></div></td><td>382.40</td><td class='neg'>-2.40%</td></tr>
+<tr><td><div class='sym'>TITAN</div><div class='why'><a href='https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc2VmVENJS1ZKLUV0QkNvZVF6d2pzdFdqV1otWFp3TklSaDUtUEw3VGl3VWMxbUV5MHR6V3dpS1JXdVJ2c1MtSTU0TDlDN19CRWJVejIxSlJ5ZkxsbHJnMHU0YjZtOXNUWWdiNm41Y0VfY25PUTNNVC01eXJCRG0wdjdOSUI2ZkJXQTdSLUxNS294QUEwYlpZZ3JOZlQ3bEkxc3ZNTzhtMy1nSVdBZkt0SC1LZEIyRTFxWE9Yc3RKZXJpLWZDUHVJWg?oc=5' target='_blank' rel='noopener'>Titan Company Ltd stock (INE280A01028): shares ease after recent slide as investors watch consumer d</a></div></td><td>4,095.00</td><td class='neg'>-1.79%</td></tr>
+<tr><td><div class='sym'>ULTRACEMCO</div></td><td>11,355.00</td><td class='neg'>-1.78%</td></tr>
+<tr><td><div class='sym'>TATACONSUM</div></td><td>1,211.00</td><td class='neg'>-1.62%</td></tr>
+<tr><td><div class='sym'>BHARTIARTL</div></td><td>1,911.00</td><td class='neg'>-1.40%</td></tr></tbody>
       </table>
     </div>
     

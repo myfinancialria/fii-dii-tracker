@@ -17,6 +17,11 @@ def step(name: str, script: str) -> None:
 
 def main() -> None:
     step("Scrape NSE", "scraper.py")
+    try:
+        step("Attach news catalysts", "catalysts.py")
+    except SystemExit as e:
+        if e.code != 0:
+            print("Catalysts step failed (continuing)", file=sys.stderr)
     step("Build chart + HTML dashboard", "visualize.py")
     step("Render HTML → JPG", "render_dashboard.py")
     try:

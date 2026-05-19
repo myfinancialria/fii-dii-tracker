@@ -297,16 +297,65 @@ def _idx_card(name: str, d: dict | None) -> str:
 def _movers_table(title: str, rows: list[dict], cls: str) -> str:
     if not rows:
         return ""
-    tr = "\n".join(
-        f"<tr><td>{r['symbol']}</td><td>{r['ltp']:,.2f}</td>"
-        f"<td class='{cls}'>{r['pct']:+.2f}%</td></tr>"
-        for r in rows
-    )
+
+    def _row(r: dict) -> str:
+        why = r.get("catalyst") or r.get("headline") or ""
+        link = r.get("link") or ""
+        why_html = ""
+        if why:
+            txt = why[:140] + ("…" if len(why) > 140 else "")
+            why_html = (f"<div class='why'>{txt}</div>"
+                        if not link else
+                        f"<div class='why'><a href='{link}' target='_blank' rel='noopener'>{txt}</a></div>")
+        return (
+            f"<tr><td><div class='sym'>{r['symbol']}</div>{why_html}</td>"
+            f"<td>{r['ltp']:,.2f}</td>"
+            f"<td class='{cls}'>{r['pct']:+.2f}%</td></tr>"
+        )
+
+    tr = "\n".join(_row(r) for r in rows)
     return f"""
     <div class="mover">
       <h3>{title}</h3>
       <table>
         <thead><tr><th>Symbol</th><th>LTP</th><th>Change</th></tr></thead>
+        <tbody>{tr}</tbody>
+      </table>
+    </div>
+    """
+
+
+def _sectors_table(title: str, rows: list[dict]) -> str:
+    if not rows:
+        return ""
+    from_disp = {
+        "NIFTY IT": "IT", "NIFTY BANK": "Bank Nifty", "NIFTY AUTO": "Auto",
+        "NIFTY PHARMA": "Pharma", "NIFTY FMCG": "FMCG", "NIFTY METAL": "Metal",
+        "NIFTY REALTY": "Realty", "NIFTY ENERGY": "Energy",
+        "NIFTY PSU BANK": "PSU Bank", "NIFTY FINANCIAL SERVICES": "Financials",
+    }
+
+    def _row(r: dict) -> str:
+        name = from_disp.get(r["name"], r["name"].replace("NIFTY ", "").title())
+        pct = r.get("pct") or 0
+        cls = "pos" if pct >= 0 else "neg"
+        why = r.get("catalyst") or r.get("headline") or ""
+        link = r.get("link") or ""
+        why_html = ""
+        if why:
+            txt = why[:140] + ("…" if len(why) > 140 else "")
+            why_html = (f"<div class='why'>{txt}</div>"
+                        if not link else
+                        f"<div class='why'><a href='{link}' target='_blank' rel='noopener'>{txt}</a></div>")
+        return (f"<tr><td><div class='sym'>{name}</div>{why_html}</td>"
+                f"<td class='{cls}'>{pct:+.2f}%</td></tr>")
+
+    tr = "\n".join(_row(r) for r in rows)
+    return f"""
+    <div class="mover">
+      <h3>{title}</h3>
+      <table>
+        <thead><tr><th>Sector</th><th>Change</th></tr></thead>
         <tbody>{tr}</tbody>
       </table>
     </div>
@@ -344,6 +393,10 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
     movers = snap.get("movers", {})
     gainers_tbl = _movers_table("Top Gainers (Nifty 50)", movers.get("gainers", []), "pos")
     losers_tbl = _movers_table("Top Losers (Nifty 50)", movers.get("losers", []), "neg")
+
+    cs = snap.get("catalyst_sectors", {}) or {}
+    sector_top_tbl = _sectors_table("Best Sectors", cs.get("top", []))
+    sector_bot_tbl = _sectors_table("Worst Sectors", cs.get("bottom", []))
     global_tbl = _yf_table("Global Indices", snap.get("global", {}))
     fx_tbl = _yf_table("FX & Commodities", snap.get("fx_commodities", {}))
 
@@ -438,10 +491,14 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
   .mover {{ background:var(--card); border:1px solid var(--grid); border-radius:14px; padding:18px; }}
   .mover h3 {{ margin:0 0 10px; font-size:13px; letter-spacing:0.08em; color:var(--grey); text-transform:uppercase; font-weight:700; }}
   table {{ width:100%; border-collapse:collapse; }}
-  th, td {{ padding:8px 6px; text-align:right; font-size:13px; }}
+  th, td {{ padding:10px 6px; text-align:right; font-size:13px; vertical-align:top; }}
   th:first-child, td:first-child {{ text-align:left; }}
   th {{ color:var(--grey); font-weight:600; font-size:11px; text-transform:uppercase; border-bottom:1px solid var(--grid); }}
   tr+tr td {{ border-top:1px solid var(--grid); }}
+  .sym {{ font-weight:600; font-size:14px; }}
+  .why {{ color:var(--grey); font-size:12px; margin-top:2px; line-height:1.35; }}
+  .why a {{ color:var(--grey); text-decoration:none; }}
+  .why a:hover {{ color:var(--navy); text-decoration:underline; }}
 
   footer {{ color:var(--grey); font-size:12px; text-align:center; margin-top:24px; }}
   footer a {{ color:var(--navy); }}
@@ -474,6 +531,13 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
     <img src="market_pulse.png" alt="Market pulse chart">
   </div>
 
+  <div class="section-title">Best &amp; Worst sectors today</div>
+  <div class="two-col">
+    {sector_top_tbl}
+    {sector_bot_tbl}
+  </div>
+
+  <div class="section-title">Top movers — with catalysts</div>
   <div class="two-col">
     {gainers_tbl}
     {losers_tbl}
@@ -535,6 +599,7 @@ def build_summary(snap: dict) -> dict:
         "global": snap.get("global", {}),
         "fx_commodities": snap.get("fx_commodities", {}),
         "movers": snap.get("movers", {}),
+        "catalyst_sectors": snap.get("catalyst_sectors", {}),
     }
 
 

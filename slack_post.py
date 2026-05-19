@@ -76,6 +76,42 @@ def _movers_line(rows: list[dict]) -> str:
     return "  ".join(f"{r['symbol']} {_fmt_pct(r['pct'])}" for r in rows)
 
 
+def _movers_with_why(rows: list[dict]) -> str:
+    if not rows:
+        return "—"
+    out = []
+    for r in rows:
+        why = r.get("catalyst") or (r.get("headline") or "")[:90]
+        line = f"• *{r['symbol']}* {_fmt_pct(r['pct'])}"
+        if why:
+            line += f"  _{why}_"
+        out.append(line)
+    return "\n".join(out)
+
+
+def _sectors_with_why(rows: list[dict], display: dict | None = None) -> str:
+    display = display or {}
+    if not rows:
+        return "—"
+    out = []
+    for r in rows:
+        name = display.get(r["name"], r["name"].replace("NIFTY ", "").title())
+        why = r.get("catalyst") or (r.get("headline") or "")[:90]
+        line = f"• *{name}* {_fmt_pct(r.get('pct', 0))}"
+        if why:
+            line += f"  _{why}_"
+        out.append(line)
+    return "\n".join(out)
+
+
+SECTOR_DISPLAY = {
+    "NIFTY IT": "IT", "NIFTY BANK": "Bank Nifty", "NIFTY AUTO": "Auto",
+    "NIFTY PHARMA": "Pharma", "NIFTY FMCG": "FMCG", "NIFTY METAL": "Metal",
+    "NIFTY REALTY": "Realty", "NIFTY ENERGY": "Energy",
+    "NIFTY PSU BANK": "PSU Bank", "NIFTY FINANCIAL SERVICES": "Financials",
+}
+
+
 def build_blocks(s: dict, chart_url: str | None) -> list[dict]:
     fii_n = s["fii"]["net"]
     dii_n = s["dii"]["net"]
@@ -144,12 +180,31 @@ def build_blocks(s: dict, chart_url: str | None) -> list[dict]:
         blocks.append({"type": "divider"})
         blocks.append({
             "type": "section",
-            "fields": [
-                {"type": "mrkdwn",
-                 "text": f"*Top Gainers*\n{_movers_line(gainers)}"},
-                {"type": "mrkdwn",
-                 "text": f"*Top Losers*\n{_movers_line(losers)}"},
-            ],
+            "text": {
+                "type": "mrkdwn",
+                "text": (
+                    f"*:arrow_up_small: Top Gainers (Nifty 50)*\n"
+                    f"{_movers_with_why(gainers[:5])}\n\n"
+                    f"*:arrow_down_small: Top Losers (Nifty 50)*\n"
+                    f"{_movers_with_why(losers[:5])}"
+                ),
+            },
+        })
+
+    cs = s.get("catalyst_sectors") or {}
+    if cs.get("top") or cs.get("bottom"):
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": (
+                    f"*:rocket: Best Sectors*\n"
+                    f"{_sectors_with_why(cs.get('top', []), SECTOR_DISPLAY)}\n\n"
+                    f"*:warning: Worst Sectors*\n"
+                    f"{_sectors_with_why(cs.get('bottom', []), SECTOR_DISPLAY)}"
+                ),
+            },
         })
 
     blocks.append({"type": "divider"})
