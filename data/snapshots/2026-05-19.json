@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T18:45:11.242323Z",
+  "generated_at": "2026-05-19T18:58:45.899180Z",
   "date": "2026-05-19",
   "mood": "Range-bound",
   "indices": {
@@ -357,7 +357,7 @@
       "catalyst": null,
       "headline": "\u200bRaymond Realty among top 7 unique stocks with over Rs 1 crore market value. Check details",
       "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQkJCTVA1b3JLcU9PbXVXSnF5RlVld25Cc19XT2J4cnpZbFAtaEFvNHBSbjNUN1R4QUdfRHp1WGIxYTdOSHRDcGwyaFhzSWg4OGJrMVBUaVd4UjRYTThXR01zTWdWSUpJTmRsUmRuOGt1YzV4X2lXZEFpV05GVDNHNWFaTFh5R0doQ0dkOXJVaEluZ0ZYN0NOdDlYT3p6U05LaGhLUHo3SHAwellWUGhaOW1DQTBZLU8wcGlJX2w5ZzB3cFFhQ0lTMDgzUnlNMGZGbk1KcThTalpCekdtWTdEZFpoNndaZjB3YXJWSjVrekRHWTZjQ0VCVA?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPU3NpWEhwM2hhU3hOemMyR3BrbEZtTjZ1RGxHNDhsR2ZQM2s0a2kweUdCZ0pGRDU2dXNpQm5aWG9LMXBZNmdIcGpJUHJaYW4wQ0o1ZTRzQWc4dzhjVFFZX3pKQmtmUmgtRktuZzVFRnZjV05iaHhSbGtQaHNUcGpPOHRmaXlmNWREQkNwX2RxbGRIUEM1em5Tb0w1ejlyRVR4SzN4ZmwwXzRsTzNoZnVlSkdsV3FTU0VpRWxmVE5xdmRSSExLdzMxMWNRN0xfdmJaRXhuTjd5cmRWN0UyblhVRnpCYWdiYklfN2YxclZQaE84UTNXTl91Q0czNA?oc=5"
     },
     "NIFTY HEALTHCARE INDEX": {
       "last": 15829.95,
@@ -1506,19 +1506,19 @@
   },
   "global": {
     "Dow Jones": {
-      "last": 49540.23828125,
-      "change": -145.8828125,
-      "pct": -0.2936087770360294
+      "last": 49447.26171875,
+      "change": -238.859375,
+      "pct": -0.4807366116370997
     },
     "Nasdaq": {
-      "last": 25956.474609375,
-      "change": -134.255859375,
-      "pct": -0.5145730187041105
+      "last": 25915.404296875,
+      "change": -175.326171875,
+      "pct": -0.6719864439402943
     },
     "S&P 500": {
-      "last": 7376.77978515625,
-      "change": -26.27001953125,
-      "pct": -0.35485401590323246
+      "last": 7365.39990234375,
+      "change": -37.64990234375,
+      "pct": -0.5085728630369425
     },
     "FTSE 100": {
       "last": 10330.5498046875,
@@ -1543,24 +1543,24 @@
       "pct": 0.5832012814353806
     },
     "Dollar Index": {
-      "last": 99.29399871826172,
-      "change": 0.32399749755859375,
-      "pct": 0.32736939836555046
+      "last": 99.28800201416016,
+      "change": 0.31800079345703125,
+      "pct": 0.3213102854751809
     },
     "Brent Crude": {
-      "last": 111.43000030517578,
-      "change": -0.6699981689453125,
-      "pct": -0.5976790170072886
+      "last": 111.4800033569336,
+      "change": -0.6199951171875,
+      "pct": -0.5530732610407924
     },
     "Gold": {
-      "last": 4501.2001953125,
-      "change": -51.2998046875,
-      "pct": -1.1268490870400878
+      "last": 4502.0,
+      "change": -50.5,
+      "pct": -1.1092806150466776
     },
     "US 10Y Yield": {
-      "last": 4.668999671936035,
-      "change": 0.04599952697753906,
-      "pct": 0.9950146124849848
+      "last": 4.658999919891357,
+      "change": 0.03599977493286133,
+      "pct": 0.7787102272129504
     }
   },
   "fii_dii": {
@@ -1598,7 +1598,7 @@
         "catalyst": null,
         "headline": "\u200bRaymond Realty among top 7 unique stocks with over Rs 1 crore market value. Check details",
         "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQkJCTVA1b3JLcU9PbXVXSnF5RlVld25Cc19XT2J4cnpZbFAtaEFvNHBSbjNUN1R4QUdfRHp1WGIxYTdOSHRDcGwyaFhzSWg4OGJrMVBUaVd4UjRYTThXR01zTWdWSUpJTmRsUmRuOGt1YzV4X2lXZEFpV05GVDNHNWFaTFh5R0doQ0dkOXJVaEluZ0ZYN0NOdDlYT3p6U05LaGhLUHo3SHAwellWUGhaOW1DQTBZLU8wcGlJX2w5ZzB3cFFhQ0lTMDgzUnlNMGZGbk1KcThTalpCekdtWTdEZFpoNndaZjB3YXJWSjVrekRHWTZjQ0VCVA?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPU3NpWEhwM2hhU3hOemMyR3BrbEZtTjZ1RGxHNDhsR2ZQM2s0a2kweUdCZ0pGRDU2dXNpQm5aWG9LMXBZNmdIcGpJUHJaYW4wQ0o1ZTRzQWc4dzhjVFFZX3pKQmtmUmgtRktuZzVFRnZjV05iaHhSbGtQaHNUcGpPOHRmaXlmNWREQkNwX2RxbGRIUEM1em5Tb0w1ejlyRVR4SzN4ZmwwXzRsTzNoZnVlSkdsV3FTU0VpRWxmVE5xdmRSSExLdzMxMWNRN0xfdmJaRXhuTjd5cmRWN0UyblhVRnpCYWdiYklfN2YxclZQaE84UTNXTl91Q0czNA?oc=5"
       }
     ],
     "bottom": [
