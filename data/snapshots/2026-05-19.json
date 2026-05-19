@@ -1,0 +1,1545 @@
+{
+  "generated_at": "2026-05-19T17:03:03.127917Z",
+  "date": "2026-05-19",
+  "mood": "Range-bound",
+  "indices": {
+    "NIFTY 50": {
+      "last": 23618.0,
+      "change": -31.95,
+      "pct": -0.14,
+      "year_high": 26373.2,
+      "year_low": 22182.55,
+      "advances": 19,
+      "declines": 30,
+      "unchanged": 1
+    },
+    "NIFTY NEXT 50": {
+      "last": 68992.35,
+      "change": 374.35,
+      "pct": 0.55,
+      "year_high": 72037.6,
+      "year_low": 59896.1,
+      "advances": 32,
+      "declines": 18,
+      "unchanged": 4
+    },
+    "NIFTY BANK": {
+      "last": 53409.15,
+      "change": -127.85,
+      "pct": -0.24,
+      "year_high": 61764.85,
+      "year_low": 49954.85,
+      "advances": 9,
+      "declines": 4,
+      "unchanged": 1
+    },
+    "NIFTY FINANCIAL SERVICES": {
+      "last": 25283.4,
+      "change": -66.35,
+      "pct": -0.26,
+      "year_high": 28562.5,
+      "year_low": 23373.95,
+      "advances": 12,
+      "declines": 7,
+      "unchanged": 1
+    },
+    "NIFTY MIDCAP SELECT": {
+      "last": 14298.85,
+      "change": 133.2,
+      "pct": 0.94,
+      "year_high": 14590.6,
+      "year_low": 5520.25,
+      "advances": 18,
+      "declines": 7,
+      "unchanged": 0
+    },
+    "NIFTY 100": {
+      "last": 24531.7,
+      "change": -2.55,
+      "pct": -0.01,
+      "year_high": 26975.15,
+      "year_low": 22720.45,
+      "advances": 51,
+      "declines": 48,
+      "unchanged": 5
+    },
+    "NIFTY 200": {
+      "last": 13598.5,
+      "change": 23.15,
+      "pct": 0.17,
+      "year_high": 14700.95,
+      "year_low": 12396.1,
+      "advances": 114,
+      "declines": 85,
+      "unchanged": 5
+    },
+    "NIFTY 500": {
+      "last": 22521.75,
+      "change": 60.7,
+      "pct": 0.27,
+      "year_high": 24144.2,
+      "year_low": 20385.65,
+      "advances": 323,
+      "declines": 176,
+      "unchanged": 5
+    },
+    "NIFTY MIDCAP 50": {
+      "last": 17413.75,
+      "change": 152.4,
+      "pct": 0.88,
+      "year_high": 17686.3,
+      "year_low": 14804.55,
+      "advances": 31,
+      "declines": 19,
+      "unchanged": 0
+    },
+    "NIFTY MIDCAP 100": {
+      "last": 61022.0,
+      "change": 548.2,
+      "pct": 0.91,
+      "year_high": 62113.85,
+      "year_low": 52032.85,
+      "advances": 63,
+      "declines": 37,
+      "unchanged": 0
+    },
+    "NIFTY SMALLCAP 100": {
+      "last": 17863.55,
+      "change": 206.8,
+      "pct": 1.17,
+      "year_high": 19224.95,
+      "year_low": 14986.0,
+      "advances": 67,
+      "declines": 33,
+      "unchanged": 0
+    },
+    "INDIA VIX": {
+      "last": 18.68,
+      "change": -0.95,
+      "pct": -4.86,
+      "year_high": 28.91,
+      "year_low": 8.72,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY MIDCAP 150": {
+      "last": 22374.75,
+      "change": 171.25,
+      "pct": 0.77,
+      "year_high": 22846.7,
+      "year_low": 19218.0,
+      "advances": 94,
+      "declines": 56,
+      "unchanged": 0
+    },
+    "NIFTY SMALLCAP 50": {
+      "last": 8824.65,
+      "change": 106.3,
+      "pct": 1.22,
+      "year_high": 9282.7,
+      "year_low": 7338.35,
+      "advances": 37,
+      "declines": 13,
+      "unchanged": 0
+    },
+    "NIFTY SMALLCAP 250": {
+      "last": 16664.6,
+      "change": 190.95,
+      "pct": 1.16,
+      "year_high": 18077.35,
+      "year_low": 14143.45,
+      "advances": 178,
+      "declines": 72,
+      "unchanged": 0
+    },
+    "NIFTY MIDSMALLCAP 400": {
+      "last": 20264.65,
+      "change": 180.7,
+      "pct": 0.9,
+      "year_high": 20886.3,
+      "year_low": 17390.85,
+      "advances": 272,
+      "declines": 128,
+      "unchanged": 0
+    },
+    "NIFTY500 MULTICAP 50:25:25": {
+      "last": 15838.1,
+      "change": 74.7,
+      "pct": 0.47,
+      "year_high": 17112.15,
+      "year_low": 5531.55,
+      "advances": 323,
+      "declines": 176,
+      "unchanged": 5
+    },
+    "NIFTY LARGEMIDCAP 250": {
+      "last": 16206.45,
+      "change": 63.45,
+      "pct": 0.39,
+      "year_high": 17095.2,
+      "year_low": 5635.2,
+      "advances": 145,
+      "declines": 104,
+      "unchanged": 5
+    },
+    "NIFTY TOTAL MARKET": {
+      "last": 12671.6,
+      "change": 35.05,
+      "pct": 0.28,
+      "year_high": 13842.6,
+      "year_low": 6252.1,
+      "advances": 476,
+      "declines": 270,
+      "unchanged": 9
+    },
+    "NIFTY MICROCAP 250": {
+      "last": 22852.7,
+      "change": 101.95,
+      "pct": 0.45,
+      "year_high": 26476.9,
+      "year_low": 5802.95,
+      "advances": 153,
+      "declines": 94,
+      "unchanged": 4
+    },
+    "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED": {
+      "last": 17626.6,
+      "change": 111.45,
+      "pct": 0.64,
+      "year_high": 18838.1,
+      "year_low": 14014.4,
+      "advances": 323,
+      "declines": 176,
+      "unchanged": 5
+    },
+    "NIFTY INDIA FPI 150": {
+      "last": 1524.55,
+      "change": 2.7,
+      "pct": 0.18,
+      "year_high": 1641.4,
+      "year_low": 1346.5,
+      "advances": 85,
+      "declines": 64,
+      "unchanged": 5
+    },
+    "NIFTY SMALLCAP 500": {
+      "last": 18819.65,
+      "change": 179.05,
+      "pct": 0.96,
+      "year_high": 20338.25,
+      "year_low": 15960.2,
+      "advances": 330,
+      "declines": 168,
+      "unchanged": 2
+    },
+    "NIFTY MIDSMALLCAP400 50:50": {
+      "last": 19593.05,
+      "change": 186.75,
+      "pct": 0.96,
+      "year_high": 20218.05,
+      "year_low": 16874.3,
+      "advances": 272,
+      "declines": 128,
+      "unchanged": 0
+    },
+    "NIFTY AUTO": {
+      "last": 25698.8,
+      "change": 74.5,
+      "pct": 0.29,
+      "year_high": 29179.1,
+      "year_low": 22915.65,
+      "advances": 8,
+      "declines": 7,
+      "unchanged": 0
+    },
+    "NIFTY FINANCIAL SERVICES 25/50": {
+      "last": 27624.4,
+      "change": -37.45,
+      "pct": -0.14,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 12,
+      "declines": 7,
+      "unchanged": 1
+    },
+    "NIFTY FMCG": {
+      "last": 50883.35,
+      "change": -16.75,
+      "pct": -0.03,
+      "year_high": 58485.05,
+      "year_low": 45334.15,
+      "advances": 7,
+      "declines": 8,
+      "unchanged": 0
+    },
+    "NIFTY IT": {
+      "last": 29308.0,
+      "change": 918.2,
+      "pct": 3.23,
+      "year_high": 40301.4,
+      "year_low": 27078.0,
+      "advances": 10,
+      "declines": 0,
+      "unchanged": 0
+    },
+    "NIFTY MEDIA": {
+      "last": 1420.6,
+      "change": 16.6,
+      "pct": 1.18,
+      "year_high": 1786.15,
+      "year_low": 1245.05,
+      "advances": 8,
+      "declines": 2,
+      "unchanged": 0
+    },
+    "NIFTY METAL": {
+      "last": 13163.75,
+      "change": -6.2,
+      "pct": -0.05,
+      "year_high": 13628.65,
+      "year_low": 8997.35,
+      "advances": 3,
+      "declines": 12,
+      "unchanged": 4
+    },
+    "NIFTY PHARMA": {
+      "last": 24867.4,
+      "change": 104.55,
+      "pct": 0.42,
+      "year_high": 25001.25,
+      "year_low": 21149.9,
+      "advances": 14,
+      "declines": 6,
+      "unchanged": 0
+    },
+    "NIFTY PSU BANK": {
+      "last": 7936.4,
+      "change": 63.4,
+      "pct": 0.81,
+      "year_high": 9918.65,
+      "year_low": 6658.7,
+      "advances": 12,
+      "declines": 0,
+      "unchanged": 0
+    },
+    "NIFTY PRIVATE BANK": {
+      "last": 25965.5,
+      "change": -194.45,
+      "pct": -0.74,
+      "year_high": 29748.45,
+      "year_low": 23957.45,
+      "advances": 5,
+      "declines": 4,
+      "unchanged": 1
+    },
+    "NIFTY REALTY": {
+      "last": 762.7,
+      "change": 10.75,
+      "pct": 1.43,
+      "year_high": 1049.7,
+      "year_low": 638.65,
+      "advances": 8,
+      "declines": 2,
+      "unchanged": 0
+    },
+    "NIFTY HEALTHCARE INDEX": {
+      "last": 15829.95,
+      "change": 44.1,
+      "pct": 0.28,
+      "year_high": 15933.4,
+      "year_low": 6482.8,
+      "advances": 13,
+      "declines": 7,
+      "unchanged": 0
+    },
+    "NIFTY CONSUMER DURABLES": {
+      "last": 35069.95,
+      "change": 153.2,
+      "pct": 0.44,
+      "year_high": 44426.55,
+      "year_low": 14089.55,
+      "advances": 7,
+      "declines": 6,
+      "unchanged": 0
+    },
+    "NIFTY OIL & GAS": {
+      "last": 11180.7,
+      "change": 18.2,
+      "pct": 0.16,
+      "year_high": 13607.2,
+      "year_low": 4632.7,
+      "advances": 9,
+      "declines": 6,
+      "unchanged": 0
+    },
+    "NIFTY MIDSMALL HEALTHCARE": {
+      "last": 48622.6,
+      "change": 520.4,
+      "pct": 1.08,
+      "year_high": 48764.15,
+      "year_low": 20019.15,
+      "advances": 18,
+      "declines": 12,
+      "unchanged": 0
+    },
+    "NIFTY FINANCIAL SERVICES EX-BANK": {
+      "last": 31409.85,
+      "change": 219.5,
+      "pct": 0.7,
+      "year_high": 32654.2,
+      "year_low": 21702.4,
+      "advances": 22,
+      "declines": 8,
+      "unchanged": 0
+    },
+    "NIFTY MIDSMALL FINANCIAL SERVICES": {
+      "last": 22029.0,
+      "change": 256.4,
+      "pct": 1.18,
+      "year_high": 22344.45,
+      "year_low": 12407.95,
+      "advances": 24,
+      "declines": 6,
+      "unchanged": 0
+    },
+    "NIFTY MIDSMALL IT & TELECOM": {
+      "last": 9182.7,
+      "change": 208.85,
+      "pct": 2.33,
+      "year_high": 11723.2,
+      "year_low": 7748.35,
+      "advances": 17,
+      "declines": 3,
+      "unchanged": 0
+    },
+    "NIFTY CHEMICALS": {
+      "last": 29227.95,
+      "change": 316.45,
+      "pct": 1.09,
+      "year_high": 31895.45,
+      "year_low": 24851.65,
+      "advances": 17,
+      "declines": 3,
+      "unchanged": 0
+    },
+    "NIFTY500 HEALTHCARE": {
+      "last": 20308.15,
+      "change": 130.65,
+      "pct": 0.65,
+      "year_high": 20395.55,
+      "year_low": 16294.6,
+      "advances": 32,
+      "declines": 17,
+      "unchanged": 0
+    },
+    "NIFTY REITS & REALTY": {
+      "last": 1771.85,
+      "change": 17.15,
+      "pct": 0.98,
+      "year_high": 1976.65,
+      "year_low": 1632.55,
+      "advances": 11,
+      "declines": 4,
+      "unchanged": 0
+    },
+    "NIFTY CEMENT": {
+      "last": 14751.15,
+      "change": -24.9,
+      "pct": -0.17,
+      "year_high": 18188.6,
+      "year_low": 13534.8,
+      "advances": 7,
+      "declines": 9,
+      "unchanged": 0
+    },
+    "NIFTY DIVIDEND OPPORTUNITIES 50": {
+      "last": 5904.1,
+      "change": 60.1,
+      "pct": 1.03,
+      "year_high": 6584.65,
+      "year_low": 5614.0,
+      "advances": 34,
+      "declines": 16,
+      "unchanged": 4
+    },
+    "NIFTY GROWTH SECTORS 15": {
+      "last": 10877.6,
+      "change": 69.75,
+      "pct": 0.65,
+      "year_high": 12852.45,
+      "year_low": 10329.35,
+      "advances": 7,
+      "declines": 8,
+      "unchanged": 0
+    },
+    "NIFTY100 QUALITY 30": {
+      "last": 5530.7,
+      "change": 25.4,
+      "pct": 0.46,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 16,
+      "declines": 14,
+      "unchanged": 0
+    },
+    "NIFTY50 VALUE 20": {
+      "last": 11969.45,
+      "change": 64.1,
+      "pct": 0.54,
+      "year_high": 13684.4,
+      "year_low": 11528.6,
+      "advances": 9,
+      "declines": 10,
+      "unchanged": 1
+    },
+    "NIFTY50 TR 2X LEVERAGE": {
+      "last": 17488.75,
+      "change": -49.8,
+      "pct": -0.28,
+      "year_high": 22435.45,
+      "year_low": 15547.15,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY50 PR 2X LEVERAGE": {
+      "last": 11639.25,
+      "change": -33.15,
+      "pct": -0.28,
+      "year_high": 14993.4,
+      "year_low": 10365.7,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY50 TR 1X INVERSE": {
+      "last": 182.05,
+      "change": 0.3,
+      "pct": 0.17,
+      "year_high": 193.35,
+      "year_low": 161.8,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY50 PR 1X INVERSE": {
+      "last": 222.85,
+      "change": 0.35,
+      "pct": 0.16,
+      "year_high": 236.5,
+      "year_low": 197.8,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY50 DIVIDEND POINTS": {
+      "last": 21.22,
+      "change": 0.0,
+      "pct": 0.0,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY ALPHA 50": {
+      "last": 51591.45,
+      "change": 190.7,
+      "pct": 0.37,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 32,
+      "declines": 18,
+      "unchanged": 4
+    },
+    "NIFTY50 EQUAL WEIGHT": {
+      "last": 32278.5,
+      "change": 11.8,
+      "pct": 0.04,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 19,
+      "declines": 30,
+      "unchanged": 1
+    },
+    "NIFTY100 EQUAL WEIGHT": {
+      "last": 33402.45,
+      "change": 99.05,
+      "pct": 0.3,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 51,
+      "declines": 48,
+      "unchanged": 5
+    },
+    "NIFTY100 LOW VOLATILITY 30": {
+      "last": 19592.35,
+      "change": -17.4,
+      "pct": -0.09,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 11,
+      "declines": 19,
+      "unchanged": 0
+    },
+    "NIFTY200 QUALITY 30": {
+      "last": 20181.9,
+      "change": 149.7,
+      "pct": 0.75,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 18,
+      "declines": 12,
+      "unchanged": 0
+    },
+    "NIFTY ALPHA LOW-VOLATILITY 30": {
+      "last": 25669.9,
+      "change": -59.1,
+      "pct": -0.23,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 12,
+      "declines": 18,
+      "unchanged": 0
+    },
+    "NIFTY200 MOMENTUM 30": {
+      "last": 29981.15,
+      "change": 22.4,
+      "pct": 0.07,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 14,
+      "declines": 16,
+      "unchanged": 0
+    },
+    "NIFTY MIDCAP150 QUALITY 50": {
+      "last": 23555.55,
+      "change": 200.4,
+      "pct": 0.86,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 36,
+      "declines": 14,
+      "unchanged": 0
+    },
+    "NIFTY200 ALPHA 30": {
+      "last": 25506.85,
+      "change": 126.85,
+      "pct": 0.5,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 19,
+      "declines": 11,
+      "unchanged": 4
+    },
+    "NIFTY MIDCAP150 MOMENTUM 50": {
+      "last": 62122.7,
+      "change": 337.05,
+      "pct": 0.55,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 30,
+      "declines": 20,
+      "unchanged": 0
+    },
+    "NIFTY500 MOMENTUM 50": {
+      "last": 52347.7,
+      "change": 105.85,
+      "pct": 0.2,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 28,
+      "declines": 22,
+      "unchanged": 0
+    },
+    "NIFTY MIDSMALLCAP400 MOMENTUM QUALITY 100": {
+      "last": 50340.15,
+      "change": 488.4,
+      "pct": 0.98,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 72,
+      "declines": 28,
+      "unchanged": 0
+    },
+    "NIFTY SMALLCAP250 MOMENTUM QUALITY 100": {
+      "last": 44831.0,
+      "change": 621.4,
+      "pct": 1.41,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 73,
+      "declines": 27,
+      "unchanged": 0
+    },
+    "NIFTY TOP 10 EQUAL WEIGHT": {
+      "last": 8539.95,
+      "change": -3.0,
+      "pct": -0.04,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 2,
+      "declines": 7,
+      "unchanged": 1
+    },
+    "NIFTY ALPHA QUALITY LOW-VOLATILITY 30": {
+      "last": 22366.4,
+      "change": 36.05,
+      "pct": 0.16,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 13,
+      "declines": 17,
+      "unchanged": 0
+    },
+    "NIFTY ALPHA QUALITY VALUE LOW-VOLATILITY 30": {
+      "last": 19906.65,
+      "change": 29.1,
+      "pct": 0.15,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 13,
+      "declines": 17,
+      "unchanged": 0
+    },
+    "NIFTY HIGH BETA 50": {
+      "last": 4128.8,
+      "change": 54.9,
+      "pct": 1.35,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 35,
+      "declines": 15,
+      "unchanged": 4
+    },
+    "NIFTY LOW VOLATILITY 50": {
+      "last": 24229.75,
+      "change": 13.0,
+      "pct": 0.05,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 22,
+      "declines": 27,
+      "unchanged": 1
+    },
+    "NIFTY QUALITY LOW-VOLATILITY 30": {
+      "last": 16338.75,
+      "change": 13.85,
+      "pct": 0.08,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 12,
+      "declines": 18,
+      "unchanged": 0
+    },
+    "NIFTY SMALLCAP250 QUALITY 50": {
+      "last": 24636.85,
+      "change": 408.5,
+      "pct": 1.69,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 37,
+      "declines": 13,
+      "unchanged": 0
+    },
+    "NIFTY TOP 15 EQUAL WEIGHT": {
+      "last": 9571.15,
+      "change": -2.35,
+      "pct": -0.02,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 5,
+      "declines": 9,
+      "unchanged": 1
+    },
+    "NIFTY100 ALPHA 30": {
+      "last": 17451.6,
+      "change": 38.65,
+      "pct": 0.22,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 16,
+      "declines": 14,
+      "unchanged": 4
+    },
+    "NIFTY200 VALUE 30": {
+      "last": 15227.2,
+      "change": 71.3,
+      "pct": 0.47,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 18,
+      "declines": 12,
+      "unchanged": 4
+    },
+    "NIFTY500 EQUAL WEIGHT": {
+      "last": 14108.85,
+      "change": 112.9,
+      "pct": 0.81,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 323,
+      "declines": 176,
+      "unchanged": 5
+    },
+    "NIFTY500 MULTICAP MOMENTUM QUALITY 50": {
+      "last": 42291.9,
+      "change": 275.0,
+      "pct": 0.65,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 34,
+      "declines": 16,
+      "unchanged": 0
+    },
+    "NIFTY500 VALUE 50": {
+      "last": 16339.65,
+      "change": 77.3,
+      "pct": 0.48,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 30,
+      "declines": 19,
+      "unchanged": 5
+    },
+    "NIFTY TOP 20 EQUAL WEIGHT": {
+      "last": 8505.25,
+      "change": 7.0,
+      "pct": 0.08,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 7,
+      "declines": 12,
+      "unchanged": 1
+    },
+    "NIFTY500 QUALITY 50": {
+      "last": 19511.15,
+      "change": 182.5,
+      "pct": 0.94,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 33,
+      "declines": 17,
+      "unchanged": 0
+    },
+    "NIFTY500 LOW VOLATILITY 50": {
+      "last": 22036.9,
+      "change": 90.95,
+      "pct": 0.41,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 33,
+      "declines": 17,
+      "unchanged": 0
+    },
+    "NIFTY500 MULTIFACTOR MQVLV 50": {
+      "last": 30782.4,
+      "change": 144.0,
+      "pct": 0.47,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 31,
+      "declines": 19,
+      "unchanged": 0
+    },
+    "NIFTY50 USD": {
+      "last": 8479.65,
+      "change": -24.94,
+      "pct": -0.29,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY500 FLEXICAP QUALITY 30": {
+      "last": 9651.0,
+      "change": 147.4,
+      "pct": 1.55,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 21,
+      "declines": 9,
+      "unchanged": 0
+    },
+    "NIFTY TOTAL MARKET MOMENTUM QUALITY 50": {
+      "last": 43834.4,
+      "change": 177.95,
+      "pct": 0.41,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 35,
+      "declines": 15,
+      "unchanged": 0
+    },
+    "NIFTY COMMODITIES": {
+      "last": 10134.6,
+      "change": -4.2,
+      "pct": -0.04,
+      "year_high": 10491.75,
+      "year_low": 8476.05,
+      "advances": 11,
+      "declines": 19,
+      "unchanged": 4
+    },
+    "NIFTY INDIA CONSUMPTION": {
+      "last": 11318.65,
+      "change": -6.2,
+      "pct": -0.05,
+      "year_high": 12716.2,
+      "year_low": 10298.5,
+      "advances": 15,
+      "declines": 15,
+      "unchanged": 0
+    },
+    "NIFTY CPSE": {
+      "last": 7222.9,
+      "change": -7.55,
+      "pct": -0.1,
+      "year_high": 7593.35,
+      "year_low": 6101.9,
+      "advances": 5,
+      "declines": 6,
+      "unchanged": 0
+    },
+    "NIFTY ENERGY": {
+      "last": 39569.1,
+      "change": 49.6,
+      "pct": 0.13,
+      "year_high": 41423.35,
+      "year_low": 32890.3,
+      "advances": 26,
+      "declines": 14,
+      "unchanged": 0
+    },
+    "NIFTY INFRASTRUCTURE": {
+      "last": 9276.65,
+      "change": -30.3,
+      "pct": -0.33,
+      "year_high": 9792.6,
+      "year_low": 8426.65,
+      "advances": 14,
+      "declines": 16,
+      "unchanged": 0
+    },
+    "NIFTY100 LIQUID 15": {
+      "last": 7091.85,
+      "change": -16.5,
+      "pct": -0.23,
+      "year_high": 7774.6,
+      "year_low": 6565.7,
+      "advances": 8,
+      "declines": 7,
+      "unchanged": 4
+    },
+    "NIFTY MIDCAP LIQUID 15": {
+      "last": 16669.0,
+      "change": 200.55,
+      "pct": 1.22,
+      "year_high": 16838.15,
+      "year_low": 13702.75,
+      "advances": 11,
+      "declines": 4,
+      "unchanged": 0
+    },
+    "NIFTY MNC": {
+      "last": 31677.0,
+      "change": 103.15,
+      "pct": 0.33,
+      "year_high": 32691.55,
+      "year_low": 27597.2,
+      "advances": 19,
+      "declines": 11,
+      "unchanged": 4
+    },
+    "NIFTY PSE": {
+      "last": 10356.35,
+      "change": 15.35,
+      "pct": 0.15,
+      "year_high": 10839.05,
+      "year_low": 9168.35,
+      "advances": 10,
+      "declines": 10,
+      "unchanged": 0
+    },
+    "NIFTY SERVICES SECTOR": {
+      "last": 29848.7,
+      "change": 47.35,
+      "pct": 0.16,
+      "year_high": 34549.75,
+      "year_low": 28232.65,
+      "advances": 18,
+      "declines": 11,
+      "unchanged": 1
+    },
+    "NIFTY100 ESG SECTOR LEADERS": {
+      "last": 3941.05,
+      "change": 2.65,
+      "pct": 0.07,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 37,
+      "declines": 26,
+      "unchanged": 1
+    },
+    "NIFTY INDIA DIGITAL": {
+      "last": 7877.05,
+      "change": 165.25,
+      "pct": 2.14,
+      "year_high": 10152.15,
+      "year_low": 4755.25,
+      "advances": 42,
+      "declines": 9,
+      "unchanged": 0
+    },
+    "NIFTY100 ESG": {
+      "last": 4784.85,
+      "change": 19.6,
+      "pct": 0.41,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 46,
+      "declines": 36,
+      "unchanged": 5
+    },
+    "NIFTY INDIA MANUFACTURING": {
+      "last": 15621.05,
+      "change": 29.9,
+      "pct": 0.19,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 40,
+      "declines": 36,
+      "unchanged": 4
+    },
+    "NIFTY INDIA CORPORATE GROUP INDEX - TATA GROUP 25% CAP": {
+      "last": 14213.8,
+      "change": 75.0,
+      "pct": 0.53,
+      "year_high": 18764.95,
+      "year_low": 9887.45,
+      "advances": 6,
+      "declines": 4,
+      "unchanged": 0
+    },
+    "NIFTY500 MULTICAP INDIA MANUFACTURING 50:30:20": {
+      "last": 16052.05,
+      "change": 45.1,
+      "pct": 0.28,
+      "year_high": 16649.05,
+      "year_low": 8394.35,
+      "advances": 43,
+      "declines": 32,
+      "unchanged": 0
+    },
+    "NIFTY500 MULTICAP INFRASTRUCTURE 50:30:20": {
+      "last": 14225.7,
+      "change": 13.75,
+      "pct": 0.1,
+      "year_high": 15154.1,
+      "year_low": 8010.1,
+      "advances": 43,
+      "declines": 32,
+      "unchanged": 0
+    },
+    "NIFTY INDIA DEFENCE": {
+      "last": 8920.9,
+      "change": -33.3,
+      "pct": -0.37,
+      "year_high": 9487.75,
+      "year_low": 3374.95,
+      "advances": 11,
+      "declines": 8,
+      "unchanged": 0
+    },
+    "NIFTY INDIA TOURISM": {
+      "last": 7229.5,
+      "change": 36.7,
+      "pct": 0.51,
+      "year_high": 9497.2,
+      "year_low": 6058.05,
+      "advances": 11,
+      "declines": 4,
+      "unchanged": 0
+    },
+    "NIFTY CAPITAL MARKETS": {
+      "last": 5566.55,
+      "change": 88.1,
+      "pct": 1.61,
+      "year_high": 5614.6,
+      "year_low": 2009.6,
+      "advances": 13,
+      "declines": 4,
+      "unchanged": 0
+    },
+    "NIFTY EV & NEW AGE AUTOMOTIVE": {
+      "last": 2957.2,
+      "change": 19.8,
+      "pct": 0.67,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 24,
+      "declines": 14,
+      "unchanged": 0
+    },
+    "NIFTY INDIA NEW AGE CONSUMPTION": {
+      "last": 10823.9,
+      "change": 83.95,
+      "pct": 0.78,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 51,
+      "declines": 24,
+      "unchanged": 0
+    },
+    "NIFTY INDIA SELECT 5 CORPORATE GROUPS (MAATR)": {
+      "last": 37870.4,
+      "change": 42.0,
+      "pct": 0.11,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 27,
+      "declines": 15,
+      "unchanged": 0
+    },
+    "NIFTY MOBILITY": {
+      "last": 21027.65,
+      "change": 46.5,
+      "pct": 0.22,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 15,
+      "declines": 15,
+      "unchanged": 0
+    },
+    "NIFTY100 ENHANCED ESG": {
+      "last": 4817.2,
+      "change": 19.75,
+      "pct": 0.41,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": 45,
+      "declines": 35,
+      "unchanged": 1
+    },
+    "NIFTY CORE HOUSING": {
+      "last": 14757.05,
+      "change": 40.9,
+      "pct": 0.28,
+      "year_high": 17961.7,
+      "year_low": 12788.2,
+      "advances": 18,
+      "declines": 12,
+      "unchanged": 0
+    },
+    "NIFTY HOUSING": {
+      "last": 11757.6,
+      "change": 5.4,
+      "pct": 0.05,
+      "year_high": 12386.3,
+      "year_low": 9839.7,
+      "advances": 27,
+      "declines": 22,
+      "unchanged": 1
+    },
+    "NIFTY IPO": {
+      "last": 2054.05,
+      "change": 8.1,
+      "pct": 0.4,
+      "year_high": 2387.55,
+      "year_low": 1617.15,
+      "advances": 66,
+      "declines": 41,
+      "unchanged": 0
+    },
+    "NIFTY MIDSMALL INDIA CONSUMPTION": {
+      "last": 17786.0,
+      "change": 206.15,
+      "pct": 1.17,
+      "year_high": 20923.3,
+      "year_low": 14493.4,
+      "advances": 17,
+      "declines": 13,
+      "unchanged": 0
+    },
+    "NIFTY NON-CYCLICAL CONSUMER": {
+      "last": 14741.15,
+      "change": -2.05,
+      "pct": -0.01,
+      "year_high": 18289.65,
+      "year_low": 13081.55,
+      "advances": 14,
+      "declines": 16,
+      "unchanged": 0
+    },
+    "NIFTY RURAL": {
+      "last": 15095.75,
+      "change": 0.95,
+      "pct": 0.01,
+      "year_high": 16396.4,
+      "year_low": 12304.35,
+      "advances": 40,
+      "declines": 35,
+      "unchanged": 0
+    },
+    "NIFTY SHARIAH 25": {
+      "last": 7830.2,
+      "change": 43.15,
+      "pct": 0.55,
+      "year_high": 9449.55,
+      "year_low": 7121.55,
+      "advances": 15,
+      "declines": 10,
+      "unchanged": 0
+    },
+    "NIFTY TRANSPORTATION & LOGISTICS": {
+      "last": 23356.35,
+      "change": 58.0,
+      "pct": 0.25,
+      "year_high": 26459.7,
+      "year_low": 16828.35,
+      "advances": 15,
+      "declines": 15,
+      "unchanged": 0
+    },
+    "NIFTY50 SHARIAH": {
+      "last": 4367.9,
+      "change": 41.1,
+      "pct": 0.95,
+      "year_high": 5677.9,
+      "year_low": 4082.25,
+      "advances": 8,
+      "declines": 9,
+      "unchanged": 0
+    },
+    "NIFTY500 SHARIAH": {
+      "last": 6856.0,
+      "change": 60.45,
+      "pct": 0.89,
+      "year_high": 8238.85,
+      "year_low": 6004.55,
+      "advances": 127,
+      "declines": 71,
+      "unchanged": 0
+    },
+    "NIFTY SME EMERGE": {
+      "last": 13521.9,
+      "change": 47.3,
+      "pct": 0.35,
+      "year_high": 17223.65,
+      "year_low": 11015.55,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY INDIA INTERNET": {
+      "last": 1218.95,
+      "change": 23.25,
+      "pct": 1.94,
+      "year_high": 1501.9,
+      "year_low": 1056.45,
+      "advances": 20,
+      "declines": 7,
+      "unchanged": 0
+    },
+    "NIFTY WAVES": {
+      "last": 1895.65,
+      "change": 29.7,
+      "pct": 1.59,
+      "year_high": 2789.8,
+      "year_low": 1581.05,
+      "advances": 28,
+      "declines": 11,
+      "unchanged": 2
+    },
+    "NIFTY INDIA INFRASTRUCTURE & LOGISTICS": {
+      "last": 11793.0,
+      "change": 3.75,
+      "pct": 0.03,
+      "year_high": 12334.2,
+      "year_low": 9210.4,
+      "advances": 55,
+      "declines": 45,
+      "unchanged": 0
+    },
+    "NIFTY INDIA RAILWAYS PSU": {
+      "last": 3084.85,
+      "change": -7.85,
+      "pct": -0.25,
+      "year_high": 4005.5,
+      "year_low": 2744.6,
+      "advances": 6,
+      "declines": 11,
+      "unchanged": 0
+    },
+    "NIFTY CONGLOMERATE 50": {
+      "last": 14427.8,
+      "change": 32.65,
+      "pct": 0.23,
+      "year_high": 15284.3,
+      "year_low": 12226.8,
+      "advances": 29,
+      "declines": 21,
+      "unchanged": 0
+    },
+    "NIFTY 8-13 YR G-SEC": {
+      "last": 2956.45,
+      "change": 6.09,
+      "pct": 0.2,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY 10 YR BENCHMARK G-SEC": {
+      "last": 2593.3,
+      "change": 6.55,
+      "pct": 0.25,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY 10 YR BENCHMARK G-SEC (CLEAN PRICE)": {
+      "last": 862.18,
+      "change": 2.01,
+      "pct": 0.23,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY 4-8 YR G-SEC INDEX": {
+      "last": 3238.22,
+      "change": 5.03,
+      "pct": 0.15,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY 11-15 YR G-SEC INDEX": {
+      "last": 3230.3,
+      "change": 6.37,
+      "pct": 0.19,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY 15 YR AND ABOVE G-SEC INDEX": {
+      "last": 3421.13,
+      "change": 12.28,
+      "pct": 0.36,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY COMPOSITE G-SEC INDEX": {
+      "last": 3036.33,
+      "change": 6.48,
+      "pct": 0.21,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY BHARAT BOND INDEX - APRIL 2030": {
+      "last": 1564.54,
+      "change": 0.49,
+      "pct": 0.03,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY BHARAT BOND INDEX - APRIL 2031": {
+      "last": 1416.83,
+      "change": 0.28,
+      "pct": 0.02,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY BHARAT BOND INDEX - APRIL 2032": {
+      "last": 1284.41,
+      "change": 0.25,
+      "pct": 0.01,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    },
+    "NIFTY BHARAT BOND INDEX - APRIL 2033": {
+      "last": 1244.89,
+      "change": 0.19,
+      "pct": 0.01,
+      "year_high": 0.0,
+      "year_low": 0.0,
+      "advances": null,
+      "declines": null,
+      "unchanged": null
+    }
+  },
+  "vix": {
+    "last": 18.68,
+    "change": -0.95,
+    "pct": -4.86,
+    "year_high": 28.91,
+    "year_low": 8.72,
+    "advances": null,
+    "declines": null,
+    "unchanged": null
+  },
+  "breadth": {
+    "new_52w_highs": 0,
+    "new_52w_lows": 0
+  },
+  "movers": {
+    "gainers": [
+      {
+        "symbol": "INFY",
+        "ltp": 1194.0,
+        "pct": 4.51
+      },
+      {
+        "symbol": "HCLTECH",
+        "ltp": 1180.0,
+        "pct": 2.91
+      },
+      {
+        "symbol": "TECHM",
+        "ltp": 1467.0,
+        "pct": 2.59
+      },
+      {
+        "symbol": "TMPV",
+        "ltp": 360.5,
+        "pct": 2.08
+      },
+      {
+        "symbol": "TCS",
+        "ltp": 2330.0,
+        "pct": 2.05
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "KOTAKBANK",
+        "ltp": 382.4,
+        "pct": -2.4
+      },
+      {
+        "symbol": "TITAN",
+        "ltp": 4095.0,
+        "pct": -1.79
+      },
+      {
+        "symbol": "ULTRACEMCO",
+        "ltp": 11355.0,
+        "pct": -1.78
+      },
+      {
+        "symbol": "TATACONSUM",
+        "ltp": 1211.0,
+        "pct": -1.62
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "ltp": 1911.0,
+        "pct": -1.4
+      }
+    ]
+  },
+  "global": {
+    "Dow Jones": {
+      "last": 49559.12890625,
+      "change": -126.9921875,
+      "pct": -0.25558885399885706
+    },
+    "Nasdaq": {
+      "last": 25970.43359375,
+      "change": -120.296875,
+      "pct": -0.46107131858222516
+    },
+    "S&P 500": {
+      "last": 7381.0,
+      "change": -22.0498046875,
+      "pct": -0.2978475799735724
+    },
+    "FTSE 100": {
+      "last": 10330.5498046875,
+      "change": 6.75,
+      "pct": 0.06538290288170037
+    },
+    "Nikkei 225": {
+      "last": 60815.94921875,
+      "change": -593.33984375,
+      "pct": -0.966205362101036
+    },
+    "Hang Seng": {
+      "last": 25675.1796875,
+      "change": -287.55078125,
+      "pct": -1.1075521567198412
+    }
+  },
+  "fx_commodities": {
+    "USD/INR": {
+      "last": 96.52200317382812,
+      "change": 0.5517044067382812,
+      "pct": 0.5748699481255256
+    },
+    "Dollar Index": {
+      "last": 99.29000091552734,
+      "change": 0.31999969482421875,
+      "pct": 0.32332998977197075
+    },
+    "Brent Crude": {
+      "last": 110.62000274658203,
+      "change": -1.4799957275390625,
+      "pct": -1.3202459836613893
+    },
+    "Gold": {
+      "last": 4510.7001953125,
+      "change": -41.7998046875,
+      "pct": -0.9181725356946733
+    },
+    "US 10Y Yield": {
+      "last": 4.664999961853027,
+      "change": 0.04199981689453125,
+      "pct": 0.908496984157207
+    }
+  },
+  "fii_dii": {
+    "date": "2026-05-19",
+    "rows": [
+      {
+        "date": "2026-05-19",
+        "category": "DII",
+        "buy_value": 16951.95,
+        "sell_value": 13150.27,
+        "net_value": 3801.68
+      },
+      {
+        "date": "2026-05-19",
+        "category": "FII/FPI",
+        "buy_value": 17907.55,
+        "sell_value": 20365.04,
+        "net_value": -2457.49
+      }
+    ]
+  }
+}

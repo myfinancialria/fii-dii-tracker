@@ -1,13 +1,30 @@
-# FII / DII Tracker
+# Indian Market Pulse — Daily Dashboard
 
-Daily scrape of NSE cash-market FII/DII flows → polished chart + dashboard → committed to GitHub, published on GitHub Pages, and posted to Slack.
+A daily, auto-generated market dashboard for the Indian markets. Pulls everything a professional trader scans in the morning, presents it as a clean visual brief, commits to GitHub, publishes to GitHub Pages, and posts a digest to Slack.
 
-## What it does
+## What's inside (every day, after market close)
 
-1. **`scraper.py`** — Pulls FII/DII buy/sell/net from NSE's public JSON endpoint (with cookie warm-up). Appends new rows to `data/fii_dii_history.csv` and writes `data/latest.json`.
-2. **`visualize.py`** — Renders `output/fii_dii_latest.png` (today's bars + 30-day net flows) and `output/index.html` (full dashboard).
-3. **`slack_post.py`** — Posts a formatted summary + chart to Slack. Supports both incoming-webhook and bot-token (image upload) modes.
-4. **GitHub Actions** — Runs Mon–Fri at 19:30 IST, commits new data, deploys the dashboard to GitHub Pages.
+| Section | Source | What you get |
+|---|---|---|
+| Headline indices | NSE | Nifty 50, Bank Nifty, Midcap 100, **India VIX** — last, change %, 52-week range bar |
+| Sector indices | NSE | IT, Auto, Pharma, FMCG, Metal, Realty, Energy, PSU Bank, Financials |
+| Sector heatmap | NSE | All sectors ranked by today's %change |
+| Institutional flow | NSE | FII & DII cash market — buy / sell / net + 30-day net flow trend |
+| Top movers | NSE | Top 5 gainers & losers in Nifty 50 |
+| Global cues | Yahoo Finance | Dow, Nasdaq, S&P, FTSE, Nikkei, Hang Seng |
+| FX & commodities | Yahoo Finance | USD/INR, DXY, Brent crude, Gold, US 10Y yield |
+| Market mood | Derived | Risk-On / Risk-Off / Mixed / Range-bound (from Nifty + VIX) |
+
+## Files
+
+| File | Purpose |
+|---|---|
+| `fetchers.py` | All data sources — NSE endpoints + yfinance |
+| `scraper.py` | Orchestrates fetch → writes `data/snapshot.json` + FII/DII history CSV |
+| `visualize.py` | Generates `output/market_pulse.png` + `output/index.html` |
+| `slack_post.py` | Posts the daily digest + chart to Slack |
+| `run.py` | Runs the full pipeline locally |
+| `.github/workflows/daily.yml` | Runs everything Mon–Fri at 19:30 IST in CI |
 
 ## Local run
 
@@ -18,52 +35,53 @@ cd ~/fyers-bot/fii-dii-tracker
 ```
 
 Outputs:
-- `data/fii_dii_history.csv` — full history
-- `output/fii_dii_latest.png` — chart
-- `output/index.html` — dashboard
-- `output/summary.json` — today's numbers
+- `data/snapshot.json` — today's full market state
+- `data/snapshots/YYYY-MM-DD.json` — daily archive
+- `data/fii_dii_history.csv` — accumulating FII/DII history
+- `output/market_pulse.png` — shareable image (Slack + dashboard)
+- `output/index.html` — public dashboard
+- `output/summary.json` — Slack-ready compact summary
 
 ## Slack setup
 
-Pick one:
-
-**A. Incoming webhook (text + image link)** — easiest.
+**Option A — Incoming webhook (text + chart link)**
 ```bash
 export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/…"
-export CHART_URL="https://<user>.github.io/<repo>/fii_dii_latest.png"
+export CHART_URL="https://<user>.github.io/fii-dii-tracker/market_pulse.png"
 python slack_post.py
 ```
 
-**B. Bot token (uploads chart image directly to the channel)** — nicer.
-1. Create Slack app → add scopes `chat:write`, `files:write` → install to workspace.
-2. Invite the bot to your channel.
-3. Set:
+**Option B — Bot token (uploads chart image inline, recommended)**
+1. https://api.slack.com/apps → Create New App
+2. OAuth & Permissions → Bot Token Scopes: `chat:write`, `files:write`
+3. Install to workspace → copy `xoxb-…` token
+4. Invite the bot to your target channel: `/invite @<bot-name>`
 ```bash
 export SLACK_BOT_TOKEN="xoxb-…"
-export SLACK_CHANNEL="C0XXXXXX"   # channel ID, not name
+export SLACK_CHANNEL="C0XXXXXX"
 python slack_post.py
 ```
 
-## GitHub setup
+## GitHub setup (one-time)
 
 ```bash
 cd ~/fyers-bot/fii-dii-tracker
-git init -b main
+git commit -m "initial: market pulse dashboard"
 gh repo create fii-dii-tracker --public --source=. --remote=origin --push
 ```
 
-Then in the repo on GitHub:
-
+Then on GitHub:
 1. **Settings → Pages** → Source: "GitHub Actions"
 2. **Settings → Secrets and variables → Actions** → add either:
    - `SLACK_WEBHOOK_URL`, *or*
    - `SLACK_BOT_TOKEN` + `SLACK_CHANNEL`
-3. **Actions** tab → run "Daily FII/DII tracker" manually once to seed.
+3. **Actions** tab → run "Daily FII/DII tracker" manually once to seed
 
-After the first run the dashboard is live at `https://<user>.github.io/fii-dii-tracker/`.
+Dashboard goes live at `https://<user>.github.io/fii-dii-tracker/`.
 
-## Schedule notes
+## Notes
 
-- NSE publishes the file around **18:30 IST**; the workflow runs at **19:30 IST** to be safe.
-- NSE doesn't publish on holidays — the scraper appends nothing on those days (no harm done).
-- Cron in GitHub Actions can lag a few minutes; if you need exact timing, run it locally via cron and disable the GitHub schedule.
+- NSE publishes FII/DII around 18:30 IST — workflow runs at 19:30 IST.
+- Yahoo Finance has no rate limit for this volume; if it ever fails for a single ticker, the dashboard still renders (gracefully degrades).
+- On weekends/holidays no new data is appended.
+- The 30-day FII/DII trend will fill in over time as history accumulates.
