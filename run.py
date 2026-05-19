@@ -17,7 +17,8 @@ def step(name: str, script: str) -> None:
 
 def main() -> None:
     step("Scrape NSE", "scraper.py")
-    step("Build chart + dashboard", "visualize.py")
+    step("Build chart + HTML dashboard", "visualize.py")
+    step("Render HTML → JPG", "render_dashboard.py")
     try:
         step("Post to Slack", "slack_post.py")
     except SystemExit as e:

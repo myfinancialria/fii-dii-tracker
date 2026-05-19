@@ -15,7 +15,13 @@ import requests
 
 OUT_DIR = Path(__file__).parent / "output"
 SUMMARY_JSON = OUT_DIR / "summary.json"
-CHART_PNG = OUT_DIR / "fii_dii_latest.png"
+DASHBOARD_JPG = OUT_DIR / "dashboard.jpg"
+CHART_PNG = OUT_DIR / "market_pulse.png"
+
+
+def _attachment() -> Path:
+    """Prefer full dashboard JPG; fall back to chart PNG."""
+    return DASHBOARD_JPG if DASHBOARD_JPG.exists() else CHART_PNG
 
 
 def _fmt_cr(v: float) -> str:
@@ -188,11 +194,12 @@ def post_upload(s: dict) -> None:
     channel = os.environ["SLACK_CHANNEL"]
     headers = {"Authorization": f"Bearer {token}"}
 
-    size = CHART_PNG.stat().st_size
+    attach = _attachment()
+    size = attach.stat().st_size
     r = requests.get(
         "https://slack.com/api/files.getUploadURLExternal",
         headers=headers,
-        params={"filename": CHART_PNG.name, "length": size},
+        params={"filename": attach.name, "length": size},
         timeout=15,
     )
     j = r.json()
@@ -201,7 +208,7 @@ def post_upload(s: dict) -> None:
     upload_url = j["upload_url"]
     file_id = j["file_id"]
 
-    with CHART_PNG.open("rb") as f:
+    with attach.open("rb") as f:
         up = requests.post(upload_url, files={"file": f}, timeout=30)
         up.raise_for_status()
 

@@ -24,11 +24,17 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Install Chromium for Playwright
+        run: python -m playwright install --with-deps chromium
+
       - name: Scrape NSE
         run: python scraper.py
 
       - name: Build chart and dashboard
         run: python visualize.py
+
+      - name: Render dashboard to JPG
+        run: python render_dashboard.py
 
       - name: Commit data + output
         run: |

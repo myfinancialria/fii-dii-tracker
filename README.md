@@ -22,7 +22,8 @@ A daily, auto-generated market dashboard for the Indian markets. Pulls everythin
 | `fetchers.py` | All data sources — NSE endpoints + yfinance |
 | `scraper.py` | Orchestrates fetch → writes `data/snapshot.json` + FII/DII history CSV |
 | `visualize.py` | Generates `output/market_pulse.png` + `output/index.html` |
-| `slack_post.py` | Posts the daily digest + chart to Slack |
+| `render_dashboard.py` | Renders the HTML dashboard to `output/dashboard.jpg` via headless Chromium |
+| `slack_post.py` | Posts the daily digest + dashboard JPG to Slack |
 | `run.py` | Runs the full pipeline locally |
 | `.github/workflows/daily.yml` | Runs everything Mon–Fri at 19:30 IST in CI |
 
@@ -31,6 +32,7 @@ A daily, auto-generated market dashboard for the Indian markets. Pulls everythin
 ```bash
 cd ~/fyers-bot/fii-dii-tracker
 ~/fyers-bot/.venv/bin/pip install -r requirements.txt
+~/fyers-bot/.venv/bin/python -m playwright install chromium   # one-time
 ~/fyers-bot/.venv/bin/python run.py
 ```
 
