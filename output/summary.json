@@ -22,9 +22,9 @@
     "declines": 4,
     "unchanged": 1,
     "catalyst": null,
-    "headline": "Sensex, Nifty end lower as banking drag offsets IT rally; rupee hits record low",
-    "source": "India Today",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbnY3bWdvZGg4WXFvcmkzWWpTOEo5SGhGUUtDOWkwLTFXLWNrdk12MDFGMWtIN05iUkppTXVDTmpPOGNibEVNUUt0QXZLQWtQemdwUF9pdmVUcmtKcGNRNVdQcWI4V3BlWlBEYlQ5Rll2Um1wbGVpYm5YaDNydjFPbGpfcXJEV3Z2ekhIM25TYnN1YmVBcjhUQUlhbWIycV84MkpUMmUyM3hud3lJaUtudGY5TS1UV09uQS1OS2JwVjRYbjhPYVpSUmdKbzluYmkyczNZ0gHYAUFVX3lxTE53YzZUeGk2TGdMT0hNc3ljTGFBNWJjY29DTUtlajRYVmdrSkVYbEYyekRYZWdBNmZQalZSSWRlWnVGOF9UbTlrVWZuSVJmaHk3djVrWjZkZzZZSVVSYmRwQ05fNjJtUzZXVWZ6ZkhRdWpaWWR6alhSS3kzZWRIWE0tbFktelNURE83OThKLXYwd2FSaElkaFA3ZXNRbkptaUFraDJsZjdLRTg2ZzU3S3hKdlhKeEdZS2FoSmh1R3RWUGh4LVF3SEhzbjNRZGNrNmhPYWt0anRKcQ?oc=5"
+    "headline": "These 6 banking stocks have an upside potential of up to 30% in 1 year, according to analysts",
+    "source": "The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUmgyb2NuRDBhRFppT2NSazVGLWxSMUdrdl9DOTF4R3RHNG5SS1JoblBfb0JJakc5NzRLV2U1RDlTTWt6d09tNTNpV2xoMy1PSjY1TG03N21sako5djhqaC1Qbk1tT3kwUGtBSk0wMWZ5cUZheFlqVjRyZXhId0syU3hYRVg0TjlyWEFheXRnUFJPcnlQU1N6X0VPN3YxQTgxREVoUlJLa3hsNUJUSVQ2OEowWHVYZ1JTVTFkSzRabjR0ek9RdUlKZ2hCQVQtZVFlYWRYN1JONDB5ZDBUY1FPOXFNdUxOcUhCalBuY3p4cF9ORHEzOFM0d9IB_gFBVV95cUxNN0lwbGJiZXpHalF0M1N3TncwOVJOaFByV2VQYlNOZnhVZWhteDFKNkJFNWt1SFRjZ1FwNGdUUEpXV1RSVjJOMkVxTk5aTmpjOGZIelB0dkNDaElMckMwYmVjX2lNODV6cC1HaWIxeXFncUpzT1l6Z3B6eWxrZWNhelFEWjhUaGlsanJ5MER2MGtwRmxsM3hfVE1tWGNYV0ZYMFZTdW9FNFR5NVE4UzdXbS1nVl9ORkhIN1dCa2N5eXlRU29xbzN6U0xCbDc4QVdMQ1NZdkh2UzlmYS1pUlhNYjZkbDZXbkRLLTVpdng2M1lxQUhyZE5rTzdpeWxjZw?oc=5"
   },
   "sensex_proxy": {
     "last": 23618.0,
@@ -68,19 +68,19 @@
   },
   "global": {
     "Dow Jones": {
-      "last": 49585.76171875,
-      "change": -100.359375,
-      "pct": -0.20198673752502722
+      "last": 49540.23828125,
+      "change": -145.8828125,
+      "pct": -0.2936087770360294
     },
     "Nasdaq": {
-      "last": 26019.451171875,
-      "change": -71.279296875,
-      "pct": -0.27319778171935166
+      "last": 25956.474609375,
+      "change": -134.255859375,
+      "pct": -0.5145730187041105
     },
     "S&P 500": {
-      "last": 7389.02978515625,
-      "change": -14.02001953125,
-      "pct": -0.18938167243414647
+      "last": 7376.77978515625,
+      "change": -26.27001953125,
+      "pct": -0.35485401590323246
     },
     "FTSE 100": {
       "last": 10330.5498046875,
@@ -100,29 +100,29 @@
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 96.52200317382812,
-      "change": 0.5517044067382812,
-      "pct": 0.5748699481255256
+      "last": 96.52999877929688,
+      "change": 0.5597000122070312,
+      "pct": 0.5832012814353806
     },
     "Dollar Index": {
-      "last": 99.25399780273438,
-      "change": 0.28399658203125,
-      "pct": 0.2869521860446758
+      "last": 99.29399871826172,
+      "change": 0.32399749755859375,
+      "pct": 0.32736939836555046
     },
     "Brent Crude": {
-      "last": 110.48999786376953,
-      "change": -1.6100006103515625,
-      "pct": -1.4362182268211539
+      "last": 111.43000030517578,
+      "change": -0.6699981689453125,
+      "pct": -0.5976790170072886
     },
     "Gold": {
-      "last": 4503.0,
-      "change": -49.5,
-      "pct": -1.0873146622734762
+      "last": 4501.2001953125,
+      "change": -51.2998046875,
+      "pct": -1.1268490870400878
     },
     "US 10Y Yield": {
-      "last": 4.651000022888184,
-      "change": 0.0279998779296875,
-      "pct": 0.6056646561048047
+      "last": 4.668999671936035,
+      "change": 0.04599952697753906,
+      "pct": 0.9950146124849848
     }
   },
   "movers": {
@@ -211,9 +211,9 @@
         "name": "NIFTY IT",
         "pct": 3.23,
         "catalyst": null,
-        "headline": "Infosys, TCS, Tech Mahindra shares jump: Why IT stocks gained up to 6% today",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcnRadXdMQlMyZnVmZ0VtNmtkU2Z1VGJjd2NsaXVqZUlMbnZ4eHVQZGFkbExTeHg0XzFqX2t0NDEtTFBRdGVLek5NTnBURVB0UEpTc3VoQmwtMkxDOGFyRlNVc0ItSWpoNlcwekNaUlNfdVdDV2I1Vi1TVENqQnZBS1N6OGF1d0VKWDFkSjkyNExmRXhvY0NSeTZHRjN4amx0SHRhQ2k1U2h5Tk1VdzlYZkc0YUhYb3JvNkdKSUdBa2JOb1RobGVqSlZVSFBiamlNQzNwTFB30gHbAUFVX3lxTFA1TERoQUpUWlREVVRCbDVCVGpxS0tlU3NNTXI1VkwwM2pVNExkQ1pJUHc3amlzYzhab1hJZGJBanlCZFB0eF9NYkV3TDJsNmpPdUxUZFBEWWJwTllxc0dudTBXRWtGVS1LTVBoSTBRNm5FZEZzbTVUTjVWalp2LVVCam9pUVJreTJ1TEgwdy15blhaX1RzaDFCU0JGalRiek5uVnBmY3Z6SC1nZ1d5QzhyVHFzdmpnRTZtTXBBV0hRUEVObVF3UHdmT1NJSW5xQ1VMOVlEZ1FZRFFqOA?oc=5"
+        "headline": "Google (GOOGL) Live Share Price, Invest from India",
+        "source": "INDmoney",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPXzJCSTlfQVdkamZzM2IxejRUdU9MYW9MUFY1RGNQbDJBWUhMMjBoMVJ3S2NXY2FmTXhLQ2FrVXZ3Q3lWNzJHSmEtbW9CaEN2ZUdNWUVSaW9rU2JOVjJsejFCMUZCazhDUlZGbW5laGNPQ3R2dFNDMjV3cTVxZ2NqQTM2MVJpQnc?oc=5"
       },
       {
         "name": "NIFTY REALTY",
@@ -229,17 +229,17 @@
         "name": "NIFTY FINANCIAL SERVICES",
         "pct": -0.26,
         "catalyst": null,
-        "headline": "India Markets Poised for Long-Term Growth Despite Geopolitical Risks: Emkay Global Financial Services",
-        "source": "Investment Guru",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOem1CTEFtYmpSeF8zcEpfZkRVaUVvNUxZS3lRZURlbEduNzhWbXNfU0NjclQ1M3RkMG5xTE9CanZvSzlLUGE4ZTdVOXNLMm5nWmVPOTNJaC0tTWw1RjNhS013c0ZkZXdUZDk1QnktdXNTSkc2YnUzZU13a0JzLTBXX0d6NnNVeG9iNEQ2M1dzODNjbXpsN1hkRXdYb3FXNE4tQzJzbUpicUJjUURPYXZJNHBRcG9UbkNMVElWRUJZSDN1TWRPV0dyZ0FWUm5oY3BvM1ZFODJuaGRiZzJsVkU3RThuY0lzZXhp?oc=5"
+        "headline": "BBA Fintech and Artificial Intelligence Course: Syllabus & Career Scope",
+        "source": "LPU",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3YUdxQ1FLRXJ3UXJLbHZORW13Sl82Z0R3NTUwckJPbURTVHpYbUFmYW1pblV4MFZtNHRHWkhzQ3UxZlhiTmpZS3hQZF9PbmJValZ3akFuRDJWZGYzRXlsVW02cWxKb0xF?oc=5"
       },
       {
         "name": "NIFTY BANK",
         "pct": -0.24,
         "catalyst": null,
-        "headline": "Sensex, Nifty end lower as banking drag offsets IT rally; rupee hits record low",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbnY3bWdvZGg4WXFvcmkzWWpTOEo5SGhGUUtDOWkwLTFXLWNrdk12MDFGMWtIN05iUkppTXVDTmpPOGNibEVNUUt0QXZLQWtQemdwUF9pdmVUcmtKcGNRNVdQcWI4V3BlWlBEYlQ5Rll2Um1wbGVpYm5YaDNydjFPbGpfcXJEV3Z2ekhIM25TYnN1YmVBcjhUQUlhbWIycV84MkpUMmUyM3hud3lJaUtudGY5TS1UV09uQS1OS2JwVjRYbjhPYVpSUmdKbzluYmkyczNZ0gHYAUFVX3lxTE53YzZUeGk2TGdMT0hNc3ljTGFBNWJjY29DTUtlajRYVmdrSkVYbEYyekRYZWdBNmZQalZSSWRlWnVGOF9UbTlrVWZuSVJmaHk3djVrWjZkZzZZSVVSYmRwQ05fNjJtUzZXVWZ6ZkhRdWpaWWR6alhSS3kzZWRIWE0tbFktelNURE83OThKLXYwd2FSaElkaFA3ZXNRbkptaUFraDJsZjdLRTg2ZzU3S3hKdlhKeEdZS2FoSmh1R3RWUGh4LVF3SEhzbjNRZGNrNmhPYWt0anRKcQ?oc=5"
+        "headline": "These 6 banking stocks have an upside potential of up to 30% in 1 year, according to analysts",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUmgyb2NuRDBhRFppT2NSazVGLWxSMUdrdl9DOTF4R3RHNG5SS1JoblBfb0JJakc5NzRLV2U1RDlTTWt6d09tNTNpV2xoMy1PSjY1TG03N21sako5djhqaC1Qbk1tT3kwUGtBSk0wMWZ5cUZheFlqVjRyZXhId0syU3hYRVg0TjlyWEFheXRnUFJPcnlQU1N6X0VPN3YxQTgxREVoUlJLa3hsNUJUSVQ2OEowWHVYZ1JTVTFkSzRabjR0ek9RdUlKZ2hCQVQtZVFlYWRYN1JONDB5ZDBUY1FPOXFNdUxOcUhCalBuY3p4cF9ORHEzOFM0d9IB_gFBVV95cUxNN0lwbGJiZXpHalF0M1N3TncwOVJOaFByV2VQYlNOZnhVZWhteDFKNkJFNWt1SFRjZ1FwNGdUUEpXV1RSVjJOMkVxTk5aTmpjOGZIelB0dkNDaElMckMwYmVjX2lNODV6cC1HaWIxeXFncUpzT1l6Z3B6eWxrZWNhelFEWjhUaGlsanJ5MER2MGtwRmxsM3hfVE1tWGNYV0ZYMFZTdW9FNFR5NVE4UzdXbS1nVl9ORkhIN1dCa2N5eXlRU29xbzN6U0xCbDc4QVdMQ1NZdkh2UzlmYS1pUlhNYjZkbDZXbkRLLTVpdng2M1lxQUhyZE5rTzdpeWxjZw?oc=5"
       }
     ]
   }
