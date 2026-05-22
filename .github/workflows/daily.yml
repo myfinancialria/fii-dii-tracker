@@ -2,8 +2,8 @@ name: Daily FII/DII tracker
 
 on:
   schedule:
-    # 19:30 IST = 14:00 UTC, Mon–Fri (NSE publishes ~18:30 IST)
-    - cron: "0 14 * * 1-5"
+    # 21:00 IST = 15:30 UTC, Mon–Fri (NSE provisional + final settled by then)
+    - cron: "30 15 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
@@ -70,3 +70,10 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           CHART_URL: ${{ steps.pages.outputs.page_url }}fii_dii_latest.png
         run: python slack_post.py
+
+      - name: Post to Telegram
+        if: success()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_post.py || echo "telegram step failed, continuing"
