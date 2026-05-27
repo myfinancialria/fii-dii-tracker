@@ -146,6 +146,117 @@ def classify_bias(last: pd.Series) -> str:
     return "neutral"
 
 
+def next_trading_day(d: dt.date) -> dt.date:
+    """Return the next weekday after d (Sat/Sun rolled to Mon).
+
+    Doesn't account for NSE/BSE holiday calendar — close enough for the
+    Slack headline; the data the next run pulls is authoritative.
+    """
+    nd = d + dt.timedelta(days=1)
+    while nd.weekday() >= 5:  # 5=Sat, 6=Sun
+        nd += dt.timedelta(days=1)
+    return nd
+
+
+def detect_candle_patterns(df: pd.DataFrame) -> dict:
+    """Inspect the last 2 daily candles and report color, body% and patterns
+    (doji, hammer/inverted-hammer, shooting-star/hanging-man, engulfing)."""
+    if len(df) < 2:
+        return {}
+    prev = df.iloc[-2]
+    last = df.iloc[-1]
+
+    def analyse(o, h, l, c, p=None):
+        body = abs(c - o)
+        rng = max(h - l, 1e-6)
+        upper = h - max(o, c)
+        lower = min(o, c) - l
+        color = "green" if c >= o else "red"
+        body_pct = body / rng * 100
+        notes = []
+        if body_pct < 10:
+            notes.append("doji")
+        if lower > 2 * body and upper < body:
+            notes.append("hammer" if color == "green" else "hanging-man")
+        if upper > 2 * body and lower < body:
+            notes.append("shooting-star" if color == "red" else "inverted-hammer")
+        if p is not None:
+            po, pc = p["open"], p["close"]
+            if c >= o and pc < po and c > po and o < pc:
+                notes.append("bullish-engulfing")
+            if c < o and pc > po and c < po and o > pc:
+                notes.append("bearish-engulfing")
+        return {"color": color, "body_pct": round(body_pct), "notes": notes}
+
+    return {
+        "today":     analyse(last["open"], last["high"], last["low"],
+                             last["close"], prev),
+        "yesterday": analyse(prev["open"], prev["high"], prev["low"],
+                             prev["close"]),
+    }
+
+
+def ma_stack(close: float, ema20: float, ema50: float) -> str:
+    """One-line narrative of price vs EMA20/EMA50 alignment."""
+    if close > ema20 > ema50:
+        return "bullish stack (price > EMA20 > EMA50)"
+    if close < ema20 < ema50:
+        return "bearish stack (price < EMA20 < EMA50)"
+    if close > ema50 and close > ema20:
+        return "above both EMAs"
+    if close < ema50 and close < ema20:
+        return "below both EMAs"
+    if close > ema50:
+        return "above EMA50, below EMA20 — pullback in uptrend"
+    return "above EMA20, below EMA50 — bounce in downtrend"
+
+
+def fetch_oi_signals(fyers: fyersModel.FyersModel,
+                     symbol: str) -> Optional[dict]:
+    """Pull option chain max-Call/max-Put OI strikes + PCR for indices that
+    have F&O (Nifty, Sensex, Bank Nifty). Returns None if endpoint fails."""
+    try:
+        resp = fyers.optionchain(data={"symbol": symbol,
+                                       "strikecount": 25,
+                                       "timestamp": ""})
+    except Exception as e:
+        print(f"  OI fetch failed: {e}", file=sys.stderr)
+        return None
+    if resp.get("code") != 200:
+        print(f"  OI fetch non-200: {resp.get('message')}", file=sys.stderr)
+        return None
+    data = resp.get("data", {})
+    chain = data.get("optionsChain", [])
+    opts = [r for r in chain if r.get("option_type") in ("CE", "PE")]
+    if not opts:
+        return None
+    df = pd.DataFrame(opts)[["strike_price", "option_type", "ltp", "oi"]]
+    calls = df[df.option_type == "CE"]
+    puts  = df[df.option_type == "PE"]
+    if calls.empty or puts.empty:
+        return None
+    top_c = calls.nlargest(1, "oi").iloc[0]
+    top_p = puts.nlargest(1, "oi").iloc[0]
+    ce_total = float(calls["oi"].sum())
+    pe_total = float(puts["oi"].sum())
+    pcr = round(pe_total / ce_total, 2) if ce_total > 0 else 0
+    expiry = ""
+    if data.get("expiryData"):
+        expiry = data["expiryData"][0].get("date", "")
+    if pcr >= 1.1:    pcr_read = "bullish"
+    elif pcr <= 0.8:  pcr_read = "bearish"
+    else:             pcr_read = "neutral"
+    return {
+        "expiry":            expiry,
+        "resistance_strike": int(top_c["strike_price"]),
+        "resistance_oi":     int(top_c["oi"]),
+        "support_strike":    int(top_p["strike_price"]),
+        "support_oi":        int(top_p["oi"]),
+        "pcr":               pcr,
+        "pcr_read":          pcr_read,
+    }
+
+
 def pivot_levels(high: float, low: float, close: float) -> dict[str, float]:
     p = (high + low + close) / 3
     return {
@@ -160,7 +271,7 @@ def pivot_levels(high: float, low: float, close: float) -> dict[str, float]:
 
 
 def build_forecast(df: pd.DataFrame) -> dict:
-    """Project tomorrow's range from latest indicators."""
+    """Project tomorrow's range from latest indicators + technicals snapshot."""
     df = add_indicators(df)
     last = df.iloc[-1]
     close = float(last["close"])
@@ -189,6 +300,9 @@ def build_forecast(df: pd.DataFrame) -> dict:
         "pivot":        pivot_levels(float(last["high"]),
                                      float(last["low"]),
                                      float(last["close"])),
+        "candles":      detect_candle_patterns(df),
+        "ma_stack":     ma_stack(close, float(last["ema20"]),
+                                 float(last["ema50"])),
     }
 
 
@@ -256,15 +370,25 @@ def _fmt_n(x: float) -> str:
     return f"{x:,.0f}"
 
 
-def build_slack_blocks(date_pretty: str, results: dict) -> list[dict]:
+def _candle_line(c: dict) -> str:
+    if not c:
+        return ""
+    color = c.get("color", "")
+    body = c.get("body_pct", 0)
+    notes = ", ".join(c.get("notes", [])) or "—"
+    return f"{color} body {body}%, pattern: {notes}"
+
+
+def build_slack_blocks(date_for_pretty: str, results: dict) -> list[dict]:
+    """date_for_pretty is the date the forecast is *for* (next trading day)."""
     blocks: list[dict] = [
         {"type": "header",
          "text": {"type": "plain_text",
-                  "text": f"📊 Tomorrow's Range Forecast — {date_pretty}"}},
+                  "text": f"📊 Range Forecast for {date_for_pretty}"}},
         {"type": "context",
          "elements": [{"type": "mrkdwn",
-                       "text": "ATR(14)-based bands · live from Fyers · "
-                               "next-trading-day projection"}]},
+                       "text": "ATR(14) bands · candles · MA stack · "
+                               "option-chain OI · live from Fyers"}]},
     ]
     for name, payload in results["symbols"].items():
         chg = payload["chg"]; chg_pct = payload["chg_pct"]
@@ -274,6 +398,9 @@ def build_slack_blocks(date_pretty: str, results: dict) -> list[dict]:
         wide   = payload["tomorrow"]["wide"]
         piv    = payload["pivot"]
         bt     = results["backtest"].get(name)
+        candles = payload.get("candles", {})
+        ma_str  = payload.get("ma_stack", "")
+        oi      = results.get("oi", {}).get(name)
 
         head = (f"{_bias_emoji(payload['bias'])} *{name}* — close "
                 f"*{_fmt_n(payload['close'])}* ({chg_str})\n"
@@ -282,14 +409,42 @@ def build_slack_blocks(date_pretty: str, results: dict) -> list[dict]:
                 f"ATR {_fmt_n(payload['atr14'])} · "
                 f"RSI {payload['rsi14']:.0f} · "
                 f"Bias _{payload['bias']}_")
+
+        # Technicals block: candles + MA stack + EMAs
+        tech_lines = []
+        if candles.get("today"):
+            tech_lines.append(f"Today's candle: _{_candle_line(candles['today'])}_")
+        if candles.get("yesterday"):
+            tech_lines.append(f"Yesterday: _{_candle_line(candles['yesterday'])}_")
+        if ma_str:
+            tech_lines.append(
+                f"MA stack: _{ma_str}_   ·   "
+                f"EMA20 {_fmt_n(payload['ema20'])} · "
+                f"EMA50 {_fmt_n(payload['ema50'])}"
+            )
+        tech_block = ("\n*Technicals:*\n" + "\n".join(tech_lines)) if tech_lines else ""
+
+        # OI block (only for F&O indices that returned data)
+        oi_block = ""
+        if oi:
+            oi_block = (
+                f"\n*Options OI* (expiry {oi['expiry']}):\n"
+                f"• Resistance (max Call OI): `{_fmt_n(oi['resistance_strike'])}` "
+                f"({oi['resistance_oi']:,} OI)\n"
+                f"• Support    (max Put  OI): `{_fmt_n(oi['support_strike'])}` "
+                f"({oi['support_oi']:,} OI)\n"
+                f"• PCR {oi['pcr']} → _{oi['pcr_read']}_"
+            )
+
         body = (
-            f"\n*Expected tomorrow:*\n"
+            f"\n*Expected range:*\n"
             f"• Normal (~70%): `{_fmt_n(normal['low'])} – {_fmt_n(normal['high'])}`\n"
             f"• Tight  (~40%): `{_fmt_n(tight['low'])} – {_fmt_n(tight['high'])}`\n"
             f"• Wide   (~87%): `{_fmt_n(wide['low'])} – {_fmt_n(wide['high'])}`\n"
             f"*Key levels:* R2 {_fmt_n(piv['R2'])} · R1 {_fmt_n(piv['R1'])} · "
             f"P {_fmt_n(piv['P'])} · S1 {_fmt_n(piv['S1'])} · S2 {_fmt_n(piv['S2'])}"
         )
+
         if bt:
             head_emoji = "✅" if (bt["inside_normal"] or bt["inside_tight"]) \
                          else ("🟡" if bt["inside_wide"] else "❌")
@@ -302,7 +457,8 @@ def build_slack_blocks(date_pretty: str, results: dict) -> list[dict]:
                 f"{_fmt_n(bt['actual_high_today'])}`"
             )
         blocks.append({"type": "section",
-                       "text": {"type": "mrkdwn", "text": head + body}})
+                       "text": {"type": "mrkdwn",
+                                "text": head + tech_block + oi_block + body}})
         blocks.append({"type": "divider"})
 
     # Footer cumulative hit rate (rough — count today's hits)
@@ -345,14 +501,17 @@ def post_to_slack(blocks: list[dict]) -> None:
 
 def main() -> int:
     today = dt.date.today()
-    today_pretty = today.strftime("%d %b %Y")
+    tomorrow = next_trading_day(today)
+    tomorrow_pretty = tomorrow.strftime("%d %b %Y")
     prev = find_previous_forecast(today)
     fyers = get_fyers_client()
 
     results: dict = {
-        "date": today.isoformat(),
-        "symbols": {},
-        "backtest": {},
+        "date":            today.isoformat(),
+        "forecast_for":    tomorrow.isoformat(),
+        "symbols":         {},
+        "backtest":        {},
+        "oi":              {},
     }
 
     for name, sym in get_symbols():
@@ -366,9 +525,16 @@ def main() -> int:
             results["symbols"][name] = fc
             bt = backtest_one(name, fc, prev)
             results["backtest"][name] = bt
+            oi = fetch_oi_signals(fyers, sym)
+            if oi:
+                results["oi"][name] = oi
+                print(f"  OI: R {oi['resistance_strike']} ({oi['resistance_oi']:,})  "
+                      f"S {oi['support_strike']} ({oi['support_oi']:,})  "
+                      f"PCR {oi['pcr']} ({oi['pcr_read']})")
             print(f"  close {fc['close']:,.2f}  ATR {fc['atr14']:,.2f}  "
                   f"normal {fc['tomorrow']['normal']['low']:,.0f} – "
-                  f"{fc['tomorrow']['normal']['high']:,.0f}  bias {fc['bias']}")
+                  f"{fc['tomorrow']['normal']['high']:,.0f}  bias {fc['bias']}  "
+                  f"MA {fc['ma_stack']}")
             if bt:
                 print(f"  backtest vs {bt['prev_date']}: {bt['verdict']}")
         except Exception as e:
@@ -382,7 +548,7 @@ def main() -> int:
     out.write_text(json.dumps(results, indent=2, default=str))
     print(f"\nSaved forecast: {out}")
 
-    blocks = build_slack_blocks(today_pretty, results)
+    blocks = build_slack_blocks(tomorrow_pretty, results)
     post_to_slack(blocks)
     return 0
 

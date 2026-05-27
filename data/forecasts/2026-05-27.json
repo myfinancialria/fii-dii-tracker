@@ -1,5 +1,6 @@
 {
   "date": "2026-05-27",
+  "forecast_for": "2026-05-28",
   "symbols": {
     "NIFTY 50": {
       "close": 23907.15,
@@ -38,7 +39,22 @@
         "S2": 23791.25,
         "R3": 24099.100000000002,
         "S3": 23724.25
-      }
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 21,
+          "notes": [
+            "inverted-hammer"
+          ]
+        },
+        "yesterday": {
+          "color": "red",
+          "body_pct": 44,
+          "notes": []
+        }
+      },
+      "ma_stack": "above EMA20, below EMA50 \u2014 bounce in downtrend"
     },
     "SENSEX": {
       "close": 75867.8,
@@ -77,7 +93,20 @@
         "S2": 75470.42666666668,
         "R3": 76622.05333333332,
         "S3": 75192.64333333336
-      }
+      },
+      "candles": {
+        "today": {
+          "color": "red",
+          "body_pct": 15,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "red",
+          "body_pct": 30,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
     },
     "BANK NIFTY": {
       "close": 54853.85,
@@ -116,12 +145,45 @@
         "S2": 54454.95,
         "R3": 55620.59999999999,
         "S3": 54171.299999999996
-      }
+      },
+      "candles": {
+        "today": {
+          "color": "red",
+          "body_pct": 29,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "red",
+          "body_pct": 39,
+          "notes": []
+        }
+      },
+      "ma_stack": "above EMA20, below EMA50 \u2014 bounce in downtrend"
     }
   },
   "backtest": {
     "NIFTY 50": null,
     "SENSEX": null,
     "BANK NIFTY": null
+  },
+  "oi": {
+    "NIFTY 50": {
+      "expiry": "02-06-2026",
+      "resistance_strike": 25000,
+      "resistance_oi": 8821670,
+      "support_strike": 23000,
+      "support_oi": 7267910,
+      "pcr": 0.88,
+      "pcr_read": "neutral"
+    },
+    "BANK NIFTY": {
+      "expiry": "30-06-2026",
+      "resistance_strike": 54000,
+      "resistance_oi": 734820,
+      "support_strike": 54000,
+      "support_oi": 1025190,
+      "pcr": 1.03,
+      "pcr_read": "neutral"
+    }
   }
 }
