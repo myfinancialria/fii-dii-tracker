@@ -31,13 +31,15 @@ jobs:
           FYERS_TOTP_KEY:  ${{ secrets.FYERS_TOTP_KEY }}
         run: python auto_login.py
 
-      - name: Build forecast + backtest + post Slack
+      - name: Build forecast + backtest + post Slack + Telegram
         env:
-          FYERS_CLIENT_ID:   ${{ secrets.FYERS_CLIENT_ID }}
-          FORECAST_SYMBOLS:  ${{ vars.FORECAST_SYMBOLS }}
-          SLACK_BOT_TOKEN:   ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL:     ${{ secrets.SLACK_CHANNEL }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          FYERS_CLIENT_ID:    ${{ secrets.FYERS_CLIENT_ID }}
+          FORECAST_SYMBOLS:   ${{ vars.FORECAST_SYMBOLS }}
+          SLACK_BOT_TOKEN:    ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL:      ${{ secrets.SLACK_CHANNEL }}
+          SLACK_WEBHOOK_URL:  ${{ secrets.SLACK_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python forecast_report.py
 
       - name: Commit today's forecast JSON

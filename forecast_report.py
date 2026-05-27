@@ -534,6 +534,71 @@ def post_to_slack(blocks: list[dict]) -> None:
     print("No Slack credentials set — skipping post.", file=sys.stderr)
 
 
+def post_to_telegram(date_for_pretty: str, results: dict) -> None:
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not (token and chat_id):
+        print("Telegram credentials not set — skipping.", file=sys.stderr)
+        return
+    lines = [f"📊 *Range Forecast for {date_for_pretty}*",
+             "_ATR(14) bands · candles · MA stack · option-chain OI_", ""]
+    for name, p in results["symbols"].items():
+        chg = p["chg"]
+        chg_str = f"{'+' if chg >= 0 else ''}{chg:,.0f} ({p['chg_pct']:+.2f}%)"
+        n  = p["tomorrow"]["normal"]
+        t_ = p["tomorrow"]["tight"]
+        w  = p["tomorrow"]["wide"]
+        oi = results.get("oi", {}).get(name)
+        c  = p.get("candles", {}).get("today", {})
+        ma = p.get("ma_stack", "")
+        lines.append(f"*{name}* — close *{p['close']:,.0f}* ({chg_str})")
+        lines.append(f"Today: {p['today_low']:,.0f}–{p['today_high']:,.0f}  ·  "
+                     f"ATR {p['atr14']:,.0f}  ·  RSI {p['rsi14']:.0f}  ·  "
+                     f"Bias _{p['bias']}_")
+        if c:
+            patterns = ", ".join(c.get("notes", [])) or "—"
+            lines.append(f"Candle: {c.get('color','')} body {c.get('body_pct',0)}%, {patterns}")
+        if ma:
+            lines.append(f"MA: _{ma}_")
+        if oi:
+            lines.append(f"OI (exp {oi['expiry']}): R `{oi['resistance_strike']:,}` · "
+                         f"S `{oi['support_strike']:,}` · PCR {oi['pcr']} "
+                         f"({oi['pcr_read']})")
+        lines.append(f"📈 *Tomorrow:*  Normal `{n['low']:,.0f}–{n['high']:,.0f}`")
+        lines.append(f"   · Tight `{t_['low']:,.0f}–{t_['high']:,.0f}`  "
+                     f"· Wide `{w['low']:,.0f}–{w['high']:,.0f}`")
+        bt = results["backtest"].get(name)
+        if bt:
+            pf = bt["prev_forecast"].get("normal", {})
+            ok = "✅" if (bt["inside_normal"] or bt["inside_tight"]) \
+                 else ("🟡" if bt["inside_wide"] else "❌")
+            lines.append(f"{ok} Yesterday's call: {bt['verdict']}")
+            lines.append(f"   Forecast `{pf.get('low',0):,.0f}–{pf.get('high',0):,.0f}`  "
+                         f"→  Actual `{bt['actual_low_today']:,.0f}–"
+                         f"{bt['actual_high_today']:,.0f}`")
+        lines.append("")
+    text = "\n".join(lines).strip()
+    # Telegram MarkdownV2 has strict escaping; use legacy 'Markdown' parse_mode
+    # for simpler handling.
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": text,
+                  "parse_mode": "Markdown",
+                  "disable_web_page_preview": True},
+            timeout=30,
+        )
+        j = r.json() if r.headers.get("content-type","").startswith("application/json") else {}
+        if r.ok and j.get("ok"):
+            mid = j.get("result", {}).get("message_id")
+            print(f"Posted to Telegram (message_id={mid})")
+        else:
+            print(f"Telegram post failed: {r.status_code} {r.text[:300]}",
+                  file=sys.stderr)
+    except Exception as e:
+        print(f"Telegram post error: {e}", file=sys.stderr)
+
+
 def main() -> int:
     today = dt.date.today()
     tomorrow = next_trading_day(today)
@@ -585,6 +650,7 @@ def main() -> int:
 
     blocks = build_slack_blocks(tomorrow_pretty, results)
     post_to_slack(blocks)
+    post_to_telegram(tomorrow_pretty, results)
     return 0
 
 
