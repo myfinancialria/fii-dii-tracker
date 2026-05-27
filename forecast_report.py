@@ -494,23 +494,25 @@ def post_to_slack(blocks: list[dict]) -> None:
                   f"channel_arg={channel} "
                   f"body={r.text[:400]}", file=sys.stderr)
             return
-        # Successful post — surface the channel id + name + ts so we can
-        # verify which channel actually received the message.
+        # Successful post — log a permalink so we can verify which channel
+        # actually received it (GitHub Actions masks the raw channel id).
         ch_id = j.get("channel") or channel
         ts = j.get("ts")
-        ch_name = "?"
+        permalink = None
         try:
-            info = requests.get(
-                "https://slack.com/api/conversations.info",
+            pl = requests.get(
+                "https://slack.com/api/chat.getPermalink",
                 headers={"Authorization": f"Bearer {token}"},
-                params={"channel": ch_id}, timeout=15,
+                params={"channel": ch_id, "message_ts": ts}, timeout=15,
             ).json()
-            if info.get("ok"):
-                c = info.get("channel", {})
-                ch_name = c.get("name") or c.get("name_normalized") or "?"
+            if pl.get("ok"):
+                permalink = pl.get("permalink")
         except Exception as e:
-            print(f"  (could not look up channel name: {e})", file=sys.stderr)
-        print(f"Posted to Slack: channel=#{ch_name} (id={ch_id}) ts={ts}")
+            print(f"  (permalink lookup failed: {e})", file=sys.stderr)
+        if permalink:
+            print(f"Posted to Slack: {permalink}")
+        else:
+            print(f"Posted to Slack (ts={ts})")
         # Also post a webhook copy if both are configured (lets you debug
         # cases where the bot landed in the wrong channel).
         if webhook:
