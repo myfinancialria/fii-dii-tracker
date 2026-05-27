@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 .env
 .DS_Store
+access_token.txt
+fyersApi.log
+fyersRequests.log

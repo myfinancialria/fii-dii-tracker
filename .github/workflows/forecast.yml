@@ -1,0 +1,53 @@
+name: Tomorrow's range forecast (10 PM IST)
+
+on:
+  schedule:
+    # 22:00 IST = 16:30 UTC, Mon–Fri (post-market, all daily candles settled)
+    - cron: "30 16 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Fyers daily login
+        env:
+          FYERS_CLIENT_ID: ${{ secrets.FYERS_CLIENT_ID }}
+          FYERS_SECRET:    ${{ secrets.FYERS_SECRET }}
+          FYERS_REDIRECT:  ${{ secrets.FYERS_REDIRECT }}
+          FYERS_FY_ID:     ${{ secrets.FYERS_FY_ID }}
+          FYERS_PIN:       ${{ secrets.FYERS_PIN }}
+          FYERS_TOTP_KEY:  ${{ secrets.FYERS_TOTP_KEY }}
+        run: python auto_login.py
+
+      - name: Build forecast + backtest + post Slack
+        env:
+          FYERS_CLIENT_ID:   ${{ secrets.FYERS_CLIENT_ID }}
+          FORECAST_SYMBOLS:  ${{ vars.FORECAST_SYMBOLS }}
+          SLACK_BOT_TOKEN:   ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL:     ${{ secrets.SLACK_CHANNEL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python forecast_report.py
+
+      - name: Commit today's forecast JSON
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/forecasts/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "forecast: $(date -u +%Y-%m-%d)"
+            for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep $((10 * i)); done
+          fi

@@ -4,3 +4,6 @@ matplotlib>=3.7
 yfinance>=0.2.40
 playwright>=1.40
 anthropic>=0.40
+fyers-apiv3>=3.1.0
+pyotp>=2.9
+python-dotenv>=1.0
