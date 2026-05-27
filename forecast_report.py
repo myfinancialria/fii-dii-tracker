@@ -483,12 +483,45 @@ def post_to_slack(blocks: list[dict]) -> None:
                           json={"channel": channel, "blocks": blocks,
                                 "text": "Tomorrow's range forecast"},
                           timeout=30)
-        ok = r.ok and r.json().get("ok")
+        try:
+            j = r.json()
+        except Exception:
+            j = {}
+        ok = r.ok and j.get("ok")
         if not ok:
-            print(f"Slack bot post failed: {r.status_code} {r.text[:300]}",
-                  file=sys.stderr)
-        else:
-            print("Posted to Slack via bot token.")
+            print(f"Slack post FAILED: http={r.status_code} "
+                  f"error={j.get('error')} "
+                  f"channel_arg={channel} "
+                  f"body={r.text[:400]}", file=sys.stderr)
+            return
+        # Successful post — surface the channel id + name + ts so we can
+        # verify which channel actually received the message.
+        ch_id = j.get("channel") or channel
+        ts = j.get("ts")
+        ch_name = "?"
+        try:
+            info = requests.get(
+                "https://slack.com/api/conversations.info",
+                headers={"Authorization": f"Bearer {token}"},
+                params={"channel": ch_id}, timeout=15,
+            ).json()
+            if info.get("ok"):
+                c = info.get("channel", {})
+                ch_name = c.get("name") or c.get("name_normalized") or "?"
+        except Exception as e:
+            print(f"  (could not look up channel name: {e})", file=sys.stderr)
+        print(f"Posted to Slack: channel=#{ch_name} (id={ch_id}) ts={ts}")
+        # Also post a webhook copy if both are configured (lets you debug
+        # cases where the bot landed in the wrong channel).
+        if webhook:
+            text = "\n".join(b.get("text", {}).get("text", "")
+                             for b in blocks
+                             if b.get("type") in ("header", "section"))
+            try:
+                rw = requests.post(webhook, json={"text": text}, timeout=30)
+                print(f"  Webhook mirror: {rw.status_code}")
+            except Exception as e:
+                print(f"  Webhook mirror failed: {e}", file=sys.stderr)
         return
     if webhook:
         text = "\n".join(b.get("text", {}).get("text", "")
