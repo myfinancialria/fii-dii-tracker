@@ -1,0 +1,39 @@
+name: Pairs-trade opportunity alert (post-close)
+
+on:
+  schedule:
+    # 18:00 IST = 12:30 UTC, Mon–Fri (daily candle settled after 3:30pm close)
+    - cron: "30 12 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Fyers daily login
+        env:
+          FYERS_CLIENT_ID: ${{ secrets.FYERS_CLIENT_ID }}
+          FYERS_SECRET:    ${{ secrets.FYERS_SECRET }}
+          FYERS_REDIRECT:  ${{ secrets.FYERS_REDIRECT }}
+          FYERS_FY_ID:     ${{ secrets.FYERS_FY_ID }}
+          FYERS_PIN:       ${{ secrets.FYERS_PIN }}
+          FYERS_TOTP_KEY:  ${{ secrets.FYERS_TOTP_KEY }}
+        run: python auto_login.py
+
+      - name: Scan pairs + alert Slack on opportunity
+        env:
+          FYERS_CLIENT_ID: ${{ secrets.FYERS_CLIENT_ID }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL:   ${{ secrets.SLACK_CHANNEL }}
+        run: python pairs_daily_signal.py
