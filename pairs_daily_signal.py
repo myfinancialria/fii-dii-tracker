@@ -21,6 +21,7 @@ Env: FYERS_CLIENT_ID, SLACK_BOT_TOKEN, SLACK_CHANNEL  (SLACK_WEBHOOK_URL optiona
 from __future__ import annotations
 
 import datetime as dt
+import json
 import os
 import sys
 import time
@@ -73,6 +74,12 @@ ROLL_BETA_WIN = 60
 Z_WIN = 60
 Z_ENTRY, Z_EXIT, Z_STOP = 2.0, 0.5, 3.5
 INSAMPLE_DAYS = 365 * 2   # trailing 2y for beta/cointegration
+COST_ONE_WAY = 0.0005     # 0.05% each side => 0.10% round-trip
+
+# Persistent paper-trading ledger (committed back to the repo each run)
+LEDGER = HERE / "pairs_positions.json"
+CLOSED_CSV = HERE / "pairs_closed_trades.csv"
+EQUITY_CSV = HERE / "pairs_equity_daily.csv"
 
 
 def fy_symbol(stock: str) -> str:
@@ -256,57 +263,6 @@ def build_signal(r, lots):
     }
 
 
-def fmt_blocks(opps, asof):
-    blocks = [
-        {"type": "header", "text": {"type": "plain_text",
-         "text": f"⚠️ Pairs-Trade Opportunity — {asof}"}},
-        {"type": "context", "elements": [{"type": "mrkdwn",
-         "text": "Mean-reversion entry signal · spread z-score ≥ 2 on a "
-                 "cointegrated pair · _internal use only, not investment advice_"}]},
-    ]
-    for r, s in opps:
-        side = "SHORT spread" if s["short_spread"] else "LONG spread"
-        if s["short_spread"]:
-            legA = f"SELL *{r['A']}* @ ~{r['priceA']:,.2f}"
-            legB = f"BUY  *{r['B']}* @ ~{r['priceB']:,.2f}"
-        else:
-            legA = f"BUY  *{r['A']}* @ ~{r['priceA']:,.2f}"
-            legB = f"SELL *{r['B']}* @ ~{r['priceB']:,.2f}"
-        ratio_txt = ""
-        if s["ratio"] and s["lotA"] and s["lotB"]:
-            nA, nB = s["ratio"]
-            valA = nA * s["lotA"] * r["priceA"]
-            valB = nB * s["lotB"] * r["priceB"]
-            ratio_txt = (f"\n   β-neutral lots (β≈{r['beta']:.2f}): "
-                         f"*{nA}× {r['A']}* (₹{valA/1e5:,.1f}L)  :  "
-                         f"*{nB}× {r['B']}* (₹{valB/1e5:,.1f}L)  "
-                         f"[scale down proportionally for smaller size]")
-        elif s["lotA"] and s["lotB"]:
-            ratio_txt = f"\n   Lot sizes: {r['A']} {s['lotA']} · {r['B']} {s['lotB']}"
-        flag = ""
-        if not (np.isfinite(r["beta_cv"]) and r["beta_cv"] <= CV_MAX):
-            flag = (f"\n   :warning: β unstable (CV {r['beta_cv']:.2f}) — "
-                    f"consider rolling hedge / smaller size")
-        ts = f"{s['time_stop_days']} trading days" if s["time_stop_days"] else "—"
-        txt = (
-            f"*{r['A']} / {r['B']}* ({r['sector']})\n"
-            f"Signal: *{side}*  ·  z = {r['z_now']:+.2f}  "
-            f"[β {r['beta']:.2f} · half-life {r['half_life']:.0f}d · "
-            f"coint p {r['coint_p']:.3f}]\n"
-            f"   {legA}\n   {legB}{ratio_txt}\n"
-            f"*Targets:*\n"
-            f"   • Exit (target): z → ±0.5  (≈ +{s['exp_target_pct']:.2f}% on spread)\n"
-            f"   • Stop-loss:     z → ±3.5  (≈ −{s['exp_stop_pct']:.2f}% on spread)\n"
-            f"   • Time stop:     {ts} (2× half-life){flag}"
-        )
-        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": txt}})
-        blocks.append({"type": "divider"})
-    blocks.append({"type": "context", "elements": [{"type": "mrkdwn",
-        "text": "Manage on z-score: exit at |z|≤0.5, hard stop at |z|≥3.5, or time-stop. "
-                "Spreads on weakly-cointegrated pairs can keep widening."}]})
-    return blocks
-
-
 def post_slack(blocks):
     token = os.environ.get("SLACK_BOT_TOKEN"); ch = os.environ.get("SLACK_CHANNEL")
     if not (token and ch):
@@ -315,12 +271,206 @@ def post_slack(blocks):
     r = requests.post("https://slack.com/api/chat.postMessage",
                       headers={"Authorization": f"Bearer {token}"},
                       json={"channel": ch, "blocks": blocks,
-                            "text": "Pairs-trade opportunity"}, timeout=30)
+                            "text": "Pairs strategy EOD"}, timeout=30)
     j = r.json() if r.ok else {}
     if j.get("ok"):
         print(f"Posted {j.get('ts')} to Slack channel.")
     else:
         print(f"Slack post failed: {r.status_code} {r.text[:300]}", file=sys.stderr)
+
+
+# --------------------------- position ledger ---------------------------
+def load_ledger() -> dict:
+    if LEDGER.exists():
+        try:
+            return json.loads(LEDGER.read_text())
+        except Exception:
+            pass
+    return {"open": [], "closed": []}
+
+
+def save_ledger(ledger: dict):
+    LEDGER.write_text(json.dumps(ledger, indent=2, default=str))
+
+
+def pair_key(A, B):
+    return f"{A}/{B}"
+
+
+def trading_days_between(index: pd.DatetimeIndex, entry_date: str) -> int:
+    ed = pd.to_datetime(entry_date)
+    return int((index > ed).sum())
+
+
+def position_mtm(pos: dict, px: pd.DataFrame):
+    """Mark a stored position to today using its ENTRY beta/alpha (not re-fit)."""
+    A, B = pos["A"], pos["B"]
+    if A not in px.columns or B not in px.columns:
+        return None
+    a = px[A].dropna(); b = px[B].dropna()
+    j = a.index.intersection(b.index)
+    if len(j) < Z_WIN + 2:
+        return None
+    la, lb = np.log(a.loc[j]), np.log(b.loc[j])
+    spread = la - (pos["alpha"] + pos["beta"] * lb)
+    mu = spread.rolling(Z_WIN).mean(); sd = spread.rolling(Z_WIN).std()
+    z = (spread - mu) / sd
+    spread_today = float(spread.iloc[-1]); z_today = float(z.iloc[-1])
+    gross = 1.0 + abs(pos["beta"])
+    d = pos["direction"]   # +1 long spread, -1 short spread
+    gross_pnl = d * (spread_today - pos["entry_spread"]) / gross
+    days = trading_days_between(j, pos["entry_date"])
+    return {
+        "z_today": z_today, "spread_today": spread_today,
+        "gross_pnl": gross_pnl,
+        "net_open_pnl": gross_pnl - COST_ONE_WAY,         # entry cost paid
+        "priceA": float(a.iloc[-1]), "priceB": float(b.iloc[-1]),
+        "days_held": days, "last_date": j.max().date().isoformat(),
+    }
+
+
+def update_open_positions(ledger, px, today):
+    """MTM every open position; close those that hit target/stop/time.
+    Returns (open_rows, closed_today)."""
+    still_open, closed_today, open_rows = [], [], []
+    for pos in ledger["open"]:
+        m = position_mtm(pos, px)
+        if m is None:
+            still_open.append(pos); continue
+        z = m["z_today"]; days = m["days_held"]
+        hl = pos.get("half_life", 10.0)
+        reason = None
+        if abs(z) <= Z_EXIT:
+            reason = "target"
+        elif abs(z) >= Z_STOP:
+            reason = "stop"
+        elif np.isfinite(hl) and days > 2 * hl:
+            reason = "time"
+        row = {**pos, **m}
+        if reason:
+            realized = m["gross_pnl"] - 2 * COST_ONE_WAY   # full round-trip cost
+            closed = {**pos, "exit_date": today, "exit_reason": reason,
+                      "exit_z": z, "days_held": days,
+                      "exit_priceA": m["priceA"], "exit_priceB": m["priceB"],
+                      "realized_pnl_pct": realized * 100}
+            ledger["closed"].append(closed)
+            closed_today.append(closed)
+        else:
+            still_open.append(pos)
+            open_rows.append(row)
+    ledger["open"] = still_open
+    return open_rows, closed_today
+
+
+def open_new_positions(ledger, opps, lots, today):
+    """Open a paper position for each fired opportunity not already open."""
+    open_keys = {pair_key(p["A"], p["B"]) for p in ledger["open"]}
+    new_entries = []
+    for r in opps:
+        k = pair_key(r["A"], r["B"])
+        if k in open_keys:
+            continue
+        sig = build_signal(r, lots)
+        direction = -1 if r["z_now"] > 0 else 1   # fade: z>0 short spread
+        pos = {
+            "key": k, "sector": r["sector"], "A": r["A"], "B": r["B"],
+            "direction": direction, "entry_date": today,
+            "entry_z": r["z_now"], "entry_spread": r["spread_now"],
+            "beta": r["beta"], "alpha": r["alpha"], "half_life": r["half_life"],
+            "entry_priceA": r["priceA"], "entry_priceB": r["priceB"],
+            "lotA": sig["lotA"], "lotB": sig["lotB"], "ratio": sig["ratio"],
+        }
+        ledger["open"].append(pos)
+        new_entries.append((r, sig))
+    return new_entries
+
+
+def strategy_stats(ledger):
+    closed = ledger["closed"]
+    n = len(closed)
+    if n == 0:
+        return {"n": 0}
+    rets = np.array([c["realized_pnl_pct"] for c in closed])
+    wins = (rets > 0).mean()
+    return {
+        "n": n, "win_rate": float(wins),
+        "cum": float(rets.sum()), "avg": float(rets.mean()),
+        "best": float(rets.max()), "worst": float(rets.min()),
+        "first_date": min(c["entry_date"] for c in closed),
+    }
+
+
+# --------------------------- reporting ---------------------------
+def build_report(today, new_entries, open_rows, closed_today, stats):
+    blocks = [
+        {"type": "header", "text": {"type": "plain_text",
+         "text": f"📊 Pairs Strategy — EOD {today}"}},
+        {"type": "context", "elements": [{"type": "mrkdwn",
+         "text": "_Paper-tracked mean-reversion pairs · internal use only, "
+                 "not investment advice_"}]},
+    ]
+
+    if new_entries:
+        blocks.append({"type": "section", "text": {"type": "mrkdwn",
+                       "text": "*🟢 NEW ENTRIES*"}})
+        for r, s in new_entries:
+            side = "SHORT spread" if s["short_spread"] else "LONG spread"
+            if s["short_spread"]:
+                legs = f"SELL *{r['A']}* ~{r['priceA']:,.2f} · BUY *{r['B']}* ~{r['priceB']:,.2f}"
+            else:
+                legs = f"BUY *{r['A']}* ~{r['priceA']:,.2f} · SELL *{r['B']}* ~{r['priceB']:,.2f}"
+            ratio_txt = ""
+            if s["ratio"] and s["lotA"] and s["lotB"]:
+                nA, nB = s["ratio"]
+                ratio_txt = f" · lots {nA}:{nB} (β≈{r['beta']:.2f})"
+            ts = f"{s['time_stop_days']}d" if s["time_stop_days"] else "—"
+            flag = "" if (np.isfinite(r["beta_cv"]) and r["beta_cv"] <= CV_MAX) \
+                   else f" · :warning: β unstable (CV {r['beta_cv']:.2f})"
+            blocks.append({"type": "section", "text": {"type": "mrkdwn", "text":
+                f"*{r['A']}/{r['B']}* ({r['sector']}) — *{side}* @ z={r['z_now']:+.2f}\n"
+                f"   {legs}{ratio_txt}\n"
+                f"   Target z→±0.5 (≈+{s['exp_target_pct']:.2f}%) · "
+                f"Stop z→±3.5 (≈−{s['exp_stop_pct']:.2f}%) · time-stop {ts}{flag}"}})
+
+    if open_rows:
+        lines = []
+        total = 0.0
+        for o in sorted(open_rows, key=lambda x: -x["net_open_pnl"]):
+            total += o["net_open_pnl"]
+            arrow = "🟢" if o["net_open_pnl"] >= 0 else "🔴"
+            side = "short" if o["direction"] < 0 else "long"
+            lines.append(
+                f"{arrow} *{o['A']}/{o['B']}* ({side}) · {o['days_held']}d · "
+                f"z {o['z_today']:+.2f} · P&L *{o['net_open_pnl']*100:+.2f}%*")
+        blocks.append({"type": "section", "text": {"type": "mrkdwn",
+            "text": "*📈 OPEN POSITIONS (mark-to-market)*\n" + "\n".join(lines) +
+                    f"\n_Open MTM total: {total*100:+.2f}% across {len(open_rows)} position(s)_"}})
+
+    if closed_today:
+        lines = []
+        for c in closed_today:
+            arrow = "🟢" if c["realized_pnl_pct"] >= 0 else "🔴"
+            lines.append(
+                f"{arrow} *{c['A']}/{c['B']}* — exit *{c['exit_reason'].upper()}* "
+                f"after {c['days_held']}d · realized *{c['realized_pnl_pct']:+.2f}%*")
+        blocks.append({"type": "section", "text": {"type": "mrkdwn",
+            "text": "*🔴 CLOSED TODAY*\n" + "\n".join(lines)}})
+
+    if stats["n"] > 0:
+        blocks.append({"type": "section", "text": {"type": "mrkdwn",
+            "text": f"*📋 STRATEGY TO DATE* (since {stats['first_date']})\n"
+                    f"Closed: *{stats['n']}* · Win *{stats['win_rate']:.0%}* · "
+                    f"Cum realized *{stats['cum']:+.2f}%* · Avg/trade {stats['avg']:+.2f}% · "
+                    f"Best {stats['best']:+.2f}% / Worst {stats['worst']:+.2f}%"}})
+    return blocks
+
+
+def append_csv(path: Path, row: dict):
+    df = pd.DataFrame([row])
+    if path.exists():
+        df.to_csv(path, mode="a", header=False, index=False)
+    else:
+        df.to_csv(path, index=False)
 
 
 def main():
@@ -331,39 +481,69 @@ def main():
     print(f"Fetching {len(stocks)} stocks for {len(CANDIDATE_PAIRS)} candidate pairs...")
     series = {}
     for s in stocks:
-        px = fetch_daily(fy, s)
-        if px is not None and len(px) > 300:
-            series[s] = px
+        p = fetch_daily(fy, s)
+        if p is not None and len(p) > 300:
+            series[s] = p
         else:
             print(f"  {s}: insufficient data — skipped", file=sys.stderr)
     px = pd.DataFrame(series).sort_index()
+    today = px.index.max().date().isoformat()
 
+    ledger = load_ledger()
+
+    # 1) MTM + close existing open positions
+    open_rows, closed_today = update_open_positions(ledger, px, today)
+    for c in closed_today:
+        append_csv(CLOSED_CSV, {
+            "entry_date": c["entry_date"], "exit_date": c["exit_date"],
+            "sector": c["sector"], "A": c["A"], "B": c["B"],
+            "direction": "short" if c["direction"] < 0 else "long",
+            "days_held": c["days_held"], "exit_reason": c["exit_reason"],
+            "entry_z": round(c["entry_z"], 3), "exit_z": round(c["exit_z"], 3),
+            "realized_pnl_pct": round(c["realized_pnl_pct"], 4),
+        })
+
+    # 2) scan for new opportunities (exclude already-open pairs)
     analysed = []
     for sector, A, B in CANDIDATE_PAIRS:
         r = analyse_pair(sector, A, B, px)
         if r:
             analysed.append(r)
-            tag = ("OPP" if (r["cointegrated"] and r["hl_ok"] and r["in_entry"]) else "-")
             print(f"  {A}/{B}: z={r['z_now']:+.2f} coint_p={r['coint_p']:.3f} "
                   f"hl={r['half_life']:.1f} cointeg={r['cointegrated']} "
-                  f"entry={r['in_entry']} [{tag}]")
+                  f"entry={r['in_entry']}")
+    opps = [r for r in analysed if r["cointegrated"] and r["hl_ok"] and r["in_entry"]]
+    opps.sort(key=lambda r: abs(r["z_now"]), reverse=True)
+    lots = get_lot_sizes([s for r in opps for s in (r["A"], r["B"])]) if opps else {}
+    new_entries = open_new_positions(ledger, opps, lots, today)
 
-    # Opportunities: still cointegrated + tradable half-life + live entry-zone z
-    opps_rows = [r for r in analysed
-                 if r["cointegrated"] and r["hl_ok"] and r["in_entry"]]
-    # rank by how deep into the entry zone (|z|), strongest first
-    opps_rows.sort(key=lambda r: abs(r["z_now"]), reverse=True)
+    # re-MTM newly opened so they show in today's OPEN list at ~0
+    for r, s in new_entries:
+        open_rows.append({**[p for p in ledger["open"]
+                             if p["key"] == pair_key(r["A"], r["B"])][0],
+                          "z_today": r["z_now"], "days_held": 0,
+                          "net_open_pnl": -COST_ONE_WAY})
 
-    if not opps_rows:
-        print("No opportunities today — staying silent (no Slack post).")
+    stats = strategy_stats(ledger)
+    save_ledger(ledger)
+
+    # daily equity snapshot
+    open_mtm = sum(o["net_open_pnl"] for o in open_rows)
+    append_csv(EQUITY_CSV, {
+        "date": today, "n_open": len(ledger["open"]),
+        "open_mtm_pct": round(open_mtm * 100, 4),
+        "closed_count": stats.get("n", 0),
+        "cum_realized_pct": round(stats.get("cum", 0.0), 4),
+    })
+
+    # 3) report — post only if there is something to say
+    if not (new_entries or open_rows or closed_today):
+        print("Flat, no new signal — staying silent (no Slack post).")
         return 0
-
-    lots = get_lot_sizes([s for r in opps_rows for s in (r["A"], r["B"])])
-    opps = [(r, build_signal(r, lots)) for r in opps_rows]
-    asof = analysed[0]["last_date"] if analysed else dt.date.today().isoformat()
-    blocks = fmt_blocks(opps, asof)
+    blocks = build_report(today, new_entries, open_rows, closed_today, stats)
     post_slack(blocks)
-    print(f"Posted {len(opps)} opportunity(ies).")
+    print(f"Posted: {len(new_entries)} new, {len(open_rows)} open, "
+          f"{len(closed_today)} closed.")
     return 0
 
 
