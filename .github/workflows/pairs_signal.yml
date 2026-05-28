@@ -42,7 +42,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pairs_positions.json pairs_closed_trades.csv pairs_equity_daily.csv 2>/dev/null || true
+          for f in pairs_positions.json pairs_closed_trades.csv pairs_equity_daily.csv; do
+            [ -f "$f" ] && git add "$f"
+          done
           if git diff --cached --quiet; then
             echo "No ledger changes"
           else
