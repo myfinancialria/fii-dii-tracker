@@ -22,9 +22,9 @@
     "declines": 7,
     "unchanged": 0,
     "catalyst": null,
-    "headline": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank",
-    "source": "The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5"
+    "headline": "3 Penny Stocks That Look Undervalued Right Now",
+    "source": "Equitymaster",
+    "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQZHhmRW80TWNzVmtkRmo4M3d6VDhYODlFSldOR1BvcUppdVZGRkZocS0yVlhRWGFKVVJobnJBbndwTVd6UzdmX3NucUtQMlhjN3B3XzBYRlk4M0V2aVJWYUV0T09rbE1HdFVvd1FVRWFZbGFFZlVJSWJZWHV4Y2cxVWJrQjdRcDNqV002TW5iMnpLNm85WW1qLVVDYXBhekUxd0JxQmRDVUlPZWZtN1BJSFhZbVVOeXJtMnZsVFF5WkU5Yng0bWw1WFBldnpYV0JkM2FQVU1mcmF5ZXctS0VTVjhRd3Q4d0t5YVNaRjlGa3cwY0lLNmtpNGw4Z1ZQN2tvVklOZURmci13RHoxNnVObjVVUmhTaU91NFdGTUV5ajJyTjBBLXRDdl92TG1xejJfOWU2cy1lRUY?oc=5"
   },
   "sensex_proxy": {
     "last": 23907.15,
@@ -68,61 +68,61 @@
   },
   "global": {
     "Dow Jones": {
-      "last": 50628.73828125,
-      "change": 167.05859375,
-      "pct": 0.3310603110807319
+      "last": 50602.37890625,
+      "change": -41.90234375,
+      "pct": -0.08273854957710551
     },
     "Nasdaq": {
-      "last": 26642.16796875,
-      "change": -14.01171875,
-      "pct": -0.052564616964112736
+      "last": 26913.375,
+      "change": 238.64453125,
+      "pct": 0.8946464577386339
     },
     "S&P 500": {
-      "last": 7515.60986328125,
-      "change": -3.51025390625,
-      "pct": -0.04668437066494155
+      "last": 7564.33984375,
+      "change": 43.97998046875,
+      "pct": 0.5848121801123604
     },
     "FTSE 100": {
-      "last": 10505.009765625,
-      "change": 13.609375,
-      "pct": 0.12971933672611702
+      "last": 10425.9599609375,
+      "change": -79.0400390625,
+      "pct": -0.7524039891718229
     },
     "Nikkei 225": {
-      "last": 64996.08984375,
-      "change": -162.1015625,
-      "pct": -0.24878155608912614
+      "last": 64999.41015625,
+      "change": 3.3203125,
+      "pct": 0.005108480383946174
     },
     "Hang Seng": {
-      "last": 25599.44921875,
-      "change": -6.580078125,
-      "pct": -0.025697377944510293
+      "last": 25328.23046875,
+      "change": -271.21875,
+      "pct": -1.059471036593042
     }
   },
   "fx_commodities": {
     "USD/INR": {
       "last": 95.68000030517578,
-      "change": 0.4272003173828125,
-      "pct": 0.44849108628571543
+      "change": -0.22499847412109375,
+      "pct": -0.23460557529318737
     },
     "Dollar Index": {
-      "last": 99.22200012207031,
-      "change": 0.07199859619140625,
-      "pct": 0.07261582963527648
+      "last": 98.99400329589844,
+      "change": -0.21599578857421875,
+      "pct": -0.2177157449525914
     },
     "Brent Crude": {
-      "last": 92.81999969482422,
-      "change": -6.760002136230469,
-      "pct": -6.788513769762069
+      "last": 92.66999816894531,
+      "change": -1.6200027465820312,
+      "pct": -1.718106618784914
     },
     "Gold": {
-      "last": 4481.0,
-      "change": -19.39990234375,
-      "pct": -0.4310706329374592
+      "last": 4537.7001953125,
+      "change": 90.2001953125,
+      "pct": 2.0281100688589095
     },
     "US 10Y Yield": {
-      "last": 4.484999656677246,
-      "change": -0.008000373840332031,
-      "pct": -0.17806307113268405
+      "last": 4.450999736785889,
+      "change": -0.03000020980834961,
+      "pct": -0.6694981068042887
     }
   },
   "movers": {
@@ -132,27 +132,27 @@
         "ltp": 403.05,
         "pct": 4.53,
         "catalyst": null,
-        "headline": "Coal India Falls 6% as Govt Launches OFS at Discount",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNGRYS3RnXzM3cl93X2FKVDZLYjR6cmUyQjQ3WlpKMHplVWtpYmJ2eFZLa1Y0aE85dzd0QmN4eDFGM053OWtRTVFGcHJKNFM1V1ptMWkyZ2tJckNLNjloWXRWWEVKaGtzNFMwNEhoWEhkVk9UT1IwQm1ZT1F2d091cFR4ZHo?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
         "symbol": "HINDALCO",
         "ltp": 1150.5,
         "pct": 4.23,
         "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.03%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbU5QcUVpa3ZrbkwtNFNnVWFBYVpjR0MtamtRcEFFby1GeGRQTXJWSlBiRXZxMUdRVmhOY254MFQwV3JLaXhDa2dzaWZ6RC1KU1VXYnBHWjBUTHh5THVwcEpZRWpPS0F5amljM2NYZ1pMUE9pcmZkNVMxOXU2QWFLUDFIbVlxNnM0N2l1YmJ1N2FtWFkwUDJWT2JVX0RmNy00clFGeWpLSW9zMzVsOHFJQzdzYU9rcnBZbHFj?oc=5"
+        "headline": "NSE partners with Sequel Logistics to strengthen Electronic Gold Receipts ecosystem",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRXV5cDhTUUt6Yzd0OHg4c1pXRDY2bTRqR2phUzd3VWtmbE11d1Q4bXA2SHdQX21oajVoZExCLUt3MjVqdDVkX0szVExNbTZXLTBXWW9DYnF4QXp4c3N4LU9zc2pONmF5TnBXN0l2VGlncGhiazlKc1ZDN1RfaFV6Vmlvb3VVQ2I2d2V1Z0FSNzJITHNwTDFreFJRNXdPODQzVFp5c25aakpWNEJQTkdpNnZlbXBTdDZLVFJ1WkdvZzNmWkRXa19TRFFqdVNYeHg0eHJqM3d4ZXZhMjN2WklwQzZ3ZE1pdFnSAecBQVVfeXFMTUV1eXA4U1FLemM3dDh4OHNaV0Q2Nm00akdqYVM3d1VrZmxNdXdUOG1wNkh3UF9taGo1aGRMQi1LdzI1anQ1ZF9LM1RMTW02Vy0wV1lvQ2JxeEF6eHNzeC1Pc3NqTjZheU5wVzdJdlRpZ3BoYms5SnNWQzdUX2hVelZpb291VUNiNndldWdBUjcySExzcEwxa3hSUTV3Tzg0M1RaeXNuWmpKVjRCUE5HaTZ2ZW1wU3Q2S1RSdVpHb2czZlpEV2tfU0RRanVTWHh4NHhyajN3eGV2YTIzdlpJcEM2d2RNaXRZ?oc=5"
       },
       {
         "symbol": "POWERGRID",
         "ltp": 300.55,
         "pct": 2.73,
         "catalyst": null,
-        "headline": "Steel Exchange Balance Sheets, Financial Statements",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLU1URU1DZFFKX0E3OTdtTGgtaFIzb0h5R2dWX1BCSEw3eHNSUkFlUWJ1Mkdrd1BzYlZHcnpyUlY3X3hfWWwtME9GRGNaYmdEVHJpU0V3dWtGR1BVbGNEMWcwUlZrV2x6YXdPUmp5QVVrc3FuaFkxS2RyOG1jNFF3OTVJRWNSRk9zUDRicnpGTzlzWm9PeHVEVnpXVFQ?oc=5"
+        "headline": "POWERGRID fined \u20b910.62 lakh for Q4FY26 board composition lapses",
+        "source": "scanx.trade",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYlZxN051Qnl6UWhIdGU0X1hjN1ZYR0lHUHpmVjhuNmJYR3laTmowcFNlcWlZSEVsY0tzU01GZ1JPUlJRbEQ0MlRYa1NhUXZXUHZwNHZzZzVfcUJuSUgtTmYyT3lidWJMdm5rNFFVZ21sSExEVUhEVWhNRFYtWHJmTWJ2U1UwcWV6SUE5RHJzcnJTMEZjWG81NHpFcS1GdjRJa095ZWRlbTh3TUhva0dpQi00SjZsTGI5dGdr?oc=5"
       },
       {
         "symbol": "ETERNAL",
@@ -171,27 +171,27 @@
         "ltp": 273.3,
         "pct": -4.94,
         "catalyst": null,
-        "headline": "ONGC drops 4% as Q4 results miss estimates; production weakness weighs",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORHVuTmdXbjNDRW5EdDNicGhReTFiU0RYRUtDM0ZGdzNxTkVBMVA1a2dHb0g2UDlaR3psQ0ZwczBadHoyQ3FwQ3p5SFhjenZpYmZ6andRRzRhV3ptZGRNR05fbnVQdFNtMzFhZTl0eV9hRXNTakt2RTlhUlI2ZVpfZ2tidnhORld0UG1Wb3RnajdldTEwWVp3Zm9HaGNESUt0MnBxb2ctQzZoX3B0bm5zWmhyTWNNeldGT1I1QU9xbjlBTUZQbndTN2hBSmNQMldTV2ZYNWZUX1hIdzFrZWRoRmE3YWNLSWZZOTdZT0ZR0gHzAUFVX3lxTFBZMFRtdEw5WUQ2SlVKQVpfc1ZSWXBfeWlxWHhtNHdpX3l1bXh2dENRX3VlbExfandlU0c3MmtDRDVhbTFtakI4Sl9qY1lrSmpKSlgzUlNSdmN6SndhU0dlRTJ0MHQxNFYzc3U3X1plYWdEWU4xcDZYdm9GUjh5X2c1cnRYZm83enBWek54MVp2NnVsbE1ZVkx5MHZRU1VKbEVmMFhQRE9CVzVQc2RLYjYwTFc3dUpjNWhkX0dQcXk0TGN6WFgtQnAycEstT3EyVUhCTTBGdko5OTZsY205UWJHWkM0MEpKRGJtd1dPSU1LekZ4QQ?oc=5"
+        "headline": "DSM Fresh Foods Yearly results, Financial Summary",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb0FJWGgySjJnbmstZXgtOThIdW82clNXTUIyRnNRQ21vQy0zSnVnSWJzUlhndHJxZkkyNDZPSGxwTG9QTE5hX0ZNLXBNWUQzbmQ5MWU1ZENPeFotRU1WejAzUDVQc2NnYmsxaHlfR0RoQzZJT01UNUpsa3Q4Zkw3SEtn?oc=5"
       },
       {
         "symbol": "ITC",
         "ltp": 292.25,
         "pct": -3.12,
         "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.03%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa0hJMmhSLWZUZURqU0VKMlhsNXBhMllzRk80cUpOcFhxR0NyRXRBVk5Wd1E4WlJQRFRqOU5pUDF4elJvajFEMUZPZWdRcm52bDcxZmpfX0J4VUh2VEx4UWJRQUxOTGd1LTdzcERnaXlQSWJNLXNaT3JxWnpISjk1VjlXRVBfdDlNXzNOUGpXQTc3ZmdCOXdyUzY2WlFrdEotWjdhU1RQUHZTaFJuUU9pZw?oc=5"
+        "headline": "Vakrangee Nine Monthly Results, Nine Monthly Earnings for Vakrangee",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkNfVFNLWVN3aDF5SklZWlN4Y05ld1BSSjFhVXNkaTVSS29hODc0blFHa0IzMk5aWWw4SmFLQWNwWDNRMGk0eVY4TURyOGNDc214T0lKVnY3MlF5ODl2REFMRXN3bm9BdFhtbXJFTlp3czljVUpIZ2lsX081UEQ2T3lPR2J5OW9PMnJLcw?oc=5"
       },
       {
         "symbol": "HDFCBANK",
         "ltp": 759.15,
         "pct": -2.54,
         "catalyst": null,
-        "headline": "HDFC Bank shares fall over 2% after report on Rs 45 crore payment issue",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ1pHSjJBTGJ2RXJSMHNVSzdiTnF4WWhLbUgySWU4MU1sSEhrZ09VOTRIalZZVFF0VU8xQXRub25Delo4RFRMTHgzXzR0a2wxLUpoTTRDeTVabWhaMElpUDR2YmtkMFNXT2stWUozNTVoV0VHbk9VQnlEdk9PbkZLNGRqT2t6Y3kwVVJXLU5FNEpDVkpNR0VZX1VLdlRjWGI5Rk5DNl8tOUpxVUJtZWd5aXBjQUtkVkJ4Wk9wc2xZc1AzQnBmbWlzSmltNzItVGJJeFVUWHljRF96TUtsU3pj0gHfAUFVX3lxTE9nWkdKMkFMYnZFclIwc1VLN2JOcXhZaEttSDJJZTgxTWxISGtnT1U5NEhqVllUUXRVTzFBdG5vbkN6WjhEVExMeDNfNHRrbDEtSmhNNEN5NVptaFowSWlQNHZia2QwU1dPay1ZSjM1NWhXRUduT1VCeUR2T09uRks0ZGpPa3pjeTBVUlctTkU0SkNWSk1HRVlfVUt2VGNYYjlGTkM2Xy05SnFVQm1lZ3lpcGNBS2RWQnhaT3BzbFlzUDNCcGZtaXNKaW03Mi1UYkl4VVRYeWNEX3pNS2xTemM?oc=5"
+        "headline": "Stock Market Holiday 2026: Are NSE, BSE closed today for Bakri Id? Check market closing dates list",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPN0lTZ1dWLV9GcjNHQTRNSm5wejdiVFd3R3JTSG4tMXVIYXdJT1VucDF4MGlVVzZNNV9kMG8tTHhzT0lfUF9CYmF2SlZITllYX3NDWVNWTkZLYkZpaHJVd2V6UE4tcGg3elZuVXNBVHN0LWhqNlZHa0laOGFvQWZ5SWJLUDljZjQ1MlF0VTU5UW5XXy1XeTJNNkpXTWpoNFZLMGppYU5aZDFUYjlXajVnREpjNUdUWnl2OUlibzktaVZaTXd0ekZKMW9uQVVUYUJVcVpURHVWUFlTSGNjcjcwX21IVHQzd2tERnJ3emZwb0VyN0JOQzd2M2ttT2xyZ9IBgwJBVV95cUxNOVlXWnQ1QVdSbjIyWUZmRWVYQjNUZXFpUnhNazhfb3lZeVdMM0psa3ZJNE5nTV9LZ0dxdWNFQnE4UjhOUWVzejlhTXFDOXVXT2hxVURYeFNQTk5kLTRraG1JTGI4SGFuOUhteEpSNnBDMDZUQVpqa1c1M0JENXJNS0g4a2tCUC1LdTNBVEF2ZWlzLXZXV0VoRFpMck13UnI1VTVKVDNScWdxcnN2YkRXZEtlakdVNjctbDNBaWFnUFljOTJoUkpUTlRfVmxhQjlSX3hEdGUteW5uUFh5b2piMldkMGRfQzR3c1ZRSGhfdEdtQTdINTJ3bWVQdTFpX2NpeHcw?oc=5"
       },
       {
         "symbol": "HDFCLIFE",
@@ -211,17 +211,17 @@
         "name": "NIFTY ENERGY",
         "pct": 1.77,
         "catalyst": null,
-        "headline": "3 Undervalued Green Energy Stocks",
-        "source": "Equitymaster",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVGdfak41bDBBNTF4LVdhZkQyYnJNcHphc1JnenRxRmlaTmZrVGZFR3VZUG1salQyVzVUZ0E5QWNSNWttdC1tNjRwSDRfeTMwOXdpSTl5ZXdrXzRYd1FVV0Zwb2gzX2o1SEVtb2RQVVFNRkI5ZGZ4dFJQQzVieHN1dGRUa3gyMDNDdGlaYnlHTmVULUZMZWJvdTlxVmdfUm44LV9OelRB?oc=5"
+        "headline": "Battery And Power Stocks Lead Green Energy Market Rally Amid Solar Sector Decline",
+        "source": "SolarQuarter",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYmtaX0QxVXoyQjkwNXFhSC15ZXFGSUdnajB4VThEejhQLWpMeWtIVTl1NzZHd2JhNFI3ckdQWjdGYmJOWUNNS3BKWnVtQTBDRkFyZ0FWS3Q3a0Npc1RQRURTSVdMOW9UTHVhT2g2aEJQWTJCRWNha3VwOFYxaVBObm1zdW04ZnlUWXFwYnVKZGxaLWVXdkY5RFVoc3NuQXhyWjZ6dlhNN28zR196OEtZTEFnSHBqX0ZnaXc?oc=5"
       },
       {
         "name": "NIFTY METAL",
         "pct": 1.67,
         "catalyst": null,
-        "headline": "Sensex slips 142 points, Nifty ends flat as auto and metal stocks support market",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYkJxZHFkRmxGc21TZGVqcm82cFBMc09iN3ZzbTVJaGozaDNFeDNrODlkNXUwNFdfM0tZM2g5TmhIMXVHTTNNcjVSX0xYNVF1WnpUYzB6cENSaDJFZllNdC1aRkI1aVRkVVpzV21pYTAtVU5uWnhweWEwM2o4bzV4SFlybUtsTmRTQzlwZFdaYmNRdjNIWWYwTC1tQWdIOEFfdHRwd0ZCZTNPa3BYU0lMOVJvTWZtV0ZPaVFwMHZsd2dBajRoSkxhMENRaGpZU3ZfZGtYQU1zd3JoSmMzYllN0gHkAUFVX3lxTE5NT05EMzV6M0lOYXppMWpTRk5QSGhOeDVOWW1mQmJTOEZ6V0RmSWRJZHZlWk9ZTHFxVi0ySnIxa1lIVF9kTjg1YVhWN1p2c0lGX2NORkxmR2NPVHFRdVdRWmxFcU1QLXdDcEp1dTJoSmswSHFkYWkwTC0wTzhZMHR2cHRVV01reUE2WHpCRXloSzAzdXhtSjJidEJvdW1kdi1XaUxRc21KWW8zVE10ckx0emZyM1V6ZzBJUzBESVMxT1YtN1gwaU5WS2lFejh6Ul84ejdRTkV3MWxwVXZhOE1yTGhWUg?oc=5"
+        "headline": "STEEL AUTHORITY OF INDIA Share Price Today - Live SAIL Stock Price for NSE/BSE",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wYVdTbk9fUzE4ay02aVBISkNxbTRoLVhPR2pQTW5Fa1ZLUFozOXg1OFM3SGJtejZPaFZ4alJ4aTBaS2p6cGZjdmlTWXVSQlBzS19HZDNNcC05dG9TZlhHdzVYcHc1VVRvV3NQZ09qaVg?oc=5"
       }
     ],
     "bottom": [
@@ -229,17 +229,17 @@
         "name": "NIFTY FINANCIAL SERVICES",
         "pct": -0.69,
         "catalyst": null,
-        "headline": "Finance ministry to review PSU banks' lending to agriculture and MSMEs on May 29",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQd2s2R0VaR1R4VFU2WHIyT1o4RFk1eGlpWUtsTzR0bExLTTlKWmtYUmpwVGptS1psWU02Rmt2VlpZTGg1UVJpaDNlRU1fNGJpRmVYYkcyR2ZkSHItZTBOamMzeC1NS1VOUzJiRFMxNXIwQjhlOHQzRzQybWZNa1FqbHhtSXhKUnN2dS1RS2lCdUpjWU4zNG9YMFhXX1BGMzhmUGhReGRBeGU3dDE2dnFrbDhseHZvYmNTd3hiRU1JYm9VLUdFWkhBbV9hVHN5WGJJX3lSNzk2N2prNHJQSHZkZW04VlAzNmlNZUlfcHdySDQ5VFZyMklNa9IB_gFBVV95cUxPRFdZbW5hV3JZRGlFand0aEN5WHdaZmNkWTZtaC1IX01QUTY4c1RVMVR4dGZjZmhER3pUOWJ6NmRNVVUtdTNCZWpUZUxIWjM0amNQbGNTWlhOOHdyUTZiTnJDV0g0UTRKMTJHUU9rQlpPVFZpR2lyNmN0cXJjTmhlN1NfTFFvWHRkYWpXdWFFUkpndEZFeE5XUEdzbkF1REZCNHZybHVvMjRSRXBlUjdnUTVzcXFRSEZZWG1FRmZ3cm1yRGxCMTNPNTUzRTlwVVhWWFo2TW0xRjBGU2I5R3dIcnB3M1o0S2pRV2U1bk53VW9ibWE3NlFISkxlUmpKQQ?oc=5"
+        "headline": "From financial services to healthcare, enterprises driving AI adoption in India are all in Mumbai: TEAM",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNd0otWklyUU1HdXRGOXZzaU9Vb0FqZHZuZ3I2WWFka2hPWGFlSmMyX0NPZ3pvWm5JbVpGZUZOanowU1JPZWN4VFhjYkR6N2xOVVBfLXV2YWx6WlBhTmQ2cEVWOENGWTV2bjZmVEVGNXNpMWt5VXlTajFwMGp0eDFpX1VwRzZhYnlTYzl2ZmhKcFRkLWFrQW95X3U0cHBsYXNYTzFYY1dNaGJwWG96dEpRQTJTVWxsc1p4RFMxRndXU3dOTFBDVVo3RFR4VU44bzdpT29KU2JtRWgyVGlFcG9NZzhLNkdkY1ExUHJyNTNzNkJQTENhNUhjVHZROERXOEY30gGGAkFVX3lxTE04X0xQMHpKaTdHcG5sclBfNkVidXBCSzd3RXlQTXl3WFN2YVNqQnVxSnczbGdUM2ZwZUNlUS1lY0xDUDAtTkpGc3NQZHNtdnpzS01VRUJueGxvdnljallDRkk0OGMxaVk3LWx0Z0VtNlh4SFFuaDB0TUt4TVF3dG0ya20yVV90N28zb1FqNGtRUGNfd0xlbUMyNzNTZWl3YUVzWlU2WHNoN2tGdmNiTmdhakpfVTZENmNjOC1SQXNwcnN2R3hxVHpjOE96d2xlOFFHR1Mxd1Z4RHZGa0tFN3RtRFNLRllUbGh4T2hULUZCd2NPbGhETlU3dGdULV85QVR3R01XbWc?oc=5"
       },
       {
         "name": "NIFTY BANK",
         "pct": -0.43,
         "catalyst": null,
-        "headline": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5"
+        "headline": "3 Penny Stocks That Look Undervalued Right Now",
+        "source": "Equitymaster",
+        "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQZHhmRW80TWNzVmtkRmo4M3d6VDhYODlFSldOR1BvcUppdVZGRkZocS0yVlhRWGFKVVJobnJBbndwTVd6UzdmX3NucUtQMlhjN3B3XzBYRlk4M0V2aVJWYUV0T09rbE1HdFVvd1FVRWFZbGFFZlVJSWJZWHV4Y2cxVWJrQjdRcDNqV002TW5iMnpLNm85WW1qLVVDYXBhekUxd0JxQmRDVUlPZWZtN1BJSFhZbVVOeXJtMnZsVFF5WkU5Yng0bWw1WFBldnpYV0JkM2FQVU1mcmF5ZXctS0VTVjhRd3Q4d0t5YVNaRjlGa3cwY0lLNmtpNGw4Z1ZQN2tvVklOZURmci13RHoxNnVObjVVUmhTaU91NFdGTUV5ajJyTjBBLXRDdl92TG1xejJfOWU2cy1lRUY?oc=5"
       }
     ]
   }
