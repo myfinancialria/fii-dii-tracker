@@ -1,5 +1,6 @@
 {
-  "open": [
+  "open": [],
+  "closed": [
     {
       "key": "NMDC/SAIL",
       "sector": "Metals",
@@ -19,8 +20,14 @@
       "ratio": [
         11,
         4
-      ]
+      ],
+      "exit_date": "2026-06-01",
+      "exit_reason": "target",
+      "exit_z": -0.4159625774885044,
+      "days_held": 1,
+      "exit_priceA": 92.37,
+      "exit_priceB": 203.69,
+      "realized_pnl_pct": 3.1208510716023423
     }
-  ],
-  "closed": []
+  ]
 }
