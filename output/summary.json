@@ -1,51 +1,55 @@
 {
-  "date": "2026-06-02",
-  "date_pretty": "Tuesday, 02 June 2026",
+  "date": "2026-06-03",
+  "date_pretty": "Wednesday, 03 June 2026",
   "mood": "Mixed",
   "nifty": {
-    "last": 23483.55,
-    "change": 100.95,
-    "pct": 0.43,
+    "last": 23405.6,
+    "change": -77.95,
+    "pct": -0.33,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 34,
-    "declines": 16,
-    "unchanged": 0
+    "advances": 19,
+    "declines": 30,
+    "unchanged": 1
   },
   "banknifty": {
-    "last": 53714.65,
-    "change": 71.55,
-    "pct": 0.13,
+    "last": 54185.95,
+    "change": 471.3,
+    "pct": 0.88,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 11,
-    "declines": 3,
-    "unchanged": 0
+    "advances": 12,
+    "declines": 2,
+    "unchanged": 0,
+    "catalyst": null,
+    "headline": "Why Sensex and Nifty Fell Today Despite a Strong Recovery in Banking Stocks",
+    "source": "Open Magazine",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVBiakR0RjF1RDQ3SXpBWHRiLXFqYUQzcjFKVzI5bHBpdGx4N05PdHp6NmpLZndBUkxDNFBRSHFDdWM3NE9lV3JaVDdyMHZmdFBxdldSR2h5cXhGQmQ2Q3Ruc01McXhlajdScWRlMGowSlAtVHRBV2o3bDZhV2luVVRDZjBqUHlGY0VzTEZLSkUxa0pFckt1OHcyMm9zSGE3U3pMc2RvaThlWGRHc0UxbFpB?oc=5"
   },
   "sensex_proxy": {
-    "last": 23483.55,
-    "change": 100.95,
-    "pct": 0.43,
+    "last": 23405.6,
+    "change": -77.95,
+    "pct": -0.33,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 34,
-    "declines": 16,
-    "unchanged": 0
+    "advances": 19,
+    "declines": 30,
+    "unchanged": 1
   },
   "midcap": {
-    "last": 60942.0,
-    "change": 114.05,
-    "pct": 0.19,
+    "last": 60687.2,
+    "change": -254.8,
+    "pct": -0.42,
     "year_high": 62907.5,
     "year_low": 52032.85,
-    "advances": 60,
-    "declines": 40,
+    "advances": 42,
+    "declines": 58,
     "unchanged": 0
   },
   "vix": {
-    "last": 15.36,
-    "change": -1.18,
-    "pct": -7.17,
+    "last": 16.28,
+    "change": 0.92,
+    "pct": 6.0,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +57,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 16955.9,
-    "sell": 25318.82,
-    "net": -8362.92
+    "buy": 17053.63,
+    "sell": 22670.19,
+    "net": -5616.56
   },
   "dii": {
-    "buy": 22508.77,
-    "sell": 12919.45,
-    "net": 9589.32
+    "buy": 17530.0,
+    "sell": 11789.11,
+    "net": 5740.89
   },
   "global": {
     "Dow Jones": {
-      "last": 51337.71875,
-      "change": 258.83984375,
-      "pct": 0.506745350118341
+      "last": 50845.8984375,
+      "change": -461.890625,
+      "pct": -0.9002349028085253
     },
     "Nasdaq": {
-      "last": 27066.201171875,
-      "change": -20.609375,
-      "pct": -0.07608638515905926
+      "last": 26880.92578125,
+      "change": -212.974609375,
+      "pct": -0.7860610923656206
     },
     "S&P 500": {
-      "last": 7608.2998046875,
-      "change": 8.33984375,
-      "pct": 0.10973536430277761
+      "last": 7567.97998046875,
+      "change": -41.7998046875,
+      "pct": -0.5492905953603983
     },
     "FTSE 100": {
-      "last": 10373.509765625,
-      "change": 34.509765625,
-      "pct": 0.3337824318115872
+      "last": 10332.2998046875,
+      "change": -41.2001953125,
+      "pct": -0.3971677381067142
     },
     "Nikkei 225": {
-      "last": 66934.328125,
-      "change": 604.828125,
-      "pct": 0.9118538885412977
+      "last": 66734.2421875,
+      "change": -200.0859375,
+      "pct": -0.29892873074984644
     },
     "Hang Seng": {
-      "last": 25398.1796875,
-      "change": 215.7890625,
-      "pct": 0.856904595411104
+      "last": 26038.3203125,
+      "change": 640.140625,
+      "pct": 2.5204193090855735
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.25499725341797,
-      "change": 0.2519989013671875,
-      "pct": 0.26525362961004667
+      "last": 95.69499969482422,
+      "change": 0.1436004638671875,
+      "pct": 0.1502860921168629
     },
     "Dollar Index": {
-      "last": 99.21700286865234,
-      "change": 0.01700592041015625,
-      "pct": 0.017143065456976907
+      "last": 99.52100372314453,
+      "change": 0.30100250244140625,
+      "pct": 0.30336877518461414
     },
     "Brent Crude": {
-      "last": 96.0999984741211,
-      "change": 1.1199951171875,
-      "pct": 1.1791904375688147
+      "last": 98.01000213623047,
+      "change": 2.0100021362304688,
+      "pct": 2.0937522252400713
     },
     "Gold": {
-      "last": 4516.2998046875,
-      "change": 41.099609375,
-      "pct": 0.9183859398748093
+      "last": 4467.89990234375,
+      "change": -21.2001953125,
+      "pct": -0.47225935825241633
     },
     "US 10Y Yield": {
-      "last": 4.456999778747559,
-      "change": -0.018000125885009766,
-      "pct": -0.4022374585164983
+      "last": 4.488999843597412,
+      "change": 0.03399991989135742,
+      "pct": 0.7631856447502101
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "TCS",
-        "ltp": 2451.1,
-        "pct": 6.69,
+        "symbol": "APOLLOHOSP",
+        "ltp": 8299.0,
+        "pct": 2.59,
         "catalyst": null,
-        "headline": "India shares higher at close of trade; Nifty 50 up 0.43%",
-        "source": "Investing.com India",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOVpaYnRXaUhfbnlrZTZqVVp5SlVjZDRHMDB2eDAtd29DSjExWEFwV1VXQXhqRWNFX1dMSjJYZUozcmpHOUVYQnl3WVBjXzI3cmxOTGpmc3ljc2VDSGR6SE5QQ1VLd2lHUWc3dmUyekJKRUVwRGxHMFE4OFdLUWQyQVlfc1hfeUdxZFU3Mm1lc3NPVzdIbXRhVmctWDFLYnJLYUN0VjhtQk5hSXdVdjIxajZidjFMN05SS1FQV3FR?oc=5"
+        "headline": "Stock Market Today | Closing Bell: Dalal Street Swings Wildly Before Ending Lower; Sensex Falls 323 Points, Nifty Holds Above 23,400, IT Stocks Drag",
+        "source": "The Sunday Guardian",
+        "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPb2hVaS1kajRaZW1ubjZoT1pfN3BkeGtyMElmdkNRdDNwdnMzV3B4ZWNFZTNYQXRESV9nUlJqbEJ3MjlhcHY5ZDVEaVRsTUFMSVd1Y3hRSExzOGt0RllmNFgxbzYzRzQ5YnZkZmhjUXdHQ29UY3hYUm4tUjR5alJxeTlndWdELWJydXI3emprRXgyaXRwbWdVZ3R3SWdNNDV1R1NsMHE0dDA4eFkyem9zNGtWeF9CMUI1WFNSc0JUM0RLRG5heDRMREdkS3lNQVNpc1E1cHVCYmZreUNZYy1XWFJrWkg4VFlQLVNreWhTMUdUMm1rWi1BWlBzaWNlLVYxSEphWHg4R0RFZ0xWOTk4WmFNZTh5R0NmOGxneV9ydmhJVE9qekQyZHJoYThhaXBoZ2VlajdqT25Dc0FEVk14UktiYWNlWTRlX0xPVHJyd9IB1AJBVV95cUxOUjFDTUQ3S0l6ZTNfOVV3VFVZWk95OTk4NEVWbm0zck5raEhtMklKbGt4SzdpblEtbVVUNTlwZWU2eXhuTkJFYldyT3pnOUIzTEdwaGN0enJzNHFoUWxWY1AzVjNSNEtXOXBWRno5bnNaTUZadmhQVHVhb1RiMHlPYWZaWVdrMS1WYU5NU3RPZEE1UGNXU2JJcFhobEtFNWhhbUpyVk1DcHR2YkdqQ1pXN3lTcWRVNEM5cHZBWjJod21rTkt3Z1FCdFRGeW1uSDZkRm1NZ0hIbHBNRTVLbFBtM2loNDNUQ0JsajE1UGZJd0t2YTFnNTdsbHVtMndBYko1bEFMdTQxNjFkN0JQTlNwZWlGQlExdFlsOFJKc1JNWC1pUVBqM19IU04za0FSN01zTUFKWUVhaXZ3TjNwYzRaenVSejB4d04wam9DcUNGRDNDSm0z?oc=5"
       },
       {
-        "symbol": "INFY",
-        "ltp": 1270.0,
-        "pct": 5.61,
+        "symbol": "TMPV",
+        "ltp": 398.0,
+        "pct": 2.0,
         "catalyst": null,
-        "headline": "IT stocks shine again! Infosys, TCS jump 6%, HCLTech gains 5%; are signs of a turnaround emerging?",
+        "headline": "Tata Motors (TMPV) Share Price - Live Tata Motors Passenger Vehicles Share Price Today",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQelZINjFPczRYYzdOUmpRUFM3ZDR4bHdQdFhiRUFOWGJNLWNKcGFzTlpiWHAyekRCU1pTODN6Y01BT21BQkNzbkFjbloyQWxYandMam1aRlBJckMwd0JRak9rZ3ZLQ2ZXV0JpOXJVRXIwYzZwdzRHcjBHQ3l5WmFtRnlMZW9pRmhfSzM1WVFHLWdWWG9FTWpjSkE1VEcxOEV0UzJhZHhrazRNWk0zOFE2M0toaEJwa1dFR0lrZmVPcGdFeWswblo2VTJFS3JfdnN3S083a1JXWjdXTTlm?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tRUNlRENKdi05NTFRNHg0VEZ1TURMZzlEWGg1Y2M2QnM0ZThZdHdRVzRpbG8yR0Z4NFV1dzNTdzJOZkFOUEZtaWFQMEJ5MFlMcmNiWkpWRFFmNVpoblVkMk1Qckx3TDcxX250eGdxMTY?oc=5"
       },
       {
-        "symbol": "HCLTECH",
-        "ltp": 1244.9,
-        "pct": 4.17,
+        "symbol": "INDIGO",
+        "ltp": 4550.1,
+        "pct": 1.88,
         "catalyst": null,
-        "headline": "IT stocks shine again! Infosys, TCS jump 6%, HCLTech gains 5%; are signs of a turnaround emerging?",
+        "headline": "IndiGo, NHPC, Concord Biotech among buzzing stocks as SENSEX falls over 600 pts, NIFTY below 23,300",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQelZINjFPczRYYzdOUmpRUFM3ZDR4bHdQdFhiRUFOWGJNLWNKcGFzTlpiWHAyekRCU1pTODN6Y01BT21BQkNzbkFjbloyQWxYandMam1aRlBJckMwd0JRak9rZ3ZLQ2ZXV0JpOXJVRXIwYzZwdzRHcjBHQ3l5WmFtRnlMZW9pRmhfSzM1WVFHLWdWWG9FTWpjSkE1VEcxOEV0UzJhZHhrazRNWk0zOFE2M0toaEJwa1dFR0lrZmVPcGdFeWswblo2VTJFS3JfdnN3S083a1JXWjdXTTlm?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONi1lWVBORjhNSHpsck9xNlEzMDN4SEhKOEpwSUt2X0o2dHJ4VVh0eEQ5YU5OTUxpMkRZRV82RTZkbEg0TExCZFc4eW9OSVdqajBXNGI2eWNNMC1aUklMeDc3QzBKLTVNLXk5T0ZoRGxHMXJqSVBpd2V0RGlNUUlMeHlJOTZUaV9qT0dBUGx2bjR4dW1iOUUxSWtreUJHX1dpT19MRHJoR1hEQU5pTWxtcHJjRG1aV1VKYkdFZXladmxpdXRrRW5DMHVBWTU3dk81eWZwb0xvSndNLXhXNksxcXlkbXZkQlIwUHc4NA?oc=5"
       },
       {
-        "symbol": "ADANIENT",
-        "ltp": 2972.0,
-        "pct": 2.15
+        "symbol": "MAXHEALTH",
+        "ltp": 965.0,
+        "pct": 1.72
       },
       {
-        "symbol": "WIPRO",
-        "ltp": 210.1,
-        "pct": 1.79
+        "symbol": "SBIN",
+        "ltp": 971.5,
+        "pct": 1.55
       }
     ],
     "losers": [
       {
-        "symbol": "NTPC",
-        "ltp": 367.4,
-        "pct": -2.98,
+        "symbol": "TCS",
+        "ltp": 2245.0,
+        "pct": -8.25,
         "catalyst": null,
-        "headline": "India shares higher at close of trade; Nifty 50 up 0.43%",
-        "source": "Investing.com India",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOVpaYnRXaUhfbnlrZTZqVVp5SlVjZDRHMDB2eDAtd29DSjExWEFwV1VXQXhqRWNFX1dMSjJYZUozcmpHOUVYQnl3WVBjXzI3cmxOTGpmc3ljc2VDSGR6SE5QQ1VLd2lHUWc3dmUyekJKRUVwRGxHMFE4OFdLUWQyQVlfc1hfeUdxZFU3Mm1lc3NPVzdIbXRhVmctWDFLYnJLYUN0VjhtQk5hSXdVdjIxajZidjFMN05SS1FQV3FR?oc=5"
-      },
-      {
-        "symbol": "AXISBANK",
-        "ltp": 1253.4,
-        "pct": -1.76,
-        "catalyst": null,
-        "headline": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5"
-      },
-      {
-        "symbol": "POWERGRID",
-        "ltp": 282.0,
-        "pct": -1.45,
-        "catalyst": null,
-        "headline": "India stocks higher at close of trade; Nifty 50 up 0.43%",
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.38%",
         "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcDRxbTlpamM3bjlvOWcxMU4xUUgxMjBEekZDV3dma1dqR1hrc21TUDJQUkNOUVEtUHVFV3pXR2lsS0IwbUtLZ0xiSFRuUVNZdWc2RFFzbHZQNnJKSmJZYlUxRXpNZTdOb2h0RVV6MEctMmM5NmtKbDRGRHNnUExYc2VHZFllc2luZmRuYmpmR1RSUUpGSEV1RWhoWVkyX1phQm9BaXJKYzRaUTktRy1RWmJycURBZGROZGc?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNk91UWR1SEFwd0JCeHFoa1d0TkRLSnpvbkk5d0NET1UwTnZVMXl5QnpULVVEdEkxR1lLYVh0N3hhbWh5QmRwczBmbTFKandYZ01PLTNqTG9ZYzU3SGMydnlkdTFpR0xRUmM4ZXF3VlkzMUxUZ1ZFUm44aEVxRFVCbTgtc0hPYWJ2LVkzRDh5TTRWc2pfYjByZmExUzVnNVk3dFluWmdVa25wOFRxT1VrM1d1U2g2dHpfLWNz?oc=5"
       },
       {
-        "symbol": "HDFCLIFE",
-        "ltp": 579.4,
-        "pct": -1.22
+        "symbol": "TECHM",
+        "ltp": 1470.0,
+        "pct": -6.45,
+        "catalyst": null,
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.38%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNk91UWR1SEFwd0JCeHFoa1d0TkRLSnpvbkk5d0NET1UwTnZVMXl5QnpULVVEdEkxR1lLYVh0N3hhbWh5QmRwczBmbTFKandYZ01PLTNqTG9ZYzU3SGMydnlkdTFpR0xRUmM4ZXF3VlkzMUxUZ1ZFUm44aEVxRFVCbTgtc0hPYWJ2LVkzRDh5TTRWc2pfYjByZmExUzVnNVk3dFluWmdVa25wOFRxT1VrM1d1U2g2dHpfLWNz?oc=5"
       },
       {
-        "symbol": "DRREDDY",
-        "ltp": 1277.0,
-        "pct": -1.04
+        "symbol": "HCLTECH",
+        "ltp": 1177.5,
+        "pct": -5.31,
+        "catalyst": null,
+        "headline": "Ebixcash World Money Target Share Price, Ebixcash World Money Share Price Forecast",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON3BUQ2I1NnhOR1pubTFRd1pIYXVSWXBTUV9MZG9IZFpLcFNlOWtPTzRGRWhaXzN6eGFlTDlKWFR2cVBnWUp1aTBRcnNKOUNON2Z2eHpYNXo4YktKQW9ORWVBdHhsYzQxUGpXcFJ2SV95QmkyaU12ZDNnWURZS3puTEFTbDRaaFlTT0ctTVVoU3hidw?oc=5"
+      },
+      {
+        "symbol": "INFY",
+        "ltp": 1220.5,
+        "pct": -3.96
+      },
+      {
+        "symbol": "WIPRO",
+        "ltp": 203.9,
+        "pct": -2.83
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY IT",
-        "pct": 4.23,
+        "name": "NIFTY PSU BANK",
+        "pct": 1.7,
         "catalyst": null,
-        "headline": "Why Infosys, TCS, TechM shares are rising today?",
-        "source": "India Infoline",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVjZpeXZHZi1ha3BfaDdYNnd6QlRfMlRvWE15dlZpMU9wb0tCRDlSeWp0b0NDVWVuNzdJcXhEcENjT0REZjdtejJhdGdxeFNqbkFnZ1hkX3hoQ3VwekRlNDB4Qm1Ka1lkQUhZaC02cTQwSGN0SElwQUhBOFU1U3FtX3NYOS1PVGZoclRDM3BRTy1vOVZ0?oc=5"
+        "headline": "IT Stocks Drag Sensex, Nifty Lower; PSU Banks Help Markets Trim Losses",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZnM2VV9GXzZLN2gtZDRTSmpuN2lwR0VkV3B3VHVLXzQzSnktWkpPOS1rdzNpVzNMRGYyRDBabUJIeTh4Snk2UElocXZ5RVdYaVZSN1NyUnJ0aFZjcVFZNGVkbFFPLWo1VkdMVzllT0NSTW14V2thZ3FVR1JZSEU2enF4QXZaRHliNkNud0o5MElSQzNicHFFZkRPbkkzZw?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": 0.76,
+        "name": "NIFTY BANK",
+        "pct": 0.88,
         "catalyst": null,
-        "headline": "ITC at 52-Week Low is it a Generational Watchlist Stock?",
-        "source": "Equitymaster",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTDBraDRKek9lM2dyZ2lRbURxbm1tYjdnUk5xY0haX0NIMEpnYm5fX0xOZF9MSmpOYm9DT1RDYURneDdHQXdVemVOZnhyQmljcm9VWDZkT09LbkZveG0zeXhyeEtPSmJ5T0NFbzM5cFlSb1F6TS1xQTlPSXV6LXMzck5sV0RpUzk0UjBlLXA1dnhORTliSXk2U2JUbGVYMVl0Vm5PZkJhQjdjcEFaV0RhOGdWeU4xWUZaWURRQnhuWTB4WTdiTFIw?oc=5"
+        "headline": "Why Sensex and Nifty Fell Today Despite a Strong Recovery in Banking Stocks",
+        "source": "Open Magazine",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVBiakR0RjF1RDQ3SXpBWHRiLXFqYUQzcjFKVzI5bHBpdGx4N05PdHp6NmpLZndBUkxDNFBRSHFDdWM3NE9lV3JaVDdyMHZmdFBxdldSR2h5cXhGQmQ2Q3Ruc01McXhlajdScWRlMGowSlAtVHRBV2o3bDZhV2luVVRDZjBqUHlGY0VzTEZLSkUxa0pFckt1OHcyMm9zSGE3U3pMc2RvaThlWGRHc0UxbFpB?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": -0.86,
+        "name": "NIFTY IT",
+        "pct": -5.57,
         "catalyst": null,
-        "headline": "Closing Bell: Nifty, Sensex end in green as IT Sector Sparks Rally Amid Positive Global Technology Cues",
-        "source": "India Infoline",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa1R6OV9STVRtSVFuX2R3c3lpUThjUWt1dlFQM1JILVBBZDNIT0xkdnhnbDBTNlY4bU9SMXFRV2lqbTlNcWxFYU1BYkFVcDBhTThCNk05VzFfRURPOWp0R1dmMExRM2lVNjYwOXRjZENsY19YbTdpdURQVnh2NU5uWmJvVFRqekFKZmhKVEZJeFdKWkdULWVST3FxZEdWVi1IQkhFX1BiN3R5MWtWeHRLUjRBTjM2ODhvUnp2UXc1NWxtQVZSWVJseXV0cjVmcUNjeHFMamFvdzFmSHND?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
-        "name": "NIFTY FINANCIAL SERVICES",
-        "pct": -0.59,
+        "name": "NIFTY REALTY",
+        "pct": -1.39,
         "catalyst": null,
-        "headline": "Agentforce World Tour: Public sector financial enterprise dialogue spotlights how agentic AI and cloud could redefine the future of Indian enterprises",
-        "source": "Express Computer",
-        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNa002bzhZbTlWVjdWbGZrRUNHeEYyMlNBajVFSFo3ZjY0cW4wMmhsVldjRXN6V3JYVGRZY2t2ZWVYMUxVaG94VDV0dnJhaWktZWRUdWhVcTZoMy1KaVI3ay1YTG11dEJVMHh3bFpQd1BlRnBTS3FpWkZFbmhCakpVckZjNUFaT3BxazluSkVJeTlHdk5CTjhHUnA4QTBsR2ltcDdlemQ5aGYxSGN4OUJndmVUZHNJQWtfSW5fckdmSVVpcUVmekExb1liR1BrYzJKZ1NaaFZaVWJPVTRuMDhGY0s1UFlEbDJoZEoxRmNBclpQRnZPMUFiV09GZDgzSHBIdFljd2V0dkJsZl9pRkFxRkx3Zi1OUUF3QlhaUHd1WHJ3QUHSAaMCQVVfeXFMTWtNNm84WW05VlY3Vmxma0VDR3hGMjJTQWo1RUhaN2Y2NHFuMDJobFZXY0VzeldyWFRkWWNrdmVlWDFMVWhveFQ1dHZyYWlpLWVkVHVoVXE2aDMtSmlSN2stWExtdXRCVTB4d2xaUHdQZUZwU0txaVpGRW5oQmpKVXJGYzVBWk9wcWs5bkpFSXk5R3ZOQk44R1JwOEEwbEdpbXA3ZXpkOWhmMUhjeDlCZ3ZlVGRzSUFrX0luX3JHZklVaXFFZnpBMW9ZYkdQa2MySmdTWmhWWlViT1U0bjA4RmNLNVBZRGwyaGRKMUZjQXJaUEZ2TzFBYldPRmQ4M0hwSHRZY3dldHZCbGZfaUZBcUZMd2YtTlFBd0JYWlB3dVhyd0FB?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       }
     ]
   }
