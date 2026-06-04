@@ -1,0 +1,64 @@
+name: Iron Condor forward test (post-close)
+
+on:
+  schedule:
+    # 15:20 IST = 09:50 UTC, Mon–Fri (after 15:00 candle settles)
+    - cron: "50 9 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      ic_day:
+        description: 'Override day (YYYY-MM-DD) for backfill; empty = today'
+        required: false
+        default: ''
+      ic_lots:
+        description: 'Lots per index (default 1 for paper test)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
+
+jobs:
+  forward-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Fyers daily login
+        env:
+          FYERS_CLIENT_ID: ${{ secrets.FYERS_CLIENT_ID }}
+          FYERS_SECRET:    ${{ secrets.FYERS_SECRET }}
+          FYERS_REDIRECT:  ${{ secrets.FYERS_REDIRECT }}
+          FYERS_FY_ID:     ${{ secrets.FYERS_FY_ID }}
+          FYERS_PIN:       ${{ secrets.FYERS_PIN }}
+          FYERS_TOTP_KEY:  ${{ secrets.FYERS_TOTP_KEY }}
+        run: python auto_login.py
+
+      - name: Replay today's Iron Condor + post Slack
+        env:
+          FYERS_CLIENT_ID: ${{ secrets.FYERS_CLIENT_ID }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL:   ${{ secrets.SLACK_CHANNEL }}
+          IC_DAY:          ${{ github.event.inputs.ic_day }}
+          IC_LOTS:         ${{ github.event.inputs.ic_lots || '1' }}
+        run: python iron_condor_forward.py
+
+      - name: Commit Iron Condor ledger
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in iron_condor_daily.csv iron_condor_trades.csv; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if git diff --cached --quiet; then
+            echo "No ledger changes"
+          else
+            git commit -m "iron condor ledger: $(date -u +%Y-%m-%d)"
+            for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep $((10 * i)); done
+          fi
