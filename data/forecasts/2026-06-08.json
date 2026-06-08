@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-08",
+  "forecast_for": "2026-06-09",
+  "symbols": {
+    "NIFTY 50": {
+      "close": 23123.0,
+      "today_open": 23080.7,
+      "today_high": 23267.3,
+      "today_low": 23070.15,
+      "today_date": "2026-06-08",
+      "chg": -243.70000000000073,
+      "chg_pct": -1.0429371712736502,
+      "atr14": 278.52142857142854,
+      "rsi14": 33.3953048684418,
+      "macd_hist": -54.5354649214149,
+      "ema20": 23597.445576168466,
+      "ema50": 23737.83814487525,
+      "ret_std20": 0.008064455654817197,
+      "bias": "bearish",
+      "tomorrow": {
+        "tight": {
+          "low": 22983.739285714284,
+          "high": 23262.260714285716
+        },
+        "normal": {
+          "low": 22844.47857142857,
+          "high": 23401.52142857143
+        },
+        "wide": {
+          "low": 22705.217857142856,
+          "high": 23540.782142857144
+        }
+      },
+      "pivot": {
+        "P": 23153.483333333334,
+        "R1": 23236.816666666666,
+        "S1": 23039.666666666668,
+        "R2": 23350.63333333333,
+        "S2": 22956.333333333336,
+        "R3": 23433.966666666664,
+        "S3": 22842.51666666667
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 21,
+          "notes": [
+            "inverted-hammer"
+          ]
+        },
+        "yesterday": {
+          "color": "red",
+          "body_pct": 48,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
+    },
+    "SENSEX": {
+      "close": 73524.26,
+      "today_open": 73421.61,
+      "today_high": 73934.35,
+      "today_low": 73318.94,
+      "today_date": "2026-06-08",
+      "chg": -719.0800000000017,
+      "chg_pct": -0.9685447879904108,
+      "atr14": 915.0607142857126,
+      "rsi14": 33.5095234762622,
+      "macd_hist": -145.0880900481106,
+      "ema20": 75118.80545022081,
+      "ema50": 75886.73032860713,
+      "ret_std20": 0.008288553538536783,
+      "bias": "bearish",
+      "tomorrow": {
+        "tight": {
+          "low": 73066.72964285714,
+          "high": 73981.79035714285
+        },
+        "normal": {
+          "low": 72609.19928571428,
+          "high": 74439.32071428571
+        },
+        "wide": {
+          "low": 72151.66892857142,
+          "high": 74896.85107142857
+        }
+      },
+      "pivot": {
+        "P": 73592.51666666666,
+        "R1": 73866.09333333332,
+        "S1": 73250.68333333332,
+        "R2": 74207.92666666667,
+        "S2": 72977.10666666666,
+        "R3": 74481.50333333333,
+        "S3": 72635.27333333332
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 17,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "red",
+          "body_pct": 53,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
+    },
+    "BANK NIFTY": {
+      "close": 54063.75,
+      "today_open": 53853.45,
+      "today_high": 54455.2,
+      "today_low": 53843.3,
+      "today_date": "2026-06-08",
+      "chg": -432.5,
+      "chg_pct": -0.793632589398352,
+      "atr14": 830.6749999999998,
+      "rsi14": 55.07060828046938,
+      "macd_hist": 41.14800141323548,
+      "ema20": 54322.640297012156,
+      "ema50": 54710.40595863843,
+      "ret_std20": 0.009824787480288248,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 53648.4125,
+          "high": 54479.0875
+        },
+        "normal": {
+          "low": 53233.075,
+          "high": 54894.425
+        },
+        "wide": {
+          "low": 52817.7375,
+          "high": 55309.7625
+        }
+      },
+      "pivot": {
+        "P": 54120.75,
+        "R1": 54398.2,
+        "S1": 53786.3,
+        "R2": 54732.649999999994,
+        "S2": 53508.850000000006,
+        "R3": 55010.09999999999,
+        "S3": 53174.40000000001
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 34,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 13,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
+    }
+  },
+  "backtest": {
+    "NIFTY 50": {
+      "prev_date": "2026-06-05",
+      "prev_forecast": {
+        "tight": {
+          "low": 23224.510714285716,
+          "high": 23508.889285714286
+        },
+        "normal": {
+          "low": 23082.321428571428,
+          "high": 23651.078571428574
+        },
+        "wide": {
+          "low": 22940.132142857143,
+          "high": 23793.26785714286
+        }
+      },
+      "actual_high_today": 23267.3,
+      "actual_low_today": 23070.15,
+      "actual_close": 23123.0,
+      "inside_tight": false,
+      "inside_normal": false,
+      "inside_wide": true,
+      "verdict": "HIT \u2014 wide band \u2713"
+    },
+    "SENSEX": {
+      "prev_date": "2026-06-05",
+      "prev_forecast": {
+        "tight": {
+          "low": 73772.88321428571,
+          "high": 74713.79678571428
+        },
+        "normal": {
+          "low": 73302.42642857143,
+          "high": 75184.25357142856
+        },
+        "wide": {
+          "low": 72831.96964285713,
+          "high": 75654.71035714286
+        }
+      },
+      "actual_high_today": 73934.35,
+      "actual_low_today": 73318.94,
+      "actual_close": 73524.26,
+      "inside_tight": false,
+      "inside_normal": true,
+      "inside_wide": true,
+      "verdict": "HIT \u2014 normal band \u2713"
+    },
+    "BANK NIFTY": {
+      "prev_date": "2026-06-05",
+      "prev_forecast": {
+        "tight": {
+          "low": 54071.12857142857,
+          "high": 54921.37142857143
+        },
+        "normal": {
+          "low": 53646.00714285714,
+          "high": 55346.49285714286
+        },
+        "wide": {
+          "low": 53220.885714285716,
+          "high": 55771.614285714284
+        }
+      },
+      "actual_high_today": 54455.2,
+      "actual_low_today": 53843.3,
+      "actual_close": 54063.75,
+      "inside_tight": false,
+      "inside_normal": true,
+      "inside_wide": true,
+      "verdict": "HIT \u2014 normal band \u2713"
+    }
+  },
+  "oi": {
+    "NIFTY 50": {
+      "expiry": "09-06-2026",
+      "resistance_strike": 24000,
+      "resistance_oi": 16391115,
+      "support_strike": 22500,
+      "support_oi": 10531040,
+      "pcr": 0.75,
+      "pcr_read": "bearish"
+    },
+    "SENSEX": {
+      "expiry": "11-06-2026",
+      "resistance_strike": 74500,
+      "resistance_oi": 821460,
+      "support_strike": 72000,
+      "support_oi": 663120,
+      "pcr": 0.89,
+      "pcr_read": "neutral"
+    },
+    "BANK NIFTY": {
+      "expiry": "30-06-2026",
+      "resistance_strike": 54000,
+      "resistance_oi": 1134540,
+      "support_strike": 54000,
+      "support_oi": 1249650,
+      "pcr": 0.97,
+      "pcr_read": "neutral"
+    }
+  }
+}
