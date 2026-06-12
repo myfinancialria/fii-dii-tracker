@@ -1,5 +1,27 @@
 {
-  "open": [],
+  "open": [
+    {
+      "key": "TATASTEEL/JSWSTEEL",
+      "sector": "Metals",
+      "A": "TATASTEEL",
+      "B": "JSWSTEEL",
+      "direction": 1,
+      "entry_date": "2026-06-12",
+      "entry_z": -3.0914699772702368,
+      "entry_spread": -0.03473575148001995,
+      "beta": 1.0491825448049787,
+      "alpha": -2.1985300652272217,
+      "half_life": 26.387388347791937,
+      "entry_priceA": 197.86,
+      "entry_priceB": 1297.6,
+      "lotA": 2750,
+      "lotB": 675,
+      "ratio": [
+        3,
+        2
+      ]
+    }
+  ],
   "closed": [
     {
       "key": "NMDC/SAIL",
