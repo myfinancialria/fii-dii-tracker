@@ -20,6 +20,27 @@
         3,
         2
       ]
+    },
+    {
+      "key": "BANKBARODA/CANBK",
+      "sector": "PSU Banks",
+      "A": "BANKBARODA",
+      "B": "CANBK",
+      "direction": -1,
+      "entry_date": "2026-06-17",
+      "entry_z": 2.257633253471789,
+      "entry_spread": 0.016943007090456597,
+      "beta": 0.5543294957259457,
+      "alpha": 2.9043089133897464,
+      "half_life": 11.957543008251362,
+      "entry_priceA": 281.85,
+      "entry_priceB": 135.24,
+      "lotA": 2925,
+      "lotB": 6750,
+      "ratio": [
+        2,
+        1
+      ]
     }
   ],
   "closed": [
