@@ -1,51 +1,51 @@
 {
-  "date": "2026-06-18",
-  "date_pretty": "Thursday, 18 June 2026",
-  "mood": "Mixed",
+  "date": "2026-06-19",
+  "date_pretty": "Friday, 19 June 2026",
+  "mood": "Risk-Off",
   "nifty": {
-    "last": 24168.0,
-    "change": 82.3,
-    "pct": 0.34,
+    "last": 24013.1,
+    "change": -154.9,
+    "pct": -0.64,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 33,
-    "declines": 17,
-    "unchanged": 0
-  },
-  "banknifty": {
-    "last": 57963.8,
-    "change": 378.75,
-    "pct": 0.66,
-    "year_high": 61764.85,
-    "year_low": 49954.85,
-    "advances": 11,
-    "declines": 3,
-    "unchanged": 0
-  },
-  "sensex_proxy": {
-    "last": 24168.0,
-    "change": 82.3,
-    "pct": 0.34,
-    "year_high": 26373.2,
-    "year_low": 22182.55,
-    "advances": 33,
-    "declines": 17,
-    "unchanged": 0
-  },
-  "midcap": {
-    "last": 62379.25,
-    "change": 255.9,
-    "pct": 0.41,
-    "year_high": 62907.5,
-    "year_low": 52032.85,
-    "advances": 62,
-    "declines": 37,
+    "advances": 26,
+    "declines": 23,
     "unchanged": 1
   },
+  "banknifty": {
+    "last": 57685.75,
+    "change": -278.05,
+    "pct": -0.48,
+    "year_high": 61764.85,
+    "year_low": 49954.85,
+    "advances": 5,
+    "declines": 8,
+    "unchanged": 1
+  },
+  "sensex_proxy": {
+    "last": 24013.1,
+    "change": -154.9,
+    "pct": -0.64,
+    "year_high": 26373.2,
+    "year_low": 22182.55,
+    "advances": 26,
+    "declines": 23,
+    "unchanged": 1
+  },
+  "midcap": {
+    "last": 62517.3,
+    "change": 138.05,
+    "pct": 0.22,
+    "year_high": 62907.5,
+    "year_low": 52032.85,
+    "advances": 48,
+    "declines": 52,
+    "unchanged": 0
+  },
   "vix": {
-    "last": 12.67,
-    "change": -0.52,
-    "pct": -3.9,
+    "last": 12.97,
+    "change": 0.3,
+    "pct": 2.34,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,35 +53,35 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 14611.83,
-    "sell": 15637.03,
-    "net": -1025.2
+    "buy": 31442.87,
+    "sell": 26583.8,
+    "net": 4859.07
   },
   "dii": {
-    "buy": 16163.18,
-    "sell": 12646.37,
-    "net": 3516.81
+    "buy": 18020.49,
+    "sell": 19180.13,
+    "net": -1159.64
   },
   "global": {
     "Dow Jones": {
-      "last": 51624.078125,
-      "change": 131.52734375,
-      "pct": 0.25542984714187644
+      "last": NaN,
+      "change": NaN,
+      "pct": NaN
     },
     "Nasdaq": {
-      "last": 26423.681640625,
-      "change": 402.021484375,
-      "pct": 1.5449494073822214
+      "last": NaN,
+      "change": NaN,
+      "pct": NaN
     },
     "S&P 500": {
-      "last": 7495.14013671875,
-      "change": 75.0400390625,
-      "pct": 1.0113076383727293
+      "last": NaN,
+      "change": NaN,
+      "pct": NaN
     },
     "FTSE 100": {
-      "last": 10399.7001953125,
-      "change": -108.8994140625,
-      "pct": -1.0362885456721365
+      "last": 10363.26953125,
+      "change": -145.330078125,
+      "pct": -1.3829633207772727
     },
     "Nikkei 225": {
       "last": 69902.25,
@@ -96,146 +96,141 @@
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.31999969482422,
-      "change": -0.568603515625,
-      "pct": -0.5992326753550367
+      "last": 94.30999755859375,
+      "change": -0.5489044189453125,
+      "pct": -0.5786535659829622
     },
     "Dollar Index": {
-      "last": 100.80999755859375,
-      "change": 0.720001220703125,
-      "pct": 0.7193538286009082
+      "last": 100.7699966430664,
+      "change": 0.6800003051757812,
+      "pct": 0.6793888800636878
     },
     "Brent Crude": {
-      "last": 78.7699966430664,
-      "change": -0.7800064086914062,
-      "pct": -0.9805234176847344
+      "last": 80.58999633789062,
+      "change": 0.7399978637695312,
+      "pct": 0.9267349754669816
     },
     "Gold": {
-      "last": 4248.2998046875,
-      "change": -110.60009765625,
-      "pct": -2.5373396988717523
-    },
-    "US 10Y Yield": {
-      "last": 4.439000129699707,
-      "change": -0.04799985885620117,
-      "pct": -1.069753933109534
+      "last": 4172.89990234375,
+      "change": -51.2001953125,
+      "pct": -1.212097112492872
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "MAXHEALTH",
-        "ltp": 1092.45,
-        "pct": 6.46,
+        "symbol": "ETERNAL",
+        "ltp": 263.85,
+        "pct": 2.05,
         "catalyst": null,
-        "headline": "Top gainers and losers, June 18: Max Health Institute soars 6%, IndiGo rises 3%, Infosys falls 3%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdzNRMERDeElDLWNxeFhYSTlyeEJKYmg2RkNxVlplZjRHdXg4T2I4S2tjeTlFVkp4OExldlFHSG96N2YxMlNtUXh0cW5INk4zQlk3a3o4eFZ5REw0eGJhYUM1ZHZOV2h6VUdtcWJBaFd6aEFCcnpIZW9LYk9mMEpZRXFMYm9USC1hcktVejk0M1JyYUp2NmozdlF2WWcwandLbHgzSjlkQ3dMV2FMdVVWcE5ucHJfQ3c3OXVXeXp3ZkhzbUlFaXctdGhMWVNOUkk3a09mTWpOVm5nZXM5eHpxUFhWN1Z5MFBEMEdGM2c2ZVlhWnc?oc=5"
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.64%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ052ZTJFSGdsbnluZHM3ZjRMbUs5bE1QX0FJenVPR3lkTTVZS2xHVWItYjROYUJjdVA0MThjX3ZQSXZFZXMwZkhQb3BQR25qeXVZYlUzRENCbUtjQlYySksxLS1SdkdBQ3JtaW9hc0NLa3FKYk05aEk1NUJUa056eGVWU1dyY0M3YzJSX3E3c3hpWWwtRWVBZnNkTTZ1Y21zRFY0WFFCanY0WTBoTndMREJMLVdfTlB5ZVZZ?oc=5"
       },
       {
-        "symbol": "INDIGO",
-        "ltp": 5014.0,
-        "pct": 2.78,
+        "symbol": "BHARTIARTL",
+        "ltp": 1906.9,
+        "pct": 1.71,
         "catalyst": null,
-        "headline": "Sensex closes 254 points higher, Nifty near 24,200; IndiGo up 3%",
-        "source": "India Today",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZkk1Q1N6djRJRHdjYW9LeDlhZ1JQVFk2YlQ5VDdTWDZSVFRYSHhnaG5acW95bjRhZ0ZaNEF2bzdSNExQOGtISEdJRGVwVW9DZi01eTZUNkpEZ2gwby15X19vQ1VmTlZxYllXaWl6NHhzeHc4TkZObGRVWS0wb2ZkWTJCMUtxMnlmNVJlOWliUktNSHFOVTQxTGVHcVNIbWhQeFJXSVhaOE51ejU2LXVTM3VrTF9xaVBzaUYxc3M3QjlMYUtFZzBaODlBRXUxbWlUejRSME5GcWdTRDRYNF9oVmpfUkHSAeoBQVVfeXFMTTNoWDFxQTQ4X0lfY1ZEa0wtVWg3SWxic1FGV1BpUy1xR3psYjl4eFhRT3l3eGZPWmltcXZGQ1JvZkpicGN0ZTBxbTVuZmJOczlLalA3cVFsc2FnZVUxY01BUG83RmQtV0RONFZ6andiNkxxNGtUQlJhWXl1LVdhYkdCTGVzSnJSVmQ1S24tSDFQZGlFQmpzeU0xVmM3b2tzbzlQM0wxRnJwQUJjVDBvNTVXeFZFVGxvRkxoQ01JSFhrUEY3WmZxUjl3VlpTM2JIeWdYRmJzNk5lUk5CYWZveDc4QzM4NzFaS1N3?oc=5"
+        "headline": "India's largest telecom and digital service Jio Platforms files for IPO",
+        "source": "CNBC",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2U09LR0lEYWFJdFJwc2NqSkY4T1BjWGNVUDNuVXk5ajJnaVNPTEdjT25ER2RQaW1ra2Eza3FmV0xsRjdFNVpFMVpqMXQ2dWU2cldYbkNRTTZzZDVkTnFaSkVvdmVkM24tQm53a3JUUmZPeDQ2WUtCcXIxUm5FSW_SAYQBQVVfeXFMTWFpSWotUVdIVUlQUTZra2RwUy1GMENKSUxPMkFLWGRxcEVpeGZCNzMzeERVcW5qN3h1MHluczVraXNyQk5ERkVnclNKaVN3VDJPbHdNUnRyQ0hHU3Rzd09yS0hraTFXdjk2TXJHQmZiajhzR3lfTmJ5ZXV4SGM1bGpQNVBi?oc=5"
       },
       {
-        "symbol": "ADANIENT",
-        "ltp": 3032.0,
-        "pct": 2.71,
+        "symbol": "POWERGRID",
+        "ltp": 292.6,
+        "pct": 1.35,
         "catalyst": null,
-        "headline": "ADANI ENTERPRISES LIMITED Share Price Today - Live ADANIENT Stock Price for NSE/BSE",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jS2F1a2NwVUNvUk92UHl6SzlrMUwyeWFaSWVlNmpxeS1TMFNrYXN3RGZFZXdzMUZ1WDZkWEFleU84VmE1RUJtZTE2dGdmdkZQbDBwNEJBOHpOM21ZOVp4WURVVE45V3VKa2ROUUU2TnJ3UQ?oc=5"
+        "headline": "Power Grid Corporation of India Ltd spurts 1.09%, up for third straight session",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTlU0UThCdkw2OVU1SHBxaUZUX0hzUGVmSVBXVEJaTHZXbHpiQ1BQTXhtekRqd0pKWktydzlmd0RudzYxQU9tTktqY2w4b0dkMmpFa0FiUUU2STQwRXpXeUhmTmUwaGJLNmhvaGVsUDhHTUR6OTI4OUJ3c0pLYXZ4VjhHcEQyUmZ0WVFWdVJCU0hZZllIRGNIdUg2X05PeGUyQXlFdVJQdmU1cWVMMTlOQ0VBaUdmNWQwclhFWUZiZWZEODRyLXFzeWVvVC1TdUhqZl9YX3dlV2hSd0NIREdQbnJsSDhHbmZVYVR6Zi0weDVBYkJmT01LRXRJRXJYRWEz0gGAAkFVX3lxTE5OVTRROEJ2TDY5VTVIcHFpRlRfSHNQZWZJUFdUQlpMdldsemJDUFBNeG16RGp3SkpaS3J3OWZ3RG53NjFBT21OS2pjbDhvR2QyakVrQWJRRTZJNDBFeld5SGZOZTBoYks2aG9oZWxQOEdNRHo5Mjg5QndzSkthdnhWOEdwRDJSZnRZUVZ1UkJTSFlmWUhEY0h1SDZfTk94ZTJBeUV1UlB2ZTVxZUwxOU5DRUFpR2Y1ZDByWEVZRmJlZkQ4NHItcXN5ZW9ULVN1SGpmX1hfd2VXaFJ3Q0hER1BucmxIOEduZlVhVHpmLTB4NUFiQmZPTUtFdElFclhFYTM?oc=5"
       },
       {
-        "symbol": "TRENT",
-        "ltp": 3182.0,
-        "pct": 2.55
+        "symbol": "NESTLEIND",
+        "ltp": 1417.5,
+        "pct": 1.22
       },
       {
-        "symbol": "BEL",
-        "ltp": 428.1,
-        "pct": 1.96
+        "symbol": "NTPC",
+        "ltp": 365.75,
+        "pct": 1.05
       }
     ],
     "losers": [
       {
         "symbol": "INFY",
-        "ltp": 1127.4,
-        "pct": -2.62,
+        "ltp": 1054.2,
+        "pct": -6.5,
         "catalyst": null,
-        "headline": "IT stocks drag Nifty despite firm broader market; Infosys, TCS, HCL Tech fall as Fed signals rate hike...",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMExtR1loaFhUdWwtSkY0MHVGcWlzQ1JucXJuZ3R2bURNaTl4VXEtZV9Ud2hJVW85ZHVlcmpDS1RKSFJDNUcxV2FNWUJvX25hZm0xeXF2RXhfZUZkNkNhMmNHdXV5bzVSNnlBNVI4SXJlc0FaODg3N1NvWC1mb1Y0aUlCVEU1SHQzeDJ6TEhackhkRFhGV3RkTVdQY3BOYVVYWnBGWHNta0dwWXdsNGhoWTJIc1ppa1JQV2RDMktWR1czaDdQdDZGR1J6TUFleV9jRVNLNU4xYTFMZC1KWlVoSllpRUNVTXhRdXhqclNmb3BoVExDVWVYa2Y1QnlNQdIBgwJBVV95cUxQWXZQbkctbFN3SU5aMF96ZTYzZkdEcENvZDRxdFZhbGNWUXByY2VjU05oZEhnM3BDV2EzRDFiYThja3RLTDc2WTRCOVM0Um53SDVuakVWQmxscTZsMGpWYUVBWko2VWpLWG9yS0RFd1FqOGZsckpUZkptVFh2dnN3NU9VSUh3QVlSTDJIb2RQbmZkbzg5WDhJd0RVLVBCQnBWN0xLcXRsZTRlNm5CWkNURUo4SlB4dnFoUktGTnZEXzFDV0cwV3ZRT3pXUm5wb2gyMzFsaWJJOGhaVlhQM2lVa281QXFYamRGRlBQc2U5bmRIaGkwVENjRkNicmFCR3NrOUlJ?oc=5"
-      },
-      {
-        "symbol": "TATACONSUM",
-        "ltp": 1111.0,
-        "pct": -1.2,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
-      },
-      {
-        "symbol": "TECHM",
-        "ltp": 1447.8,
-        "pct": -1.0,
-        "catalyst": null,
-        "headline": "IT stocks drag Nifty despite firm broader market; In...",
-        "source": "India IPO",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQai1tMzJpVXdjX292SHZmTk5EcjJ1dzhiNjl5YVhXTExjamQtaTRpOG5zZUpvS0VmRTBVZ1RqcUM4aVVfVHFiRmtyalppV2pwMUl2NE05cnBCNVE1WU5PQ0stN3doQlYxRXo4Y0FUN0JvQ0lUNlRNdjdHNFR1NDdkZUMyc2tfZWd6OU5XVzEwWTVMRTJIMkNMRURqRlNHSjJ4b2R2dHdwckhaeTdFQnVxTXBoSUJ4WS05TTVnQUhQQ0I2LW5MRms0WnZWT19hamhxS0FDa0w3SQ?oc=5"
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.64%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa3RhZkdIU1d1NEN6VkR1M0NqNG5IT3NnT2I2YUpTVExDdHNGS1VVQ1RvSlN6NUVvODhmWlc4N01kNFZoS3BiMWtkTFlKZ3FqQ3BZaUltMEVMVFBHTlN5VXduRndTbmNMUFVMdlgtVDlYeTIxXzZSeFhVQ0J4cnRfUGluYm1kRHFpVThYVUc3eFpzVnNBMG00REktczV2TFlvYXBfU2VOUGRaTkZuUWVtdQ?oc=5"
       },
       {
         "symbol": "TCS",
-        "ltp": 2202.5,
-        "pct": -0.92
+        "ltp": 2135.9,
+        "pct": -3.06,
+        "catalyst": null,
+        "headline": "Nifty IT slumps 6%, Infosys, TCS stocks crash up to 8% as Accenture guidance cut sparks sell-off",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUEVaOUdmWlUtdWZVbUFqSjZvSkoyQjNDWnhLZGVIaW16alZOUk8xaHFwMHNWSGZJYzR0LXhQSmRTTlYyZWZKNV9kNGxVaGMzcGZCVXlpaUZuSjA4S3c3SVAtYWdTUV8ybDFHTVNjdkJCTTZfMF8wZkxib0FSZV9HSlY4azZnX3VZLURKOXp2ajNBR0o2ZWpxaVp6SWlIQjlpVHlpNnhDa2FiTFhIQklkOTVfaTREN1gzeHc1V3FQLTFRNU5uRjFyYjNoYnJDR0syNk9pSlFqNGVFQ01CTF9CSDVSVTNham1uWTFwSVZoZjJnZ9IB9wFBVV95cUxNRC1xT3pJTzVJV1NIdHZGMWhSTnprZlJPdC1nN0V2c05YZDR4WUZ4Y0dTMm5lQ3VfNHVIWFJfMVdiNmR5aEJIemFOZy01b19sUjl3Yzd4djBqbTA1RUMxZzQyZjc2b21Dd1NHczI2RkVDS0JVNnBmR0EtWWlLWElMdWJzdUxPZDNhX3B3cllMVThaRndoc1JkcGF1S0J1cTVMNmFkVmYzamh4a1VBU2NxMEFBNzJHeWxqYUFRQUNHemE4amY1SWhOMzl4alpxVGZoanJ4RzdMNkJHakJXc25vcEt1M3RHZjR5eFVna2tUN08yS2VMV3g4?oc=5"
       },
       {
-        "symbol": "MARUTI",
-        "ltp": 13505.0,
-        "pct": -0.92
+        "symbol": "TECHM",
+        "ltp": 1414.0,
+        "pct": -2.33,
+        "catalyst": null,
+        "headline": "Nifty IT index cracks 6%; TCS, Infy, TechM, LTM, HCL Tech plunge up to 8%",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOWtGZGpscEpxWTlFRnp3cGV3cDRiVU9BTlVLeHREeE1uNFVUald3VVV1MDcyUkFlN2NlS1lHMld2X0FUM3NnVlhPY3ctbWRSNGtlXzZTcmtOelNiaWtrUFFPb2s5UjJmemhJZGg1OVBfUWdMS2Q0SDlhM0szcVVCS0U1dlFlWklRb1RUQVU2WE0tQjQ2Ry04NnJiSWUzb05xQjlHbXBHeUh5UTRBMmZUYzduZFI1Z3I0aWh5aVpMN3VBb2FoMzlrd0c4WTdEeEtQSW4w0gHTAUFVX3lxTE45a0ZkamxwSnFZOUVGendwZXdwNGJVT0FOVUt4dER4TW40VVRqV3dVVXUwNzJSQWU3Y2VLWUcyV3ZfQVQzc2dWWE9jdy1tZFI0a2VfNlNya056U2Jpa2tQUU9vazlSMmZ6aElkaDU5UF9RZ0xLZDRIOWEzSzNxVUJLRTV2UWVaSVFvVFRBVTZYTS1CNDZHLTg2cmJJZTNvTnFCOUdtcEd5SHlRNEEyZlRjN25kUjVncjRpaHlpWkw3dUFvYWgzOWt3RzhZN0R4S1BJbjA?oc=5"
+      },
+      {
+        "symbol": "HDFCBANK",
+        "ltp": 781.0,
+        "pct": -2.25
+      },
+      {
+        "symbol": "HCLTECH",
+        "ltp": 1135.9,
+        "pct": -2.23
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY REALTY",
-        "pct": 0.69,
+        "name": "NIFTY PHARMA",
+        "pct": 0.73,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Patent expiry: A $5 bn opportunity for Indian pharma majors, says report",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX1lSdTRNM09KX0NyeXVSdnZVY1FpS1RjaGdTM1NTVzE3WDJxYm1yamRBV25BLURWcGNudWJBS2ROOUM4RkVnazBHZTZHQndFZnRqWmRHYm1UY09tSkdBdjdmaUtQRlQzSkVRZnFwbjNkSUZUTzdobVpxMHp4M2pCZzNnaGVDQWRqclVaUFhHQmY0OUx4cUoxcElGMV9TcmF6dVFUaGxTU1JuT2tuNzF5ZFlMRFc0b3JyTDdvTVNHaXI4TVgxY3RraDhYT1J5cHVfNl9TMGxRa9IB1wFBVV95cUxQX1lSdTRNM09KX0NyeXVSdnZVY1FpS1RjaGdTM1NTVzE3WDJxYm1yamRBV25BLURWcGNudWJBS2ROOUM4RkVnazBHZTZHQndFZnRqWmRHYm1UY09tSkdBdjdmaUtQRlQzSkVRZnFwbjNkSUZUTzdobVpxMHp4M2pCZzNnaGVDQWRqclVaUFhHQmY0OUx4cUoxcElGMV9TcmF6dVFUaGxTU1JuT2tuNzF5ZFlMRFc0b3JyTDdvTVNHaXI4TVgxY3RraDhYT1J5cHVfNl9TMGxRaw?oc=5"
       },
       {
-        "name": "NIFTY FINANCIAL SERVICES",
-        "pct": 0.67,
+        "name": "NIFTY ENERGY",
+        "pct": 0.22,
         "catalyst": null,
-        "headline": "India\u2019s financial services sector needs a deeper debt market and a critical leap out of legacy to support India\u2019s 2047 ambition: Deloitte India",
-        "source": "Deloitte",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYnRvS1dZZVNZN05LcmF3Z2c5djNHQVMwMXlXdTBJX29tVXZfelRrVWRyeGdJRDBsWWZnYWZKMkI1MldEeDQ1NEZ2dlUyc09Vb0NRLTFvODdlcTV5a2NtX1JmMGNRZEF1VDY0T0hsSWxLZE5LelVWUXd3cWNZUk5TaFQ5VnE2emJXNjM2c2JVUjJILUdueEhrell0V01YTElUQWNuVlFjV29ZeEFmWlVMWEh1RjBkSDgtQ0pWTjdnTG1FWVhzWFAw?oc=5"
+        "headline": "Green Energy Stock: Renewable Energy Stocks Shine Despite Broader Market Decline On June 19",
+        "source": "SolarQuarter",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3lnbVZLdmotNkVqSGlhVVdPa29md2RFZ0tqYS1sVzdqa1B4amdrRDUwTF9NMWNvOGlTVzFURFpCWE14VlJVY0tRcmF4eFUzMXNod0NWN0NFNXBCWUoxSFpWa2JvZHZKYU1heGJSelBxZmRQY2JKcUt0M0hhakc0cTlfWGdiSDFVVERTdjhWOUQ3Wnc4ZVRBN0NETTdWbjdBSFJ5dnpKQmVPYm0yWFZPTXBxTGtLcWlUdUxKSFE3Z29VRGh6UXc?oc=5"
       }
     ],
     "bottom": [
       {
         "name": "NIFTY IT",
-        "pct": -1.19,
+        "pct": -3.65,
         "catalyst": null,
-        "headline": "Google (GOOGL) Live Share Price, Invest from India",
-        "source": "INDmoney",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPXzJCSTlfQVdkamZzM2IxejRUdU9MYW9MUFY1RGNQbDJBWUhMMjBoMVJ3S2NXY2FmTXhLQ2FrVXZ3Q3lWNzJHSmEtbW9CaEN2ZUdNWUVSaW9rU2JOVjJsejFCMUZCazhDUlZGbW5laGNPQ3R2dFNDMjV3cTVxZ2NqQTM2MVJpQnc?oc=5"
+        "headline": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook, fueling fresh concerns over sector growth",
+        "source": "CNBC",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaWIyTmhWUzF5bmJDUGxRNllGWnRDdzQ4cFdwcXNyWTBvV3Z6RUJLLUk0cnBTaGRKYnJ0aVREQ2hFby1wb0RDcXRYNHdOOVJxZkxzbVBoUFRLWUJiRkNGTHRDdW14WmNaNHFVZjBYZDQzdzMtZ0tWRkNTVDBkZkctRVdUM1NHRTdlQUhvcERIOGxpWUnSAZgBQVVfeXFMTkotXy1kZDlSTTJBV3lFazlSV21TZjZvcjVORlFRdTJqRDlXbUFPRzVjTFhIcmU1YmU2azl1UVNKY1BkMThQV3VRV1FwU0pHOGl2MHRhZEUyTEg1VG9TYWhGVkxMS3Y2YkV6VFZXQ2tHb2N0SFRaQmw1VFZvbDRjeHYyU2NxU0xpQ0R4N2dlRUk0NGtnazFvenQ?oc=5"
       },
       {
-        "name": "NIFTY METAL",
-        "pct": -0.01,
+        "name": "NIFTY REALTY",
+        "pct": -1.01,
         "catalyst": null,
-        "headline": "Hindalco, Coal India: UBS turns selectively bullish on Indian metal sector",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObS10QjEzOGF2dGRHaHM1aExCb0gyLVA0M0h1dTdWMW8talQ5T1NUYUJWMkdrTFJ5NzlGS3hPLVBPM2RtbmRYWWNKbW93SFE2dEgtbzlCcThzZGF5TjZmVlVEdnRrbFZnTFBlWEZRMElISmlZS1R3Q2J6N0hXeWF2MTZLUzRsTDhCN0ZsOHdzMnBKekMyTV9pNzBSbU5Wc3kyRXFMUk9TZXFFSUNvWDFRS1pES3FjZDZpSmNObDU4MWpLM3RoQnl6dDZIVE8tLTV0MHVyTlRR0gHbAUFVX3lxTE1BZU01THNSR2VKYTUySWJEb0dUUjU0VjhXUFFlMlVLX3BnbkpnZzBIT3phbDZqMG1ZSzlielBKQWF6Q0syeHdqeGMwclpWLUFNSFQyNHZ0djN5czU5TnZ3UXJLekQ5Q1dJQjJZLTdyVzU2aFcwdV9OS3RqMDU4ZktxRFdpcVFLSnlyeTdZSGVDTXZDc1lNYTNhZnhCZ0NieFM1QlpRdFJ5V2FuWmdidWl1VDRtdFVHQzk2WDlzVXczeF9LNGFWVnJhRUh4V0pCNUZfM1B2MklwSTNGUQ?oc=5"
+        "headline": "Sensex, Nifty Close Lower as IT Stocks Slide",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1kdlBHdzc3QU54b2FvdXpTVUo1eEMwWVlMTklyendxb29ybnNSOUhBUFVMdnE3SjE4ZU1CcEtSOWtXUkMtLVl1cHJGdkJUMXpXSjV6Ykp0WERUTEdlV2x0THpOSF9aWFFRbXZUVmNqVU1KNWFsbnBuWG15Tks?oc=5"
       }
     ]
   }
