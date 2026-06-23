@@ -41,6 +41,27 @@
         2,
         1
       ]
+    },
+    {
+      "key": "TATASTEEL/JINDALSTEL",
+      "sector": "Metals",
+      "A": "TATASTEEL",
+      "B": "JINDALSTEL",
+      "direction": -1,
+      "entry_date": "2026-06-23",
+      "entry_z": 2.2712552143637863,
+      "entry_spread": 0.07092129340471498,
+      "beta": 1.1890739632652676,
+      "alpha": -3.1135372138087876,
+      "half_life": 12.056867199116834,
+      "entry_priceA": 193.56,
+      "entry_priceB": 1082.6,
+      "lotA": 2750,
+      "lotB": 625,
+      "ratio": [
+        12,
+        11
+      ]
     }
   ],
   "closed": [
