@@ -1,51 +1,51 @@
 {
-  "date": "2026-06-23",
-  "date_pretty": "Tuesday, 23 June 2026",
-  "mood": "Risk-Off",
+  "date": "2026-06-24",
+  "date_pretty": "Wednesday, 24 June 2026",
+  "mood": "Risk-On",
   "nifty": {
-    "last": 23824.1,
-    "change": -278.8,
-    "pct": -1.16,
+    "last": 24021.65,
+    "change": 197.55,
+    "pct": 0.83,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 7,
-    "declines": 43,
-    "unchanged": 0
+    "advances": 30,
+    "declines": 19,
+    "unchanged": 1
   },
   "banknifty": {
-    "last": 57183.75,
-    "change": -751.85,
-    "pct": -1.3,
+    "last": 58150.35,
+    "change": 966.6,
+    "pct": 1.69,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 0,
-    "declines": 14,
+    "advances": 12,
+    "declines": 2,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 23824.1,
-    "change": -278.8,
-    "pct": -1.16,
+    "last": 24021.65,
+    "change": 197.55,
+    "pct": 0.83,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 7,
-    "declines": 43,
-    "unchanged": 0
+    "advances": 30,
+    "declines": 19,
+    "unchanged": 1
   },
   "midcap": {
-    "last": 62070.35,
-    "change": -658.75,
-    "pct": -1.05,
+    "last": 62135.25,
+    "change": 64.9,
+    "pct": 0.1,
     "year_high": 62909.55,
     "year_low": 52032.85,
-    "advances": 18,
-    "declines": 82,
+    "advances": 58,
+    "declines": 42,
     "unchanged": 0
   },
   "vix": {
-    "last": 13.94,
-    "change": 1.1,
-    "pct": 8.56,
+    "last": 13.39,
+    "change": -0.55,
+    "pct": -3.99,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 15396.07,
-    "sell": 15378.21,
-    "net": 17.86
+    "buy": 16744.73,
+    "sell": 18588.13,
+    "net": -1843.4
   },
   "dii": {
-    "buy": 16863.04,
-    "sell": 16182.83,
-    "net": 680.21
+    "buy": 17274.01,
+    "sell": 13636.75,
+    "net": 3637.26
   },
   "global": {
     "Dow Jones": {
-      "last": 51861.328125,
-      "change": 148.6171875,
-      "pct": 0.2873900532494202
+      "last": 51844.2890625,
+      "change": 177.44921875,
+      "pct": 0.3434489496292767
     },
     "Nasdaq": {
-      "last": 25810.896484375,
-      "change": -355.703125,
-      "pct": -1.3593784836779415
+      "last": 25520.341796875,
+      "change": -66.697265625,
+      "pct": -0.26066816665297765
     },
     "S&P 500": {
-      "last": 7406.60986328125,
-      "change": -66.18017578125,
-      "pct": -0.885615351633145
+      "last": 7359.77001953125,
+      "change": -5.68994140625,
+      "pct": -0.07725167791864238
     },
     "FTSE 100": {
-      "last": 10428.849609375,
-      "change": -9.05078125,
-      "pct": -0.08671074556458817
+      "last": 10461.6298828125,
+      "change": 32.7294921875,
+      "pct": 0.31383454594045207
     },
     "Nikkei 225": {
-      "last": 72353.9609375,
-      "change": 1103.8984375,
-      "pct": 1.5493297812896656
+      "last": 69788.3828125,
+      "change": -2565.578125,
+      "pct": -3.545871009351056
     },
     "Hang Seng": {
-      "last": 23768.51953125,
-      "change": -156.291015625,
-      "pct": -0.6532591567184399
+      "last": 23336.279296875,
+      "change": -432.240234375,
+      "pct": -1.8185408384678987
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.7249984741211,
-      "change": 0.3946990966796875,
-      "pct": 0.41842239374263845
+      "last": 94.29000091552734,
+      "change": -0.4105987548828125,
+      "pct": -0.43357566510859896
     },
     "Dollar Index": {
-      "last": 101.39900207519531,
-      "change": 0.37900543212890625,
-      "pct": 0.3751786227711379
+      "last": 101.5979995727539,
+      "change": 0.18799591064453125,
+      "pct": 0.1853820174101558
     },
     "Brent Crude": {
-      "last": 77.12000274658203,
-      "change": -0.779998779296875,
-      "pct": -1.0012821104217233
+      "last": 73.93000030517578,
+      "change": -3.1500015258789062,
+      "pct": -4.086665089582036
     },
     "Gold": {
-      "last": 4156.39990234375,
-      "change": -25.5,
-      "pct": -0.6097706926392116
+      "last": 4022.0,
+      "change": -107.89990234375,
+      "pct": -2.612651756584124
     },
     "US 10Y Yield": {
-      "last": 4.4830002784729,
-      "change": 0.032000064849853516,
-      "pct": 0.7189409866104218
+      "last": 4.4079999923706055,
+      "change": -0.043000221252441406,
+      "pct": -0.966079963798516
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "CIPLA",
-        "ltp": 1435.0,
-        "pct": 1.36,
+        "symbol": "INDIGO",
+        "ltp": 5198.0,
+        "pct": 4.77,
         "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 1.16%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSDlQQ1dTdFJnNlRsSW03RWNWYXdNcmp2LWpyMmpzdVhma2Y2Qmh6V29BZk9EdmRGSzY4R2FyS0UzSDBlREN3aEM5dEJzZzlhVFZHWjEyR1M1bXpUcjBubHhqQkxzNjZSSk4teVg1anNuUERPTG9fOVB4a1ZlRVFzZk9XN2lHaWdqZF9YMDBWX3E2d3N4MnMwY2drX0pRY2c0WGpydS1mUVZkaVBYUlBWT1NnZ1hRTlFqQWNJ?oc=5"
-      },
-      {
-        "symbol": "POWERGRID",
-        "ltp": 292.5,
-        "pct": 0.95,
-        "catalyst": null,
-        "headline": "Tube Investments Target Share Price, Tube Investments Share Price Forecast",
+        "headline": "Market trading guide: IndiGo among 2 stock recommendations for Thursday",
         "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc3JNLVB4ZGUzeHhxT2UzX0hhdzJuYWxSakh2UDZOSVcyMGdINE9NQzE2Zm83eFZERW5IQVY0X2RONTg4NlVacHFnZFBxbzR2dHVzY1hjQ2tLSHZfaXRPaXBfS1Y2V2VOYXllbTdaUFhnQWdWRDdrSV9Ua2NOZnJHMENISy1YUXhfaEZobzBTT1VSaFJLUnh5Wk9vRQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR0lzWXBDaXZfM1hOc2tjdjNoY2E3ckdjU1lPYXRLMGRsV0h6SWN0NjZ2MWtudk1RZEM4c1ZCVkx0ajNLZ2dFNko4amZMb3VPR1FwYkVMdVN6ZVZjZnhkWlNDY3BMbVduWG9lVXJEcFh5VzI2X3Q1d3NBQnd0WjRIUS1jZ2ZpVy1NMW11RXdGYXYxaWhTTG1RZ19nd3hUMFJtVUtmRHNHM1QwWEstMVJ3WVZhQWtZVU5VZkFGTXRXU0dKdnhINjItc1pORkplamlTNm5Vc3l5Y2wtbEhxTzdZS01iMUxXMmFyb2c?oc=5"
       },
       {
-        "symbol": "DRREDDY",
-        "ltp": 1300.9,
-        "pct": 0.79,
+        "symbol": "TRENT",
+        "ltp": 3256.0,
+        "pct": 3.6,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "India shares higher at close of trade; Nifty 50 up 0.83% By Investing.com",
+        "source": "Investing.com India",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenZDQ1Rablkzc2YzWkNnV1NXQ3hkNjc1dkhsa3BvWDdZLXJUVVNuWHNaWTBuQ0VoZktmX2xWZ2ZYWFNMaEpVbWo5RGZBbkhINERidXJMZ2JxZlpuNWFrbnRUSU1ISHRxUVh6SHQ2d2Rrbk1oSFdkcWxsUm1vcXk3bnJwTkxCUm1YOG1RdF9xY1VmV09QR2dDNWVfMFc0Y25qall1ckpPWWpWb3BhRjJXQXNNLTYzbnkwbW53NVdR?oc=5"
       },
       {
-        "symbol": "SUNPHARMA",
-        "ltp": 1867.0,
-        "pct": 0.22
+        "symbol": "ADANIENT",
+        "ltp": 3068.0,
+        "pct": 3.55,
+        "catalyst": null,
+        "headline": "Top gainers and losers, June 24: IndiGo climbs 5%, Trent, Adani Ent rise 4%, Bajaj Auto falls 3%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYTUtNXpHNTY3ZFNHcVp4eGxMekxaY19RQjMyUnJhd2oydmZUdXpCSng2aXBOaFhFTjBSYnhUb1htRUkxWFFCYVBzOGM2alk3R2Y3SDV0dndhWEpnbElvSTNvTi1VeXpNUV9EWjB3N2g2WW8zS3VuYThRMC1wa2RjLXAycy0wMFAzSElvUVRpeV9BZk96T21XM2JpaHRQTl84dmJ0dlllWEw0YVhwWURLclNPNUs3dHFMVWQ3cnNTRm0wdkhkQ0phYXV3aUNORHNUNllNOWpQajJDbHA1MDFNaWpIYUxpLTBCN0l3?oc=5"
       },
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 994.5,
-        "pct": 0.17
+        "symbol": "TECHM",
+        "ltp": 1461.0,
+        "pct": 3.21
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "ltp": 990.0,
+        "pct": 2.87
       }
     ],
     "losers": [
       {
-        "symbol": "INFY",
-        "ltp": 1029.0,
-        "pct": -3.42,
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 9755.0,
+        "pct": -2.69,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
-      },
-      {
-        "symbol": "WIPRO",
-        "ltp": 174.39,
-        "pct": -3.21,
-        "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 1.16%",
+        "headline": "India stocks higher at close of trade; Nifty 50 up 0.83%",
         "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZVBhbEhZNmlZSjVWc3VLZExhTHZGeEw4V3Axc1BONGlrdFoxQ3REUjd5T3R0ZXQ2M0FXcGNsbUNhdzBlWlVtYzdnX2N6a2YtMWRGMnh2VWZxY3RRcERMSkdqM1ZwbXF1d2JQUG1ZVFR2aUF3b0YwTEdmelRLM0cwV25aWDM0LTlBREgtR2plclJ0cTBBenZHTkpQNllheWFxbzU0U0g2c0lya1ZUZHJ4dg?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xCeGgzSVRzWUN0ODMtWEFEbDlicUJyX1ZDLWtQaFAtNTd6ODFvREY0aGdKaU5oUWsxYmIxVzZHNUhkcWtUbkpXWWc1LVcwblBHcHdNeEw3UVgxVjc0RUZab0pVNlNyMXlyUkJGcWxLaW9YY1dXTFZTd1VpNlFEWnhiQ2cxaTB2dW9PV0pPT1pxUnlnUEpld0hSRW9QWUdxR0U1eFo0MU9yXzlid3NmLUxrMkNpd2xjb2c?oc=5"
       },
       {
-        "symbol": "TCS",
-        "ltp": 2060.0,
-        "pct": -3.19,
+        "symbol": "NTPC",
+        "ltp": 356.65,
+        "pct": -2.18,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "India shares higher at close of trade; Nifty 50 up 0.83% By Investing.com",
+        "source": "Investing.com India",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenZDQ1Rablkzc2YzWkNnV1NXQ3hkNjc1dkhsa3BvWDdZLXJUVVNuWHNaWTBuQ0VoZktmX2xWZ2ZYWFNMaEpVbWo5RGZBbkhINERidXJMZ2JxZlpuNWFrbnRUSU1ISHRxUVh6SHQ2d2Rrbk1oSFdkcWxsUm1vcXk3bnJwTkxCUm1YOG1RdF9xY1VmV09QR2dDNWVfMFc0Y25qall1ckpPWWpWb3BhRjJXQXNNLTYzbnkwbW53NVdR?oc=5"
       },
       {
-        "symbol": "JSWSTEEL",
-        "ltp": 1242.7,
-        "pct": -3.1
+        "symbol": "MARUTI",
+        "ltp": 13209.0,
+        "pct": -1.8,
+        "catalyst": null,
+        "headline": "India shares higher at close of trade; Nifty 50 up 0.83% By Investing.com",
+        "source": "Investing.com India",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenZDQ1Rablkzc2YzWkNnV1NXQ3hkNjc1dkhsa3BvWDdZLXJUVVNuWHNaWTBuQ0VoZktmX2xWZ2ZYWFNMaEpVbWo5RGZBbkhINERidXJMZ2JxZlpuNWFrbnRUSU1ISHRxUVh6SHQ2d2Rrbk1oSFdkcWxsUm1vcXk3bnJwTkxCUm1YOG1RdF9xY1VmV09QR2dDNWVfMFc0Y25qall1ckpPWWpWb3BhRjJXQXNNLTYzbnkwbW53NVdR?oc=5"
       },
       {
-        "symbol": "ADANIENT",
-        "ltp": 2964.6,
-        "pct": -3.1
+        "symbol": "TATASTEEL",
+        "ltp": 190.15,
+        "pct": -1.76
+      },
+      {
+        "symbol": "ONGC",
+        "ltp": 240.1,
+        "pct": -1.74
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": 0.92,
+        "name": "NIFTY REALTY",
+        "pct": 2.17,
         "catalyst": null,
-        "headline": "Zydus, Sun Pharma, Dr Reddy's In Focus: US Cancer Drug Shortage Puts India's Pharma Stocks In Focus",
-        "source": "NDTV Profit",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVzRUY041dnFuRHlhSG8yS3g4RnZTeTdsUEhta216WW5RbnlTM001VmRzUDhYeUg0S242alFqdHBjcWJvdUxTSWNKQm5CdWhaUFBTaUxPS0RTQmdVa0lxTHhJWmhoOVZlZEEzV0dMRFRvOXpBVzlKOE05ZXlEUlVOMW9aUi1jbHZwZmxFRGh5cmVYXzllbHZiZ2dtTDl5ZnBBNW43LWMybDhuVmNsR25iclBXeFVmLTJkZ3ZpcngtVU43MXJFaXJNZ1RFQjBDLU9lT0tUTtIB3AFBVV95cUxNVEh5am9hazdtZkhrc2NXcFpCLUZDQ3Q2NlJZRWVkaXpaZU9wby1vNkJiWlRmNk43QkwzaGdfaUhJVkNlOGNlNUZlUE5QLWMxVW15OHhVRkV1RVZ4QWdWOGFxTlFUeHJmRG40aE9SX1lkWWhhT0luTEwybEs4TlY5V1M4dHd5N0F2LTdET3JPZ1JDVS1iM1RrQ2YzVERCM2gxdVc5NkdTU1F4TC0tbXRFWVpNX0ozVE9YaTRIQTBzbkk2NVN4Y3BJYVN2dmlNaUtwN21RZ1IzQ3dlckdG?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": -0.6,
+        "name": "NIFTY IT",
+        "pct": 2.05,
         "catalyst": null,
-        "headline": "Weak Monsoons Might Hurt More Than Just Rural India This Year. Which Stocks Will Feel The Heat?",
-        "source": "NDTV Profit",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLW5jYmttMVVhZU9HTGVJczhzcGpETWFnNDROZUM4UUdZWDhqRmlhZXBsYzZNekEtNFo0a2VDX1c4SzdCYjgwQkJvY29uMGhOdFVCd0p4Q1IxQmtqcUowSUJhQlk2SlJhSllnU0VReFFPRmRRVjlDNHdNWTJOdHRZR05fdWJtUm02LV9WZk9jc1ZCdENrazhKcVo4Z3FXZE41VXV3cmxSUWIwQzZLVDQwd21WcE1ESVBzekwxcTRha28tSjF2YlJ3VHlWTDJnU05qd19KdG1DWXZqc2NnZzh1NHZKRXBiV2UzeGw0OV9pcXpxc09T0gH8AUFVX3lxTFBkUlJTQmI3VUxxU3QxNG83bGxwSWVOQVBob1ZnUU1jT0xkTzZfdHdwcHBueFhMN1Bkbkk5bUgyRXpIZi1fSTczMlMzcmJRR0FUcUhaX0Zidk5XMHdCRGZ6aFlGVGRaLV9wRjJNamt3S0NEVHJ4VWdEVEVRVHVmYVh6NUh1WE5BbVZNMGluTVBJejk5aFVCY2M0QV9Tb0ltcU1vUmxWdkZUZk1tMWlOWXUwLUhPcHNscW4zdG1oSU5rQURpRkhxbDEwNWNxOVhIcEF5N2JWXy1fV0tuNFd2Z2NGLWdGZVMxZUExSV90ZjlrMmg3MERxWXVGZ2M2RQ?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY METAL",
-        "pct": -3.22,
+        "name": "NIFTY ENERGY",
+        "pct": -0.89,
         "catalyst": null,
-        "headline": "IT, metals drag Indian shares; weak business data, monsoon worries weigh",
-        "source": "marketscreener.com",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjlzSDJNbC16YzNxZkZvSC1UcHRERzF6NkFWNGE0MVBMWW43NTFjSF8wOW9ITm5JQUN2YW5kWHdEZjN2R2NqWldOV1Y2ajc4NHpaY2ZTZk1iNkZmdVFpa0Zka3hGVk1XNUJYZzd3b3lOS1A1a2pxd2dVTDl3Mzk4Y21YdlhSUF9aYkJzUFRBaWUzRXZwcTZNMHk5cl9yVzFjSVBISFpxaGNaWVNTSklKTEVxNUk2TnVVLWIzcXVXVQ?oc=5"
+        "headline": "Indian Green Energy Stocks Show Mixed Performance As Sensex And Nifty End Higher On June 24",
+        "source": "SolarQuarter",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlc2NUhLREhBdlpMYTJEdnMzOVJkNkdRUTBMTVFxY2tCclZWN1ZncVBpZm1GeWxTei1ncEtrQzFZTTNSV281UEEzOWh0Zl9XVHRWRGd1aU1Bc2RwbXZac0FlUVJkQU53d01ZN1Y1WVVLRU1KNV9TZ05GU0xKWjNRQVFaQUhlcFB1NlZkMmhIRWNOYVVoWkVPUldvQzZqTU9kQXlOSk1JOEprNERGR2NpVWZUS2RJM3g5X0ttRjdrRjFGU1B4QTBN?oc=5"
       },
       {
-        "name": "NIFTY IT",
-        "pct": -2.23,
+        "name": "NIFTY AUTO",
+        "pct": -0.42,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Indian stock markets fall due to rising tensions in the Middle East",
+        "source": "DD News",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLWcwRTVyZVl3YU9jUnAwVGEtSWhQZUJlUEJYSGZvanhNQ2d4UFV3N2wtaDRLVnM4M01DTGxlSHUtdng1QXpJQXhjS1Rsb1l3dl9XM21tVVdmT0NfdGpWdXN1dmMzeklYMEVBU0R2dVkxVldFOFNuUGN2aWRCR3E4a0JKLVpPYkdhWGpRYXJ2alFKSTFDUmh4eG5QaWxMQktXQ1ZpT29HM3VBVjRWZW9ZZE1xLVVyX1BpQTEyZVozSEkzRkxOQUtZUHAyMjgxenMzM2pB?oc=5"
       }
     ]
   }
