@@ -64,61 +64,56 @@
   },
   "global": {
     "Dow Jones": {
-      "last": 52018.23828125,
-      "change": 169.33984375,
-      "pct": 0.3266025872355352
+      "last": 52017.08984375,
+      "change": 96.46875,
+      "pct": 0.1858004545550641
     },
     "Nasdaq": {
-      "last": 25361.61328125,
-      "change": -115.02734375,
-      "pct": -0.4515012220140386
+      "last": 25434.53515625,
+      "change": 75.935546875,
+      "pct": 0.2994469254797763
     },
     "S&P 500": {
-      "last": 7359.509765625,
-      "change": 1.28955078125,
-      "pct": 0.017525308343566384
+      "last": 7377.97021484375,
+      "change": 20.47998046875,
+      "pct": 0.27835552364127225
     },
     "FTSE 100": {
-      "last": 10529.8896484375,
-      "change": 68.2900390625,
-      "pct": 0.652768616773509
+      "last": 10508.01953125,
+      "change": -21.880859375,
+      "pct": -0.20779740133611335
     },
     "Nikkei 225": {
-      "last": 69174.96875,
-      "change": -613.4140625,
-      "pct": -0.8789629989679738
+      "last": 72366.34375,
+      "change": 3191.375,
+      "pct": 4.613482387731473
     },
     "Hang Seng": {
-      "last": 23412.1796875,
-      "change": 75.900390625,
-      "pct": 0.32524632422943256
+      "last": 23076.91015625,
+      "change": -335.26953125,
+      "pct": -1.4320304035125948
     }
   },
   "fx_commodities": {
     "USD/INR": {
       "last": 94.38500213623047,
-      "change": -0.7986984252929688,
-      "pct": -0.8391126007721436
+      "change": -0.055694580078125,
+      "pct": -0.05897307200668641
     },
     "Dollar Index": {
-      "last": 101.40799713134766,
-      "change": -0.20200347900390625,
-      "pct": -0.1988027534598076
+      "last": 101.31600189208984,
+      "change": -0.1139984130859375,
+      "pct": -0.11239121832095703
     },
     "Brent Crude": {
-      "last": 75.13999938964844,
-      "change": 1.4000015258789062,
-      "pct": 1.8985646412213488
+      "last": 72.55999755859375,
+      "change": -2.7000045776367188,
+      "pct": -3.587569095134168
     },
     "Gold": {
-      "last": 4044.699951171875,
-      "change": 54.39990234375,
-      "pct": 1.363303553068051
-    },
-    "US 10Y Yield": {
-      "last": 4.381999969482422,
-      "change": -0.069000244140625,
-      "pct": -1.55021884585487
+      "last": 4100.2998046875,
+      "change": 69.7998046875,
+      "pct": 1.7317902167845183
     }
   },
   "movers": {
@@ -128,18 +123,18 @@
         "ltp": 5462.0,
         "pct": 4.89,
         "catalyst": null,
-        "headline": "IndiGo up 24% in June; on course to log biggest monthly gain in over 7 yrs",
+        "headline": "Stock market holiday: BSE, NSE shut today for Muharram; next on Sept 14",
         "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUzR5aFBrcHBhTWF1ZTdnV2xIeVRjbFFvNGpCQmh1UjI0RTV6WEp5clYycWo4bWpkTU1XZk9rZW4xbm4xc09TS0pxX0Fmc2xhb2JkZ0xWaWRZS01Mak05SHdwLWpQMkJGX2FvTHBJS2Jwb2U2azd4UG9ieFNRVXlxaEw5NmxiREp4OGlhcDVfd3JGNkhtWlJUTWcyZHgxUEplODhZM1V6NF9uOElRWmJZU0xDR01vaWNpSGVCUVdQUENyYUxpNjhNcWRibWlsTUlQMUgxdkRR0gHbAUFVX3lxTE1DYzl1QWI5Z2pqcUVrQmFMbmdDNHRTQTJYYW53YlFONEtrRWllOF93cGFxNzVxM2l5MnIxbWhNRlVwa053MlFPYXhTcnE0azZFbldLT2pFV0dNVXR5WWt5VDgtTUhrM3RiQmZseUtjSWI0aDdqbHh6UHpvcmpwN1NtZzY1WndBNm45cFNFaS1RelhiNkYtUkxkcjU2Q3BWZVlPc1RMaUxuVklISEl1bDdnQ1FCUE5jUmxWRzlSYmpXMDNVTFFzNzNLQXpYQWZuaks2NDVESGZfNGdVZw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOTdEaUhxRmJXV2JsS3RraEttQmNUZW1zWFZ3RkFNVGtWSXdmMDh3R0xUc0wyOHV6RTZvQ01SbVlVLUZyOUFNNnk5bGZqNXpHVnVjR2NBcGlTaHNFd0JydndCWC1fM0xHa0NvZlg5dEplR0JRYnQzbEppeHdWOW14cUoyZUtTZ0hNR3p1NE1NYjJGM0Z2ZjZFTlZpLS1Za19CcVBWUzJKY0xpRm5OaW9GaDRmbGJlZ0c2eUxuYTFhSEpzVWVPMzlqTjMwamYwUlJ1RnVYbnR30gHWAUFVX3lxTE45N0RpSHFGYldXYmxLdGtoS21CY1RlbXNYVndGQU1Ua1ZJd2YwOHdHTFRzTDI4dXpFNm9DTVJtWVUtRnI5QU02eTlsZmo1ekdWdWNHY0FwaVNoc0V3QnJ2d0JYLV8zTEdrQ29mWDl0SmVHQlFidDNsSml4d1Y5bXhxSjJlS1NnSE1HenU0TU1iMkYzRnZmNkVOVmktLVlrX0JxUFZTMkpjTGlGbk5pb0ZoNGZsYmVnRzZ5TG5hMWFISnNVZU8zOWpOMzBqZjBSUnVGdVhudHc?oc=5"
       },
       {
         "symbol": "M&M",
         "ltp": 3185.3,
         "pct": 3.94,
         "catalyst": null,
-        "headline": "MAHINDRA & MAHINDRA LTD Share Price Today - Live M&M Stock Price for NSE/BSE",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVV2ZnV0tzMXc3aFRTcXJJcDNwcXQ1eG5acHdXc00tUzdDQV9fTi1sREpSang3cG9ZMDNNQV80VEV5M3lRQm01T2xNUEZjMU9HOG5yRkFNQWVKbE9zQU9yc2tTa3pUbEZ6MmJlUg?oc=5"
+        "headline": "Sanathnagar Enterprises Target Share Price, Sanathnagar Enterprises Share Price Forecast",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMloxVjgxR3NXSnFLQk1GQkdKUEhoajZjVGV0ZVZZVUotLTRzU1V2bW1kWkdqQ09GdENJOER3UzJkc1RQbXgzMW5RMFc2QUF5WFZmakJjako5dHA4X1ZQVzFZcGgwdmFQM0h0V2xfOUZmYlR2NzBQUlJwRkU4ZDNfSXI4RE16anRqdEZkRjdwblNrMU51TFkxUw?oc=5"
       },
       {
         "symbol": "MAXHEALTH",
@@ -167,27 +162,27 @@
         "ltp": 233.15,
         "pct": -2.85,
         "catalyst": null,
-        "headline": "India stocks higher at close of trade; Nifty 50 up 0.14%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc1hESTBOeFM2S2ZQQkQxVGJHR0lDaEV4T3BXbTdxQ2IwQzkzMHVJRnZtNUxBVTNEUEZQY0FaRkJQM1M0a0VLYWhIZFRHanJXWkZtU05nM2N1RTFpUkdsNnVxUHZ4Rm9aWVQwSXQ5YkJRWG5VMHV5T09wd2ljeUpRc0tUVTd4dzlleTJwbjYyNGFHbXpJVzRaYUZIam0yUUtYTkZFcDJPT1pVRG9lX2Yw?oc=5"
+        "headline": "Stock market closed: NSE, BSE shut for Muharram today",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPel9zTXVVN182UGFkMjJJUDExYTQ5STlHNEV3V2RjSS1vek9vaFFNNWdGd1RXQ1k2Q05XZGpCLUVWd3VrV2x2THpuaW5kak5EN0dzR1N0bEdFRTR3Ukt1TEpaYlVmVkpXWVJOT2ViMDd4dE1oQXRyM0UtWVg4eDNrNm5Mb3RsTGR3el80V3p0X3lyQUV1V210MWVSdFVCTEJPRVU0QmRybjlJZzJfbjRSRWd6YnRBSmlTUjE2ekdBRUd1VVBHYkHSAcsBQVVfeXFMTllpa2lHZXhMOWlSaUhqb1dkcTZMRV9ELXNiaGRHWnktdkFVUmxTbGlVVlFhSGM3TlMxUGpHM0MtdTV3NlBROU9ub2h5VTh6bzRkWnI3THN2OExfQVZFcThqcmhDM01TOW1ZQ3prSm5xelA4RTh0OGFYUDNaNE5XVmhOMm1QbXdERUwtN3V4ZFFyTV96T0o2QURIWHhxMmVsOGtlQXVBeG0wNzBKU3JfY0lKem9PQ3NEUzlYY3hsNWdLWkszelJCMmViVVk?oc=5"
       },
       {
         "symbol": "HINDALCO",
         "ltp": 952.0,
         "pct": -2.52,
         "catalyst": null,
-        "headline": "India stocks higher at close of trade; Nifty 50 up 0.14%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdjNxRThwX3VtWVdBQ0lIX0t4SVFNbE9ZZno0MnpOR3JZX2g4elQ2UzZRT3AzX0dGaXVzcWZrcWQwY3lHSGxiZWZCdjFQdTJQUXlfQ205MTIxNFk0Q1cwV2tMWFhRQ3VwZElUUTVqbWdsNTliWDVfUEY5WmNNT2xiMkJNTGdDdmRza1FGWlNpRWtBWHFJNWlTdTFxR2NkTThqNzdsaDY3VGppQkpIeWNZWFVxdWFzUEFhMkE?oc=5"
+        "headline": "Stock market closed: NSE, BSE shut for Muharram today",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaDV5OWZLOVFmUUZmSGtsSFhvNWkzY0UxLVQ5Z1VGV0tKcUtaOEJMSkNTbl9TWElwb1RDZi1uaEdhbGNTeGhHcnN4eEFnYmExb0lfY20zU3lSMkJCb2xRY2JwZVJVMnppdEZjSmVRNmxqckFhT05JT0xkSXRvM0V2Nk1oVThSUzFGNG1oaDhFNVI3RzVXVFc4a1lsQ19GazI2eFZaVWNBSklKM0JRVGxxZDdvWno?oc=5"
       },
       {
         "symbol": "POWERGRID",
         "ltp": 284.5,
         "pct": -2.2,
         "catalyst": null,
-        "headline": "India shares higher at close of trade; Nifty 50 up 0.14% By Investing.com",
-        "source": "Investing.com India",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdktzbmlSeDhmUWZrVWpGRGVHdkFmQW0tc2JCYTU5TmVJaUxoM0dWMFRjdWxLZC1wZkpVa3JWVHRLM1oxS1VwZTg2dTNyWWN1bGFwQ2JzWTRqT1dIUnY3M3BmUXFFOWNxeWVXcnlBdkVOVDFjeDB4clBYRm8zY3RxVG1RTDNfa19jbUxRcWpldEVsSk9yam9pZ3pKMG5YOFZOYUlsOWUwZVRJRzk0V0dicUJWenF4cUZrbGg4WTNR?oc=5"
+        "headline": "Stock market closed: NSE, BSE shut for Muharram today",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaDV5OWZLOVFmUUZmSGtsSFhvNWkzY0UxLVQ5Z1VGV0tKcUtaOEJMSkNTbl9TWElwb1RDZi1uaEdhbGNTeGhHcnN4eEFnYmExb0lfY20zU3lSMkJCb2xRY2JwZVJVMnppdEZjSmVRNmxqckFhT05JT0xkSXRvM0V2Nk1oVThSUzFGNG1oaDhFNVI3RzVXVFc4a1lsQ19GazI2eFZaVWNBSklKM0JRVGxxZDdvWno?oc=5"
       },
       {
         "symbol": "TECHM",
@@ -207,17 +202,17 @@
         "name": "NIFTY AUTO",
         "pct": 2.25,
         "catalyst": null,
-        "headline": "Sensex, Nifty Extend Winning Streak; Auto Stocks Drive Gains Amid Cooling Oil Prices",
-        "source": "The Indian Awaaz",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMVN5Um56VzYtcWJ0SHpoVzdOSUxuOElDbmJ3dWdtYWdtR056dzJOSkQ5TWxNMkdVbWRyb29qekZETW1VdEdrcG84VDNqNFA2RXJ6M1kyVHM5WTBHSnZIaUpqamhOQnFPb3BZcUR6cWY3V1hOdUJFYTI5SnZIY3prYS1RajF3MGZkMVpqSE1VRTlhNVpQWXkxdVdDYVhHYlljMGxjODN1V1pwRkJJWXlv?oc=5"
+        "headline": "Nifty Auto Down 13% In One Month: These Stocks Could Be Your Next Big Opportunity | Check Target Price",
+        "source": "Goodreturns",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMDdvV1FqdjB2UWk1bmYzUGdNdmVXQk5qZTBqWFdFYmw1Rm5XQ3FBZ3c3U0VnbEZyY3RLbjl4ekl5R0d2RjJaVzNuN1A5aDJWemNHem9oQmpWOG5fV0Z3RDBtbDZybnZNNVJTRFkxMGFwRU16eEl0NnAtVktCazI0NThYcERvYzhMbXhkMlJsMzBYUnpwWC1tZlhGY2dPeHQ5Zk1MZGZidkhlblkxelNlWmhzRjVCSXlXRmQ4VEdMRG1RSU9FM29NbEhkdkVwWWpCY3ZVTkVULUM?oc=5"
       },
       {
         "name": "NIFTY FMCG",
         "pct": 0.68,
         "catalyst": null,
-        "headline": "Taking Stock: Sensex, Nifty surrender intraday gains; metals drag, autos outshine",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZDBJS1l2akNFMGppVlZkb2FiOE5WYm1Ec0l6WTdNa3g5ZGtYX2Y4QVBSREhBcjRIM0o0VnU3c3pFQmxYT2hjXzRLUmVxQVVFMG1nR29JQUVQS1JfeEhoRERWMS1sZlF4ZWF2Y3hoeWxfLTNfRVJfR0NWNWJrQnRhV08xZFhrbEI0aFh6enVBeFpjcjRyLVVFTmlJcXE3TDV3MVdBMGNjUUN0TUNuckRaU2tqZXJ0aGEydm1JeURJVXRwY1Z6WG9wd0hJRTVpa2NXZk5XeXFwOA?oc=5"
+        "headline": "ITC, HUL among 10 FMCG stocks that have tumbled up to 31% in 2026. How many do you have?",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTl9vWlBuNXM1bHkzZWlpd3ZGdXBZaXVseHYySklGSHZnZjUwQzVuRHZHblpsdWc3aXFHOHlWSm1EZklJZkt2QUtLa0QyaHVGNkNXejNwSjZ0ZTFNZnRsSmhvdE0yOWxzOHhNd21sTkw0cHlIY285LV8zSkxtRXlLX1N6eS1pTk5OYWVNektjOUFDUlY1eTBKSmVMZzhkR0w5aUkzbk16ZXdueGgyYVNtME9sZEVVWHlZLUNQNFIxVDR5blpuVGdkd1hMS3pQY1MzZmlZc2JxVHJ3eXdMc2VneXhjUUd1ZUVqejhyRlBwVERLQkFPUW1weg?oc=5"
       }
     ],
     "bottom": [
@@ -225,9 +220,9 @@
         "name": "NIFTY METAL",
         "pct": -1.37,
         "catalyst": null,
-        "headline": "Vedanta, NALCO, Hindustan Zinc shares fall up to 3% as silver, aluminium, other metal prices tumble. Here'",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQeW9hTnlFQUNMYUlPOGw2VldNWmpvMFdBRWZacm1QQWxuV0tqNFZxdGwzMEY1bDZLcjE4SnBnQTdNSkZZcW1YNjR1NURvZ29wVklkc1RzRVBRSVNtU29GQnFXU0dtdHhWYnZWYjk0Z0JOaVE0UVRMTU56TVFwakNtc25YWnF4ZUlMb1BSWGp4MnpwcGp2MzNWc2VQSE9say01QXlPOEhyUXlDU3h1OWd5T3NJVm1ISlk3WjUxcXdUeS1OTzlvSUczUC1DMlJvRFdnaU41eXFoSGVjX19Sb0J5c2x1dEdGdVlEVHV4OEdjWUhqd0ppRmFSR3BKWDg2Y3ZDdU1selVmVWpIZ9IBjwJBVV95cUxOU0RaV2s3ZlNaUF9Nc1BwNXpmZVBZYVFTS1hBZ2dxSjVCWGFVT0lGN0dra2haaHFYY0lmRlNKb0dxVkRPdlZodldrUnUxRHdpaEVmOGVlb0E0NUZPdVpFWEFra3dnZFpFb3Rkdi1UbVRiZ2txNmFndUdlRk1QZzJBRlJESHkwUGdPbmFiZnkxN3V5RUk4a2JhTUtQbF91dWp0T2NsejI0R1I1aVdnb3Y4MTlnUXdybnBQakhjZWNQZDRrZS1TOXluQ19nVVJtZ3d1ZVJ1eDl4a2FkYjU4cVVZUTBSTW9qcXBLVG43Znp2cXRDZm50Z2dIM3RPREVRNUJGcUNLTkVYb0ZnV3VoOXdV?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
         "name": "NIFTY IT",
