@@ -62,6 +62,27 @@
         12,
         11
       ]
+    },
+    {
+      "key": "IOC/BPCL",
+      "sector": "Oil & Gas",
+      "A": "IOC",
+      "B": "BPCL",
+      "direction": 1,
+      "entry_date": "2026-06-30",
+      "entry_z": -2.2747885083572514,
+      "entry_spread": -0.023716901520185907,
+      "beta": 0.903937553548931,
+      "alpha": -0.20557605966959458,
+      "half_life": 24.616047281425327,
+      "entry_priceA": 139.38,
+      "entry_priceB": 303.55,
+      "lotA": 4875,
+      "lotB": 1975,
+      "ratio": [
+        1,
+        1
+      ]
     }
   ],
   "closed": [
