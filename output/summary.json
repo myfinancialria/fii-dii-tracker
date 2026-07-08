@@ -68,24 +68,24 @@
   },
   "global": {
     "Dow Jones": {
-      "last": 52123.03125,
-      "change": -802.1171875,
-      "pct": -1.5155690842270015
+      "last": 52313.578125,
+      "change": -611.5703125,
+      "pct": -1.15553820925455
     },
     "Nasdaq": {
-      "last": 25550.134765625,
-      "change": -268.5546875,
-      "pct": -1.040156155050291
+      "last": 25776.703125,
+      "change": -41.986328125,
+      "pct": -0.16261990447357166
     },
     "S&P 500": {
-      "last": 7428.22998046875,
-      "change": -75.6201171875,
-      "pct": -1.007750903914234
+      "last": 7471.490234375,
+      "change": -32.35986328125,
+      "pct": -0.4312434664887198
     },
     "FTSE 100": {
-      "last": 10488.9296875,
-      "change": -176.970703125,
-      "pct": -1.6592195374386942
+      "last": 10489.0400390625,
+      "change": -176.8603515625,
+      "pct": -1.658184917214817
     },
     "Nikkei 225": {
       "last": 68256.9609375,
@@ -93,9 +93,9 @@
       "pct": -2.123280274385353
     },
     "Hang Seng": {
-      "last": 24199.4609375,
-      "change": 702.5703125,
-      "pct": 2.990056530086095
+      "last": 23496.890625,
+      "change": -119.4296875,
+      "pct": -0.5057082810516694
     }
   },
   "fx_commodities": {
@@ -105,24 +105,24 @@
       "pct": -0.06119252646768295
     },
     "Dollar Index": {
-      "last": 101.18199920654297,
-      "change": 0.04199981689453125,
-      "pct": 0.04152641600552539
+      "last": 101.09500122070312,
+      "change": -0.0449981689453125,
+      "pct": -0.0444909721345302
     },
     "Brent Crude": {
-      "last": 79.91999816894531,
-      "change": 5.7599945068359375,
-      "pct": 7.766982500540107
+      "last": 79.11000061035156,
+      "change": 4.9499969482421875,
+      "pct": 6.6747528368466
     },
     "Gold": {
-      "last": 4045.39990234375,
-      "change": -99.89990234375,
-      "pct": -2.409956023706254
+      "last": 4066.60009765625,
+      "change": -78.69970703125,
+      "pct": -1.8985287129837138
     },
     "US 10Y Yield": {
-      "last": 4.595000267028809,
-      "change": 0.06600046157836914,
-      "pct": 1.4572855909364508
+      "last": 4.581000328063965,
+      "change": 0.05200052261352539,
+      "pct": 1.1481679144906385
     }
   },
   "movers": {
@@ -150,9 +150,9 @@
         "ltp": 973.55,
         "pct": 0.42,
         "catalyst": null,
-        "headline": "India shares lower at close of trade; Nifty 50 down 2.12%",
-        "source": "Investing.com UK",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTRlWkRRTlNaTDVhOG9GX2dCeGtsVXJLMC1USElFYkFsZ0NPUDBCVU5fOG15SEtPX1QxaUZBZEJDRWxjVVFJendma1JaMnM2dzV1NmdUQWptQTZPQ09YaDFrVlpWbU53RWxtcGZTaGwxTmtoRDJyV1pPMlpVR1JCVFNxejQ0V29vZU5Ca3F5a2N4ZDR0eGZicXJxMWFLMjJUcmx0ZVBXaUxFaUt0Zmo1c1B1Uk41YWM5ZDk0OXBmdw?oc=5"
+        "headline": "Integra Capital Nine Monthly Results, Nine Monthly Earnings for Integra Capital",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdEpqSFRZWEhFX0NnZTMzUjZOVl9PRlFoSDZVUkZjQ29RREZaWkxHSWRTc2dOUkZuQ2xtbDlTUmI4U2ZzU2xXdlg0bzZlVTJtQUp4ZlEyVFk5WXVQekk3MGV4OTFrWUZ2VFU5MUtjWHlZWkEtNkM5Uks4czlSUGY2ckhVYjFQWGRTRTBmaWZtUC1ZNkE?oc=5"
       },
       {
         "symbol": "COALINDIA",
@@ -166,9 +166,9 @@
         "ltp": 5120.0,
         "pct": -5.1,
         "catalyst": null,
-        "headline": "IndiGo, SpiceJet market share decline in May; how aviation stocks are performing after traffic data",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSWNPVDBBeUh2NGhlMkNDU01UR283bm0tQ1Zic1ZzN1ZWMHhsbUlDR0d0RGxyXzYtb0dobDVGd3ZsYmZCNV8wMnJHWFRiLWJGTS10eTk4a3NzZGlrSENncjdiNUZ4c0ZoZ2lTV0gyZUpVTzRQVXFFVmQ5YVo4b0kzc2Y4anE1cWU1M2wzOHA5bzNiam1mc25vMFV5cU5YbXM1bXZkX2xMcDlmM0tNb3JmLVN4ME5PZHNFblZadVk4Uzl2SEYxX21NOG9yRWY2QUt6VzRpZlRzUU1OQzEzWHB6UWJ4SDl5VGE5dVE?oc=5"
+        "headline": "IndiGo Shares Crash 5% As Market Share Slip, Oil Boil Hurt Sentiment",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZzJ5Rm5YT2JWaEpfZDZOa0FfYk5WSlRjTDZ1VmRKRDVpSWM3ZUkzeDBwUlZtTDJ5SEpNeU1rYkg2QTZ2TFFLaWlWdU5ScVQ4OGhOTjNKaU1DRG93NnRGMDBZbHBGOG5pV09ad0hlcFd1Q25iS1hZUG5JTkhUVzhLMjV3Zm9HQ2FjWnYxcTRyV3psWC1LdjdxVV9pRnpnZ0dXeE5GUmc2MGxnWGpkREZR?oc=5"
       },
       {
         "symbol": "JIOFIN",
