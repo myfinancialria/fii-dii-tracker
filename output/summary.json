@@ -68,9 +68,9 @@
   },
   "global": {
     "Dow Jones": {
-      "last": 52348.08984375,
-      "change": -577.05859375,
-      "pct": -1.0903296651712862
+      "last": 52348.390625,
+      "change": -576.7578125,
+      "pct": -1.089761350751998
     },
     "Nasdaq": {
       "last": 25870.65234375,
@@ -78,9 +78,9 @@
       "pct": 0.20126076003718538
     },
     "S&P 500": {
-      "last": 7482.58984375,
-      "change": -21.26025390625,
-      "pct": -0.28332460842855084
+      "last": 7482.7099609375,
+      "change": -21.14013671875,
+      "pct": -0.2817238676629868
     },
     "FTSE 100": {
       "last": 10489.0400390625,
@@ -105,19 +105,19 @@
       "pct": -0.06119252646768295
     },
     "Dollar Index": {
-      "last": 100.99099731445312,
-      "change": -0.1490020751953125,
-      "pct": -0.14732259847191842
+      "last": 100.98200225830078,
+      "change": -0.15799713134765625,
+      "pct": -0.15621626685893283
     },
     "Brent Crude": {
-      "last": 78.51000213623047,
-      "change": 4.349998474121094,
-      "pct": 5.865693445675545
+      "last": 79.05000305175781,
+      "change": 4.8899993896484375,
+      "pct": 6.59384998405399
     },
     "Gold": {
-      "last": 4092.10009765625,
-      "change": -53.19970703125,
-      "pct": -1.283374171660439
+      "last": 4088.60009765625,
+      "change": -56.69970703125,
+      "pct": -1.3678071479204963
     },
     "US 10Y Yield": {
       "last": 4.568999767303467,
@@ -150,9 +150,9 @@
         "ltp": 973.55,
         "pct": 0.42,
         "catalyst": null,
-        "headline": "Half Yearly Results, Half yearly Earnings for Transport Corp",
+        "headline": "Indian Info Sof Nine Monthly Results, Nine Monthly Earnings for Indian Info Sof",
         "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZndQUVBRb1pHeENuM3JjbVZyaldiWkJWRXpSNUU2RkdmYWpvWDA5Z2ZHTXBpWEljZjlDYVd5UUVWbEJEdC1EaDRrcUxVNGtWV3pKZlY5ZXFEMjV2eFlCYTMxWGM3Nng4d3cxR0NmZWFMWDBBMkhiOE9UOThvcF9vZjh1ZEMxY3o1SWVUTGxMNXVNazNScWJzVFVXMk85WFl1TERfUjZvUQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdnhxb2o4QWNrbXlZSDV0M0RmWE1OR3N5aWNHWGRzcmhFc1BFWjdmdGoxR0dzVExnYmx0WWVPSnZ1RVRZQTRpSUt3YjBHNEwxS2FtcVdPRXVGUkVEa3oxSzJ5MlRnYzViVzVwTWdYMElVRGJWVG5FRHR0dk9hdEhwQlhrcjA0Y2ZNb2QtV251a2hJeUZzNzJ4TWRYVlZfT2c?oc=5"
       },
       {
         "symbol": "COALINDIA",
