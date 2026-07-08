@@ -7,3 +7,4 @@ access_token.txt
 fyersApi.log
 fyersRequests.log
 output/_preview.png
+data/pairs_bt_prices.csv

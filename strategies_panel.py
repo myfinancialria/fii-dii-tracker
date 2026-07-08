@@ -131,7 +131,9 @@ def _pairs() -> str:
         f"<td>{t.get('entry_date', '')}</td></tr>"
         for t in open_trades[:6]) or "<tr><td colspan='4' class='strat-none'>No open pairs.</td></tr>"
     body = (kpis + f"<table><thead><tr><th>Pair</th><th>Side</th><th>Entry z</th>"
-            f"<th>Since</th></tr></thead><tbody>{rows}</tbody></table>")
+            f"<th>Since</th></tr></thead><tbody>{rows}</tbody></table>"
+            f"<a href='backtest_pairs.html' style='display:inline-block;margin-top:10px;"
+            f"font-size:12.5px;font-weight:600'>View 3-year backtest (trade log + equity curve) →</a>")
     return _card("Pairs trading book", f"as of {asof}", body)
 
 

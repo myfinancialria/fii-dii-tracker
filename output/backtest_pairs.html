@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Pairs Trading — Backtest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0B2545;--green:#16A34A;--red:#DC2626;--amber:#F59E0B;--grey:#6B7280;--bg:#F8FAFC;--card:#FFF;--grid:#E5E7EB}
+  *{box-sizing:border-box}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--navy);margin:0;padding:24px 16px}
+  .wrap{max-width:1180px;margin:0 auto}
+  a{color:var(--navy)}
+  .back{font-size:13px;color:var(--grey);text-decoration:none}
+  h1{margin:6px 0 2px;font-size:24px}
+  .sub{color:var(--grey);font-size:13px;line-height:1.5}
+  .note{background:#EFF6FF;border:1px solid #BFDBFE;color:#1E40AF;border-radius:10px;padding:10px 14px;font-size:12.5px;margin:14px 0}
+  .section-title{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--grey);font-weight:700;margin:26px 0 10px}
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+  @media(max-width:820px){.kpis{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:520px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .kpi{background:var(--card);border:1px solid var(--grid);border-radius:12px;padding:12px 14px}
+  .kpi .l{font-size:11px;color:var(--grey);text-transform:uppercase}
+  .kpi .v{font-size:19px;font-weight:800;margin-top:3px}
+  .card{background:var(--card);border:1px solid var(--grid);border-radius:14px;padding:16px}
+  svg{width:100%;height:auto;display:block}
+  .reasons{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+  .rz{background:var(--card);border:1px solid var(--grid);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--grey)}
+  .rz b{color:var(--navy)}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px}
+  input,select{background:var(--card);border:1px solid var(--grid);color:var(--navy);border-radius:8px;padding:8px 10px;font-size:13px}
+  table{width:100%;border-collapse:collapse}
+  th,td{padding:8px;text-align:right;font-size:12.5px;white-space:nowrap}
+  th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+  th{color:var(--grey);font-weight:600;font-size:11px;text-transform:uppercase;border-bottom:1px solid var(--grid)}
+  tr+tr td{border-top:1px solid var(--grid)}
+  .pos{color:var(--green)}.neg{color:var(--red)}
+  .pill{font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:999px}
+  .pill.target{background:#DCFCE7;color:#166534}.pill.stop{background:#FEE2E2;color:#991B1B}.pill.time{background:#E5E7EB;color:#374151}
+  .tblwrap{overflow-x:auto;border:1px solid var(--grid);border-radius:12px}
+  footer{color:var(--grey);font-size:11.5px;margin-top:26px;border-top:1px solid var(--grid);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="./index.html">← Market Pulse dashboard</a>
+  <h1>Pairs Trading — Backtest</h1>
+  <div class="sub" id="sub"></div>
+  <div class="note" id="note"></div>
+
+  <div class="section-title">Headline performance</div>
+  <div class="kpis" id="kpis"></div>
+  <div class="reasons" id="reasons"></div>
+
+  <div class="section-title">Equity curve — cumulative return (%, beta-neutral, net of cost)</div>
+  <div class="card"><div id="chart"></div></div>
+
+  <div class="section-title">Trade log</div>
+  <div class="bar">
+    <input id="q" placeholder="Search pair / sector…" style="flex:1;min-width:160px">
+    <select id="fsec"><option value="">All sectors</option></select>
+    <select id="fdir"><option value="">Both directions</option><option>Long spread</option><option>Short spread</option></select>
+    <select id="fr"><option value="">Any exit</option><option value="target">Target</option><option value="stop">Stop</option><option value="time">Time-stop</option></select>
+  </div>
+  <div class="tblwrap">
+    <table>
+      <thead><tr>
+        <th>Pair</th><th>Sector</th><th>Dir</th><th>Entry date</th><th>Exit date</th><th>Days</th>
+        <th>Entry z</th><th>Exit z</th><th>Return %</th><th>Exit</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+let M=null, F=[];
+const cls=v=>v>=0?'pos':'neg';
+const pct=v=>(v>=0?'+':'')+v.toFixed(2)+'%';
+
+function kpis(){
+  const s=M.stats;
+  const cards=[
+    ['Cumulative return', pct(s.totalRet), cls(s.totalRet)],
+    ['Win rate', s.winRate+'%', ''],
+    ['Trades', s.nTrades, ''],
+    ['Avg / trade', pct(s.avgRet), cls(s.avgRet)],
+    ['Sharpe', s.sharpe, ''],
+    ['Avg hold', s.avgDays+'d', ''],
+  ];
+  document.getElementById('kpis').innerHTML=cards.map(c=>
+    `<div class="kpi"><div class="l">${c[0]}</div><div class="v ${c[2]}">${c[1]}</div></div>`).join('');
+  const br=s.byReason||{};
+  document.getElementById('reasons').innerHTML=
+    `<span class="rz">Avg win <b class="pos">${pct(s.avgWin)}</b></span>`+
+    `<span class="rz">Avg loss <b class="neg">${pct(s.avgLoss)}</b></span>`+
+    `<span class="rz">Best <b class="pos">${pct(s.best)}</b></span>`+
+    `<span class="rz">Worst <b class="neg">${pct(s.worst)}</b></span>`+
+    `<span class="rz">Target exits <b>${br.target||0}</b></span>`+
+    `<span class="rz">Stops <b>${br.stop||0}</b></span>`+
+    `<span class="rz">Time-stops <b>${br.time||0}</b></span>`;
+}
+
+function chart(){
+  const c=M.curve; if(!c.length){document.getElementById('chart').textContent='No trades.';return}
+  const W=1100,H=320,pad=44;
+  const cum=c.map(p=>p.cum), lo=Math.min(0,...cum), hi=Math.max(0,...cum);
+  const X=i=>pad+i/(c.length-1)*(W-pad-10);
+  const Y=v=>H-28-(v-lo)/(hi-lo||1)*(H-46);
+  let svg=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">`;
+  svg+=`<line x1="${pad}" y1="${Y(0)}" x2="${W-10}" y2="${Y(0)}" stroke="#CBD5E1"/>`;
+  [lo,hi].forEach(v=>svg+=`<text x="4" y="${Y(v)+4}" font-size="11" fill="#6B7280">${v.toFixed(0)}%</text>`);
+  const pts=c.map((p,i)=>`${X(i).toFixed(1)},${Y(p.cum).toFixed(1)}`).join(' ');
+  svg+=`<polyline points="${pts}" fill="none" stroke="#16A34A" stroke-width="2.2"/>`;
+  svg+=`<text x="${pad}" y="${H-6}" font-size="11" fill="#6B7280">${c[0].date}</text>`;
+  svg+=`<text x="${W-10}" y="${H-6}" font-size="11" fill="#6B7280" text-anchor="end">${c[c.length-1].date}</text></svg>`;
+  document.getElementById('chart').innerHTML=svg;
+}
+
+function rows(){
+  const q=document.getElementById('q').value.toLowerCase();
+  const fs=document.getElementById('fsec').value, fd=document.getElementById('fdir').value, fr=document.getElementById('fr').value;
+  F=M.trades.filter(t=>(!fs||t.sector===fs)&&(!fd||t.dir===fd)&&(!fr||t.reason===fr)&&
+    (!q||t.pair.toLowerCase().includes(q)||t.sector.toLowerCase().includes(q)))
+    .sort((a,b)=>a.exit<b.exit?1:-1);
+  document.getElementById('rows').innerHTML=F.map(t=>`<tr>
+    <td>${t.pair}</td><td>${t.sector}</td><td>${t.dir.replace(' spread','')}</td>
+    <td>${t.entry}</td><td>${t.exit}</td><td>${t.days}</td>
+    <td>${t.ez}</td><td>${t.xz}</td>
+    <td class="${cls(t.ret)}">${pct(t.ret)}</td>
+    <td><span class="pill ${t.reason}">${t.reason}</span></td>
+  </tr>`).join('')||`<tr><td colspan="10" style="text-align:center;color:#6B7280">No trades match.</td></tr>`;
+}
+
+fetch('backtest_pairs_data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
+  M=d;
+  document.getElementById('sub').innerHTML=`${d.strategy}<br>Engine: <b>${d.engine}</b> · ${d.pairs_universe} candidate pairs · ${d.period}`;
+  document.getElementById('note').innerHTML=
+    `<b>Coverage: ${d.period}</b> — ~3 years of entries (Fyers served 5y of daily data; the first 2y are the rolling hedge/cointegration lookback). `+
+    `Returns are <b>beta-neutral %</b> per trade (1 unit of capital each), net of 0.10% round-trip cost; cumulative % is additive across trades.`;
+  document.getElementById('foot').innerHTML=
+    `Walk-forward on Fyers daily equity data — trailing-2y hedge refit daily, no look-ahead. `+
+    `<b>Educational / internal — not investment advice, not a recommendation.</b> Backtested results assume fills at the daily close and do not model slippage/impact; past performance does not predict future results.`;
+  const secs=[...new Set(d.trades.map(t=>t.sector))].sort();
+  const fs=document.getElementById('fsec'); secs.forEach(s=>fs.add(new Option(s,s)));
+  kpis(); chart(); rows();
+  ['q','fsec','fdir','fr'].forEach(id=>document.getElementById(id).addEventListener('input',rows));
+}).catch(e=>{document.getElementById('sub').textContent='Failed to load: '+e});
+</script>
+</body>
+</html>
