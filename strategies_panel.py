@@ -86,7 +86,9 @@ def _iron_condor() -> str:
             f"<div><span>{last_day}</span><b class='{_sign(day_pnl)}'>{_rupee(day_pnl)}</b></div>"
             f"<div><span>Win days</span><b>{wins}/{n_days} ({wr:.0f}%)</b></div></div>"
             f"<table><thead><tr><th>Index</th><th>Short strikes</th><th>Net P&amp;L</th></tr>"
-            f"</thead><tbody>{rows}</tbody></table>")
+            f"</thead><tbody>{rows}</tbody></table>"
+            f"<a href='backtest.html' style='display:inline-block;margin-top:10px;font-size:12.5px;"
+            f"font-weight:600'>View 6-month backtest (trade log + equity curve) →</a>")
     return _card("Iron Condor forward test", f"as of {last_day}", body)
 
 

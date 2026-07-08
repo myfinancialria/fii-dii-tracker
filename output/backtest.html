@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Iron Condor — Backtest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0B2545;--green:#16A34A;--red:#DC2626;--amber:#F59E0B;--grey:#6B7280;--bg:#F8FAFC;--card:#FFF;--grid:#E5E7EB}
+  *{box-sizing:border-box}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--navy);margin:0;padding:24px 16px}
+  .wrap{max-width:1180px;margin:0 auto}
+  a{color:var(--navy)}
+  header{margin-bottom:6px}
+  .back{font-size:13px;color:var(--grey);text-decoration:none}
+  h1{margin:6px 0 2px;font-size:24px}
+  .sub{color:var(--grey);font-size:13px;line-height:1.5}
+  .note{background:#FFF7ED;border:1px solid #FED7AA;color:#9A3412;border-radius:10px;padding:10px 14px;font-size:12.5px;margin:14px 0}
+  .section-title{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--grey);font-weight:700;margin:26px 0 10px}
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+  @media(max-width:820px){.kpis{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:520px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .kpi{background:var(--card);border:1px solid var(--grid);border-radius:12px;padding:12px 14px}
+  .kpi .l{font-size:11px;color:var(--grey);text-transform:uppercase}
+  .kpi .v{font-size:19px;font-weight:800;margin-top:3px}
+  .tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+  .tab{background:var(--card);border:1px solid var(--grid);border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer;font-weight:600;color:var(--grey)}
+  .tab.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .card{background:var(--card);border:1px solid var(--grid);border-radius:14px;padding:16px}
+  .legend{display:flex;gap:16px;font-size:12px;color:var(--grey);margin-bottom:6px;flex-wrap:wrap}
+  .legend b{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:middle}
+  svg{width:100%;height:auto;display:block}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px}
+  input,select{background:var(--card);border:1px solid var(--grid);color:var(--navy);border-radius:8px;padding:8px 10px;font-size:13px}
+  table{width:100%;border-collapse:collapse}
+  th,td{padding:8px 8px;text-align:right;font-size:12.5px;white-space:nowrap}
+  th:first-child,td:first-child,th:nth-child(4),td:nth-child(4){text-align:left}
+  th{color:var(--grey);font-weight:600;font-size:11px;text-transform:uppercase;border-bottom:1px solid var(--grid);position:sticky;top:0;background:var(--card)}
+  tr+tr td{border-top:1px solid var(--grid)}
+  .pos{color:var(--green)}.neg{color:var(--red)}
+  .pill{font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:999px}
+  .pill.sl{background:#FEE2E2;color:#991B1B}.pill.eod{background:#E5E7EB;color:#374151}
+  .tblwrap{overflow-x:auto;border:1px solid var(--grid);border-radius:12px}
+  .pager{display:flex;gap:10px;align-items:center;justify-content:center;margin-top:12px;font-size:13px}
+  .pager button{background:var(--card);border:1px solid var(--grid);border-radius:8px;padding:6px 12px;cursor:pointer}
+  footer{color:var(--grey);font-size:11.5px;margin-top:26px;border-top:1px solid var(--grid);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back" href="./index.html">← Market Pulse dashboard</a>
+    <h1>Iron Condor — Backtest</h1>
+    <div class="sub" id="sub"></div>
+  </header>
+
+  <div class="note" id="note"></div>
+
+  <div class="section-title">Headline performance <span id="capnote" style="text-transform:none;font-weight:400"></span></div>
+  <div class="tabs" id="idxtabs"></div>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="section-title">Equity curve — cumulative P&amp;L (₹, 1 lot)</div>
+  <div class="card">
+    <div class="legend">
+      <span><b style="background:#0B2545"></b>NIFTY</span>
+      <span><b style="background:#F59E0B"></b>SENSEX</span>
+      <span><b style="background:#16A34A"></b>Combined</span>
+    </div>
+    <div id="chart"></div>
+  </div>
+
+  <div class="section-title">Trade log — entry &amp; exit with times</div>
+  <div class="bar">
+    <input id="q" placeholder="Search symbol / date…" style="flex:1;min-width:160px">
+    <select id="fidx"><option value="">Both indices</option><option>NIFTY</option><option>SENSEX</option></select>
+    <select id="fleg"><option value="">All legs</option><option>Sell CE</option><option>Sell PE</option><option>Buy CE (hedge)</option><option>Buy PE (hedge)</option></select>
+    <select id="fexit"><option value="">Any exit</option><option value="SL">SL hit</option><option value="EOD">15:00 EOD</option></select>
+  </div>
+  <div class="tblwrap">
+    <table>
+      <thead><tr>
+        <th>Date</th><th>Entry</th><th>Exit</th><th>Instrument</th><th>Leg</th>
+        <th>Spot@entry</th><th>Entry ₹</th><th>Exit ₹</th><th>P&amp;L ₹</th><th>Exit</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <div class="pager">
+    <button id="prev">‹ Prev</button>
+    <span id="pageinfo"></span>
+    <button id="next">Next ›</button>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+let M=null, IDX='ALL', page=0, PER=50, filtered=[];
+
+function money(v){const s=v>=0?'+':'−';return s+'₹'+Math.abs(Math.round(v)).toLocaleString('en-IN')}
+function cls(v){return v>=0?'pos':'neg'}
+
+function kpis(){
+  const wrap=document.getElementById('kpis');
+  const ix=M.indices;
+  let m;
+  if(IDX==='ALL'){
+    const n=ix.NIFTY.metrics, s=ix.SENSEX.metrics;
+    m={totalReturns:n.totalReturns+s.totalReturns, totalTrades:n.totalTrades+s.totalTrades,
+       winRateDaily:((n.winRateDaily+s.winRateDaily)/2), maxDrawdown:Math.min(n.maxDrawdown,s.maxDrawdown),
+       sharpe:'—', profitFactor:((n.profitFactor+s.profitFactor)/2).toFixed(1),
+       capital:n.capital+s.capital, roc:((n.totalReturns+s.totalReturns)/(n.capital+s.capital)*100)};
+  } else { m=ix[IDX].metrics; }
+  document.getElementById('capnote').textContent =
+    '· capital = per-index SPAN margin ('+ (IDX==='ALL'?'₹34,500 both':'₹'+m.capital.toLocaleString('en-IN')) +'), 1 lot';
+  const cards=[
+    ['Net P&L', money(m.totalReturns), cls(m.totalReturns)],
+    ['Return on capital', (m.roc||m.roc===0?m.roc.toFixed(0):m.roc)+'%', cls(1)],
+    ['Win days', m.winRateDaily.toFixed(0)+'%', ''],
+    ['Max drawdown', money(m.maxDrawdown), 'neg'],
+    ['Profit factor', m.profitFactor, ''],
+    ['Sharpe', (m.sharpe===undefined?'—':m.sharpe), ''],
+  ];
+  wrap.innerHTML=cards.map(c=>`<div class="kpi"><div class="l">${c[0]}</div><div class="v ${c[2]}">${c[1]}</div></div>`).join('');
+}
+
+function combinedCurve(){
+  const day={};
+  for(const idx of ['NIFTY','SENSEX'])
+    for(const p of M.indices[idx].curve) day[p.date]=(day[p.date]||0)+p.pnl;
+  let cum=0; return Object.keys(day).sort().map(d=>{cum+=day[d];return {date:d,cum:Math.round(cum)}});
+}
+
+function chart(){
+  const series={NIFTY:M.indices.NIFTY.curve.map(p=>({date:p.date,cum:p.cum})),
+                SENSEX:M.indices.SENSEX.curve.map(p=>({date:p.date,cum:p.cum})),
+                COMBINED:combinedCurve()};
+  const dates=[...new Set([].concat(...Object.values(series).map(s=>s.map(p=>p.date))))].sort();
+  const xi={}; dates.forEach((d,i)=>xi[d]=i);
+  const all=[].concat(...Object.values(series).map(s=>s.map(p=>p.cum)));
+  const lo=Math.min(0,...all), hi=Math.max(0,...all);
+  const W=1100,H=340,pad=44;
+  const X=i=>pad+i/(dates.length-1)*(W-pad-10);
+  const Y=v=>H-30-(v-lo)/(hi-lo||1)*(H-50);
+  const colors={NIFTY:'#0B2545',SENSEX:'#F59E0B',COMBINED:'#16A34A'};
+  let svg=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">`;
+  svg+=`<line x1="${pad}" y1="${Y(0)}" x2="${W-10}" y2="${Y(0)}" stroke="#CBD5E1" stroke-width="1"/>`;
+  [lo,hi].forEach(v=>{svg+=`<text x="4" y="${Y(v)+4}" font-size="11" fill="#6B7280">${Math.round(v/1000)}k</text>`});
+  for(const [k,s] of Object.entries(series)){
+    const pts=s.map(p=>`${X(xi[p.date]).toFixed(1)},${Y(p.cum).toFixed(1)}`).join(' ');
+    svg+=`<polyline points="${pts}" fill="none" stroke="${colors[k]}" stroke-width="${k==='COMBINED'?2.4:1.6}"/>`;
+  }
+  const first=dates[0], last=dates[dates.length-1];
+  svg+=`<text x="${pad}" y="${H-8}" font-size="11" fill="#6B7280">${first}</text>`;
+  svg+=`<text x="${W-10}" y="${H-8}" font-size="11" fill="#6B7280" text-anchor="end">${last}</text>`;
+  svg+=`</svg>`;
+  document.getElementById('chart').innerHTML=svg;
+}
+
+function allTrades(){
+  let t=[];
+  for(const idx of ['NIFTY','SENSEX'])
+    for(const r of M.indices[idx].trades) t.push({...r, idx});
+  return t.sort((a,b)=> a.date<b.date?1:a.date>b.date?-1: 0);  // newest first
+}
+
+function applyFilters(){
+  const q=document.getElementById('q').value.toLowerCase();
+  const fi=document.getElementById('fidx').value, fl=document.getElementById('fleg').value, fx=document.getElementById('fexit').value;
+  filtered=allTrades().filter(r=>
+    (!fi||r.idx===fi)&&(!fl||r.leg===fl)&&(!fx||r.exit===fx)&&
+    (!q||r.sym.toLowerCase().includes(q)||r.date.includes(q)));
+  page=0; renderRows();
+}
+
+function renderRows(){
+  const body=document.getElementById('rows');
+  const start=page*PER, slice=filtered.slice(start,start+PER);
+  body.innerHTML=slice.map(r=>`<tr>
+    <td>${r.date}</td><td>${r.et}</td><td>${r.xt}</td>
+    <td>${r.sym}</td><td>${r.leg}</td>
+    <td>${r.spot?Math.round(r.spot).toLocaleString('en-IN'):'—'}</td>
+    <td>${r.ep.toFixed(2)}</td><td>${r.xp.toFixed(2)}</td>
+    <td class="${cls(r.pnl)}">${money(r.pnl)}</td>
+    <td><span class="pill ${r.exit==='SL'?'sl':'eod'}">${r.exit}</span></td>
+  </tr>`).join('') || `<tr><td colspan="10" style="text-align:center;color:#6B7280">No trades match.</td></tr>`;
+  const pages=Math.max(1,Math.ceil(filtered.length/PER));
+  document.getElementById('pageinfo').textContent=`${filtered.length.toLocaleString('en-IN')} trades · page ${page+1}/${pages}`;
+}
+
+function idxTabs(){
+  const t=document.getElementById('idxtabs');
+  const opts=[['ALL','Combined'],['NIFTY','NIFTY'],['SENSEX','SENSEX']];
+  t.innerHTML=opts.map(o=>`<div class="tab ${o[0]===IDX?'on':''}" data-i="${o[0]}">${o[1]}</div>`).join('');
+  t.querySelectorAll('.tab').forEach(el=>el.onclick=()=>{IDX=el.dataset.i;idxTabs();kpis()});
+}
+
+fetch('backtest_data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
+  M=d;
+  document.getElementById('sub').innerHTML=
+    `${d.strategy}<br>Engine: <b>${d.engine}</b> · 1 lot per leg · NIFTY ${d.indices.NIFTY.metrics.period}`;
+  document.getElementById('note').innerHTML=
+    `<b>Coverage: 6 months</b> (${d.indices.NIFTY.metrics.period}). The Volrix free plan caps history at ~6 months; `+
+    `the full <b>2-year</b> backtest needs a Volrix Max plan — same strategy code, just a wider date range.`;
+  document.getElementById('foot').innerHTML=
+    `Real historical option data via Volrix · zero-slippage engine (gross of brokerage) · intraday, exit 15:00. `+
+    `<b>Educational / internal — not investment advice, not a recommendation.</b> Options selling carries large, potentially undefined risk; `+
+    `past backtested performance does not predict future results.`;
+  idxTabs(); kpis(); chart(); applyFilters();
+  ['q','fidx','fleg','fexit'].forEach(id=>document.getElementById(id).addEventListener('input',applyFilters));
+  document.getElementById('prev').onclick=()=>{if(page>0){page--;renderRows()}};
+  document.getElementById('next').onclick=()=>{if((page+1)*PER<filtered.length){page++;renderRows()}};
+}).catch(e=>{document.getElementById('sub').textContent='Failed to load backtest data: '+e});
+</script>
+</body>
+</html>
