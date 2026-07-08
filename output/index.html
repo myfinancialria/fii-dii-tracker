@@ -58,6 +58,19 @@
 
   footer { color:var(--grey); font-size:12px; text-align:center; margin-top:24px; }
   footer a { color:var(--navy); }
+
+  .strat { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  @media (max-width:900px) { .strat { grid-template-columns:1fr; } }
+  .strat-card h3 { margin:0; font-size:15px; }
+  .strat-head { display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom:8px; gap:8px; }
+  .strat-asof { color:var(--grey); font-size:11px; white-space:nowrap; }
+  .strat-none { color:var(--grey); font-size:13px; margin:6px 0; }
+  .strat-kpis { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:10px; }
+  .strat-kpis span { display:block; color:var(--grey); font-size:11px;
+    text-transform:uppercase; }
+  .strat-kpis b { font-size:16px; }
+
 </style>
 </head>
 <body>
@@ -281,9 +294,9 @@
       <h3>Global Indices</h3>
       <table>
         <thead><tr><th>Instrument</th><th>Last</th><th>Change</th></tr></thead>
-        <tbody><tr><td>Dow Jones</td><td>52,313.58</td><td class='neg'>-1.16%</td></tr>
-<tr><td>Nasdaq</td><td>25,776.70</td><td class='neg'>-0.16%</td></tr>
-<tr><td>S&P 500</td><td>7,471.49</td><td class='neg'>-0.43%</td></tr>
+        <tbody><tr><td>Dow Jones</td><td>52,357.99</td><td class='neg'>-1.07%</td></tr>
+<tr><td>Nasdaq</td><td>25,784.13</td><td class='neg'>-0.13%</td></tr>
+<tr><td>S&P 500</td><td>7,473.51</td><td class='neg'>-0.40%</td></tr>
 <tr><td>FTSE 100</td><td>10,489.04</td><td class='neg'>-1.66%</td></tr>
 <tr><td>Nikkei 225</td><td>68,256.96</td><td class='neg'>-2.12%</td></tr>
 <tr><td>Hang Seng</td><td>23,496.89</td><td class='neg'>-0.51%</td></tr></tbody>
@@ -296,10 +309,10 @@
       <table>
         <thead><tr><th>Instrument</th><th>Last</th><th>Change</th></tr></thead>
         <tbody><tr><td>USD/INR</td><td>95.54</td><td class='neg'>-0.06%</td></tr>
-<tr><td>Dollar Index</td><td>101.10</td><td class='neg'>-0.04%</td></tr>
-<tr><td>Brent Crude</td><td>79.11</td><td class='pos'>+6.67%</td></tr>
-<tr><td>Gold</td><td>4,066.60</td><td class='neg'>-1.90%</td></tr>
-<tr><td>US 10Y Yield</td><td>4.58</td><td class='pos'>+1.15%</td></tr></tbody>
+<tr><td>Dollar Index</td><td>100.99</td><td class='neg'>-0.14%</td></tr>
+<tr><td>Brent Crude</td><td>77.95</td><td class='pos'>+5.11%</td></tr>
+<tr><td>Gold</td><td>4,082.00</td><td class='neg'>-1.53%</td></tr>
+<tr><td>US 10Y Yield</td><td>4.57</td><td class='pos'>+0.88%</td></tr></tbody>
       </table>
     </div>
     
@@ -321,6 +334,8 @@
 <tr><td>24 Jun</td><td class='neg'>-1,843</td><td class='pos'>+3,637</td></tr></tbody>
     </table>
   </div>
+
+  <div class='section-title'>Strategy trackers</div><div class='strat'><div class='mover strat-card'><div class='strat-head'><h3>Range forecast for 2026-07-06</h3><span class='strat-asof'>as of 2026-07-03</span></div><table><thead><tr><th>Index</th><th>Close</th><th>Bias</th><th>Expected range</th><th>S1 / R1</th></tr></thead><tbody><tr><td>NIFTY 50</td><td>24,271</td><td class='pos'>bullish</td><td>24,048 – 24,494</td><td>24,223 / 24,349</td></tr><tr><td>SENSEX</td><td>77,764</td><td class='pos'>bullish</td><td>77,007 – 78,521</td><td>77,597 / 78,044</td></tr><tr><td>BANK NIFTY</td><td>57,938</td><td class='pos'>bullish</td><td>57,324 – 58,553</td><td>57,711 / 58,255</td></tr></tbody></table></div><div class='mover strat-card'><div class='strat-head'><h3>Iron Condor forward test</h3><span class='strat-asof'>as of 2026-07-03</span></div><div class='strat-kpis'><div><span>Cumulative</span><b class='pos'>+₹5,087</b></div><div><span>2026-07-03</span><b class='neg'>−₹1,397</b></div><div><span>Win days</span><b>6/15 (40%)</b></div></div><table><thead><tr><th>Index</th><th>Short strikes</th><th>Net P&amp;L</th></tr></thead><tbody><tr><td>NIFTY</td><td>24100–24600</td><td class='neg'>−₹703</td></tr><tr><td>SENSEX</td><td>77500–78500</td><td class='neg'>−₹694</td></tr></tbody></table></div><div class='mover strat-card'><div class='strat-head'><h3>Pairs trading book</h3><span class='strat-asof'>as of 2026-07-03</span></div><div class='strat-kpis'><div><span>Realised</span><b class='pos'>+3.12%</b></div><div><span>Open MTM</span><b class='pos'>+5.01%</b></div><div><span>Open / Closed</span><b>4 / 1</b></div></div><table><thead><tr><th>Pair</th><th>Side</th><th>Entry z</th><th>Since</th></tr></thead><tbody><tr><td>TATASTEEL/JSWSTEEL</td><td>Long spread</td><td>-3.09</td><td>2026-06-12</td></tr><tr><td>BANKBARODA/CANBK</td><td>Short spread</td><td>+2.26</td><td>2026-06-17</td></tr><tr><td>TATASTEEL/JINDALSTEL</td><td>Short spread</td><td>+2.27</td><td>2026-06-23</td></tr><tr><td>IOC/BPCL</td><td>Long spread</td><td>-2.27</td><td>2026-06-30</td></tr></tbody></table></div></div>
 
   <footer>
     Auto-generated daily · Built by <a href="https://myfinancial.in">myfinancial.in</a> ·
