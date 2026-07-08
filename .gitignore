@@ -6,3 +6,4 @@ __pycache__/
 access_token.txt
 fyersApi.log
 fyersRequests.log
+output/_preview.png

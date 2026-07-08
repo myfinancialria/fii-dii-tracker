@@ -415,6 +415,10 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
                 "Mixed": "amber", "Range-bound": "grey"}.get(mood, "grey")
     vix = snap.get("vix", {})
 
+    import strategies_panel
+    strat_css = strategies_panel.CSS
+    strategies_html = strategies_panel.render()
+
     html = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -475,6 +479,7 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
 
   footer {{ color:var(--grey); font-size:12px; text-align:center; margin-top:24px; }}
   footer a {{ color:var(--navy); }}
+{strat_css}
 </style>
 </head>
 <body>
@@ -525,6 +530,8 @@ def build_html(snap: dict, hist: pd.DataFrame) -> Path:
       <tbody>{hist_rows}</tbody>
     </table>
   </div>
+
+  {strategies_html}
 
   <footer>
     Auto-generated daily · Built by <a href="https://myfinancial.in">myfinancial.in</a> ·

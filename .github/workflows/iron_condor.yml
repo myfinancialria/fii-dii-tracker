@@ -17,6 +17,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   forward-test:
@@ -62,3 +68,14 @@ jobs:
             git commit -m "iron condor ledger: $(date -u +%Y-%m-%d)"
             for i in 1 2 3 4 5; do git pull --rebase --no-edit && git push && break; sleep $((10 * i)); done
           fi
+
+      - name: Rebuild dashboard with latest strategy data
+        run: python visualize.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
