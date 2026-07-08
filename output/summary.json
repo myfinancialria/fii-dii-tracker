@@ -1,51 +1,55 @@
 {
-  "date": "2026-07-07",
-  "date_pretty": "Tuesday, 07 July 2026",
-  "mood": "Range-bound",
+  "date": "2026-07-08",
+  "date_pretty": "Wednesday, 08 July 2026",
+  "mood": "Risk-Off",
   "nifty": {
-    "last": 24398.7,
-    "change": -31.65,
-    "pct": -0.13,
+    "last": 23882.05,
+    "change": -516.65,
+    "pct": -2.12,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 19,
-    "declines": 31,
-    "unchanged": 0
+    "advances": 4,
+    "declines": 45,
+    "unchanged": 1
   },
   "banknifty": {
-    "last": 58200.7,
-    "change": -90.8,
-    "pct": -0.16,
+    "last": 56742.6,
+    "change": -1458.1,
+    "pct": -2.51,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 5,
-    "declines": 9,
-    "unchanged": 0
+    "advances": 0,
+    "declines": 14,
+    "unchanged": 0,
+    "catalyst": null,
+    "headline": "Bank Nifty tumbles over 2% as Trump remarks trigger market selloff; banking stocks slide up to 3%",
+    "source": "Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNOW1ObDJuYlgwckozVHFiM0piVFBuazhGRmIyNzV3RW8wSENUQ0s5ZWdaYk1qOGdyYjIxb1NwS21xY3RobE5mRHN2MUhBQjNnRDJyYlJlWFJpMjZPR2ZobXB0MEhFeFJ1dFctbVBPWTgxdzJlNW5Ra1BWRGlpcjUxSVZXRm8ydnA1Z0ZLSkJ3QXdJdF9icjhQRTdibjRuWC1sTEdrRW5lUzRzMEM3VG1Ed2pRQTdROGJBZXdOa2cxazlCOWJueFhUY1lsM3RsaF84VHJpRlFqQVZvSmVCOV8yVzF5N3l0dzJhSjJUWW42YUhQbDhkcDgxQ2lwQ1BaclhBdTRR0gGIAkFVX3lxTE85VU05dVhMMXRscUliWmJZblFqcTZZSzNYeVNlNTFTZF9tVXJoQ21XbldvSnY4SzNBQ3FnYW9pTjR3ZlZFaUVtOEU2OTJ5Q2hlTXlQdHAzY29QT0N6SkNUQXVMRDh1Vk9wX0c0bVhfRklpRHN6aktySzBJM3J0VzVaMXgtV3NGdkowRTRfOGF4eTJCNmluTU9vOTFKcXNudDhYZTRHdHA0bHBEcVpxMzRVaWdDNzQ3R1lvWlRkWkdlNkhRYktwY2d6aGU3RmtHZDhILXRxdldWQW1RelRmd0d2WEExVHZVR0twS2ZoZlIxMGMzSGxIbExSaUdLR05CaDhNZWtmbWVQaw?oc=5"
   },
   "sensex_proxy": {
-    "last": 24398.7,
-    "change": -31.65,
-    "pct": -0.13,
+    "last": 23882.05,
+    "change": -516.65,
+    "pct": -2.12,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 19,
-    "declines": 31,
-    "unchanged": 0
+    "advances": 4,
+    "declines": 45,
+    "unchanged": 1
   },
   "midcap": {
-    "last": 62285.3,
-    "change": -186.2,
-    "pct": -0.3,
+    "last": 61322.75,
+    "change": -962.55,
+    "pct": -1.55,
     "year_high": 62909.55,
     "year_low": 52032.85,
-    "advances": 38,
-    "declines": 62,
+    "advances": 17,
+    "declines": 83,
     "unchanged": 0
   },
   "vix": {
-    "last": 11.65,
-    "change": -0.17,
-    "pct": -1.43,
+    "last": 14.68,
+    "change": 3.03,
+    "pct": 26.03,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +57,184 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 18414.01,
-    "sell": 18020.82,
-    "net": 393.19
+    "buy": 17463.95,
+    "sell": 15501.15,
+    "net": 1962.8
   },
   "dii": {
-    "buy": 18897.44,
-    "sell": 19280.87,
-    "net": -383.43
+    "buy": 19165.13,
+    "sell": 18374.97,
+    "net": 790.16
   },
   "global": {
     "Dow Jones": {
-      "last": 52932.91015625,
-      "change": -123.0,
-      "pct": -0.23183091127409594
+      "last": 52123.03125,
+      "change": -802.1171875,
+      "pct": -1.5155690842270015
     },
     "Nasdaq": {
-      "last": 25951.04296875,
-      "change": -170.1171875,
-      "pct": -0.651261990211779
+      "last": 25550.134765625,
+      "change": -268.5546875,
+      "pct": -1.040156155050291
     },
     "S&P 500": {
-      "last": 7518.0400390625,
-      "change": -19.39013671875,
-      "pct": -0.25725129475896236
+      "last": 7428.22998046875,
+      "change": -75.6201171875,
+      "pct": -1.007750903914234
     },
     "FTSE 100": {
-      "last": 10665.8798828125,
-      "change": 14.080078125,
-      "pct": 0.13218496764090354
+      "last": 10488.9296875,
+      "change": -176.970703125,
+      "pct": -1.6592195374386942
     },
     "Nikkei 225": {
-      "last": 69737.6875,
-      "change": -6.3828125,
-      "pct": -0.009151763686003324
+      "last": 68256.9609375,
+      "change": -1480.7265625,
+      "pct": -2.123280274385353
     },
     "Hang Seng": {
-      "last": 23616.3203125,
-      "change": 266.291015625,
-      "pct": 1.140431184215424
+      "last": 24199.4609375,
+      "change": 702.5703125,
+      "pct": 2.990056530086095
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.94999694824219,
-      "change": -0.264801025390625,
-      "pct": -0.2781091080652763
+      "last": 95.54499816894531,
+      "change": -0.058502197265625,
+      "pct": -0.06119252646768295
     },
     "Dollar Index": {
-      "last": 100.9739990234375,
-      "change": 0.12400054931640625,
-      "pct": 0.12295543003724067
+      "last": 101.18199920654297,
+      "change": 0.04199981689453125,
+      "pct": 0.04152641600552539
     },
     "Brent Crude": {
-      "last": 74.27999877929688,
-      "change": 2.2900009155273438,
-      "pct": 3.180998726879855
+      "last": 79.91999816894531,
+      "change": 5.7599945068359375,
+      "pct": 7.766982500540107
     },
     "Gold": {
-      "last": 4155.2001953125,
-      "change": 0.10009765625,
-      "pct": 0.002409031164049734
+      "last": 4045.39990234375,
+      "change": -99.89990234375,
+      "pct": -2.409956023706254
     },
     "US 10Y Yield": {
-      "last": 4.5229997634887695,
-      "change": 0.037999629974365234,
-      "pct": 0.8472603978405923
+      "last": 4.595000267028809,
+      "change": 0.06600046157836914,
+      "pct": 1.4572855909364508
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "HCLTECH",
-        "ltp": 1170.0,
-        "pct": 3.16,
+        "symbol": "ONGC",
+        "ltp": 247.0,
+        "pct": 1.15,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Crude oil rally redraws sectoral winners: ONGC, Oil India gain; OMCs, Asian Paints slip up to 4%",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ2F4NVE4RnBOc05oMXBoN0JmTE1ISmxWQ01JVUVoQUlIYWV6UGptX2dJOG5temtXR1c3eHlSTGxnZEtLd3ZtbjlUN0ZfQUlPbEhMdE4tUUQyeS1FMHN5WWR4VWYxYnJ3UzIybDBrMG5IamQ4VndWektGU1Y3UlpHcWNyS3llT3BGV2pRRXE2a2xZOXRYT2swMjVsbHQ1MWRzMmk2Z05vQ05WYTFvX19lYkhqbjhvUkRoZXhfQ0MzRGNOYVBUNThXbUJ3?oc=5"
       },
       {
-        "symbol": "TECHM",
-        "ltp": 1447.0,
-        "pct": 2.88,
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 10175.0,
+        "pct": 0.65,
         "catalyst": null,
-        "headline": "Nifty 50 Gainers and Losers, July 7, 2026: Infosys, HCLTech Lead",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE44ampSTFJFaFljZkRNSVRSTnNoRDExSGcwRXlpb3JuYnVFdG9zMUlfQUt6bHlaUzhIOU9Yc0FPcUJfNG41TVdGZTN5NUJvVG9kY2ZhbjFLN2E0RXI5THdQZmhzNDA2MkxpRW5xS2ZWaDZoZw?oc=5"
+        "headline": "India stocks lower at close of trade; Nifty 50 down 2.12%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTFlpNlJJd1VGb2x4Z21sN3hhT1lwUGg2OFVHekhJZDhuMjNyNXFGVHd3cHBmRGlTUTUtMEp0NnRwVDJCeXdqTlM2R3paeWFUYVUtYzNmdHVMa0lXMzJzaEMzWXhWQU5Hb0duX2Y3cGE4azVraThia1RpeHZoMWt3WER0Vm9jMGVhSlRhMTZsS0VuLUpBaThPUHJDc1lRXzhwMW81OFZ0djdyUnRuSTVVWQ?oc=5"
       },
       {
-        "symbol": "INFY",
-        "ltp": 1071.9,
-        "pct": 2.85,
+        "symbol": "HINDALCO",
+        "ltp": 973.55,
+        "pct": 0.42,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "India shares lower at close of trade; Nifty 50 down 2.12%",
+        "source": "Investing.com UK",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTRlWkRRTlNaTDVhOG9GX2dCeGtsVXJLMC1USElFYkFsZ0NPUDBCVU5fOG15SEtPX1QxaUZBZEJDRWxjVVFJendma1JaMnM2dzV1NmdUQWptQTZPQ09YaDFrVlpWbU53RWxtcGZTaGwxTmtoRDJyV1pPMlpVR1JCVFNxejQ0V29vZU5Ca3F5a2N4ZDR0eGZicXJxMWFLMjJUcmx0ZVBXaUxFaUt0Zmo1c1B1Uk41YWM5ZDk0OXBmdw?oc=5"
       },
       {
-        "symbol": "SBILIFE",
-        "ltp": 1835.0,
-        "pct": 2.65
-      },
-      {
-        "symbol": "TITAN",
-        "ltp": 4591.2,
-        "pct": 2.38
+        "symbol": "COALINDIA",
+        "ltp": 430.65,
+        "pct": 0.4
       }
     ],
     "losers": [
       {
-        "symbol": "TRENT",
-        "ltp": 2921.0,
-        "pct": -12.64,
+        "symbol": "INDIGO",
+        "ltp": 5120.0,
+        "pct": -5.1,
+        "catalyst": null,
+        "headline": "IndiGo, SpiceJet market share decline in May; how aviation stocks are performing after traffic data",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSWNPVDBBeUh2NGhlMkNDU01UR283bm0tQ1Zic1ZzN1ZWMHhsbUlDR0d0RGxyXzYtb0dobDVGd3ZsYmZCNV8wMnJHWFRiLWJGTS10eTk4a3NzZGlrSENncjdiNUZ4c0ZoZ2lTV0gyZUpVTzRQVXFFVmQ5YVo4b0kzc2Y4anE1cWU1M2wzOHA5bzNiam1mc25vMFV5cU5YbXM1bXZkX2xMcDlmM0tNb3JmLVN4ME5PZHNFblZadVk4Uzl2SEYxX21NOG9yRWY2QUt6VzRpZlRzUU1OQzEzWHB6UWJ4SDl5VGE5dVE?oc=5"
+      },
+      {
+        "symbol": "JIOFIN",
+        "ltp": 230.86,
+        "pct": -5.02,
+        "catalyst": null,
+        "headline": "Top gainers and losers on July 8: IndiGo, Jio Fin down 5%, Maruti Suzuki down 4%; ONGC up 1% were among top movers",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONG9PVE9IcVd1czM1WFJjZy0yY0R6elJVU2gydHZXSUlkdkQ4QVg2OUlwYi14NnktaEhNaGFTSkJBaUlQS2ZRWTVsZXZWMjJEeW5mWHpUSDZtM2hLN0w3NDlFUjdfcHptUHBibkdFU3BJSFlXR1V0S3FhOTh0NFk2VGR0MXo1YXdLdWpjQjBlRUU5ZGFnc2pKaTBJUDBzLU95QUVuZVNwV0JITjNtNERkb3YxbkphYkl4TlVLOThIcWhwWmpfYWt3NnlXNVdkZ1pxSkx0UGEzUE50UjQ0RWZwbzdHd0M4LWs4bF9PNUxqVHBoaktxbWJzRWwwSQ?oc=5"
+      },
+      {
+        "symbol": "SHRIRAMFIN",
+        "ltp": 1015.0,
+        "pct": -4.86,
         "catalyst": null,
         "headline": null,
         "source": null,
         "link": null
       },
       {
-        "symbol": "ADANIENT",
-        "ltp": 3109.9,
-        "pct": -3.02,
-        "catalyst": null,
-        "headline": "SKF India Nine Monthly Results, Nine Monthly Earnings for SKF India",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObUxZcTNndTcxNnc2LXRQMXFpRjZnSFE0LTZNTktsaHRMWTdReDVSZWxoTk9MY2t5SUZBVkp5bktUSjVMOC1hXzR2YXFZbXBqQzNuV2s2WFM4cmZQMHRabUtyUUQ4M0twellweGVJdzVHOUhZdjNkcXpDVU84MXRoYVAxc1hmX2tLVUpHQw?oc=5"
+        "symbol": "MARUTI",
+        "ltp": 13974.0,
+        "pct": -3.88
       },
       {
-        "symbol": "BEL",
-        "ltp": 417.4,
-        "pct": -1.92,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
-      },
-      {
-        "symbol": "ADANIPORTS",
-        "ltp": 1831.0,
-        "pct": -1.79
-      },
-      {
-        "symbol": "MAXHEALTH",
-        "ltp": 1115.3,
-        "pct": -1.52
+        "symbol": "HINDUNILVR",
+        "ltp": 2134.6,
+        "pct": -3.36
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY IT",
-        "pct": 2.43,
+        "name": "NIFTY METAL",
+        "pct": -0.91,
         "catalyst": null,
-        "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News",
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
         "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": 0.06,
+        "name": "NIFTY PHARMA",
+        "pct": -0.97,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Indian Pharma Stocks Outlook: Why Satish Ramanathan Turns Bullish On Pharma",
+        "source": "Business Today",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS3poc1hpam81Rm4zRktUXzJGblIwVFU5VGdqQ1dPRG5uVVUwdThiMi00TjRYaUMxdzFzb0dvQXBGM3NWNGdQOUM4NVpnX0hRaWhfQUNPdkM5Ykl3VG15bkd4c24zeGkxTlNrTXpBZ0dfSDRUczFvaWVnYVFiZkQtZTh0ZGtRT3R1Wm5XczBsME0wTWxObzhZR0Y0WkRNbXEwNXVwNl9MWVpSSk1RMWcxaXNkdzh4cnI1S1JWRUc3SUkydHQtYzMxTjdCU3ZQSHRJS0ZsLUlDeGM5NVZYWk4xR2ZSLXbSAeQBQVVfeXFMTUt6aHNYaWpvNUZuM0ZLVF8yRm5SMFRVOVRnakNXT0RublVVMHU4YjItNE40WGlDMXcxc29Hb0FwRjNzVjRnUDlDODVaZ19IUWloX0FDT3ZDOWJJd1RteW5HeHNuM3hpMU5Ta016QWdHX0g0VHMxb2llZ2FRYmZELWU4dGRrUU90dVpuV3MwbDBNME1sTm84WUdGNFpETW1xMDV1cDZfTFlaUkpNUTFnMWlzZHc4eHJyNUtSVkVHN0lJMnR0LWMzMU43QlN2UEh0SUtGbC1JQ3hjOTVWWFpOMUdmUi12?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY REALTY",
-        "pct": -1.58,
+        "name": "NIFTY PSU BANK",
+        "pct": -2.72,
         "catalyst": null,
-        "headline": "Sensex, Nifty end lower as metal, realty stocks drag markets",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNUxRei16cEZ1bDZ2Vk5RdW03V1dCNWQ1QkRrUV91aHhnQkU4OFl0dVl4MmpKcExJZE1FVGNseURwWDU0VE1jOFd6ZU9uZzFSNzhGTG9jaTJ3MVNSV2kzakNvUWU5MC1YTk5DTWhRbFk3bFNUeF9DUTN2cU9rOER1ODdnQ29IT3dpLUNsWm4tOUY?oc=5"
+        "headline": "Closing Bell: Sensex Crashes 1,677 Points, Nifty Slips Below 24,000 as US-Iran Tensions and Soaring Crude Trigger Broad Market Sell-Off",
+        "source": "India Infoline",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPbU9KV1h0WjlsNzhLTDZlYlVYTTJ6YWVsTmdyVzhiSEZOSEdkR0hJcTU5VGJBNUtiZmpHb3ZWWXhCeE90Nm8wS3FoVVVsM1ZMTElNRGZIUDAwaDVRT0NfVFNacDQwWnMtX1pteV9hMVV3TmgtNjNyQmVueXRMYzJoVEVnQ0R4QTVXUzMzWFh1RDYwaWZ2b0s5R3FiQ3dKTlFGcl85RnhtdE5rbTBaQ1VDTEdHcHVvNkhBVVNPMFM5dEx1SmpIdWZRbEViWV91bkY1Rzl6VGNLOFVkeHRlOE5JU1pFamQwcFNSSkNEdVFWSGhLWjlBRmNzeGZfSWpLVjFvNDl1UQ?oc=5"
       },
       {
-        "name": "NIFTY METAL",
-        "pct": -1.1,
+        "name": "NIFTY BANK",
+        "pct": -2.51,
         "catalyst": null,
-        "headline": "Stock Market Today: Sensex, Nifty Snap 4-Day Winning Streak As Realty, Metal Stocks Weigh",
-        "source": "News18",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONl9ka2w1MDRYN2xyQUxNeWgycjF3cnpOYXNOT19CRTJXejlmQXEwZjdYSlFZQVFTa29XVWZvTkRYbVRLYThPWUpoUkRWNWNWS1RpUDgyX253S2dNWFpCTmx0eVBxelpKRG5Ccl9NUDVxT1o1aVljbVBaZFJTQ1ZCWlVLVjRrNkJ0Q3JiUUx6RTRVdTlBNWRIbEZiRXdwTE1TeXVjSW9GNnoxOXhzcG9RWDBJTFZCbmtseHgxaWZmZ2xwalBMRTBUTy10WnItRjRNZkZ2LVRoaVVHYTRPdEHSAeMBQVVfeXFMTk9Uek9oQnk5N285M0kzTVdHWlBPZ21DYVpEaXYxTEs2NlBPYjZBekIxQkI1THRhNFF4YTV4NnpCdGFMNXdiNHZHSExyZHhqTHFYOTFLc0JPdHFCVGNxTHVFNWF5WlZUWmVYbUlCN3I0SmVoelpBN0tBNUVsSTExbTd5QjNOZk1Tb2RLRlZMbHpDV2tzQ0c3WDZlVWRES1V3THVvS1dZTW1CUjBBSHpBWVo1UkFfbER3c3FUNnJYRWxRa05XajNjX24tbmNBQkRGWjlTeEJtcmNBQkZUQmFOdHE2S3c?oc=5"
+        "headline": "Bank Nifty tumbles over 2% as Trump remarks trigger market selloff; banking stocks slide up to 3%",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNOW1ObDJuYlgwckozVHFiM0piVFBuazhGRmIyNzV3RW8wSENUQ0s5ZWdaYk1qOGdyYjIxb1NwS21xY3RobE5mRHN2MUhBQjNnRDJyYlJlWFJpMjZPR2ZobXB0MEhFeFJ1dFctbVBPWTgxdzJlNW5Ra1BWRGlpcjUxSVZXRm8ydnA1Z0ZLSkJ3QXdJdF9icjhQRTdibjRuWC1sTEdrRW5lUzRzMEM3VG1Ed2pRQTdROGJBZXdOa2cxazlCOWJueFhUY1lsM3RsaF84VHJpRlFqQVZvSmVCOV8yVzF5N3l0dzJhSjJUWW42YUhQbDhkcDgxQ2lwQ1BaclhBdTRR0gGIAkFVX3lxTE85VU05dVhMMXRscUliWmJZblFqcTZZSzNYeVNlNTFTZF9tVXJoQ21XbldvSnY4SzNBQ3FnYW9pTjR3ZlZFaUVtOEU2OTJ5Q2hlTXlQdHAzY29QT0N6SkNUQXVMRDh1Vk9wX0c0bVhfRklpRHN6aktySzBJM3J0VzVaMXgtV3NGdkowRTRfOGF4eTJCNmluTU9vOTFKcXNudDhYZTRHdHA0bHBEcVpxMzRVaWdDNzQ3R1lvWlRkWkdlNkhRYktwY2d6aGU3RmtHZDhILXRxdldWQW1RelRmd0d2WEExVHZVR0twS2ZoZlIxMGMzSGxIbExSaUdLR05CaDhNZWtmbWVQaw?oc=5"
       }
     ]
   }
