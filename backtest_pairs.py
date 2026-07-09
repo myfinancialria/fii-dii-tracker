@@ -60,6 +60,7 @@ HL_MIN, HL_MAX = 5, 30
 Z_WIN, INSAMPLE_DAYS = 60, 365 * 2
 Z_ENTRY, Z_EXIT, Z_STOP = 2.0, 0.5, 3.5
 COST_ONE_WAY = 0.0005
+CAP_PER_TRADE = 500_000      # gross notional deployed per trade (both legs), beta-neutral
 
 
 def resolve(t):
@@ -196,15 +197,31 @@ def backtest_pair(sector, A_disp, B_disp, px):
             reason = ("target" if abs(z) <= Z_EXIT else "stop" if abs(z) >= Z_STOP
                       else "time" if (np.isfinite(pos["hl"]) and days > 2 * pos["hl"]) else None)
             if reason:
-                ret = (gross - 2 * COST_ONE_WAY) * 100
+                # beta-neutral share sizing to a fixed gross capital: value_B = |beta|*value_A
+                ba = abs(beta)
+                vA = CAP_PER_TRADE / (1 + ba)
+                vB = ba * CAP_PER_TRADE / (1 + ba)
+                sa = max(1, int(round(vA / pos["e_pa"])))
+                sb = max(1, int(round(vB / pos["e_pb"])))
+                xpa, xpb = float(s[A].values[i]), float(s[B].values[i])
+                cap = sa * pos["e_pa"] + sb * pos["e_pb"]
+                buyA = pos["dir"] > 0                     # long spread -> buy A, sell B
+                sA, sB = (1, -1) if buyA else (-1, 1)
+                gross_rs = sA * sa * (xpa - pos["e_pa"]) + sB * sb * (xpb - pos["e_pb"])
+                charge_rs = 2 * COST_ONE_WAY * cap
+                net_rs = gross_rs - charge_rs
                 trades.append({
                     "pair": f"{pos['A']}/{pos['B']}", "sector": sector,
                     "dir": "Long spread" if pos["dir"] > 0 else "Short spread",
                     "entry": str(dates[pos["ei"]]), "exit": str(dates[i]), "days": int(days),
                     "ez": round(pos["e_z"], 2), "xz": round(float(z), 2),
+                    "a": pos["A"], "b": pos["B"],
+                    "aSide": "BUY" if buyA else "SELL", "bSide": "SELL" if buyA else "BUY",
+                    "sa": sa, "sb": sb,
                     "epa": round(pos["e_pa"], 1), "epb": round(pos["e_pb"], 1),
-                    "xpa": round(float(s[A].values[i]), 1), "xpb": round(float(s[B].values[i]), 1),
-                    "ret": round(ret, 2), "reason": reason,
+                    "xpa": round(xpa, 1), "xpb": round(xpb, 1),
+                    "cap": int(round(cap)), "rs": int(round(net_rs)),
+                    "ret": round(net_rs / cap * 100, 2), "reason": reason,
                 })
                 pos = None
     return trades
@@ -214,10 +231,14 @@ def stats(trades):
     if not trades:
         return {}
     r = np.array([t["ret"] for t in trades])
+    rs = np.array([t["rs"] for t in trades])
     wins = r[r > 0]
     return {
         "nTrades": len(trades),
         "totalRet": round(float(r.sum()), 1),
+        "totalRs": int(rs.sum()),
+        "avgRs": int(rs.mean()),
+        "capPerTrade": CAP_PER_TRADE,
         "winRate": round(float((r > 0).mean() * 100), 1),
         "avgRet": round(float(r.mean()), 2),
         "avgWin": round(float(wins.mean()), 2) if len(wins) else 0,
@@ -274,7 +295,8 @@ def main():
     }
     OUT.write_text(json.dumps(payload, separators=(",", ":")))
     st = payload["stats"]
-    print(f"\nTOTAL: {st.get('nTrades',0)} trades, {st.get('totalRet',0):+.1f}% cumulative, "
+    print(f"\nTOTAL: {st.get('nTrades',0)} trades, net ₹{st.get('totalRs',0):,} "
+          f"(₹{CAP_PER_TRADE:,}/trade), {st.get('totalRet',0):+.1f}% cumulative, "
           f"win {st.get('winRate',0)}%, Sharpe {st.get('sharpe',0)}")
     print(f"wrote {OUT} ({OUT.stat().st_size/1024:.0f} KB)")
 
