@@ -26,11 +26,14 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import time
+from math import gcd
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import requests
 from dotenv import load_dotenv
 from fyers_apiv3 import fyersModel
 from statsmodels.tsa.stattools import adfuller, coint
@@ -58,9 +61,11 @@ TICKER_MAP = {"HPCL": "HINDPETRO", "MAXFIN": "MFSL", "TATAMOTORS": "TMPV"}
 COINT_P_MAX, ADF_P_MAX = 0.05, 0.05
 HL_MIN, HL_MAX = 5, 30
 Z_WIN, INSAMPLE_DAYS = 60, 365 * 2
-Z_ENTRY, Z_EXIT, Z_STOP = 2.0, 0.5, 3.5
+Z_ENTRY, Z_EXIT, Z_STOP = 3.0, 0.5, 4.5   # enter at |z|>=3; stop widened to keep the 1.5 entry->stop gap
 COST_ONE_WAY = 0.0005
-CAP_PER_TRADE = 500_000      # gross notional deployed per trade (both legs), beta-neutral
+TARGET_NOTIONAL = 500_000    # aim ~this gross notional per trade (both legs), rounded to whole F&O lots
+MARGIN_RATE = 0.20           # stock-futures SPAN+exposure ~20% of notional (no cross-offset across underlyings)
+LOTS_CACHE = HERE / "data" / "pairs_lot_sizes.json"
 
 
 def resolve(t):
@@ -115,6 +120,47 @@ def load_prices(years: float, use_cache: bool) -> pd.DataFrame:
     return px
 
 
+# ---------------- F&O lot sizes + beta-neutral whole-lot ratio ----------------
+def get_lot_sizes(stocks) -> dict:
+    if LOTS_CACHE.exists():
+        return json.loads(LOTS_CACHE.read_text())
+    try:
+        r = requests.get("https://public.fyers.in/sym_details/NSE_FO.csv", timeout=60)
+        rows = [ln.split(",") for ln in r.text.splitlines() if ln.strip()]
+    except Exception as e:
+        print(f"  lot-size fetch failed: {e}")
+        return {}
+    lots = {}
+    for s in stocks:
+        best = None
+        for p in rows:
+            if len(p) > 13 and p[13] == s and p[9].endswith("FUT"):
+                m = re.search(r"(\d{1,2} [A-Za-z]{3} \d{2}) FUT", p[1] or "")
+                if not m:
+                    continue
+                exp = pd.to_datetime(m.group(1), format="%d %b %y", errors="coerce")
+                lot = pd.to_numeric(p[3], errors="coerce")
+                if pd.notna(exp) and pd.notna(lot) and (best is None or exp < best[0]):
+                    best = (exp, int(lot))
+        if best:
+            lots[s] = best[1]
+    LOTS_CACHE.write_text(json.dumps(lots))
+    return lots
+
+
+def hedge_lots(beta, lotA, lotB, priceA, priceB):
+    """Minimal beta-neutral whole-lot ratio nA:nB (value_B ~= |beta|*value_A)."""
+    valA, valB, best = lotA * priceA, lotB * priceB, None
+    for nB in range(1, 13):
+        for nA in range(1, 13):
+            err = abs((nB * valB) / (nA * valA) - abs(beta))
+            if best is None or err < best[0]:
+                best = (err, nA, nB)
+    _, nA, nB = best
+    g = gcd(nA, nB)
+    return nA // g, nB // g
+
+
 # ---------------- math (mirror strategy) ----------------
 def ols(la, lb):
     beta, alpha = np.polyfit(lb, la, 1)
@@ -130,7 +176,7 @@ def half_life(resid: np.ndarray) -> float:
 
 
 # ---------------- per-pair walk-forward ----------------
-def backtest_pair(sector, A_disp, B_disp, px):
+def backtest_pair(sector, A_disp, B_disp, px, lots):
     A, B = resolve(A_disp), resolve(B_disp)
     if A not in px.columns or B not in px.columns:
         return []
@@ -197,19 +243,27 @@ def backtest_pair(sector, A_disp, B_disp, px):
             reason = ("target" if abs(z) <= Z_EXIT else "stop" if abs(z) >= Z_STOP
                       else "time" if (np.isfinite(pos["hl"]) and days > 2 * pos["hl"]) else None)
             if reason:
-                # beta-neutral share sizing to a fixed gross capital: value_B = |beta|*value_A
-                ba = abs(beta)
-                vA = CAP_PER_TRADE / (1 + ba)
-                vB = ba * CAP_PER_TRADE / (1 + ba)
-                sa = max(1, int(round(vA / pos["e_pa"])))
-                sb = max(1, int(round(vB / pos["e_pb"])))
+                # beta-neutral WHOLE-LOT sizing via stock futures, scaled to ~TARGET_NOTIONAL
                 xpa, xpb = float(s[A].values[i]), float(s[B].values[i])
-                cap = sa * pos["e_pa"] + sb * pos["e_pb"]
+                lotA, lotB = lots.get(A), lots.get(B)
+                ba = abs(beta)
+                # split TARGET beta-neutral (value_B = |beta|*value_A), round each leg to whole lots
+                vA = TARGET_NOTIONAL / (1 + ba)
+                vB = ba * TARGET_NOTIONAL / (1 + ba)
+                if lotA and lotB:
+                    lotsA = max(1, int(round(vA / (lotA * pos["e_pa"]))))
+                    lotsB = max(1, int(round(vB / (lotB * pos["e_pb"]))))
+                    sa, sb = lotsA * lotA, lotsB * lotB
+                else:
+                    lotsA = lotsB = None
+                    sa = max(1, int(round(vA / pos["e_pa"])))
+                    sb = max(1, int(round(vB / pos["e_pb"])))
+                notional = sa * pos["e_pa"] + sb * pos["e_pb"]
+                margin = notional * MARGIN_RATE
                 buyA = pos["dir"] > 0                     # long spread -> buy A, sell B
-                sA, sB = (1, -1) if buyA else (-1, 1)
-                gross_rs = sA * sa * (xpa - pos["e_pa"]) + sB * sb * (xpb - pos["e_pb"])
-                charge_rs = 2 * COST_ONE_WAY * cap
-                net_rs = gross_rs - charge_rs
+                sgnA, sgnB = (1, -1) if buyA else (-1, 1)
+                gross_rs = sgnA * sa * (xpa - pos["e_pa"]) + sgnB * sb * (xpb - pos["e_pb"])
+                net_rs = gross_rs - 2 * COST_ONE_WAY * notional
                 trades.append({
                     "pair": f"{pos['A']}/{pos['B']}", "sector": sector,
                     "dir": "Long spread" if pos["dir"] > 0 else "Short spread",
@@ -217,11 +271,12 @@ def backtest_pair(sector, A_disp, B_disp, px):
                     "ez": round(pos["e_z"], 2), "xz": round(float(z), 2),
                     "a": pos["A"], "b": pos["B"],
                     "aSide": "BUY" if buyA else "SELL", "bSide": "SELL" if buyA else "BUY",
-                    "sa": sa, "sb": sb,
+                    "sa": sa, "sb": sb, "lotsA": lotsA, "lotsB": lotsB,
                     "epa": round(pos["e_pa"], 1), "epb": round(pos["e_pb"], 1),
                     "xpa": round(xpa, 1), "xpb": round(xpb, 1),
-                    "cap": int(round(cap)), "rs": int(round(net_rs)),
-                    "ret": round(net_rs / cap * 100, 2), "reason": reason,
+                    "notional": int(round(notional)), "margin": int(round(margin)),
+                    "rs": int(round(net_rs)), "ret": round(net_rs / notional * 100, 2),
+                    "reason": reason,
                 })
                 pos = None
     return trades
@@ -232,13 +287,16 @@ def stats(trades):
         return {}
     r = np.array([t["ret"] for t in trades])
     rs = np.array([t["rs"] for t in trades])
+    mg = np.array([t["margin"] for t in trades])
     wins = r[r > 0]
     return {
         "nTrades": len(trades),
         "totalRet": round(float(r.sum()), 1),
         "totalRs": int(rs.sum()),
         "avgRs": int(rs.mean()),
-        "capPerTrade": CAP_PER_TRADE,
+        "avgMargin": int(mg.mean()),
+        "targetNotional": TARGET_NOTIONAL,
+        "marginRate": MARGIN_RATE,
         "winRate": round(float((r > 0).mean() * 100), 1),
         "avgRet": round(float(r.mean()), 2),
         "avgWin": round(float(wins.mean()), 2) if len(wins) else 0,
@@ -255,11 +313,11 @@ def stats(trades):
 def curve(trades):
     by_exit = {}
     for t in sorted(trades, key=lambda x: x["exit"]):
-        by_exit[t["exit"]] = by_exit.get(t["exit"], 0) + t["ret"]
+        by_exit[t["exit"]] = by_exit.get(t["exit"], 0) + t["rs"]   # cumulative rupees
     cum, out = 0.0, []
     for d in sorted(by_exit):
         cum += by_exit[d]
-        out.append({"date": d, "cum": round(cum, 1)})
+        out.append({"date": d, "cum": int(round(cum))})
     return out
 
 
@@ -272,20 +330,25 @@ def main():
     px = load_prices(args.years, args.cache)
     print(f"Prices: {px.shape[0]} days {px.index.min()} -> {px.index.max()}")
 
+    stocks = sorted({resolve(s) for _, a, b in CANDIDATE_PAIRS for s in (a, b)})
+    lots = get_lot_sizes(stocks)
+    print(f"F&O lot sizes: {len(lots)}/{len(stocks)} stocks")
+
     all_trades = []
     for sector, A, B in CANDIDATE_PAIRS:
-        ts = backtest_pair(sector, A, B, px)
+        ts = backtest_pair(sector, A, B, px, lots)
         all_trades += ts
         if ts:
-            tot = sum(t["ret"] for t in ts)
-            print(f"  {A}/{B:<12} {len(ts):>3} trades  {tot:+.1f}%")
+            tot = sum(t["rs"] for t in ts)
+            print(f"  {A}/{B:<12} {len(ts):>3} trades  ₹{tot:+,.0f}")
 
     all_trades.sort(key=lambda t: t["exit"])
     bt_start = min((t["entry"] for t in all_trades), default="")
     bt_end = max((t["exit"] for t in all_trades), default="")
     payload = {
-        "strategy": "Cointegration pairs — enter |z|>=2 (coint p<0.05, half-life 5-30d), "
-                    "exit target z=0.5 / stop z=3.5 / time-stop 2x half-life, 0.10% round-trip cost",
+        "strategy": f"Cointegration pairs — enter |z|>={Z_ENTRY:g} (coint p<0.05, half-life 5-30d), "
+                    f"exit target z={Z_EXIT:g} / stop z={Z_STOP:g} / time-stop 2x half-life, "
+                    f"0.10% round-trip cost. Executed via STOCK FUTURES (both legs), whole lots, beta-neutral.",
         "engine": "Fyers daily equity data (walk-forward, trailing-2y hedge)",
         "period": f"{bt_start} to {bt_end}",
         "pairs_universe": len(CANDIDATE_PAIRS),
@@ -295,8 +358,8 @@ def main():
     }
     OUT.write_text(json.dumps(payload, separators=(",", ":")))
     st = payload["stats"]
-    print(f"\nTOTAL: {st.get('nTrades',0)} trades, net ₹{st.get('totalRs',0):,} "
-          f"(₹{CAP_PER_TRADE:,}/trade), {st.get('totalRet',0):+.1f}% cumulative, "
+    print(f"\nTOTAL: {st.get('nTrades',0)} trades, net ₹{st.get('totalRs',0):,}, "
+          f"avg margin ₹{st.get('avgMargin',0):,}/trade, {st.get('totalRet',0):+.1f}% cum (on notional), "
           f"win {st.get('winRate',0)}%, Sharpe {st.get('sharpe',0)}")
     print(f"wrote {OUT} ({OUT.stat().st_size/1024:.0f} KB)")
 

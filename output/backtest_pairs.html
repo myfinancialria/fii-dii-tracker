@@ -55,10 +55,23 @@
   <div class="kpis" id="kpis"></div>
   <div class="reasons" id="reasons"></div>
 
-  <div class="section-title">Equity curve — cumulative return (%, beta-neutral, net of cost)</div>
+  <div class="section-title">Equity curve — cumulative net P&amp;L (₹)</div>
   <div class="card"><div id="chart"></div></div>
 
-  <div class="section-title">Trade log</div>
+  <div class="section-title">How to execute — via stock futures</div>
+  <div class="card" style="font-size:13px;line-height:1.65;color:#334155">
+    In India you <b>can't carry an equity short overnight in the cash segment</b> (intraday only; SLB is illiquid),
+    and a pairs trade holds for days. So <b>both legs are stock futures</b>:
+    <ul style="margin:8px 0 0;padding-left:20px">
+      <li><b>Long leg → BUY futures, short leg → SELL futures</b> (near-month, most liquid). Both held overnight until exit.</li>
+      <li><b>Whole lots, beta-neutral.</b> Size so value<sub>B</sub> ≈ |β|·value<sub>A</sub>, rounded to lots. The minimum here is 1 lot each (~₹0.9–1.7M notional).</li>
+      <li><b>Margin</b> ≈ 20% of notional per leg (SPAN+exposure). Two different underlyings usually get <b>no cross-margin offset</b>, so budget margin on both legs (unless your broker offers portfolio margin).</li>
+      <li><b>Rollover:</b> stock futures expire the last Thursday monthly. If a trade is still open near expiry, <b>roll both legs</b> to next month (square off + re-enter) 1–2 days before — don't let it expire.</li>
+      <li><b>Exit:</b> square off both futures when z reverts to target (~0.5); stop if z hits 3.5→4.5; time-stop at 2× half-life.</li>
+    </ul>
+  </div>
+
+  <div class="section-title">Trade log — both stock futures, whole lots</div>
   <div class="bar">
     <input id="q" placeholder="Search pair / sector…" style="flex:1;min-width:160px">
     <select id="fsec"><option value="">All sectors</option></select>
@@ -69,8 +82,8 @@
     <table>
       <thead><tr>
         <th>Entry</th><th>Exit</th><th>Days</th>
-        <th>Buy leg (stock ×qty · entry→exit)</th><th>Sell leg (stock ×qty · entry→exit)</th>
-        <th>Capital</th><th>z in→out</th><th>Profit ₹</th><th>Return %</th><th>Exit</th>
+        <th>BUY future (stock · lots · entry→exit)</th><th>SELL future (stock · lots · entry→exit)</th>
+        <th>Notional</th><th>Margin</th><th>Profit ₹</th><th>Ret %</th><th>Exit</th>
       </tr></thead>
       <tbody id="rows"></tbody>
     </table>
@@ -99,10 +112,10 @@ function kpis(){
     `<div class="kpi"><div class="l">${c[0]}</div><div class="v ${c[2]}">${c[1]}</div></div>`).join('');
   const br=s.byReason||{};
   document.getElementById('reasons').innerHTML=
-    `<span class="rz">Capital / trade <b>₹${(s.capPerTrade/100000).toFixed(1)}L</b></span>`+
+    `<span class="rz">Avg margin / trade <b>₹${(s.avgMargin/100000).toFixed(2)}L</b></span>`+
     `<span class="rz">Avg profit / trade <b class="${cls(s.avgRs)}">${rup(s.avgRs)}</b></span>`+
-    `<span class="rz">Avg win <b class="pos">${pct(s.avgWin)}</b></span>`+
-    `<span class="rz">Avg loss <b class="neg">${pct(s.avgLoss)}</b></span>`+
+    `<span class="rz">Sized to <b>₹${(s.targetNotional/100000).toFixed(0)}L</b> notional</span>`+
+    `<span class="rz">Margin <b>${(s.marginRate*100).toFixed(0)}%</b> of notional</span>`+
     `<span class="rz">Target <b>${br.target||0}</b></span>`+
     `<span class="rz">Stop <b>${br.stop||0}</b></span>`+
     `<span class="rz">Time <b>${br.time||0}</b></span>`;
@@ -114,9 +127,10 @@ function chart(){
   const cum=c.map(p=>p.cum), lo=Math.min(0,...cum), hi=Math.max(0,...cum);
   const X=i=>pad+i/(c.length-1)*(W-pad-10);
   const Y=v=>H-28-(v-lo)/(hi-lo||1)*(H-46);
+  const kfmt=v=>'₹'+(v/1000).toFixed(0)+'k';
   let svg=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">`;
   svg+=`<line x1="${pad}" y1="${Y(0)}" x2="${W-10}" y2="${Y(0)}" stroke="#CBD5E1"/>`;
-  [lo,hi].forEach(v=>svg+=`<text x="4" y="${Y(v)+4}" font-size="11" fill="#6B7280">${v.toFixed(0)}%</text>`);
+  [lo,hi].forEach(v=>svg+=`<text x="4" y="${Y(v)+4}" font-size="11" fill="#6B7280">${kfmt(v)}</text>`);
   const pts=c.map((p,i)=>`${X(i).toFixed(1)},${Y(p.cum).toFixed(1)}`).join(' ');
   svg+=`<polyline points="${pts}" fill="none" stroke="#16A34A" stroke-width="2.2"/>`;
   svg+=`<text x="${pad}" y="${H-6}" font-size="11" fill="#6B7280">${c[0].date}</text>`;
@@ -131,14 +145,15 @@ function rows(){
     (!q||t.pair.toLowerCase().includes(q)||t.sector.toLowerCase().includes(q)))
     .sort((a,b)=>a.exit<b.exit?1:-1);
   document.getElementById('rows').innerHTML=F.map(t=>{
-    const buy = t.aSide==='BUY' ? {s:t.a,n:t.sa,e:t.epa,x:t.xpa} : {s:t.b,n:t.sb,e:t.epb,x:t.xpb};
-    const sell= t.aSide==='BUY' ? {s:t.b,n:t.sb,e:t.epb,x:t.xpb} : {s:t.a,n:t.sa,e:t.epa,x:t.xpa};
+    const buy = t.aSide==='BUY' ? {s:t.a,l:t.lotsA,n:t.sa,e:t.epa,x:t.xpa} : {s:t.b,l:t.lotsB,n:t.sb,e:t.epb,x:t.xpb};
+    const sell= t.aSide==='BUY' ? {s:t.b,l:t.lotsB,n:t.sb,e:t.epb,x:t.xpb} : {s:t.a,l:t.lotsA,n:t.sa,e:t.epa,x:t.xpa};
+    const lot=x=>x.l!=null?`${x.l} lot${x.l>1?'s':''} (${x.n.toLocaleString('en-IN')})`:`${x.n.toLocaleString('en-IN')} sh`;
     return `<tr>
     <td>${t.entry}</td><td>${t.exit}</td><td>${t.days}</td>
-    <td><b class="pos">BUY</b> ${buy.s} ×${buy.n.toLocaleString('en-IN')} · ${buy.e}→${buy.x}</td>
-    <td><b class="neg">SELL</b> ${sell.s} ×${sell.n.toLocaleString('en-IN')} · ${sell.e}→${sell.x}</td>
-    <td>₹${(t.cap/100000).toFixed(2)}L</td>
-    <td>${t.ez}→${t.xz}</td>
+    <td><b class="pos">BUY</b> ${buy.s} · ${lot(buy)} · ${buy.e}→${buy.x}</td>
+    <td><b class="neg">SELL</b> ${sell.s} · ${lot(sell)} · ${sell.e}→${sell.x}</td>
+    <td>₹${(t.notional/100000).toFixed(2)}L</td>
+    <td>₹${(t.margin/100000).toFixed(2)}L</td>
     <td class="${cls(t.rs)}">${rup(t.rs)}</td>
     <td class="${cls(t.ret)}">${pct(t.ret)}</td>
     <td><span class="pill ${t.reason}">${t.reason}</span></td>
@@ -149,9 +164,11 @@ fetch('backtest_pairs_data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
   M=d;
   document.getElementById('sub').innerHTML=`${d.strategy}<br>Engine: <b>${d.engine}</b> · ${d.pairs_universe} candidate pairs · ${d.period}`;
   document.getElementById('note').innerHTML=
-    `<b>Coverage: ${d.period}</b> — ~3 years of entries (Fyers served 5y of daily data; the first 2y are the rolling hedge/cointegration lookback). `+
-    `Each trade is sized to <b>₹${(d.stats.capPerTrade/100000).toFixed(1)}L gross</b> (both legs), split <b>beta-neutral</b>; share counts are rounded. `+
-    `Profit ₹ is the actual leg-price P&amp;L net of 0.10% round-trip cost. Capital shown is gross notional — with stock futures the margin blocked is ~15–25% of that.`;
+    `<b>Entry threshold |z| ≥ 3</b> (a rare, extreme deviation) → only <b>${d.stats.nTrades} trades</b> over ~3 years `+
+    `(${d.period}). Stricter than the live z≥2 alerter, so far fewer but higher-conviction setups (Sharpe rose vs z≥2). `+
+    `Both legs are <b>stock futures</b>, sized to ~₹${(d.stats.targetNotional/100000).toFixed(0)}L notional in whole lots (min 1 lot each). `+
+    `Profit ₹ is actual leg-price P&amp;L net of 0.10% round-trip; margin ≈ ${(d.stats.marginRate*100).toFixed(0)}% of notional. `+
+    `Return % is on notional — since futures need only ~20% margin, return on capital deployed is roughly 5×.`;
   document.getElementById('foot').innerHTML=
     `Walk-forward on Fyers daily equity data — trailing-2y hedge refit daily, no look-ahead. `+
     `<b>Educational / internal — not investment advice, not a recommendation.</b> Backtested results assume fills at the daily close and do not model slippage/impact; past performance does not predict future results.`;
