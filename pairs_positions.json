@@ -83,6 +83,27 @@
         1,
         1
       ]
+    },
+    {
+      "key": "PNB/CANBK",
+      "sector": "PSU Banks",
+      "A": "PNB",
+      "B": "CANBK",
+      "direction": -1,
+      "entry_date": "2026-07-20",
+      "entry_z": 2.794374075144976,
+      "entry_spread": -0.014598170549286138,
+      "beta": 0.4358183440299527,
+      "alpha": 2.6135650344163284,
+      "half_life": 17.441545666959946,
+      "entry_priceA": 111.76,
+      "entry_priceB": 128.82,
+      "lotA": 8000,
+      "lotB": 6750,
+      "ratio": [
+        9,
+        4
+      ]
     }
   ],
   "closed": [
