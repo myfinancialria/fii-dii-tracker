@@ -1,55 +1,51 @@
 {
-  "date": "2026-07-17",
-  "date_pretty": "Friday, 17 July 2026",
-  "mood": "Mixed",
+  "date": "2026-07-21",
+  "date_pretty": "Tuesday, 21 July 2026",
+  "mood": "Range-bound",
   "nifty": {
-    "last": 24334.3,
-    "change": 261.55,
-    "pct": 1.09,
+    "last": 24187.7,
+    "change": -50.8,
+    "pct": -0.21,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 37,
-    "declines": 13,
+    "advances": 33,
+    "declines": 17,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 58521.4,
-    "change": 939.15,
-    "pct": 1.63,
+    "last": 57835.35,
+    "change": -109.65,
+    "pct": -0.19,
     "year_high": 61764.85,
     "year_low": 49954.85,
     "advances": 9,
     "declines": 5,
-    "unchanged": 0,
-    "catalyst": null,
-    "headline": "Sensex surges 965 points, Nifty tops 24,300 as IT, bank stocks rally; RIL jumps 2.6% ahead of Q1",
-    "source": "Fortune India",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPamJZaENWcVpmekxFZktVZnRqdjJUUTUxWm9pMzFHLS1vZU5VN1NxdGVRQkNWQjFYVG9NeEpFRGh3LUdkOUU0SVN1QzJvT3NmdUpRdDN6d2pWUGZ6UlZmaG05RWdtNy1mWnVEU0hGTXk5RGlWem5OX3I5bEw5dFBGVVNIdVd4LXBBRUJBNkd2ck9MT3BWODdHaGpJZGwyaUpQQkVfdkxRM25nUjRJWjNpbEsxemRVV1FXVHFrODFhZ2RhUEl4VENDNElHQW12bUk4aUwxdkQtbVBZSno00gHcAUFVX3lxTE9qYlloQ1ZxWmZ6TEVmS1VmdGp2MlRRNTFab2kzMUctLW9lTlU3U3F0ZVFCQ1ZCMVhUb014SkVEaHctR2Q5RTRJU3VDMm9Pc2Z1SlF0M3p3alZQZnpSVmZobTlFZ203LWZadURTSEZNeTlEaVZ6bk5fcjlsTDl0UEZVU0h1V3gtcEFFQkE2R3ZyT0xPcFY4N0doaklkbDJpSlBCRV92TFEzbmdSNElaM2lsSzF6ZFVXUVdUcWs4MWFnZGFQSXhUQ0M0SUdBbXZtSThpTDF2RC1tUFlKejQ?oc=5"
+    "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 24334.3,
-    "change": 261.55,
-    "pct": 1.09,
+    "last": 24187.7,
+    "change": -50.8,
+    "pct": -0.21,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 37,
-    "declines": 13,
+    "advances": 33,
+    "declines": 17,
     "unchanged": 0
   },
   "midcap": {
-    "last": 62428.05,
-    "change": -258.7,
-    "pct": -0.41,
+    "last": 62987.6,
+    "change": 185.85,
+    "pct": 0.3,
     "year_high": 63183.35,
     "year_low": 52032.85,
-    "advances": 40,
-    "declines": 60,
+    "advances": 56,
+    "declines": 44,
     "unchanged": 0
   },
   "vix": {
-    "last": 13.15,
-    "change": 0.27,
-    "pct": 2.07,
+    "last": 12.6,
+    "change": -0.38,
+    "pct": -2.92,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -57,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 14393.77,
-    "sell": 14770.18,
-    "net": -376.41
+    "buy": 16327.88,
+    "sell": 14677.72,
+    "net": 1650.16
   },
   "dii": {
-    "buy": 17180.08,
-    "sell": 16162.19,
-    "net": 1017.89
+    "buy": 14638.54,
+    "sell": 15295.42,
+    "net": -656.88
   },
   "global": {
     "Dow Jones": {
-      "last": 52368.73046875,
-      "change": -184.23828125,
-      "pct": -0.35057635302477563
+      "last": 52352.01171875,
+      "change": 512.75,
+      "pct": 0.9891151667666225
     },
     "Nasdaq": {
-      "last": 25618.79296875,
-      "change": -263.15625,
-      "pct": -1.016755916549586
+      "last": 25855.884765625,
+      "change": 347.814453125,
+      "pct": 1.3635467084099917
     },
     "S&P 500": {
-      "last": 7484.89990234375,
-      "change": -48.8701171875,
-      "pct": -0.6486807675414107
+      "last": 7513.3701171875,
+      "change": 70.09033203125,
+      "pct": 0.9416592423547955
     },
     "FTSE 100": {
-      "last": 10600.3701171875,
-      "change": 28.169921875,
-      "pct": 0.2664527851779611
+      "last": 10585.91015625,
+      "change": 61.1103515625,
+      "pct": 0.5806319616196679
     },
     "Nikkei 225": {
-      "last": 66835.5390625,
-      "change": -1915.96875,
-      "pct": -2.7868025167175308
+      "last": 64141.12109375,
+      "change": -2694.41796875,
+      "pct": -4.031415032398207
     },
     "Hang Seng": {
-      "last": 25008.599609375,
-      "change": 327.5,
-      "pct": 1.3269262925206164
+      "last": 25143.05078125,
+      "change": 580.810546875,
+      "pct": 2.364648099411357
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 96.2699966430664,
-      "change": -0.22859954833984375,
-      "pct": -0.23689416982441225
+      "last": 96.2249984741211,
+      "change": -0.0597991943359375,
+      "pct": -0.062106579422690905
     },
     "Dollar Index": {
-      "last": 100.73400115966797,
-      "change": 0.003997802734375,
-      "pct": 0.003968830141113876
+      "last": 101.1050033569336,
+      "change": 0.1150054931640625,
+      "pct": 0.11387810238316785
     },
     "Brent Crude": {
-      "last": 87.4800033569336,
-      "change": 3.25,
-      "pct": 3.85848257209225
+      "last": 91.23999786376953,
+      "change": 2.0199966430664062,
+      "pct": 2.2640625593240573
     },
     "Gold": {
-      "last": 4024.10009765625,
-      "change": 38.5,
-      "pct": 0.965977495400005
+      "last": 4077.5,
+      "change": 67.199951171875,
+      "pct": 1.6756838728691117
     },
     "US 10Y Yield": {
-      "last": 4.545000076293945,
-      "change": -0.023999691009521484,
-      "pct": -0.5252723184900845
+      "last": 4.631999969482422,
+      "change": 0.03399991989135742,
+      "pct": 0.7394501853992215
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "TECHM",
-        "ltp": 1570.1,
-        "pct": 3.96,
+        "symbol": "SHRIRAMFIN",
+        "ltp": 1064.1,
+        "pct": 2.77,
         "catalyst": null,
-        "headline": "Nifty IT index up 12% in July; HCL Tech, TechM gain 20% from 52-week lows",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNk9kbmpwTndBTGJMWXBqMjhVYTZSS05vZzdudGM2SjIwc2l5WGFHblZDQ2hjaWR4a2xBRGlXaTUtVGxoUnBLci0yT0JLc3ZINEVZelBuQmNmTFlqc1JoRkFDZjRoRnBEdFIwU2xwR0VrWEtzZUVmV1Rad3JRSTNTRnhjUVVmQ3Nnc1J3Vm9rTkFpUnRmLWxMN3RTdk9oU0poU0kwVlRBWV9xRUp1d01WOTU4Zlp1LU4wZy1JUFB3SkxqQXJpdkpXSkFVb0c4YWdyZEHSAdcBQVVfeXFMTW9ZTkVFUnFtQkc5OEdVSDR4SEhGM2J5MXNrdGhQVndDc05yTlNIQUhST1Yzb05oSmRoem9GVU9UdzRaR2xlUGRxeGdvRk45bHFiNE82WGlZaDV1Y3hYUEJNQUg1a1BENURQMm1OOUZKb0FBWmcxTjFOTVNIQjZLMU5vbkRBRnp1Q090UWpYVXlpV1ZzZEVacVVUYi02V21WUkdnMnZGbEZYSTFHcEs0LVg5QUtVNXFNdGRBLU1OclRVQmJHLW1GYTc2czRNWUUwOXZBNHVFOTQ?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "KOTAKBANK",
-        "ltp": 390.7,
-        "pct": 3.59,
+        "symbol": "BAJAJFINSV",
+        "ltp": 1900.7,
+        "pct": 2.11,
         "catalyst": null,
-        "headline": "Stock Market Close Report, July 17, 2026: Markets Soar As Earnings Optimism Drives Rally",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaVJaNHpHODZvZjMyVGNjc3NhNjROTnRGaDFMUUN2V1FzejFWYm5FUkg4TzVJcXNDV2VkUV81SS1IbUFzdlNzWlBBNWFVb1hhbTRzVDZhRGRFZWNmWEYxeTZvNlBTekZEMUN0bUFsT25PeDlramQ3aUJCVjJ3RFVycg?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "JIOFIN",
-        "ltp": 242.7,
-        "pct": 2.99,
+        "symbol": "EICHERMOT",
+        "ltp": 7694.0,
+        "pct": 1.73,
         "catalyst": null,
-        "headline": "Jio Financial Services Stock Update: Share Price Surges Over 4% on Q1 Earnings",
-        "source": "LatestLY",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR0w1ZEpQNENhYjFNU2hBYlVQdDZZX2M5NmZhMDVWZURLQjE2SGUyM1YtejZQVnBlZGNocllpMVBnMVRMTEkybVlEX19NX2NSR1lrcTlNNEktcVhPMGh3bVBhZm1tdWZ3eW5PSzRTMXhmNWp6RDdmQUtYQjZNRGRFYXo2bXdkUjJGUjZXNTdoNnI4X0xlRlJPVWV1YUdEZEZGMlgtVlJTRmRRYVVDRHg3NFNVaXBhVmhnN3FUZWxkc2zSAcYBQVVfeXFMTm9ydDVhUzV0MzJPUlFXNlFxS2t0MWVjdlJpU2dRMG0tcUMyX2lYZ1E0T2Utb2hiTVhISEQ0N3I0SktCT1ZPWkNhcUpzWk15amtoZ2VudUdPRkZYUk9EYVFvVkFtNzlrZkt2T3kxY0hiNFIxUU5IN2pVZ1I5a2d2Q0E4bk9YazdhTW5qTHJiT0hVSldia3dJWGJkOG83LUo0N1BVT09sZDRIRERiTURBaFpxUGpBUVVlYzBmbUVyRE1FTWNVemVB?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "TCS",
-        "ltp": 2266.0,
-        "pct": 2.95
+        "symbol": "ULTRACEMCO",
+        "ltp": 12075.0,
+        "pct": 1.45
       },
       {
-        "symbol": "ICICIBANK",
-        "ltp": 1454.0,
-        "pct": 2.52
+        "symbol": "HCLTECH",
+        "ltp": 1238.9,
+        "pct": 1.44
       }
     ],
     "losers": [
       {
-        "symbol": "HINDALCO",
-        "ltp": 945.05,
-        "pct": -1.49,
+        "symbol": "HDFCBANK",
+        "ltp": 761.5,
+        "pct": -2.07,
         "catalyst": null,
-        "headline": "Top gainers and losers, July 17: TechM, Kotak Bank jump 4%, Jio Financial up 3%, Hindalco down 1%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQc204bl8xZlVpVnp3T0x3MjFsdXppd0JkSnNUMWFwdzJ0ckRWMGtIZU1XSkYwQndvYTlKdGU4Z0NWV1JuYldaMzAzSTNjbXdQRWc2TW55VXR2S3VuazJXU0YtSzZzZ2laNDRJTmRuTTNPcjR3aWNXam11UnFqRmFRbEo1OXpNWGdHbGZMS19FYnlQeWloM3FsTXFHeGlTZ1dPZHFxTDFRUjJia0tadEE1OXc2dnVkd3JBcXlFaGFaNkF0SXI3SkpzNUx6M05XTlN5dDU2T1FtTVlwdUQtWjRHSUUyMGExS2xMT1BPS3NZaVN3Zw?oc=5"
+        "headline": "HDFC Bank shares tumble 7% in two sessions after Q1; what's spooking investors?",
+        "source": "Fortune India",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2Y1cnFGQk9Fajl1LXNnalgwZG5jbDhqT0gzd3czeTRTdnNva1d5MzJ6bDVIa2RUOWV4aGs0TzdJRGFUU2wyYzh0NjNPNFpjcFZwYWRFYjdYX2U3YmdMb01PbUI4OTQxYWJlaXN1MFhJc0lYUDlWQkhGaWkwMF8xMzV3UnZyNkFQdWFzVTNsOU9lX2NJakN2NDZIZlFhTU45WVFuM2pLaWVjdV9zQ1haVDJwc21VNk1ROGNN0gHIAUFVX3lxTFB3U1BJZzJXa3lGcmRIMGlSdzVQRFZNNDBySHNYTnVGOFN3TzFHMEg0QURiSUJiMVkwQktOaWRXV29UYy12c1ZFN0ZFSnBfV1RZR29EMDBHdmZhYWlJYm9YMXpOaEIyeW5PamVQWlhjbTdVNnlmMjB6NTJvZm1Oejk4TS1oY2VtQmM3ZGNFYVNSTTFvd0ljS2hoTm9hUVI4ZzFiM0czR3lER1E3d0RNWVhwdmR0X0lmU204NzNJd2JPYTRMRjhrTUlf?oc=5"
       },
       {
-        "symbol": "DRREDDY",
-        "ltp": 1210.3,
-        "pct": -1.15,
+        "symbol": "INFY",
+        "ltp": 1070.6,
+        "pct": -1.52,
         "catalyst": null,
-        "headline": "Stock Market Close Report, July 17, 2026: Markets Soar As Earnings Optimism Drives Rally",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaVJaNHpHODZvZjMyVGNjc3NhNjROTnRGaDFMUUN2V1FzejFWYm5FUkg4TzVJcXNDV2VkUV81SS1IbUFzdlNzWlBBNWFVb1hhbTRzVDZhRGRFZWNmWEYxeTZvNlBTekZEMUN0bUFsT25PeDlramQ3aUJCVjJ3RFVycg?oc=5"
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.19%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX2VTSWVtVDg5YVh0cW5ZaFlsVEpzTHRKdmlydjVpMWhsWWxZUnlLb0RZTFNjbTdQN29EZ3BSaDJ3YWpLXzdWck9sYnRjU2pnWjVmaTVELTBvdzRNbklLRFF2dmxfekp4SnFGbkpHZHlxYTBxNDR6OUg2RVBwMUtlZDVOOE5HSmxHb29Xa045OHVFOFBGWWE1a1d1U3M0bDJxbGFoRTRQaTFJYkFDSnBFLQ?oc=5"
       },
       {
-        "symbol": "WIPRO",
-        "ltp": 175.9,
-        "pct": -1.04,
+        "symbol": "SBIN",
+        "ltp": 1044.3,
+        "pct": -1.48,
         "catalyst": null,
-        "headline": "India shares climb, with just five major stocks making up most Nifty gains",
-        "source": "TechStock\u00b2",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaEVvNnJLS09jdjJ6VzAwRlQ0X1JqQjl3QWMtOXh3TVFUbGhyaEVub3Y1NTlwcDFDVmxxc0RSZUJYRFJieTBFNTdPd3VsZllJRFkxZWt3Y1BacEJ1X0NvM2tnbnIwWEdOX05GUkFjRjJLcUszdDV3d05VTzh6Z1JmX1BtY3F0bFdBUHp6NW1rV0tLRGlaNzVmR0Zn?oc=5"
+        "headline": "SBI Funds Management made a muted stock market debut; stock lists at only 7% premium",
+        "source": "Business Today",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR2JtdmFGTW4tSmZkZ2Mwa0pOMGx3U2pNdWZzQ3JoMUlULWlXRHFxRVV1bVRCemZLX3dJc3hzeUpYWXFCV1Q3Q1lTWk1FVUh6aDBUM3FEY3RYX0JJTmFydDg1Zm1meVBYMy1yQjh4eTJlVW1SSGZ0TzdQVkkwbTNKakVDZjA5MndxLWVLQ09LbTJDNE8xSFZfVjJMV24zbE4yVE5xdUNuWVhfcXRlMjBRbFM0cEt5UzVvM1ppdDZ4bk9vSW5vTEJEYUZzV1RjeE1HTkFyTXd5Y0ZmVjdBTVFwN293ckHSAeoBQVVfeXFMTVhYNFZaenRCaUQ1cmZCemdTOE9hLTJfRnJOc1BOQjFmazN2QW1Ram1IRG9FRDZ6OTF6aUFJWWxocmNxcmlDN2NCTXI3eGtDVlNjYi02dzRreVB4RUVNT3JQcG1JSHd5Z0RrMF9pcVAxRFBVaWw5T2VGSTIxcWZqRlhoanVnY240ZllHSHJPaGNjT1ctVVJ1UUF2cGhNd1diUEVtdjBOeHZFaWpmRnEtbVNpRGVuTE5JMU5PLUNXb3NqRTVNUXUtTVppOFprWWtjYWI1UlZGQ013Y1Joc3JCX3MxcWRJRWV1c3ZR?oc=5"
       },
       {
-        "symbol": "SUNPHARMA",
-        "ltp": 1934.0,
-        "pct": -0.83
+        "symbol": "TCS",
+        "ltp": 2219.0,
+        "pct": -1.43
       },
       {
-        "symbol": "APOLLOHOSP",
-        "ltp": 8820.0,
-        "pct": -0.77
+        "symbol": "RELIANCE",
+        "ltp": 1304.6,
+        "pct": -1.4
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY IT",
-        "pct": 1.75,
+        "name": "NIFTY REALTY",
+        "pct": 1.07,
         "catalyst": null,
-        "headline": "IT powers Indian shares to weekly gains; Reliance, bank earnings eyed",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbGF0TVI5MFFQVjZIYVVVZHQyMU5tUWlJLTFUZ2lwNVhwV0F5bVg5UUJLN2o3UTZiRFotcS0xVUUtX0dQRVN2d2lZZ1B2a1A4SW85aXcyV2VveW5leEdZUXJvZXplV0lTX1FzU3BBaHJacG1UNGNWbnFlUlpLY1BFaHctQVhSWkZuS05WZUpBSHNMUFR6czJid3liTU1ZOUFCNFpwMFdRXzI4dw?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | July 21, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQckxKOVhtV3hyOGM4NDBMbzA0dzE1QWVTRms2eXVBOFNWRVVWMEFENmpxZ0wtM0hxejdzZElEQkdTSjBoZklNNWNvXzVtc2hGQVJQN244NUNDcUNBUjRzZUhpcmlFTWFCZktFSWhwM1ZiejNhUDNzX1F4U3drd2czRjg1cTJtNUkyeHAyZkNNU08teEQ5a0p3LVhxcl9MOEc3anE4VzhYVVZ6bWVoQmF1c3hxT2ZOZTFlUDUzWHhtTG4zWmY4QzRYVw?oc=5"
       },
       {
-        "name": "NIFTY BANK",
-        "pct": 1.63,
+        "name": "NIFTY AUTO",
+        "pct": 0.93,
         "catalyst": null,
-        "headline": "Sensex surges 965 points, Nifty tops 24,300 as IT, bank stocks rally; RIL jumps 2.6% ahead of Q1",
-        "source": "Fortune India",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPamJZaENWcVpmekxFZktVZnRqdjJUUTUxWm9pMzFHLS1vZU5VN1NxdGVRQkNWQjFYVG9NeEpFRGh3LUdkOUU0SVN1QzJvT3NmdUpRdDN6d2pWUGZ6UlZmaG05RWdtNy1mWnVEU0hGTXk5RGlWem5OX3I5bEw5dFBGVVNIdVd4LXBBRUJBNkd2ck9MT3BWODdHaGpJZGwyaUpQQkVfdkxRM25nUjRJWjNpbEsxemRVV1FXVHFrODFhZ2RhUEl4VENDNElHQW12bUk4aUwxdkQtbVBZSno00gHcAUFVX3lxTE9qYlloQ1ZxWmZ6TEVmS1VmdGp2MlRRNTFab2kzMUctLW9lTlU3U3F0ZVFCQ1ZCMVhUb014SkVEaHctR2Q5RTRJU3VDMm9Pc2Z1SlF0M3p3alZQZnpSVmZobTlFZ203LWZadURTSEZNeTlEaVZ6bk5fcjlsTDl0UEZVU0h1V3gtcEFFQkE2R3ZyT0xPcFY4N0doaklkbDJpSlBCRV92TFEzbmdSNElaM2lsSzF6ZFVXUVdUcWs4MWFnZGFQSXhUQ0M0SUdBbXZtSThpTDF2RC1tUFlKejQ?oc=5"
+        "headline": "Live: Nifty extends loss to 2nd day, below 24,250; Auto stocks in fast lane | Closing Bell",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQm1yMlQ5OFpIczNCb3NJLVBIZG1KSTdhTVJMSURJU2I1YlJDZzNsaHQ5ekRzWU5qcXpHWDJtalp0YXJFdFVUNHBPUWFyRVhDak1SUUNWQ3dlVUZnQ3VhMEtPTFZwM0QwTWhNblVVVGRteVQ2aWYzd0oyYkprdTFKYml6REgwaFlXREpvZElncV9ZNTlyX0RvdW5lR1JlXzE0MHZRU0ZTYjBMMnIyNDNCdTlmTEVlUUVpWDZ3UVZPMUlLRkJpQTN4WWR2akM5QXR3UjZxWkRyQXIxUzNiLWllTW00S2d1eUNyY1NjM0ZTNzNVV2vSAfMBQVVfeXFMTkJtcjJUOThaSHMzQm9zSS1QSGRtSkk3YU1STElESVNiNWJSQ2czbGh0OXpEc1lOanF6R1gybWpadGFyRXRVVDRwT1FhckVYQ2pNUlFDVkN3ZVVGZ0N1YTBLT0xWcDNEME1oTW5VVVRkbXlUNmlmM3dKMmJKa3UxSmJpekRIMGhZV0RKb2RJZ3FfWTU5cl9Eb3VuZUdSZV8xNDB2UVNGU2IwTDJyMjQzQnU5ZkxFZVFFaVg2d1FWTzFJS0ZCaUEzeFlkdmpDOUF0d1I2cVpEckFyMVMzYi1pZU1tNEtndXlDcmNTYzNGUzczVVdr?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": -1.4,
+        "name": "NIFTY PSU BANK",
+        "pct": -0.88,
         "catalyst": null,
-        "headline": "Taking Stock: Sensex gains 965 pts, Nifty above 24,300; IT, banks rally; metal, pharma drag",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZ0Znc0xxcDI4aWlncFJydTBYUWtlY3dBV1dWOXFYeTZpYTQySkd2UkoycjN3dXVicWI0OEVkU2ZfWDZlODI5VGxmby1ibHRrdkxnNlZxNm0yekQzX203S0N5c19iQzg0aEFFM0g4QU1raXFTTHpERUgwM09ETTg1M2JMcVl0djdLS21JWmRsMU83Qks5MkZPSDNGNmNsTS1tVGtjRVFTNG9vdmFjUDNEdGs1V2psSHdGRDJFRm5kbm1hWVQ5Ny1LUGkyNUp4MXRuV3hoVC03aWxxc2VXUV9DZmF5eVTSAeoBQVVfeXFMUGstbXo1enlSM0s4RkRHWXEtTm1rd0xDcGNwa0JZdTRydGNUbUx2X200MEtRSGs4bTlNQmV0dXoxT21FS3hQNDExTlZzTklJeGJnSHFRM0lRUHZNSUNVd1F3djU2NFFiU19yRU1lUWx5eGN2ank5Z3VHWmtnU3ZZOUdqVXJzRkxMbkQ1MUFlTTFPdlF6MFVwN0tHMlVZWDZvSHlBb0dLaklacEI4eGNQTzFCSmZaUzc4QmJZNmoyMms0elppQldma29ZX0NuVG1BODVDRnpJWFlpNmRkd3ViLXlzbjdxQ210emt3?oc=5"
+        "headline": "Top 10 public sector banks in India with highest account holders, deposits and loans",
+        "source": "The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOWJPT3JmUzRHOVFSbEJrUlVlcHlPdlJHR3JJdUJIS3lLWHVVQWJ0MEtucmVwWXJZemNMdHAwc0JQT2VNNEEtM2huSFA0elFUdnpWeXJtakM3QkZDYWRPUjlTZlEtT0RDOXFWVmZLczdnT2RzR1lpSW9zMEtSNVpOYnhqTU53Z3pXblh6aHlmdm1tWWlfdUc3V1A3emR6b2x4ckVGNEF1ZnhiVWhmYUZSQ0xIc9IBugFBVV95cUxQckxQTjlKenRXNnhLTXVSUzJRQTVWLTc0ZWlzbGJBaEkyUDdHWFZkU1YyWTdGd0hiaHdMMDE2LTFwanhlT25UdmlvbTJvVnhfTjhqTkJnaUV2QjZZSHlDY1MyOURIOE5nbXlKN3A4dzEyem5ZZ2g3dV9meHJ0dHIxOGluUkQ3aTdLbzJmdExwX09KRU5aZk13OFBwQVQtWGZUQWhGaEFtNmw0RzE1NFUzSFZHbW8yNDZKRGc?oc=5"
       },
       {
-        "name": "NIFTY METAL",
-        "pct": -0.47,
+        "name": "NIFTY IT",
+        "pct": -0.61,
         "catalyst": null,
-        "headline": "Share Market Today: Nifty 50, Bank Nifty | July 17, 2026",
-        "source": "Liquide Blog",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa3JJckpQOVVSbEpheTZWVzE5bHFzdkdqbFFnMm50NmpjdG5abkN6M0JCaGJMYTFuWnVDMUNEVFAwcms4VFMyWnZGb0tSdVB6VjJ5VkFHeV84cGdteW9mWWlXQ1ZzM2pvM1Ztblc5TmllQXE3YTNJNzVJYjJsOERXWWc2YkU0bFU1cEhtSVZlcFdUdXd4S0N0VDdhNC12eVJBNDc0QnFUaHVMdVVvdEYyTU9BS2EtNTlReUVkM0psSnA?oc=5"
+        "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5"
       }
     ]
   }
