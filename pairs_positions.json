@@ -22,27 +22,6 @@
       ]
     },
     {
-      "key": "BANKBARODA/CANBK",
-      "sector": "PSU Banks",
-      "A": "BANKBARODA",
-      "B": "CANBK",
-      "direction": -1,
-      "entry_date": "2026-06-17",
-      "entry_z": 2.257633253471789,
-      "entry_spread": 0.016943007090456597,
-      "beta": 0.5543294957259457,
-      "alpha": 2.9043089133897464,
-      "half_life": 11.957543008251362,
-      "entry_priceA": 281.85,
-      "entry_priceB": 135.24,
-      "lotA": 2925,
-      "lotB": 6750,
-      "ratio": [
-        2,
-        1
-      ]
-    },
-    {
       "key": "TATASTEEL/JINDALSTEL",
       "sector": "Metals",
       "A": "TATASTEEL",
@@ -134,6 +113,34 @@
       "exit_priceA": 92.37,
       "exit_priceB": 203.69,
       "realized_pnl_pct": 3.1208510716023423
+    },
+    {
+      "key": "BANKBARODA/CANBK",
+      "sector": "PSU Banks",
+      "A": "BANKBARODA",
+      "B": "CANBK",
+      "direction": -1,
+      "entry_date": "2026-06-17",
+      "entry_z": 2.257633253471789,
+      "entry_spread": 0.016943007090456597,
+      "beta": 0.5543294957259457,
+      "alpha": 2.9043089133897464,
+      "half_life": 11.957543008251362,
+      "entry_priceA": 281.85,
+      "entry_priceB": 135.24,
+      "lotA": 2925,
+      "lotB": 6750,
+      "ratio": [
+        2,
+        1
+      ],
+      "exit_date": "2026-07-22",
+      "exit_reason": "time",
+      "exit_z": -1.6623467148903943,
+      "days_held": 24,
+      "exit_priceA": 245.75,
+      "exit_priceB": 126.46,
+      "realized_pnl_pct": 6.3240516462570655
     }
   ]
 }

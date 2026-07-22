@@ -1,2 +1,3 @@
 entry_date,exit_date,sector,A,B,direction,days_held,exit_reason,entry_z,exit_z,realized_pnl_pct
 2026-05-29,2026-06-01,Metals,NMDC,SAIL,long,1,target,-2.467,-0.416,3.1209
+2026-06-17,2026-07-22,PSU Banks,BANKBARODA,CANBK,short,24,time,2.258,-1.662,6.3241
