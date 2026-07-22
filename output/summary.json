@@ -1,51 +1,51 @@
 {
-  "date": "2026-07-21",
-  "date_pretty": "Tuesday, 21 July 2026",
-  "mood": "Range-bound",
+  "date": "2026-07-22",
+  "date_pretty": "Wednesday, 22 July 2026",
+  "mood": "Risk-Off",
   "nifty": {
-    "last": 24187.7,
-    "change": -50.8,
-    "pct": -0.21,
+    "last": 23996.25,
+    "change": -191.45,
+    "pct": -0.79,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 33,
-    "declines": 17,
+    "advances": 10,
+    "declines": 40,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 57835.35,
-    "change": -109.65,
-    "pct": -0.19,
+    "last": 57126.8,
+    "change": -708.55,
+    "pct": -1.23,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 9,
-    "declines": 5,
+    "advances": 2,
+    "declines": 12,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 24187.7,
-    "change": -50.8,
-    "pct": -0.21,
+    "last": 23996.25,
+    "change": -191.45,
+    "pct": -0.79,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 33,
-    "declines": 17,
+    "advances": 10,
+    "declines": 40,
     "unchanged": 0
   },
   "midcap": {
-    "last": 62987.6,
-    "change": 185.85,
-    "pct": 0.3,
+    "last": 62300.6,
+    "change": -687.0,
+    "pct": -1.09,
     "year_high": 63183.35,
     "year_low": 52032.85,
-    "advances": 56,
-    "declines": 44,
+    "advances": 20,
+    "declines": 80,
     "unchanged": 0
   },
   "vix": {
-    "last": 12.6,
-    "change": -0.38,
-    "pct": -2.92,
+    "last": 13.29,
+    "change": 0.69,
+    "pct": 5.49,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 16327.88,
-    "sell": 14677.72,
-    "net": 1650.16
+    "buy": 12889.82,
+    "sell": 13709.02,
+    "net": -819.2
   },
   "dii": {
-    "buy": 14638.54,
-    "sell": 15295.42,
-    "net": -656.88
+    "buy": 13665.69,
+    "sell": 14083.95,
+    "net": -418.26
   },
   "global": {
     "Dow Jones": {
-      "last": 52352.01171875,
-      "change": 512.75,
-      "pct": 0.9891151667666225
+      "last": 52388.890625,
+      "change": 164.25,
+      "pct": 0.3145067118401066
     },
     "Nasdaq": {
-      "last": 25855.884765625,
-      "change": 347.814453125,
-      "pct": 1.3635467084099917
+      "last": 25802.228515625,
+      "change": -34.982421875,
+      "pct": -0.13539550363861713
     },
     "S&P 500": {
-      "last": 7513.3701171875,
-      "change": 70.09033203125,
-      "pct": 0.9416592423547955
+      "last": 7520.77001953125,
+      "change": 11.56982421875,
+      "pct": 0.15407531984527834
     },
     "FTSE 100": {
-      "last": 10585.91015625,
-      "change": 61.1103515625,
-      "pct": 0.5806319616196679
+      "last": 10716.9697265625,
+      "change": 131.0693359375,
+      "pct": 1.238150096836133
     },
     "Nikkei 225": {
-      "last": 64141.12109375,
-      "change": -2694.41796875,
-      "pct": -4.031415032398207
+      "last": 66232.1875,
+      "change": 2091.06640625,
+      "pct": 3.2601026776467688
     },
     "Hang Seng": {
-      "last": 25143.05078125,
-      "change": 580.810546875,
-      "pct": 2.364648099411357
+      "last": 25132.2890625,
+      "change": -10.76171875,
+      "pct": -0.04280196084249795
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 96.2249984741211,
-      "change": -0.0597991943359375,
-      "pct": -0.062106579422690905
+      "last": 96.55500030517578,
+      "change": 0.065399169921875,
+      "pct": 0.067778464365504
     },
     "Dollar Index": {
-      "last": 101.1050033569336,
-      "change": 0.1150054931640625,
-      "pct": 0.11387810238316785
+      "last": 101.13899993896484,
+      "change": -0.0410003662109375,
+      "pct": -0.0405222040791397
     },
     "Brent Crude": {
-      "last": 91.23999786376953,
-      "change": 2.0199966430664062,
-      "pct": 2.2640625593240573
+      "last": 93.52999877929688,
+      "change": 2.5199966430664062,
+      "pct": 2.768922738068163
     },
     "Gold": {
-      "last": 4077.5,
-      "change": 67.199951171875,
-      "pct": 1.6756838728691117
+      "last": 4152.39990234375,
+      "change": 81.2998046875,
+      "pct": 1.9969984214906593
     },
     "US 10Y Yield": {
-      "last": 4.631999969482422,
-      "change": 0.03399991989135742,
-      "pct": 0.7394501853992215
+      "last": 4.650000095367432,
+      "change": 0.02200031280517578,
+      "pct": 0.47537411060541324
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 1064.1,
-        "pct": 2.77,
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 11019.0,
+        "pct": 5.92,
+        "catalyst": null,
+        "headline": "Bajaj Auto stock outlook: Brokerages optimistic after Q1 margin beat; eye exports, new launches driving growth",
+        "source": "IndiaIPO",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0xFUUJBa0NhYlRLZTV3bHY5OXhvaERWSlp6SkU5dmozUm5mYzUtanBMT2Nta0trMlNVX3BJbjdReVlsNVNLTmdoVkxldGhXbzk0TFNRdXhhRFluVDFYM2NGWm9Hd2RMM2RtNF9tNEZjWDV0QzFKRGVGeDFLYWNPQjEtbnhXOWcxemdud2RROG10d3JndksxaktXMU94bUxyTXhWSzFaYzZKOUNRc3VZQnJWcGpIdHVBaXlrMjVONVozc0ZBZEVrRjFlbGZObElUYTFLTnROWG1COTA?oc=5"
+      },
+      {
+        "symbol": "NESTLEIND",
+        "ltp": 1500.0,
+        "pct": 3.31,
+        "catalyst": null,
+        "headline": "Nestle India Q1 Net Profit Jumps 48.26 PC to Rs 958.68 Cr",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdE0yRmN1V2paYlpXRWtROVl5VTBNZVpjSjdWZVFiX3RqTURRR0N2eGJZQ2Z2cnRxazJISFYzZFdtUGI3Q2lpNnk3aExDZjBnTE9Ndk1TZnFINzlYd2YtZ1RGLTN6V1o4Z1Q5b1luRDNZeVBmUTZxa09waDhzczVIRnJiWjQ?oc=5"
+      },
+      {
+        "symbol": "TATACONSUM",
+        "ltp": 1097.0,
+        "pct": 1.43,
         "catalyst": null,
         "headline": null,
         "source": null,
         "link": null
       },
       {
-        "symbol": "BAJAJFINSV",
-        "ltp": 1900.7,
-        "pct": 2.11,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "symbol": "ETERNAL",
+        "ltp": 289.5,
+        "pct": 1.01
       },
       {
-        "symbol": "EICHERMOT",
-        "ltp": 7694.0,
-        "pct": 1.73,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
-      },
-      {
-        "symbol": "ULTRACEMCO",
-        "ltp": 12075.0,
-        "pct": 1.45
-      },
-      {
-        "symbol": "HCLTECH",
-        "ltp": 1238.9,
-        "pct": 1.44
+        "symbol": "POWERGRID",
+        "ltp": 289.0,
+        "pct": 0.8
       }
     ],
     "losers": [
       {
-        "symbol": "HDFCBANK",
-        "ltp": 761.5,
-        "pct": -2.07,
+        "symbol": "INDIGO",
+        "ltp": 5115.0,
+        "pct": -3.58,
         "catalyst": null,
-        "headline": "HDFC Bank shares tumble 7% in two sessions after Q1; what's spooking investors?",
-        "source": "Fortune India",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV2Y1cnFGQk9Fajl1LXNnalgwZG5jbDhqT0gzd3czeTRTdnNva1d5MzJ6bDVIa2RUOWV4aGs0TzdJRGFUU2wyYzh0NjNPNFpjcFZwYWRFYjdYX2U3YmdMb01PbUI4OTQxYWJlaXN1MFhJc0lYUDlWQkhGaWkwMF8xMzV3UnZyNkFQdWFzVTNsOU9lX2NJakN2NDZIZlFhTU45WVFuM2pLaWVjdV9zQ1haVDJwc21VNk1ROGNN0gHIAUFVX3lxTFB3U1BJZzJXa3lGcmRIMGlSdzVQRFZNNDBySHNYTnVGOFN3TzFHMEg0QURiSUJiMVkwQktOaWRXV29UYy12c1ZFN0ZFSnBfV1RZR29EMDBHdmZhYWlJYm9YMXpOaEIyeW5PamVQWlhjbTdVNnlmMjB6NTJvZm1Oejk4TS1oY2VtQmM3ZGNFYVNSTTFvd0ljS2hoTm9hUVI4ZzFiM0czR3lER1E3d0RNWVhwdmR0X0lmU204NzNJd2JPYTRMRjhrTUlf?oc=5"
+        "headline": "IndiGo Q1 Preview: Will fare hike help drive PAT amid fuel cost spike?",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPN2dobEpwWklEbGlnaE1KQ0lhcHdKSDFiR2tody1RQnQyYU4zZV9OQTUxVVZNdFd0OEZNS1lNcDNaQmZ5cmxJU1ZmMS1Zb21vTUNBT29sSU1FbmE0U3NMb1kyT01SVjBoN0pwbHlYNXdUeDB2TkRiSHR4MmVMRThzWm94dnNPdmdxMmpYUjgyZ1UwZzY1a2lzYkoxUTM1djhsbmhNNW4xSU1JREYyamJOU0ZVSGlONnBDS0ZfZ3VwUVlEUmNDYUFLY0hQZUg1ZWdSc190Ml9uaTduLTTSAeABQVVfeXFMUDE4YnM3a25kaFJVWWlITWc4UFhzMWpOVC1SWFNicDV0M2NBOFJJLXIybElnTFNreGhEbHg3ZlZWTlJWelZPTU1CMGlpbFJtV1g5UlBNVUFWVUR6SElUdmlMUk1ZR0ZEUDFsVmQtOEotOUVtbUgwcHVnYXVYeF9Tdm9UaGVRaFIyWVptTGYwRDFxUmpVSVV4NEJCTjQ3MFRneUJleVlKaVVWSURZUjh6UmJqeGxtSUpoblpzVG9PblRsbHIxemY5YVRoMVVGQ2NUV3A2eVFiRG9sZWpNYjFyRW4?oc=5"
+      },
+      {
+        "symbol": "DRREDDY",
+        "ltp": 1179.9,
+        "pct": -2.16,
+        "catalyst": null,
+        "headline": "Dr Reddy's Q1 net profit falls 69% to Rs 443 crore on semaglutide inventory costs",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONDE5b1liREVuVy0wSzdQYUNmV0tZQ0EzTTN3M29QenpYVmp3dVBFbWlUSDEwa2EyVlU3UTBpODUtSzQwS3hOb1NPQUJGbUdfVlpyV0xEajR4N21haDVVYk9tVjdXM0hINUIzekdrRmNWNjFPQXVSTDQ5OS1IY2VKeHV1dXJ1Ukh6RENrczRTX0lTOC1BTGtqdzNzRmE5emVEaThKUDdPV2FueDhndjAwQlhBV0tyUXZKN25HOFZvQzRmSThBam9jWHlxZjZZZVloYjFqb1NLWkd0RE42SmQ40gHkAUFVX3lxTE43NFpBV0JwVVpGYUNTRm5HWUZDeGFGRlpTbjJVeEhUVjNWSTBJeVZncS1CeWpzOGxOTUZmbGZSYXdLY2Juai1sNDZWSC1kVVZSX3lYSHFZM1FKNk5ROVBjNDlTb3U5Yjc0Szd5LUhYMW95NWJlN3F4WXBCbnpwbWh1dEh0SXRHRVYzYWhHYUdYYnRwZUVUdXpyTXMyWG5LVnptQXMwaWtXS3hJNFh4SG1GSzFSZnR3ak5SYWFvdzk1eU9Da0hmZE85STZKRGZGMWtVYWxyV0ludnFJMUVJT3k4ZERYNg?oc=5"
+      },
+      {
+        "symbol": "JIOFIN",
+        "ltp": 234.89,
+        "pct": -2.14,
+        "catalyst": null,
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
         "symbol": "INFY",
-        "ltp": 1070.6,
-        "pct": -1.52,
-        "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.19%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX2VTSWVtVDg5YVh0cW5ZaFlsVEpzTHRKdmlydjVpMWhsWWxZUnlLb0RZTFNjbTdQN29EZ3BSaDJ3YWpLXzdWck9sYnRjU2pnWjVmaTVELTBvdzRNbklLRFF2dmxfekp4SnFGbkpHZHlxYTBxNDR6OUg2RVBwMUtlZDVOOE5HSmxHb29Xa045OHVFOFBGWWE1a1d1U3M0bDJxbGFoRTRQaTFJYkFDSnBFLQ?oc=5"
+        "ltp": 1052.0,
+        "pct": -2.0
       },
       {
-        "symbol": "SBIN",
-        "ltp": 1044.3,
-        "pct": -1.48,
-        "catalyst": null,
-        "headline": "SBI Funds Management made a muted stock market debut; stock lists at only 7% premium",
-        "source": "Business Today",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR2JtdmFGTW4tSmZkZ2Mwa0pOMGx3U2pNdWZzQ3JoMUlULWlXRHFxRVV1bVRCemZLX3dJc3hzeUpYWXFCV1Q3Q1lTWk1FVUh6aDBUM3FEY3RYX0JJTmFydDg1Zm1meVBYMy1yQjh4eTJlVW1SSGZ0TzdQVkkwbTNKakVDZjA5MndxLWVLQ09LbTJDNE8xSFZfVjJMV24zbE4yVE5xdUNuWVhfcXRlMjBRbFM0cEt5UzVvM1ppdDZ4bk9vSW5vTEJEYUZzV1RjeE1HTkFyTXd5Y0ZmVjdBTVFwN293ckHSAeoBQVVfeXFMTVhYNFZaenRCaUQ1cmZCemdTOE9hLTJfRnJOc1BOQjFmazN2QW1Ram1IRG9FRDZ6OTF6aUFJWWxocmNxcmlDN2NCTXI3eGtDVlNjYi02dzRreVB4RUVNT3JQcG1JSHd5Z0RrMF9pcVAxRFBVaWw5T2VGSTIxcWZqRlhoanVnY240ZllHSHJPaGNjT1ctVVJ1UUF2cGhNd1diUEVtdjBOeHZFaWpmRnEtbVNpRGVuTE5JMU5PLUNXb3NqRTVNUXUtTVppOFprWWtjYWI1UlZGQ013Y1Joc3JCX3MxcWRJRWV1c3ZR?oc=5"
-      },
-      {
-        "symbol": "TCS",
-        "ltp": 2219.0,
-        "pct": -1.43
-      },
-      {
-        "symbol": "RELIANCE",
-        "ltp": 1304.6,
-        "pct": -1.4
+        "symbol": "AXISBANK",
+        "ltp": 1233.5,
+        "pct": -1.96
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY REALTY",
-        "pct": 1.07,
+        "name": "NIFTY FMCG",
+        "pct": 0.65,
         "catalyst": null,
-        "headline": "Share Market Today: Nifty 50, Bank Nifty | July 21, 2026",
-        "source": "Liquide Blog",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQckxKOVhtV3hyOGM4NDBMbzA0dzE1QWVTRms2eXVBOFNWRVVWMEFENmpxZ0wtM0hxejdzZElEQkdTSjBoZklNNWNvXzVtc2hGQVJQN244NUNDcUNBUjRzZUhpcmlFTWFCZktFSWhwM1ZiejNhUDNzX1F4U3drd2czRjg1cTJtNUkyeHAyZkNNU08teEQ5a0p3LVhxcl9MOEc3anE4VzhYVVZ6bWVoQmF1c3hxT2ZOZTFlUDUzWHhtTG4zWmY4QzRYVw?oc=5"
+        "headline": "Focus on Stocks: CPSE, Auto and FMCG Stocks Defy Weak Market on Wednesday",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3Z6MHdsUHlXM0ZrMV93eng1TEhISUpoSmM3ZS1YdWJ5YnV1VHg4YUxfcWZoU2VabENDVTRVZmdublZSY3FSNVNzemNnSDBMbXRONm1qd0xtOERMa0pPOURqdHZQM01nSEZBUFJWdmxwUXZBMkdEdm9IWG1iZGExLTktTnV2dTdUZGgzdDE5cmtPdmc?oc=5"
       },
       {
         "name": "NIFTY AUTO",
-        "pct": 0.93,
+        "pct": 0.18,
         "catalyst": null,
-        "headline": "Live: Nifty extends loss to 2nd day, below 24,250; Auto stocks in fast lane | Closing Bell",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQm1yMlQ5OFpIczNCb3NJLVBIZG1KSTdhTVJMSURJU2I1YlJDZzNsaHQ5ekRzWU5qcXpHWDJtalp0YXJFdFVUNHBPUWFyRVhDak1SUUNWQ3dlVUZnQ3VhMEtPTFZwM0QwTWhNblVVVGRteVQ2aWYzd0oyYkprdTFKYml6REgwaFlXREpvZElncV9ZNTlyX0RvdW5lR1JlXzE0MHZRU0ZTYjBMMnIyNDNCdTlmTEVlUUVpWDZ3UVZPMUlLRkJpQTN4WWR2akM5QXR3UjZxWkRyQXIxUzNiLWllTW00S2d1eUNyY1NjM0ZTNzNVV2vSAfMBQVVfeXFMTkJtcjJUOThaSHMzQm9zSS1QSGRtSkk3YU1STElESVNiNWJSQ2czbGh0OXpEc1lOanF6R1gybWpadGFyRXRVVDRwT1FhckVYQ2pNUlFDVkN3ZVVGZ0N1YTBLT0xWcDNEME1oTW5VVVRkbXlUNmlmM3dKMmJKa3UxSmJpekRIMGhZV0RKb2RJZ3FfWTU5cl9Eb3VuZUdSZV8xNDB2UVNGU2IwTDJyMjQzQnU5ZkxFZVFFaVg2d1FWTzFJS0ZCaUEzeFlkdmpDOUF0d1I2cVpEckFyMVMzYi1pZU1tNEtndXlDcmNTYzNGUzczVVdr?oc=5"
+        "headline": "Nifty 50 Gainers and Losers, July 22, 2026: Auto Stocks Shine While Airlines And IT Weigh On Benchmark",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pdFR4bEoyYXh3MEV2Zm03ZGN2elBaZEwxazBDT3RzZFIzY29UUzA3ZG5LX0J1bE1pMnhDMHd3M1dqNEU2WHlkTFEtSWtOREYxbGxQdEU1UmNqbzRKRmY4eFk3bVh2WnRtR3hwTTR3OEdNUms?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PSU BANK",
-        "pct": -0.88,
+        "name": "NIFTY REALTY",
+        "pct": -2.63,
         "catalyst": null,
-        "headline": "Top 10 public sector banks in India with highest account holders, deposits and loans",
-        "source": "The Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOWJPT3JmUzRHOVFSbEJrUlVlcHlPdlJHR3JJdUJIS3lLWHVVQWJ0MEtucmVwWXJZemNMdHAwc0JQT2VNNEEtM2huSFA0elFUdnpWeXJtakM3QkZDYWRPUjlTZlEtT0RDOXFWVmZLczdnT2RzR1lpSW9zMEtSNVpOYnhqTU53Z3pXblh6aHlmdm1tWWlfdUc3V1A3emR6b2x4ckVGNEF1ZnhiVWhmYUZSQ0xIc9IBugFBVV95cUxQckxQTjlKenRXNnhLTXVSUzJRQTVWLTc0ZWlzbGJBaEkyUDdHWFZkU1YyWTdGd0hiaHdMMDE2LTFwanhlT25UdmlvbTJvVnhfTjhqTkJnaUV2QjZZSHlDY1MyOURIOE5nbXlKN3A4dzEyem5ZZ2g3dV9meHJ0dHIxOGluUkQ3aTdLbzJmdExwX09KRU5aZk13OFBwQVQtWGZUQWhGaEFtNmw0RzE1NFUzSFZHbW8yNDZKRGc?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
-        "name": "NIFTY IT",
-        "pct": -0.61,
+        "name": "NIFTY PSU BANK",
+        "pct": -1.84,
         "catalyst": null,
-        "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5"
+        "headline": "PSU banks' turnaround is structural, says former RBI Deputy Governor SS Mundra",
+        "source": "CNBC TV18",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcEVmdGp2NUtON2FUU3lFczFwc0pmWUhJZVcyWF9mR3VuZGpkNi0xdzBiUTFtTVc5enRNejk3dTlVX2haTHZPamRfMFhYSGRwOC1xNXUtT1lTaU9XQTBqaGpsMm0zOFlxNF95VHRVTkVweVdYaldMcEpkWGUtek1VS1ZjMFhzRGhXRkVoYTE0M0ZnZ2lrYUxaTXAxTVZpY1hYM3h4N3I0aUp3bjBWT2pTeHFYSnF4LWhycjZuT3llX0lFR3BpM184RTJFdnljaUk3bDFjSzAxQ0pZQU96YkxnOGFvUUxEYkZQ0gHuAUFVX3lxTE9pY29kN3lOaGF0dExOejZTTU92SVo4OWdIaDliek1meDdIZ2pValk1by1Pa3BjM0t3UTZGTFFNQnhjYTF2OWFfZkN1cy14UWpjRFlNSS0wcjJGdWJ4ejlXMUJRM05vRVFDQzZRd3g2T0h0VF8yZTczalR6ckJBOVpyTHU2MzQzWWs0Uk1Jb2lmZTRJNkhjbU43bDNBcWlzXzdOQVVrMFVicThTaUJyaFQ1aS0yaTJvTS0zOU1nV0FMN0lPdzlIclBlaHZPUHVBZ2lxOEFCLUJqNTQ5SkxQT0Y4bE83QTFtVmN4TTJxTUE?oc=5"
       }
     ]
   }
