@@ -1,51 +1,51 @@
 {
-  "date": "2026-07-23",
-  "date_pretty": "Thursday, 23 July 2026",
-  "mood": "Risk-Off",
+  "date": "2026-07-24",
+  "date_pretty": "Friday, 24 July 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 23869.6,
-    "change": -126.65,
-    "pct": -0.53,
+    "last": 23767.45,
+    "change": -102.15,
+    "pct": -0.43,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 20,
-    "declines": 30,
+    "advances": 14,
+    "declines": 36,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 56592.0,
-    "change": -534.8,
-    "pct": -0.94,
+    "last": 56693.5,
+    "change": 101.5,
+    "pct": 0.18,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 2,
-    "declines": 12,
+    "advances": 11,
+    "declines": 3,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 23869.6,
-    "change": -126.65,
-    "pct": -0.53,
+    "last": 23767.45,
+    "change": -102.15,
+    "pct": -0.43,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 20,
-    "declines": 30,
+    "advances": 14,
+    "declines": 36,
     "unchanged": 0
   },
   "midcap": {
-    "last": 61685.0,
-    "change": -615.6,
-    "pct": -0.99,
+    "last": 61622.35,
+    "change": -62.65,
+    "pct": -0.1,
     "year_high": 63183.35,
     "year_low": 52032.85,
-    "advances": 21,
-    "declines": 79,
+    "advances": 49,
+    "declines": 51,
     "unchanged": 0
   },
   "vix": {
-    "last": 13.48,
-    "change": 0.19,
-    "pct": 1.37,
+    "last": 14.03,
+    "change": 0.55,
+    "pct": 4.11,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 11472.08,
-    "sell": 14471.31,
-    "net": -2999.23
+    "buy": 11123.86,
+    "sell": 15016.63,
+    "net": -3892.77
   },
   "dii": {
-    "buy": 16575.3,
-    "sell": 13628.16,
-    "net": 2947.14
+    "buy": 18959.43,
+    "sell": 13505.88,
+    "net": 5453.55
   },
   "global": {
     "Dow Jones": {
-      "last": 51696.421875,
-      "change": -522.15625,
-      "pct": -0.9999434468515607
+      "last": 51969.9296875,
+      "change": 258.28125,
+      "pct": 0.49946435243147436
     },
     "Nasdaq": {
-      "last": 25127.185546875,
-      "change": -563.71484375,
-      "pct": -2.194219880108632
+      "last": 25111.521484375,
+      "change": -26.16796875,
+      "pct": -0.1040985441354751
     },
     "S&P 500": {
-      "last": 7403.990234375,
-      "change": -94.9697265625,
-      "pct": -1.2664386402541499
+      "last": 7435.52978515625,
+      "change": 27.22998046875,
+      "pct": 0.36756045498483475
     },
     "FTSE 100": {
-      "last": 10639.169921875,
-      "change": -77.830078125,
-      "pct": -0.7262300842119996
+      "last": 10736.23046875,
+      "change": 97.0302734375,
+      "pct": 0.9120072153567552
     },
     "Nikkei 225": {
-      "last": 66115.6015625,
-      "change": -116.5859375,
-      "pct": -0.17602610135744043
+      "last": 66422.6015625,
+      "change": 307.0,
+      "pct": 0.4643382087506058
     },
     "Hang Seng": {
-      "last": 24892.66015625,
-      "change": -239.62890625,
-      "pct": -0.95347027743506
+      "last": 25210.810546875,
+      "change": 318.150390625,
+      "pct": 1.2780891581212521
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 96.56300354003906,
-      "change": 0.22210693359375,
-      "pct": 0.23054273046789436
+      "last": 96.552001953125,
+      "change": -0.005096435546875,
+      "pct": -0.00527815730994762
     },
     "Dollar Index": {
-      "last": 101.4260025024414,
-      "change": 0.28600311279296875,
-      "pct": 0.28277942902799824
+      "last": 101.39099884033203,
+      "change": -0.03900146484375,
+      "pct": -0.0384516067498817
     },
     "Brent Crude": {
-      "last": 100.5999984741211,
-      "change": 6.529998779296875,
-      "pct": 6.941637929713057
+      "last": 95.80999755859375,
+      "change": -4.8800048828125,
+      "pct": -4.846563476500345
     },
     "Gold": {
-      "last": 4053.699951171875,
-      "change": -93.199951171875,
-      "pct": -2.2474608350011085
+      "last": 4067.199951171875,
+      "change": 20.599853515625,
+      "pct": 0.5090657099414451
     },
     "US 10Y Yield": {
-      "last": 4.695000171661377,
-      "change": 0.03800010681152344,
-      "pct": 0.8159782323891507
+      "last": 4.663000106811523,
+      "change": -0.039999961853027344,
+      "pct": -0.8505201205405384
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "SBILIFE",
-        "ltp": 1859.0,
-        "pct": 2.89,
+        "symbol": "HCLTECH",
+        "ltp": 1269.0,
+        "pct": 1.95,
         "catalyst": null,
-        "headline": "Nifty 50 Gainers and Losers | July 23, 2026, 4:00 PM IST",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LT2RodDJ2X1NKR2hFY3pqcExISklHSWN3VUdhSzE0WlhvczVfWXJXTUkwWFBsVFBYNGx6YWJjZzg3dUwzajI1NDZUcXVXakpfQTFBLWVQc2ZvQU1ZdkQyRDNKUEo4b3pEY0RNLWxVbkhMZ3hhclpVVVZuZXFYekU?oc=5"
+        "headline": "HCL Technologies Limited (HCLTECH.NS) stock price, news, quote and history",
+        "source": "Yahoo Finance Singapore",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QWjRfLUdLWXhxdkc4VXR0YkpCRlJ1SGFMVFg1SGNTMEZQTHYzeTVyV3NMcWEwZWtDVnp1WGE1YUswM3lvMk1qRVhvaml1UGptcWZnSTVWY2FKUQ?oc=5"
       },
       {
-        "symbol": "BAJAJ-AUTO",
-        "ltp": 11279.0,
-        "pct": 2.55,
+        "symbol": "CIPLA",
+        "ltp": 1409.0,
+        "pct": 1.15,
         "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.53%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR2VlcDFtUmxGUXNYanYxWHBhWUpzOUxsZ0k2LUk5eU5vMWRQbUdRR1J6T3lISFBzX3hpc1ZsV1d2anlQdUFtRXNrandTYzNxbnA4aEZrSUlyUUtaX3lnSHl1Z1Y4WV80S0xObV9vQ3QwRFZjRFJtLXVueERGRG5sZEVUWEplLUlsUEVaRlFuNnBVbnJSYnhDMDRCUVhBazBXRV9laFhIWjJ4WldJeXcxUw?oc=5"
+        "headline": "Cipla shares jump 4% on strong QoQ performance in June quarter; here\u2019s what analysts said",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRzg5Z2E2RFFfM2xucGhkN0JoQ29XZnB1T0NmR3d4bE81SklEa2hMbDZ0bUM2YWRkMWp0R3VCVkp1NkdscmRVYmU3bE1uNGlVR0JxcjRnQV9tY1dBa2NlUktrQlgxNnVNSnhJM1BYS1k5YXRCSWlWLTdlakNFZU55MTRuVnVNcTJzN1NJX0c2akZER2VLOHlFUG5Na1R4TF9wNmpqcG1vVHk5NFJBV2NsUkI1bkVseDg0dHpaTjZuUHBCUk1YQUU4aFhRZFBVb3o2eUt4ZnAzLUIzY3k5eGtBMQ?oc=5"
       },
       {
-        "symbol": "M&M",
-        "ltp": 3230.0,
-        "pct": 1.72,
+        "symbol": "WIPRO",
+        "ltp": 176.55,
+        "pct": 0.99,
         "catalyst": null,
-        "headline": "Half Yearly Results, Half yearly Earnings for Kovai Medical",
+        "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
         "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNU1kOWROZ3JjN0NtX3M1cEU2NTNrS1JsQVdWT0RMazRMYlVndzFQN1A0UHNjdk5WaGpsQTRiMzB3dS1VYnJqNEh3cUIyMzAxaFdHcTBaT0pYVl9UZ2p6UjA5ak5PdEFidVZWU2gzS0xwLUF3V0FkX3UtZVhIVWRtT1Z4U0NFTHo1SnhQWm9mamxfem55RXU0X0p6aUpFZjJ6WFJhRUl3Z1otWHM?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
       },
       {
-        "symbol": "TCS",
-        "ltp": 2245.0,
-        "pct": 1.66
+        "symbol": "ITC",
+        "ltp": 284.0,
+        "pct": 0.96
       },
       {
-        "symbol": "TATACONSUM",
-        "ltp": 1110.1,
-        "pct": 1.39
+        "symbol": "HDFCLIFE",
+        "ltp": 555.8,
+        "pct": 0.88
       }
     ],
     "losers": [
       {
-        "symbol": "ADANIENT",
-        "ltp": 3014.0,
-        "pct": -4.25,
+        "symbol": "ETERNAL",
+        "ltp": 280.0,
+        "pct": -2.47,
         "catalyst": null,
-        "headline": "Adani Power Share Price - Live NSE: ADANIPOWER Stock Price & Chart",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCemdyblNDcnBNWHV0aWRiOXM4WHNXQ0F2S2JfRHhPYUJnZlZXMEt6aW85VmdLSnNndjZ4SDE2SUd6TE8yWnZFQWVOSWlNQUY2Nl9wbGhrV0VJRkdlTHNDM2hEalo?oc=5"
+        "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
       },
       {
-        "symbol": "NESTLEIND",
-        "ltp": 1442.2,
-        "pct": -3.44,
+        "symbol": "M&M",
+        "ltp": 3165.0,
+        "pct": -2.0,
         "catalyst": null,
-        "headline": "Nestle India share price falls 2.5% after post-results rally",
-        "source": "Business Upturn",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcGJWLVBoSllYNjdzSEVKR0RCem9DaXotWEVLUkhESkdSaDhvbTFSaTk0czN3MlJPU3ZuR0laYll5NFE4ZmRBazhhYzUtcXl0OGNDeVBkM0R6dGtjX2FSRFdxdWQtbG5iQzRmaHhPLUMtT2ZyUGhpS1JrVTNLNHFKQW9nZ3BscUJsTldNOEJTR3VLSnlfUFJaZ3lTNkFMRHJGaHJXc29QZHRiWmY4S3EwTDA5d2JTdFJpbmdxZHgydVl3aUlJNm1wRnZIVkduY25fdThWTnFQSUliaElndWFnMkkwY0JiUXFsNHZB?oc=5"
+        "headline": "Half Yearly Results, Half yearly Earnings for T & I Global",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM3ZjYkZubHJHNjZocnBfTXZVNWh0MlNZcU5DQm1zS3BNblFRQ0xIUEVtV2FXc2luc2NKd3BVbEFkSDR2NnJzb2E2eGdSU0hWUkZlSGhoUUlaajlXUGl3M3lXNF9lVlJZREJMU1dvUkM2MzFEVG5vcFVDdVk2S2hGN0pSSTdCZEY0OEV3?oc=5"
       },
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 1026.4,
-        "pct": -3.06,
+        "symbol": "BAJFINANCE",
+        "ltp": 1019.0,
+        "pct": -2.0,
         "catalyst": null,
         "headline": null,
         "source": null,
         "link": null
       },
       {
-        "symbol": "ADANIPORTS",
-        "ltp": 1781.0,
-        "pct": -2.11
+        "symbol": "SHRIRAMFIN",
+        "ltp": 1006.0,
+        "pct": -1.93
       },
       {
-        "symbol": "GRASIM",
-        "ltp": 3101.0,
-        "pct": -2.06
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 11100.0,
+        "pct": -1.63
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY AUTO",
-        "pct": 0.7,
+        "name": "NIFTY IT",
+        "pct": 0.82,
         "catalyst": null,
-        "headline": "Sensex Falls 364 Points, Nifty Below 23,900 as Oil Nears $100 Mark",
-        "source": "Open Magazine",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3JHNjZhdnRMM2RQX2twR2hnU1NjajBDNHVhTi1mUldrRzJCNjd4aFJXVWlJbXlxVXhQdXY2TU5YUTcyd2wyNFZKYlk2YTZJYlJUVUoxZ1AyLUFyRHNqY2g0cVp5M0dXZ19vaDYxeGUyRlJRb1A5R0lkeHRtQjFBanR6T1RVekpFandnemtJdk9pWF9IdXpVMFlVSElUYUZ5a1E?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
-        "name": "NIFTY IT",
-        "pct": -0.06,
+        "name": "NIFTY PSU BANK",
+        "pct": 0.58,
         "catalyst": null,
-        "headline": "Top 15 Low-Price Stocks In India To Buy In July 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZGN1MTZSOXVGTTdPYmlrSl8zMWdmNFV5RVhaVnNBQzdvM2o4MUs3WHhoZ0VzdEF1a2lUX0xYQmh0VnJTZ3RLNFplTXN1MzF0SnM0N3dNeGdsOUtYMVVsRnJwSTQ3dEhtem5wcTNMTm80QzM2b3hvck5BNUdiTFRLNld3?oc=5"
+        "headline": "Punjab National Bank to Review Proposal for Increasing Foreign Currency Funds via Debt",
+        "source": "Sahi",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdVdMdU52ZU1hLW5nODF6SG5LMXF2UUJVSjlaR003UDZQbHpkMjN2SEV0VTFjTHd1NkR2Sk95YWJtUzd6Si13a1hRWEFieUl2cjE2VkM1bElsdlI5NnlGRHNSRnhlSkw5dS1Jd1hsQUF4MUV1ejNCa3hQZ0IxU3p1UU55SnFtZXE3Ry1qWmFyRFZzLXNSZGtra1VCdGVaeWJDeDRXQmxPM3JRUy1CcDJwa29JaG9BcU5udFRGS1V2YU1abEE?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY REALTY",
-        "pct": -1.81,
+        "name": "NIFTY AUTO",
+        "pct": -1.1,
         "catalyst": null,
-        "headline": "Share Market Today: Nifty 50, Bank Nifty | July 23, 2026",
-        "source": "Liquide Blog",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSVF5ZnlTNmQ2X0pJSDVrME44QXlCX1R6S0IzWkMyS193ZktUX2VOTXRlbFVwbUswV3ZsdEZQT1NwdWU4SExWMERWZDFBa1Q1RjVnalp0N21sUmRHbGhLLXhMdm50S2tSYmx2Q2VpZWptRXdodTB2R0treEZBQzMzYWR4RmpMbl83Z240dHhBSWtyNGw1UmFCZ0tDWmFCdUw1R3NvMnBfUWNGMFUzSHVvRFlEd3Npc1JSRXVveW4wZjFkc2EzdnRYQTRTb0tKNWtrU0p5WUMzMWFmMHM?oc=5"
+        "headline": "Indian stocks extend fifth-day losing streak; Asian indices mixed",
+        "source": "The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWxlb1k2d3JFbzJvVVNScGVQTzIzNG90VkZaOFdPbGpnZW1VbHBNRjRVa1JYZEEtLW5vdUgxcWRIV3RHbjdhS0FyRk1DdkpvLXp1OWZfVEZzUERYTEhUWjljQXBZS2VoZnJ6VkV0RWVNb3J5TzU5blhkNkNuWlkwYlBBb21pR09qZVV0YzU2QVRxZFVoNngzcmViMFdMM1Y2UkloODVRNXNWdDdvM2FPQ1Nqc2F0aFI0UWNGUVU3U1R3NkdHSXFj0gHHAUFVX3lxTE8tbGVvWTZ3ckVvMm9VU1JwZVBPMjM0b3RWRlo4V09samdlbVVscE1GNFVrUlhkQS0tbm91SDFxZEhXdEduN2FLQXJGTUN2Sm8tenU5Zl9URnNQRFhMSFRaOWNBcFlLZWhmcnpWRXRFZU1vcnlPNTluWGQ2Q25aWTBiUEFvbWlHT2plVXRjNTZBVHFkVWg2eDNyZWIwV0wzVjZSSWg4NVE1c1Z0N28zYU9DU2pzYXRoUjRRY0ZRVTdTVHc2R0dJcWM?oc=5"
       },
       {
-        "name": "NIFTY PSU BANK",
-        "pct": -1.0,
+        "name": "NIFTY ENERGY",
+        "pct": -0.57,
         "catalyst": null,
-        "headline": "Foreign banks show strongest rate transmission in current RBI easing cycle",
-        "source": "BFSI News",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZnlJMEFuT2FtQzJfZ2dGR2c2Q3BGSW5Pem1HcHh4N3RkOHVERlZRa3Z1SDNSRFl0RFQ2T1FORTBqLXU3a3JBT3VBWGFOM2lsanVVY0ZvV2szNTNocW1JQnMxd3BLSjlzcGd6VlhJYmpEMXlGTUI4UHVyZHZLc1FyQ0hpT3RScUNIYWgyQTlBLTZaaVYzYW1mRGVjSDlmRlU5YzRNenpmeWZrX2FwSVNkNHVMdDNOazJYOGR3VEd4Z0xqRENzNG45REZ5bHVSVEZHU2ZGV05Zckx2RDdMNmV1dmtOOXXSAeoBQVVfeXFMTXBXUlg2akVrTThKbTJtQVlzbFJVMjl4cXhDNURBcGxjVFRlQ21ZTU1TRzhjZTZ0YmRmdV9TX3RFU045R0ZobVBGQ29BbVZMb29pVm9tcUEzLWh1cW9VZ25YRG9nXzYtcW9iQzNKU2lud21KSjNnNGVpV012MmtKczJ5d0RHb0ZOeXBUeHk1dFhTX3RxZmk2QnBLcXE3TmZfQjlOcDVLSmt5X1B5UnR1RjFuSHlHUFlyVFphWHBaSG5aeUxnQ21XUFB1aFhnS0J2TlNkSDBQX0h1dkNHUVZLQ2gyUURVaEpsbGlB?oc=5"
+        "headline": "Indian Green Energy Stocks Trade Mixed Amid Weak Broader Market (24 July 2026)",
+        "source": "SolarQuarter",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR3RCdWtnSkIxcGNYUmlBN2RRc2RzS2xJazhiU3Mtcy1CUTRyWFowS0RQd1RLVW5wNG5JendGNXZFckFwbTdfaWtFcW5EVXVVaVowcldaTUlJS09HLWpaVjUwSFQ5amJUa2hsa0RtZXlJTUdyNHZFWFN4azkwTDFfSXhybUNTd1I0U1Njbm5tUlBrTHY1Nm5EV0k0V3VSZTlFX3llTERxTnBXRjB3aGpTcjNNSQ?oc=5"
       }
     ]
   }
