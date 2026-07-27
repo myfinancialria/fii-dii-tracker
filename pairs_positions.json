@@ -22,27 +22,6 @@
       ]
     },
     {
-      "key": "TATASTEEL/JINDALSTEL",
-      "sector": "Metals",
-      "A": "TATASTEEL",
-      "B": "JINDALSTEL",
-      "direction": -1,
-      "entry_date": "2026-06-23",
-      "entry_z": 2.2712552143637863,
-      "entry_spread": 0.07092129340471498,
-      "beta": 1.1890739632652676,
-      "alpha": -3.1135372138087876,
-      "half_life": 12.056867199116834,
-      "entry_priceA": 193.56,
-      "entry_priceB": 1082.6,
-      "lotA": 2750,
-      "lotB": 625,
-      "ratio": [
-        12,
-        11
-      ]
-    },
-    {
       "key": "IOC/BPCL",
       "sector": "Oil & Gas",
       "A": "IOC",
@@ -141,6 +120,34 @@
       "exit_priceA": 245.75,
       "exit_priceB": 126.46,
       "realized_pnl_pct": 6.3240516462570655
+    },
+    {
+      "key": "TATASTEEL/JINDALSTEL",
+      "sector": "Metals",
+      "A": "TATASTEEL",
+      "B": "JINDALSTEL",
+      "direction": -1,
+      "entry_date": "2026-06-23",
+      "entry_z": 2.2712552143637863,
+      "entry_spread": 0.07092129340471498,
+      "beta": 1.1890739632652676,
+      "alpha": -3.1135372138087876,
+      "half_life": 12.056867199116834,
+      "entry_priceA": 193.56,
+      "entry_priceB": 1082.6,
+      "lotA": 2750,
+      "lotB": 625,
+      "ratio": [
+        12,
+        11
+      ],
+      "exit_date": "2026-07-27",
+      "exit_reason": "target",
+      "exit_z": -0.152777660691976,
+      "days_held": 23,
+      "exit_priceA": 184.25,
+      "exit_priceB": 1065.7,
+      "realized_pnl_pct": 1.2971882237326828
     }
   ]
 }
