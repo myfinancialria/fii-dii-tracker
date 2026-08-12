@@ -1,51 +1,55 @@
 {
-  "date": "2026-08-11",
-  "date_pretty": "Tuesday, 11 August 2026",
-  "mood": "Mixed",
+  "date": "2026-08-12",
+  "date_pretty": "Wednesday, 12 August 2026",
+  "mood": "Range-bound",
   "nifty": {
-    "last": 24471.7,
-    "change": -112.1,
-    "pct": -0.46,
+    "last": 24435.95,
+    "change": -35.75,
+    "pct": -0.15,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 13,
-    "declines": 37,
-    "unchanged": 0
+    "advances": 17,
+    "declines": 30,
+    "unchanged": 3
   },
   "banknifty": {
-    "last": 57446.25,
-    "change": -240.7,
-    "pct": -0.42,
+    "last": 57885.85,
+    "change": 439.6,
+    "pct": 0.77,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 4,
-    "declines": 9,
-    "unchanged": 1
+    "advances": 12,
+    "declines": 1,
+    "unchanged": 1,
+    "catalyst": null,
+    "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 12, 2026",
+    "source": "blog.liquide.life",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaUlZQlVUeDhZemt3cUhtdWx1Y0RhMHRZa3NzSkhnUXhic3F2bmtzZ0FhZGV1aTlmN0xNOWVJY3pYczBlcmw1R0IwZVM4bjEtQm5Ma29fM0Q3bFVXbG5FMVoyQ25VMVdLdk5jZC14ajNEdlliUW9jc1NNbmh4dFNlN29pZGxkeUNRZzVsOGdBZ2JuOUJ4dkM2RzJCbmRsV3dab2ladjRnS01UVGJWcS12WXpRczNGY0RnTHVQRkxScXhPLTQ1ZnpEZWZCY3Y0MGRqUkRaRE4xRTFGSlFZNElfOXVDNXVWQmUteFE?oc=5"
   },
   "sensex_proxy": {
-    "last": 24471.7,
-    "change": -112.1,
-    "pct": -0.46,
+    "last": 24435.95,
+    "change": -35.75,
+    "pct": -0.15,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 13,
-    "declines": 37,
-    "unchanged": 0
+    "advances": 17,
+    "declines": 30,
+    "unchanged": 3
   },
   "midcap": {
-    "last": 63843.85,
-    "change": -11.85,
-    "pct": -0.02,
-    "year_high": 63986.7,
+    "last": 64024.4,
+    "change": 180.55,
+    "pct": 0.28,
+    "year_high": 64026.2,
     "year_low": 52032.85,
-    "advances": 40,
-    "declines": 58,
+    "advances": 52,
+    "declines": 46,
     "unchanged": 2
   },
   "vix": {
-    "last": 11.79,
-    "change": -0.46,
-    "pct": -3.73,
+    "last": 11.67,
+    "change": -0.19,
+    "pct": -1.58,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,35 +57,35 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 14628.47,
-    "sell": 14369.92,
-    "net": 258.55
+    "buy": 16584.64,
+    "sell": 17587.14,
+    "net": -1002.5
   },
   "dii": {
-    "buy": 15006.72,
-    "sell": 14981.95,
-    "net": 24.77
+    "buy": 21518.55,
+    "sell": 15676.89,
+    "net": 5841.66
   },
   "global": {
     "Dow Jones": {
-      "last": 53924.23828125,
-      "change": -51.7421875,
-      "pct": -0.09586150552643823
+      "last": 53824.44921875,
+      "change": 32.59765625,
+      "pct": 0.060599617419982724
     },
     "Nasdaq": {
-      "last": 26504.48828125,
-      "change": -100.87109375,
-      "pct": -0.3791382492836558
+      "last": 26585.1640625,
+      "change": 139.71484375,
+      "pct": 0.5283133691332468
     },
     "S&P 500": {
-      "last": 7743.47998046875,
-      "change": -9.6298828125,
-      "pct": -0.1242067116591131
+      "last": 7747.8798828125,
+      "change": 19.6796875,
+      "pct": 0.25464774465776147
     },
     "FTSE 100": {
-      "last": 10844.1904296875,
-      "change": -18.3095703125,
-      "pct": -0.16855760932105868
+      "last": 10833.150390625,
+      "change": -11.0498046875,
+      "pct": -0.10189598576644107
     },
     "Nikkei 225": {
       "last": 66970.21875,
@@ -89,153 +93,153 @@
       "pct": 2.078305394396224
     },
     "Hang Seng": {
-      "last": 25937.490234375,
-      "change": 269.4609375,
-      "pct": 1.0497920755170949
+      "last": 25652.8203125,
+      "change": -284.669921875,
+      "pct": -1.0975230035854682
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.42500305175781,
-      "change": 0.2147064208984375,
-      "pct": 0.22550756430355168
+      "last": 95.31999969482422,
+      "change": -0.07669830322265625,
+      "pct": -0.08039932705451351
     },
     "Dollar Index": {
-      "last": 99.82099914550781,
-      "change": 0.0110015869140625,
-      "pct": 0.011022529990148518
+      "last": 99.86599731445312,
+      "change": 0.04599761962890625,
+      "pct": 0.04608056478614804
     },
     "Brent Crude": {
-      "last": 88.55999755859375,
-      "change": 0.839996337890625,
-      "pct": 0.9575881511642915
+      "last": 88.61000061035156,
+      "change": -0.3000030517578125,
+      "pct": -0.33742328129682025
     },
     "Gold": {
-      "last": 4440.10009765625,
-      "change": 78.30029296875,
-      "pct": 1.795137247807727
+      "last": 4482.5,
+      "change": 99.5,
+      "pct": 2.270134610997034
     },
     "US 10Y Yield": {
-      "last": 4.684000015258789,
-      "change": -0.014999866485595703,
-      "pct": -0.319214021346759
+      "last": 4.670000076293945,
+      "change": -0.01399993896484375,
+      "pct": -0.2988885337155632
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "DRREDDY",
-        "ltp": 1205.0,
-        "pct": 3.99,
+        "symbol": "HINDALCO",
+        "ltp": 1078.5,
+        "pct": 2.8,
         "catalyst": null,
-        "headline": "Top gainers and losers, Aug 11: Tata Consumer Products, Max Health fall 3%, Dr. Reddy\u2019s up 4%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMWJaWEFhOVpJbEY3d3VRcWEzUmdad1dOWnJPSlZQcHRtNHJKQW4zUU05cl9PVElnTHNzbW1QeFlhWVhkRUpsS1JpVXhVV2tzX3VyZUk5T3FmMFpqS2lUT1ptOXpQaTZ4eVFYUTBfM01lSXAzSVJJZVpoT25Oc0l6dHpyUlFsYXYyMG85dHB2SlIzSThxbkNNYWpHSW5rYTV6TGUySmtmU3hNeUY1aHViWjRoQUkwQnJvRDV1ZXFocmlvc25RT1g3RURQdUZJaGtIQ3lPdlBVLVkzeUNtVm1KcjBoLThENk5ibG44Yg?oc=5"
-      },
-      {
-        "symbol": "ETERNAL",
-        "ltp": 318.0,
-        "pct": 2.5,
-        "catalyst": null,
-        "headline": "Indian Stocks Dip as Global Crude Oil Prices Jump Amid Geopolitical Tensions",
-        "source": "Rediff",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTUFCNXE5RlFuTU1rMmZpdmNCdEp6dV9sT0hvMkFleExlc1Rud05zTDZ5dmJEd25LQmdhdnpWaWtHOVVZcU8wT1BVMGV0N0xOTFlWM0V2ZUt2MWdqYkszdWpXbzdwZHZyalppU2w2OTdCQ19odjhQa09oVUhqanhCanM1MG9pcm1zQXI3UDNzVFZMelc4Wjh3bnRjS0pXckZBUzRsQjJwU0ktX1dxd1JrOEd2d0FXWDNKdHNNbHBqdU9pb0pNTGRPSTQ2NlBmSHpVZ0hKTGlUNFozZmfSAdsBQVVfeXFMT01BQjVxOUZRbk1NazJmaXZjQnRKenVfbE9IbzJBZXhMZXNUbndOc0w2eXZiRHduS0JnYXZ6VmlrRzlVWXFPME9QVTBldDdMTkxZVjNFdmVLdjFnamJLM3VqV283cGR2cmpaaVNsNjk3QkNfaHY4UGtPaFVIamp4QmpzNTBvaXJtc0FyN1Azc1RWTHpXOFo4d250Y0tKV3JGQVM0bEIycFNJLV9XcXdSazhHdndBV1gzSnRzTWxwanVPaW9KTUxkT0k0NjZQZkh6VWdISkxpVDRaM2Zn?oc=5"
-      },
-      {
-        "symbol": "TCS",
-        "ltp": 2445.7,
-        "pct": 0.82,
-        "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.46%",
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.15%",
         "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZHpkMl84bU1tdVotd25GbHJodDhwMVF2a0x5ZUJMMTNLN1A3cGNmLXd2VndqWnNuQmMzWmszT2xFLUY3bGtIQnhETERMcnVabXRVQ2dLZzFfTWhLLXNqZ1B6MGtnT1BDX0JXaDhxVVl6aWtFOVYwSWtIWHJpaXpqb2Y5N2xpNmlqSkdJVy1yZ3l6UTZyV1dwOVJLcXdtdnNUeTUybExPTGFZR2kyaVk3aA?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaC1aY0V2ZzBQd0lzVXdhR2hXQS1aalVoODlFOWtiX2hza2pWb0lLYV81RS1MMmpyOUlhelE5amFhN1J4am53NHNCLUNiZUU0WFhrbFRtdm5nc2s0MlJxSmQwWjB2VjU4cl9kSlRsb09fU1Uzc0RHLWxVaXVYZC1Td3lXZEs0X3ZZNGJOaHJHTEQ4VnJqWHd3MFBWT3JsenU1cXNOQXNFRnN4cGgtWGFVWC1TS1lBLTlIZHhJ?oc=5"
       },
       {
-        "symbol": "TITAN",
-        "ltp": 5128.0,
-        "pct": 0.75
+        "symbol": "BHARTIARTL",
+        "ltp": 1945.0,
+        "pct": 1.56,
+        "catalyst": null,
+        "headline": "KWIL Share Price Today - Kwality Walls India Stock Analysis",
+        "source": "Equitypandit",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tT1FJWGQ3LVh6YTFRZmFQV2dxWlE2M01TYUNvVVpVSWhmZkxjeVI3b0lnVjdwbnZZM1FWVFdIZ1BTR0FWcnBIU2lMYjRXMUZMVThDUGd1MGY?oc=5"
       },
       {
-        "symbol": "INFY",
-        "ltp": 1190.7,
-        "pct": 0.65
+        "symbol": "SBIN",
+        "ltp": 1082.0,
+        "pct": 1.5,
+        "catalyst": null,
+        "headline": "LEAP India IPO Allotment Status: Check Share Allocation Online",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uX2EwZ0FleXZOV19kSERESDBDanRlZWJRdFNHVzdmYkhDaDA5a0FSc01PeWcwV1J3emxWSjlVbDZpNjJMZ251d2xEcFJadjJxN1NLWTB1UnA1VGlhZ2VkcjB2RnduMzQ?oc=5"
+      },
+      {
+        "symbol": "JIOFIN",
+        "ltp": 256.05,
+        "pct": 1.31
+      },
+      {
+        "symbol": "ULTRACEMCO",
+        "ltp": 11891.0,
+        "pct": 0.94
       }
     ],
     "losers": [
       {
-        "symbol": "TATACONSUM",
-        "ltp": 1078.0,
-        "pct": -2.77,
+        "symbol": "TCS",
+        "ltp": 2349.7,
+        "pct": -3.93,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "TCS, Tata Motors PV, Tata Steel shares slide up to 6% as N Chandrasekaran steps down; key details",
+        "source": "upstox.com",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM5NjN1OTIwMm1tc3ZNMmJZcS1OUVlZbDJybEVRdmpnb0VUSWFXRDNCbkI5UVM5SVpqMW5sV3pmRGZQeThWTmU2eUVUd1ZMUThIWUtFT3lMaE9vZFpjRTJDQVpYOGlYWXBGR2FvcVBxaF9qelBqcnBCWDc3a2dzd2dBVkJ4ZWk1a1NLMGRFS3kwQ0F4OElab0dXMzhESGs2UFEtZVlFS0FPX3FtVzgtR05FbzdnaUxJUlBxYmxwbkZETXNoM2NQZV91czBsdzdENVBkUUUxNjAydEE?oc=5"
       },
       {
         "symbol": "MAXHEALTH",
-        "ltp": 1040.0,
-        "pct": -2.71,
-        "catalyst": null,
-        "headline": "Top gainers and losers, Aug 11: Tata Consumer Products, Max Health fall 3%, Dr. Reddy\u2019s up 4%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMWJaWEFhOVpJbEY3d3VRcWEzUmdad1dOWnJPSlZQcHRtNHJKQW4zUU05cl9PVElnTHNzbW1QeFlhWVhkRUpsS1JpVXhVV2tzX3VyZUk5T3FmMFpqS2lUT1ptOXpQaTZ4eVFYUTBfM01lSXAzSVJJZVpoT25Oc0l6dHpyUlFsYXYyMG85dHB2SlIzSThxbkNNYWpHSW5rYTV6TGUySmtmU3hNeUY1aHViWjRoQUkwQnJvRDV1ZXFocmlvc25RT1g3RURQdUZJaGtIQ3lPdlBVLVkzeUNtVm1KcjBoLThENk5ibG44Yg?oc=5"
-      },
-      {
-        "symbol": "NESTLEIND",
-        "ltp": 1493.2,
-        "pct": -2.32,
+        "ltp": 1007.5,
+        "pct": -3.13,
         "catalyst": null,
         "headline": null,
         "source": null,
         "link": null
       },
       {
-        "symbol": "ULTRACEMCO",
-        "ltp": 11780.0,
-        "pct": -2.14
+        "symbol": "APOLLOHOSP",
+        "ltp": 8597.0,
+        "pct": -1.75,
+        "catalyst": null,
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "APOLLOHOSP",
-        "ltp": 8750.5,
-        "pct": -1.81
+        "symbol": "M&M",
+        "ltp": 3403.6,
+        "pct": -1.63
+      },
+      {
+        "symbol": "TATACONSUM",
+        "ltp": 1061.9,
+        "pct": -1.49
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": 1.02,
+        "name": "NIFTY PSU BANK",
+        "pct": 2.05,
         "catalyst": null,
-        "headline": "Top 14 Pharma Stocks To Buy In India August 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSmxaNUxpT2wtdzdBOEMwZ18tbzhmM3NVOXN1RXlaTy1wR1N2SmZRb0RKSlZPSUpvRnhxaTlHQnBpYXV5X2RhNHNlYnEtYjctblphSkpUbWJHRDRoRWZwY3ZXMmMwRlBYZWR2TFhMcUhHU0lOd19VVmY4a0pxYUF2djNyOWp0TE9Rc0E?oc=5"
+        "headline": "Sectoral Performance Today, August 12, 2026: PSU Banks, Metals Gain; IT, FMCG Drag Markets",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR01vd3llNUZTRklPbEJhMnpQV1l5SHZybUxHSFpKZ2M5aHE1c0NCOGdFU09IaG5nczF1d0QxVXVvNGxIVWdFZW9DTExoRDVIQjBaQ0hCdFdMdndYMDhYdXBtalV1N3pHNlozQnlRTjY2Si1Xc3FCYkVVTUFOWDVXbXlXeUUzWUdTdHV5WDkta3g3Zw?oc=5"
       },
       {
-        "name": "NIFTY IT",
-        "pct": 0.61,
+        "name": "NIFTY BANK",
+        "pct": 0.77,
         "catalyst": null,
-        "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 12, 2026",
+        "source": "blog.liquide.life",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaUlZQlVUeDhZemt3cUhtdWx1Y0RhMHRZa3NzSkhnUXhic3F2bmtzZ0FhZGV1aTlmN0xNOWVJY3pYczBlcmw1R0IwZVM4bjEtQm5Ma29fM0Q3bFVXbG5FMVoyQ25VMVdLdk5jZC14ajNEdlliUW9jc1NNbmh4dFNlN29pZGxkeUNRZzVsOGdBZ2JuOUJ4dkM2RzJCbmRsV3dab2ladjRnS01UVGJWcS12WXpRczNGY0RnTHVQRkxScXhPLTQ1ZnpEZWZCY3Y0MGRqUkRaRE4xRTFGSlFZNElfOXVDNXVWQmUteFE?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY FMCG",
-        "pct": -1.17,
+        "name": "NIFTY IT",
+        "pct": -1.54,
         "catalyst": null,
-        "headline": "Sensex, Nifty Close Nearly 0.5% Lower as Realty, FMCG Stocks Weigh",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQTZLamluc0ZqOE9keUhaREVYQ0pXVXBZcVEtTF9jdVBZaDBXUHVJZDhBMmdNSk1USFJoZ0txa3VOVTlpYzYyRmUzUzgtaHdqazlEN3FHMHdIbU9ZdzdycmVNelZDMm9PeGtPVXp5NUlqRWtJbFJCQnFYMFN2R2FUUFR2aUlWRmZsNngtbmlTSjAtcWttN2E4?oc=5"
+        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": -0.99,
+        "name": "NIFTY FMCG",
+        "pct": -0.73,
         "catalyst": null,
-        "headline": "Sensex, Nifty Close Nearly 0.5% Lower as Realty, FMCG Stocks Weigh",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQTZLamluc0ZqOE9keUhaREVYQ0pXVXBZcVEtTF9jdVBZaDBXUHVJZDhBMmdNSk1USFJoZ0txa3VOVTlpYzYyRmUzUzgtaHdqazlEN3FHMHdIbU9ZdzdycmVNelZDMm9PeGtPVXp5NUlqRWtJbFJCQnFYMFN2R2FUUFR2aUlWRmZsNngtbmlTSjAtcWttN2E4?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 12, 2026",
+        "source": "blog.liquide.life",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaUlZQlVUeDhZemt3cUhtdWx1Y0RhMHRZa3NzSkhnUXhic3F2bmtzZ0FhZGV1aTlmN0xNOWVJY3pYczBlcmw1R0IwZVM4bjEtQm5Ma29fM0Q3bFVXbG5FMVoyQ25VMVdLdk5jZC14ajNEdlliUW9jc1NNbmh4dFNlN29pZGxkeUNRZzVsOGdBZ2JuOUJ4dkM2RzJCbmRsV3dab2ladjRnS01UVGJWcS12WXpRczNGY0RnTHVQRkxScXhPLTQ1ZnpEZWZCY3Y0MGRqUkRaRE4xRTFGSlFZNElfOXVDNXVWQmUteFE?oc=5"
       }
     ]
   }
