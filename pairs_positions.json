@@ -83,6 +83,27 @@
         8,
         7
       ]
+    },
+    {
+      "key": "NMDC/SAIL",
+      "sector": "Metals",
+      "A": "NMDC",
+      "B": "SAIL",
+      "direction": 1,
+      "entry_date": "2026-08-25",
+      "entry_z": -2.7917593027257466,
+      "entry_spread": -0.035060862848079744,
+      "beta": 0.5427227953332767,
+      "alpha": 1.6567082610290145,
+      "half_life": 11.803753137464378,
+      "entry_priceA": 85.94,
+      "entry_priceB": 184.59,
+      "lotA": 6750,
+      "lotB": 4700,
+      "ratio": [
+        11,
+        4
+      ]
     }
   ],
   "closed": [
