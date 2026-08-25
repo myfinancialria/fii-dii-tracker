@@ -1,55 +1,51 @@
 {
-  "date": "2026-08-24",
-  "date_pretty": "Monday, 24 August 2026",
-  "mood": "Range-bound",
+  "date": "2026-08-25",
+  "date_pretty": "Tuesday, 25 August 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 24219.05,
-    "change": -32.95,
-    "pct": -0.14,
+    "last": 24334.55,
+    "change": 115.5,
+    "pct": 0.48,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 23,
-    "declines": 26,
-    "unchanged": 1
+    "advances": 34,
+    "declines": 16,
+    "unchanged": 0
   },
   "banknifty": {
-    "last": 57525.95,
-    "change": -236.0,
-    "pct": -0.41,
+    "last": 57514.2,
+    "change": -11.75,
+    "pct": -0.02,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 4,
-    "declines": 10,
-    "unchanged": 0,
-    "catalyst": null,
-    "headline": "RBI\u2019s New Dollar Funding Window Is Changing How Indian Banks Raise Money",
-    "source": "NiftyTrader",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EaG9XLWZzRW5IeWlrNi1tQ3d2UHZIZEpNU2JoMV80NGc4N0lxMzQ5Mzh4bEVsODFEeGp4Zjl5eUtmTWxiUVUtX3NSY1ZrZWxfVHgzLTFDLTRjaG1tYWllaFFxNW55cElhcnJGQVRudGw1UV92?oc=5"
+    "advances": 7,
+    "declines": 7,
+    "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 24219.05,
-    "change": -32.95,
-    "pct": -0.14,
+    "last": 24334.55,
+    "change": 115.5,
+    "pct": 0.48,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 23,
-    "declines": 26,
-    "unchanged": 1
+    "advances": 34,
+    "declines": 16,
+    "unchanged": 0
   },
   "midcap": {
-    "last": 63817.25,
-    "change": 81.5,
-    "pct": 0.13,
-    "year_high": 64139.05,
+    "last": 64162.9,
+    "change": 345.65,
+    "pct": 0.54,
+    "year_high": 64169.8,
     "year_low": 52032.85,
-    "advances": 44,
-    "declines": 55,
-    "unchanged": 1
+    "advances": 65,
+    "declines": 35,
+    "unchanged": 0
   },
   "vix": {
-    "last": 11.7,
-    "change": 0.5,
-    "pct": 4.51,
+    "last": 11.13,
+    "change": -0.4,
+    "pct": -3.4,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -57,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 12332.64,
-    "sell": 11150.98,
-    "net": 1181.66
+    "buy": 13259.03,
+    "sell": 11665.5,
+    "net": 1593.53
   },
   "dii": {
-    "buy": 15337.18,
-    "sell": 12843.77,
-    "net": 2493.41
+    "buy": 14280.18,
+    "sell": 14049.92,
+    "net": 230.26
   },
   "global": {
     "Dow Jones": {
-      "last": 53494.5703125,
-      "change": 217.55859375,
-      "pct": 0.4083535970419935
+      "last": 53520.4609375,
+      "change": 103.30078125,
+      "pct": 0.19338501138554712
     },
     "Nasdaq": {
-      "last": 26085.146484375,
-      "change": -95.314453125,
-      "pct": -0.3640671314097256
+      "last": 26131.830078125,
+      "change": 151.640625,
+      "pct": 0.5836779030176013
     },
     "S&P 500": {
-      "last": 7668.02001953125,
-      "change": -6.35009765625,
-      "pct": -0.08274421951618331
+      "last": 7673.58984375,
+      "change": 20.72998046875,
+      "pct": 0.2708788719392777
     },
     "FTSE 100": {
-      "last": 10854.3203125,
-      "change": 37.720703125,
-      "pct": 0.3487297717140846
+      "last": 10886.16015625,
+      "change": 31.8603515625,
+      "pct": 0.2935274696276668
     },
     "Nikkei 225": {
-      "last": 66016.359375,
-      "change": -200.4296875,
-      "pct": -0.30268711355185246
+      "last": 65528.08984375,
+      "change": -488.26953125,
+      "pct": -0.7396189912206893
     },
     "Hang Seng": {
-      "last": 26009.4609375,
-      "change": 310.970703125,
-      "pct": 1.210073822582142
+      "last": 25517.330078125,
+      "change": -492.130859375,
+      "pct": -1.892122487880762
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.73500061035156,
-      "change": -0.037200927734375,
-      "pct": -0.038843137295513905
+      "last": 95.4020004272461,
+      "change": -0.29830169677734375,
+      "pct": -0.3117040282597621
     },
     "Dollar Index": {
-      "last": 98.9739990234375,
-      "change": 0.1739959716796875,
-      "pct": 0.17610927763690168
+      "last": 98.9469985961914,
+      "change": -0.05300140380859375,
+      "pct": -0.05353677152383207
     },
     "Brent Crude": {
-      "last": 92.44000244140625,
-      "change": -1.9499969482421875,
-      "pct": -2.065893591324718
+      "last": 87.26000213623047,
+      "change": -4.909996032714844,
+      "pct": -5.327108744989821
     },
     "Gold": {
-      "last": 4710.0,
-      "change": 85.89990234375,
-      "pct": 1.8576566365267229
+      "last": 4708.89990234375,
+      "change": 68.10009765625,
+      "pct": 1.4674215765020637
     },
     "US 10Y Yield": {
-      "last": 4.696000099182129,
-      "change": -0.04199981689453125,
-      "pct": -0.8864461299802964
+      "last": 4.644999980926514,
+      "change": -0.05900001525878906,
+      "pct": -1.254252026076424
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "JSWSTEEL",
-        "ltp": 1327.0,
+        "symbol": "ADANIENT",
+        "ltp": 3110.0,
+        "pct": 3.72,
+        "catalyst": null,
+        "headline": "Top gainers and losers, Aug 25: Adani Ent surges 4%, Max Health rises 3%, HDFC LIC falls 1%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdU5iQkRqSzlGWkNPOHBFbFJBQ0JfWjY1ay1YWWhSOEtsSVJBbk9JRDJkMmhwdkkydnFKWUFnZTNNTTctaUhISFgwRmNXY2ptenYxX0kxRFR5M0VQZlkxSTRCR2xDX2V5T0tBZmFXMUVIeXItYVB3N0lyczB1N0RsaWhFa3ZKa3BKTkdoZXkzY1dvMmhnOFduQVJDN0ZPU05qNTBrdjMzRVRqYWVveVFzUEdrOFVQWkEzdERBcnNleTBoYkVyOE1wckZWc0RoQ09KZVdZLWFHQWNIZUluMXRFeTVwbHpBY2lJVHc?oc=5"
+      },
+      {
+        "symbol": "MAXHEALTH",
+        "ltp": 1016.0,
         "pct": 2.57,
         "catalyst": null,
-        "headline": "Top gainers and losers, Aug 24: SBI LIC, Adani Ports drop 2%, JSW Steel jumps nearly 3%; check list",
+        "headline": "Top gainers and losers, Aug 25: Adani Ent surges 4%, Max Health rises 3%, HDFC LIC falls 1%; check list",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbmpxTng1WkF1dVhJMHRBa3hkZW1ZbDBRSEJTekRQWGxhU0puLTQ1N0lEU1Z5YlhYamdhRl8yY19WSURneEhFYXByS2hlVzFfZFpiT0FJNjhkd2Z3UkFBR1FEajJNaF9LTGtDYlZYSlRDQXdkVUZXS3IzUEFKYk4wamxkVTZLOWlFRTBPSE9ZYnBqNnFPUVh3YmxjVUhBRVFsbXNuZkJBSzl4b2dJU1F5aVU0cTNTTmFpZ2R2ZTZXNVVQUEZyTU5XVk9EOHhzZVdsMzZYdExSQWtLX05TQmZCZE44YkpXdw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdU5iQkRqSzlGWkNPOHBFbFJBQ0JfWjY1ay1YWWhSOEtsSVJBbk9JRDJkMmhwdkkydnFKWUFnZTNNTTctaUhISFgwRmNXY2ptenYxX0kxRFR5M0VQZlkxSTRCR2xDX2V5T0tBZmFXMUVIeXItYVB3N0lyczB1N0RsaWhFa3ZKa3BKTkdoZXkzY1dvMmhnOFduQVJDN0ZPU05qNTBrdjMzRVRqYWVveVFzUEdrOFVQWkEzdERBcnNleTBoYkVyOE1wckZWc0RoQ09KZVdZLWFHQWNIZUluMXRFeTVwbHpBY2lJVHc?oc=5"
       },
       {
-        "symbol": "HINDALCO",
-        "ltp": 1058.5,
-        "pct": 2.37,
+        "symbol": "APOLLOHOSP",
+        "ltp": 8889.0,
+        "pct": 2.15,
         "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.14%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNkNEUWR2b0xpOXpiZmdma0Y4SWVZQS1yY1QtX0p2TFlKWTVEXzJNZVhFSnpGNm1VQ25GRy1vRVg4a3JOcXA2dmd2RUhRdnNwMmlZVVo1MzhyTmdaa3lzR3hCcFNxRVBCeWNGb2VKMXFsaGRRMXEzZ2RPRHh3Wm8xY0tCSHIwdUpnWU9ud2hkaVNmLVRZU3VocHh3Q2ZNRllzbndWSWllMkNhcDBGR183bGhPYkFHajh4aVdJ?oc=5"
+        "headline": "5 Healthcare Stocks India 2026: Future Roadmaps",
+        "source": "Univest",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XSkh4OE05c2R4ejNSN19SSE9zNHliVElXWENoMk1KdTFBRzRjSEFGZlNlWUZicnliVzc2ZmNaYUNzTWVnTkx0dzlGM0tvc0xVaXVoUFExYnh3NHlGc3R6S0JFNV9tb3hRdTAwRWVTNTZRcTNMWTQ5Yg?oc=5"
       },
       {
-        "symbol": "TATASTEEL",
-        "ltp": 186.3,
-        "pct": 1.8,
-        "catalyst": null,
-        "headline": "Market wrap: Tata Steel, HCL Tech, Bajaj Finance, Adani Ports top gainers and losers on Nifty and Sensex o",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOeldSclJIWS1LUjVPVWpOdFVUYm1LTlhydVhQOEpNV3l5T0EzelAzMnNrcmRVN3M5Mm9md2lGTC1PR0Y1QUlqVFFrdWMtSDB6MGR3dUNuTkxwVFBIMGxrOEtxeFlMdzU2cTdQazZvWVUzX0JtX29LRFVoem9JdlFPUmg2blR1TGdBUkg0VUptV3BNdDlJbUJOTmtjX2V1R3NyNzFsX1FJS1NjLXVIWFhVbUdEV0Y0T2NFaHhhbllBQ0p5dENwMGtFRjdUcmhBM1Q0SXl6TWpMeXpzelZFZnhWdzNzc2ZWOWpGX2xwLVFTVUYxdkJRU01NdmdKWnNtTU1lS0lSRDBKN2hHZlFkSEFIcTFB0gGXAkFVX3lxTE0wTWI2dzRLU0tBZlVCY0NIUVMyemZzWGxhLVY3TWtWQmgyaHZsbWNPclpSRVQ0S0hjSU80b2xBRVhKMjl5X3lyMkJ2ak9ONHZPRm1oNk9tajdyT1Y0NUY2VjA5STFRTDdOOFAwaWh2Q0wzOWhEeVYzSGkxcjdkSDVUVVh4amhRZ0JUSTZ6ai03Zzh2SUZxYTlUaE1JZUw4amxTMTh2MzNTNEhFTzZ2NUlvc21paGhjZjhvMzROUlJIVl9fQ1FBUGlqRzhmeHVBX3RPX2pjb3dyMklVRHdabnUwYW43RlE2X2RHMzdqcElTamZOZ0hnTEhFeWZxZGR6eGpqN1NGb0RwWmNsUE1jLVBsNGRrNVg2MA?oc=5"
+        "symbol": "INDIGO",
+        "ltp": 5218.0,
+        "pct": 2.01
       },
       {
-        "symbol": "HCLTECH",
-        "ltp": 1322.0,
-        "pct": 1.5
-      },
-      {
-        "symbol": "DRREDDY",
-        "ltp": 1190.0,
-        "pct": 1.3
+        "symbol": "ADANIPORTS",
+        "ltp": 1702.7,
+        "pct": 1.83
       }
     ],
     "losers": [
       {
-        "symbol": "SBILIFE",
-        "ltp": 1761.8,
-        "pct": -1.73,
+        "symbol": "HDFCLIFE",
+        "ltp": 546.7,
+        "pct": -1.13,
         "catalyst": null,
-        "headline": "Top gainers and losers, Aug 24: SBI LIC, Adani Ports drop 2%, JSW Steel jumps nearly 3%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbmpxTng1WkF1dVhJMHRBa3hkZW1ZbDBRSEJTekRQWGxhU0puLTQ1N0lEU1Z5YlhYamdhRl8yY19WSURneEhFYXByS2hlVzFfZFpiT0FJNjhkd2Z3UkFBR1FEajJNaF9LTGtDYlZYSlRDQXdkVUZXS3IzUEFKYk4wamxkVTZLOWlFRTBPSE9ZYnBqNnFPUVh3YmxjVUhBRVFsbXNuZkJBSzl4b2dJU1F5aVU0cTNTTmFpZ2R2ZTZXNVVQUEZyTU5XVk9EOHhzZVdsMzZYdExSQWtLX05TQmZCZE44YkpXdw?oc=5"
+        "headline": "Market wrap: Adani Enterprise, InterGlobe, HDFC Life, HCL Tech, top gainers and losers on Nifty and Sensex",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObEZpWUJocmZvS0IwR05jOE1JSVJhRXNwMEFvSVl0VVZwdENOX1BUZE1oYy01UjhqdHdyaTJvME9wM3lUMUVPdUdyZUpDa2hXWVEzQlA0SFNRdlhZQVVWZ3k2S1l1V1BjR2NiV09fbFhFbXg1eFpjdGcxMlZFTGYzYkdfbjBmaEx3RG1lOWh2aXNqUHVZRmRhSmIxRkFJWXUyVU9pUThvamZNVVBCNWgyY2tTSndRRVo4MVdpeXFrU041TTY4X3RhRnJhUmY5WlJhNmhqX180YjRLRTJ1aW9MWTE0REZXSUtScEt2a1BDYUxRZEJMYkQ1dUNJTnNpcTlKeG9hYnY5TE9jb0tCZXo3Nzh0U3R1MTByZTNZcUVSUGXSAZoCQVVfeXFMT0VyUEFHbjVyU1pJOVFoM1dhQU50NzhRU3Rsd0ZacExyeGpUTU9nUHNLYzIwOURvUHg5b2JyQTVRQWJxcFZTYmFLaWQ5MjhDQnBtOWdlbUhPRzRnekh2cmJfR2hvUzVDX3UzM21Vd3Z6U2JGb2Y5Sk9EYmUwTVYxUnNBX3pNNjVWOHc5c0hkbmxyZ0RYaDdYdFNxUy1wdEdlZlpTS0dYdmFyR0hZWjVSMWJLNThXNlc1b2UwV3lXSUFTcWtpaTNsRXg1b2p5YjFLZ2JhZms5OXpiX0syNmNvWjBHUWw3WFBxbmFpLWdHTkgtMUZHaTFSTDlfeVZ2Vk9kOVB0WWxrcTBQcXZzWDhRaEY4T0UxRmVySTN3?oc=5"
       },
       {
-        "symbol": "ADANIPORTS",
-        "ltp": 1672.1,
-        "pct": -1.64,
+        "symbol": "CIPLA",
+        "ltp": 1422.0,
+        "pct": -1.11,
         "catalyst": null,
-        "headline": "Top gainers and losers, Aug 24: SBI LIC, Adani Ports drop 2%, JSW Steel jumps nearly 3%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbmpxTng1WkF1dVhJMHRBa3hkZW1ZbDBRSEJTekRQWGxhU0puLTQ1N0lEU1Z5YlhYamdhRl8yY19WSURneEhFYXByS2hlVzFfZFpiT0FJNjhkd2Z3UkFBR1FEajJNaF9LTGtDYlZYSlRDQXdkVUZXS3IzUEFKYk4wamxkVTZLOWlFRTBPSE9ZYnBqNnFPUVh3YmxjVUhBRVFsbXNuZkJBSzl4b2dJU1F5aVU0cTNTTmFpZ2R2ZTZXNVVQUEZyTU5XVk9EOHhzZVdsMzZYdExSQWtLX05TQmZCZE44YkpXdw?oc=5"
+        "headline": "Cipla's Pithampur, India Unit Gets 7 Observations From US FDA",
+        "source": "marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQamlwV1RPRkxYYktFSVJaU1JRYXhqdkR4M1MxWFRlbEpjb0dVNTdrNWJRYk94anQ3Z29DQmpucHo5VElYZEN1amhnbnE1c0tHZEE3dW5ZcnlaUGRzSVFDb1hkQ2xoQ2EwNmE4RWI2dGFmei0xZWdUak9hVE45a0tnNjBuZS1jSVRHZmpGaHEyUXlPZG50S3FWcE1LNUM0Y3lpNktsRnQ4MU9GQU9ISmdyMG5xQQ?oc=5"
       },
       {
-        "symbol": "BAJFINANCE",
-        "ltp": 1077.0,
-        "pct": -1.64,
+        "symbol": "ONGC",
+        "ltp": 234.0,
+        "pct": -1.08,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Sensex gains 287 points, Nifty 50 ends at 24,335- What drove the stock market up today?",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZzNuWHRSMUU3QnU2ekJrc2EtWXM4VXJsRWtvazV6QkkyelJCSUhZcmY1SlN6d0ZfU3RMVTY4c3hKNjlQYTZLMWc1aHJhTnpkanhJdjAzLUE5WEdGMlhLaFIzZElPTzZEUlk0NWFlbnplS1Z5ZUg5SXFyT3Nmd0s0REc3WlBSQ0RPR19QVnNKTi14NjhDSEcyVGFXMTdkOEJzWkgyRUZOVkkzem1qb0xwSHNEZjk0RW1KcFFrdEpQUUNSS2NiM3dmcUZheXR5cVdHdndVMnBocXBfZzM0QUVWOHVqcjRQSzhDQ0HSAe8BQVVfeXFMTVNIS29wZ0VEa25XdlhlR0I4V04yNDlfY1B4czNUZG95VjF5eVhFb1BpN3ZycmRqUGxXdWlUalR6ZEZuT1RqSlVQRjRmUWZWcjJ0M0VxNTRyZVdyLWlMTTJNYU9DcDZnVmNqQVhMUHp0YWszdjdTUklETExJaUZlQzRMUkxYTzNZOHdYcm0yMWlHb0tudmlXZ09rOE1KTElENkpYdGF3TTNTTUdqbnEwdXU2ZFBUWnpuX1BDVGc2RHJBYi1XTnVSWTQwQ3lnM3d6NnhtXzhDa1JwM0pjU0EtQmVkZzF4cmVJTURHUTF0a1E?oc=5"
       },
       {
-        "symbol": "BAJAJFINSV",
-        "ltp": 2001.7,
-        "pct": -1.52
+        "symbol": "COALINDIA",
+        "ltp": 404.0,
+        "pct": -0.71
       },
       {
-        "symbol": "BEL",
-        "ltp": 409.0,
-        "pct": -1.21
+        "symbol": "HINDALCO",
+        "ltp": 1051.05,
+        "pct": -0.7
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY METAL",
-        "pct": 1.59,
+        "name": "NIFTY PHARMA",
+        "pct": 0.85,
         "catalyst": null,
-        "headline": "Stock market today: Sensex falls 170 points, Nifty 50 ends below 24,219; metal stocks shine",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTTdOYS1jUVlQMW5wNUt6N1VfUXg1UTM5aERSS2NVbHBleWlRbHNrYldmU1hza3VyU0Y5NnlXWi1SM2xQeEJ1a2dUQThUS2pxZTA5YnF4azVnSl9KU2VhemJpUWxGUklyZXZFam84c1VvOHpNWlBrTTBJOEs4VFpXTC00elBHSW5mWnlBTmQ3MjFaMlRKckRSZlc4a2MxT1ZCemJhZjgwQ1hPWU5MWVdNdkZsSUJFSmEwMmNBTGNZS3hRR09pb25IMVhVX2RqdFlmVDU3X01Na21tWU5xY3c?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 25, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFJWLU52UkJIMzZSRkdjLWpQbS1obUZiZnpiRUtzT043ZWQ3RGxZQjJqNE1fcXdwQTlheGhjWC13QWZYQlR6UW11VTZSeFp2em5tOUZNUFRJRnpwY2thMGFOSF9ROXRVdnJqaXVjU0pYZ2d0NDZ0dWx0NDhDc2thYkg2SjVweTVnb1ZZVUVEOHVxYXhSOWw4TGJLLWlvVUtXLVZ5OGtKcHhzOUM1b3FmNEp2Ql9xR2dJOXBZdWV1ZUpMYTJ5?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": 0.6,
+        "name": "NIFTY PSU BANK",
+        "pct": 0.75,
         "catalyst": null,
-        "headline": "5 Under the Radar Residential Real Estate Smallcap Stocks in India 2026",
-        "source": "Univest",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRXdGTzBKeWdGTkxPOWJJc3BTY0x2MGtOMlEySG80d1RnQUYyalNIMmlrM0FLdS1ISmpyQXRORWJaeHZUaGRWLWVBV081VXdQM1pXTUh3UEt4WmpDZTMtaTdSZlNud0RCTTVWSnpFamQ4ZF9Xb0dFZTN1dmlHWnRUMlA4cE01M2poUFVVZnVZcDBvM1pDUHJmWQ?oc=5"
+        "headline": "Public sector bank more efficient than Private Sector Banks, says EAC-PM paper",
+        "source": "BusinessLine",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMVlfREV1Rk16d21uaFZlYlNpaEhPLThkNnJwQVhyRUJ1NHFWNjlfamZxZHNGTnVTeVBUd0tWQUQzZGZPVkk0OHZYSG5XYjBaVzRLdzlya3IxRWJMUGRDWWU5S1lHWVB5WjZUT2hrVGctT2dfdE40TDlpQmRpSVJremxOMFVsTjAzMkFVTE1ya055LUZxQTgwZWZJMDQ3SkNYdzQwNFZreEtPazB3SV9zVm52WkNWNkdwRnJGSm5lNEtvR2phSFBJYXZLVTFaaGhJbGxTVHJWYnF4QQ?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PSU BANK",
-        "pct": -0.93,
+        "name": "NIFTY METAL",
+        "pct": -0.07,
         "catalyst": null,
-        "headline": "Closing Bell: Nifty at 24,220, Sensex down 171 pts; PSU Banks drag, metals shine",
-        "source": "IndiaIPO",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdklia1ZjWXpWQ0xMZm5xVjVQZ2JNaWJZRXkwYXRWakZDNW5ib2RsMHJtTERoell1YV84c3ctR2x0d0JKM2lCYzdaYW5pRDNBU1VZSVl2OGVhTW5oMjJqZ2tvVllCUHNYaU5pT18wQkxaNTR0NEh2ZEx2TmhJcXBpblN0THI0RW12MTJLVTBaVDJzN0RpWGdaNjZ6dUpwYURrc19xUXMzTjg2OVlqWWZmeA?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 25, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFJWLU52UkJIMzZSRkdjLWpQbS1obUZiZnpiRUtzT043ZWQ3RGxZQjJqNE1fcXdwQTlheGhjWC13QWZYQlR6UW11VTZSeFp2em5tOUZNUFRJRnpwY2thMGFOSF9ROXRVdnJqaXVjU0pYZ2d0NDZ0dWx0NDhDc2thYkg2SjVweTVnb1ZZVUVEOHVxYXhSOWw4TGJLLWlvVUtXLVZ5OGtKcHhzOUM1b3FmNEp2Ql9xR2dJOXBZdWV1ZUpMYTJ5?oc=5"
       },
       {
-        "name": "NIFTY BANK",
-        "pct": -0.41,
+        "name": "NIFTY ENERGY",
+        "pct": -0.07,
         "catalyst": null,
-        "headline": "RBI\u2019s New Dollar Funding Window Is Changing How Indian Banks Raise Money",
-        "source": "NiftyTrader",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EaG9XLWZzRW5IeWlrNi1tQ3d2UHZIZEpNU2JoMV80NGc4N0lxMzQ5Mzh4bEVsODFEeGp4Zjl5eUtmTWxiUVUtX3NSY1ZrZWxfVHgzLTFDLTRjaG1tYWllaFFxNW55cElhcnJGQVRudGw1UV92?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 25, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFJWLU52UkJIMzZSRkdjLWpQbS1obUZiZnpiRUtzT043ZWQ3RGxZQjJqNE1fcXdwQTlheGhjWC13QWZYQlR6UW11VTZSeFp2em5tOUZNUFRJRnpwY2thMGFOSF9ROXRVdnJqaXVjU0pYZ2d0NDZ0dWx0NDhDc2thYkg2SjVweTVnb1ZZVUVEOHVxYXhSOWw4TGJLLWlvVUtXLVZ5OGtKcHhzOUM1b3FmNEp2Ql9xR2dJOXBZdWV1ZUpMYTJ5?oc=5"
       }
     ]
   }
