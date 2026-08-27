@@ -1,27 +1,6 @@
 {
   "open": [
     {
-      "key": "TATASTEEL/JSWSTEEL",
-      "sector": "Metals",
-      "A": "TATASTEEL",
-      "B": "JSWSTEEL",
-      "direction": 1,
-      "entry_date": "2026-06-12",
-      "entry_z": -3.0914699772702368,
-      "entry_spread": -0.03473575148001995,
-      "beta": 1.0491825448049787,
-      "alpha": -2.1985300652272217,
-      "half_life": 26.387388347791937,
-      "entry_priceA": 197.86,
-      "entry_priceB": 1297.6,
-      "lotA": 2750,
-      "lotB": 675,
-      "ratio": [
-        3,
-        2
-      ]
-    },
-    {
       "key": "IOC/BPCL",
       "sector": "Oil & Gas",
       "A": "IOC",
@@ -82,27 +61,6 @@
       "ratio": [
         8,
         7
-      ]
-    },
-    {
-      "key": "NMDC/SAIL",
-      "sector": "Metals",
-      "A": "NMDC",
-      "B": "SAIL",
-      "direction": 1,
-      "entry_date": "2026-08-25",
-      "entry_z": -2.7917593027257466,
-      "entry_spread": -0.035060862848079744,
-      "beta": 0.5427227953332767,
-      "alpha": 1.6567082610290145,
-      "half_life": 11.803753137464378,
-      "entry_priceA": 85.94,
-      "entry_priceB": 184.59,
-      "lotA": 6750,
-      "lotB": 4700,
-      "ratio": [
-        11,
-        4
       ]
     }
   ],
@@ -190,6 +148,62 @@
       "exit_priceA": 184.25,
       "exit_priceB": 1065.7,
       "realized_pnl_pct": 1.2971882237326828
+    },
+    {
+      "key": "TATASTEEL/JSWSTEEL",
+      "sector": "Metals",
+      "A": "TATASTEEL",
+      "B": "JSWSTEEL",
+      "direction": 1,
+      "entry_date": "2026-06-12",
+      "entry_z": -3.0914699772702368,
+      "entry_spread": -0.03473575148001995,
+      "beta": 1.0491825448049787,
+      "alpha": -2.1985300652272217,
+      "half_life": 26.387388347791937,
+      "entry_priceA": 197.86,
+      "entry_priceB": 1297.6,
+      "lotA": 2750,
+      "lotB": 675,
+      "ratio": [
+        3,
+        2
+      ],
+      "exit_date": "2026-08-27",
+      "exit_reason": "time",
+      "exit_z": -1.9986472654207919,
+      "days_held": 53,
+      "exit_priceA": 186.8,
+      "exit_priceB": 1337.5,
+      "realized_pnl_pct": -4.457665071146908
+    },
+    {
+      "key": "NMDC/SAIL",
+      "sector": "Metals",
+      "A": "NMDC",
+      "B": "SAIL",
+      "direction": 1,
+      "entry_date": "2026-08-25",
+      "entry_z": -2.7917593027257466,
+      "entry_spread": -0.035060862848079744,
+      "beta": 0.5427227953332767,
+      "alpha": 1.6567082610290145,
+      "half_life": 11.803753137464378,
+      "entry_priceA": 85.94,
+      "entry_priceB": 184.59,
+      "lotA": 6750,
+      "lotB": 4700,
+      "ratio": [
+        11,
+        4
+      ],
+      "exit_date": "2026-08-27",
+      "exit_reason": "stop",
+      "exit_z": -3.8886226743211036,
+      "days_held": 2,
+      "exit_priceA": 85.72,
+      "exit_priceB": 193.0,
+      "realized_pnl_pct": -1.8335037734533912
     }
   ]
 }
