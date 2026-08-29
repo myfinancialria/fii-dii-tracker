@@ -1,51 +1,51 @@
 {
-  "date": "2026-08-27",
-  "date_pretty": "Thursday, 27 August 2026",
+  "date": "2026-08-28",
+  "date_pretty": "Friday, 28 August 2026",
   "mood": "Mixed",
   "nifty": {
-    "last": 24090.85,
-    "change": -116.9,
-    "pct": -0.48,
+    "last": 24175.65,
+    "change": 84.8,
+    "pct": 0.35,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 18,
-    "declines": 31,
+    "advances": 30,
+    "declines": 19,
     "unchanged": 1
   },
   "banknifty": {
-    "last": 57509.95,
-    "change": -273.8,
-    "pct": -0.47,
+    "last": 57496.3,
+    "change": -13.65,
+    "pct": -0.02,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 3,
-    "declines": 11,
-    "unchanged": 0
+    "advances": 6,
+    "declines": 7,
+    "unchanged": 1
   },
   "sensex_proxy": {
-    "last": 24090.85,
-    "change": -116.9,
-    "pct": -0.48,
+    "last": 24175.65,
+    "change": 84.8,
+    "pct": 0.35,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 18,
-    "declines": 31,
+    "advances": 30,
+    "declines": 19,
     "unchanged": 1
   },
   "midcap": {
-    "last": 64035.45,
-    "change": -65.75,
-    "pct": -0.1,
+    "last": 64069.5,
+    "change": 34.05,
+    "pct": 0.05,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 44,
-    "declines": 55,
-    "unchanged": 1
+    "advances": 38,
+    "declines": 62,
+    "unchanged": 0
   },
   "vix": {
-    "last": 11.1,
-    "change": 0.53,
-    "pct": 5.06,
+    "last": 10.66,
+    "change": -0.41,
+    "pct": -3.7,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 15276.94,
-    "sell": 15575.2,
-    "net": -298.26
+    "buy": 13263.62,
+    "sell": 18303.42,
+    "net": -5039.8
   },
   "dii": {
-    "buy": 19605.6,
-    "sell": 14628.43,
-    "net": 4977.17
+    "buy": 16539.38,
+    "sell": 11355.45,
+    "net": 5183.93
   },
   "global": {
     "Dow Jones": {
-      "last": 53569.44140625,
-      "change": 105.5625,
-      "pct": 0.19744639214282597
+      "last": 53559.98828125,
+      "change": -9.453125,
+      "pct": -0.01764648790774416
     },
     "Nasdaq": {
-      "last": 26541.3515625,
-      "change": 411.15234375,
-      "pct": 1.5734757332235467
+      "last": 26402.423828125,
+      "change": -138.92578125,
+      "pct": -0.523431488204836
     },
     "S&P 500": {
-      "last": 7730.990234375,
-      "change": 55.2900390625,
-      "pct": 0.7203256726502327
+      "last": 7711.759765625,
+      "change": -19.23046875,
+      "pct": -0.24874522107781005
     },
     "FTSE 100": {
-      "last": 10878.099609375,
-      "change": -8.1005859375,
-      "pct": -0.0744115099131471
+      "last": 10792.5,
+      "change": -85.599609375,
+      "pct": -0.7868985617784586
     },
     "Nikkei 225": {
-      "last": 66506.3203125,
-      "change": 244.1640625,
-      "pct": 0.36848191534666513
+      "last": 66131.9765625,
+      "change": -130.1796875,
+      "pct": -0.196461592660592
     },
     "Hang Seng": {
-      "last": 25652.970703125,
-      "change": 141.87109375,
-      "pct": 0.5561151652509099
+      "last": 25565.740234375,
+      "change": -87.23046875,
+      "pct": -0.34004041777264316
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.52999877929688,
-      "change": 0.099700927734375,
-      "pct": 0.10447512999430776
+      "last": 95.36000061035156,
+      "change": -0.0702972412109375,
+      "pct": -0.07366344105965347
     },
     "Dollar Index": {
-      "last": 99.12999725341797,
-      "change": -0.04000091552734375,
-      "pct": -0.04033570259747153
+      "last": 99.677001953125,
+      "change": 0.516998291015625,
+      "pct": 0.5213778458271461
     },
     "Brent Crude": {
-      "last": 88.44000244140625,
-      "change": 0.600006103515625,
-      "pct": 0.6830670862138989
+      "last": 88.29000091552734,
+      "change": -1.4099960327148438,
+      "pct": -1.571901985156617
     },
     "Gold": {
-      "last": 4648.2998046875,
-      "change": 50.099609375,
-      "pct": 1.0895482416375124
+      "last": 4504.10009765625,
+      "change": -105.60009765625,
+      "pct": -2.2908235499487004
     },
     "US 10Y Yield": {
-      "last": 4.671999931335449,
-      "change": 0.007999897003173828,
-      "pct": 0.17152437702156104
+      "last": 4.720000267028809,
+      "change": 0.048000335693359375,
+      "pct": 1.0274044605912251
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "ADANIENT",
-        "ltp": 3169.0,
-        "pct": 1.83,
+        "symbol": "TCS",
+        "ltp": 2342.0,
+        "pct": 4.16,
         "catalyst": null,
-        "headline": "Should You Think About Buying Adani Enterprises Limited (NSE:ADANIENT) Now?",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR1RzVU9QQ1JCN0wyU09KQ2JiNUxYcWhKNXVQTThfUU82dlRGeHFjbWtyRHpHTHRfSmhqcmI2dW9EUVFjYm91WE94Y2d2YkZqekdLWlNZcVpBYlN5NXNwM25XOXFNRDF3aGVBLXJaUFkxT2FPRVhyU0tDdE8wYm52NjV2bm5meEt3d0NhVHhwY25pSFVsWndrV0xEMUNFMnNHa1I1dDI2a3hFVm96a2NTbk5jWEZKRHNZN2p2dlhWWGh2ZEJtMFBZRzUyZjJ0RUdtYVo3Y013Tml5WVBfNlVWXzhnYXJnRm5E0gHoAUFVX3lxTFBHVHNVT1BDUkI3TDJTT0pDYmI1TFhxaEo1dVBNOF9RTzZ2VEZ4cWNta3JEekdMdF9KaGpyYjZ1b0RRUWNib3VYT3hjZ3ZiRmp6R0taU1lxWkFiU3k1c3Azblc5cU1EMXdoZUEtclpQWTFPYU9FWHJTS0N0TzBibnY2NXZubmZ4S3d3Q2FUeHBjbmlIVWxad2tXTEQxQ0Uyc0drUjV0MjZreEVWb3prY1NuTmNYRkpEc1k3anZ2WFZYaHZkQm0wUFlHNTJmMnRFR21hWjdjTXdOaXlZUF82VVZfOGdhcmdGbkQ?oc=5"
+        "headline": "India stocks higher at close of trade; Nifty 50 up 0.35%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR05YZEpObmw1b0FYNU5sTGVtbUVuUXdyejQzVTJjM1hEd3RQY0dBQTlEb2E3ZTlMeVBmcVFsN3dsRk42SHZ3UkhfYS1IeFdDWmJET3Z5aVQzWU13T19idTFrMzVsZmN3ajgzZnZ6UUpzWDdpRFNlOFJBN25VZnplNHQ2cVFDZHVWTTJiSGlnZlRrZFNPMnBILUd5a2FIQ19BUHUwQjY4U0M2SnE4b1lZ?oc=5"
       },
       {
-        "symbol": "KOTAKBANK",
-        "ltp": 424.2,
-        "pct": 1.8,
+        "symbol": "TECHM",
+        "ltp": 1640.9,
+        "pct": 3.53,
         "catalyst": null,
-        "headline": "Intraday Stocks for Today, 28 August 2026",
-        "source": "Univest",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsMUJBMWk5UHEzNzZRRWZyd0lhX0RrN014dUljcjQxV1dBM1BhOUNrQlliY1ludmxkTk5SOUtJbjRsTS1rUUYwd3dxMmt2eXo0VWNzQk53YkZRbFN5Rk5mTXFlcWFpWkwtZnFDU3JMUEEwLUk?oc=5"
+        "headline": "Top gainers and losers, Aug 28: TCS, TechM gain 4%, ICICI Bank, Shriram Finance fall over 1%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMnpYSTRnQlVTS3NDNmxBWmNrbktzTklKZFlZWDlxRUJJYUNOU1JIVU5Pd0s4cHRGYW92VEhybThfbklFMVZnUjl2a2oycDBRc3RwM2hJaUZ0OXpfTFgzd0w3QVc1NHFkQXVPR3lOZ2lwUkhuVmJncmQ2aVd6UkxrNjNTMFZvTFFKVEdLekx1dzM1VUR4RnhxaFprOU9vcVR1M3p1MzZ1d2xrMWdhTWF4R1VtcGxiZmMzSThDZ3JpM1FMTGFNUUwtYUZ0VWtfb1Q0NU9YM2J1YXZKU2k3a21ib29VN0pHQTNyLTFJYg?oc=5"
       },
       {
-        "symbol": "ADANIPORTS",
-        "ltp": 1714.0,
-        "pct": 1.33,
+        "symbol": "INFY",
+        "ltp": 1144.0,
+        "pct": 2.99,
         "catalyst": null,
-        "headline": "Half Yearly Results, Half yearly Earnings for Menon Pistons",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUhwb0ZEaU1qOXpSaDh3LUxYMHpwdTFBYzR4N21CZkNkTWFxRmJlel9ta0JTcEpoNVo1aEJGNUVMdlhiTlhoT2hCem5RYUNtWktkY0cwTUtGTFdaZlpzcWRQTTBqR1kwNWxhV3dGc2dhclcwTXg0dGRGOEhySHAwMTdVLXdkMzF6U0dvQ09DMA?oc=5"
+        "headline": "India stocks higher at close of trade; Nifty 50 up 0.35%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR05YZEpObmw1b0FYNU5sTGVtbUVuUXdyejQzVTJjM1hEd3RQY0dBQTlEb2E3ZTlMeVBmcVFsN3dsRk42SHZ3UkhfYS1IeFdDWmJET3Z5aVQzWU13T19idTFrMzVsZmN3ajgzZnZ6UUpzWDdpRFNlOFJBN25VZnplNHQ2cVFDZHVWTTJiSGlnZlRrZFNPMnBILUd5a2FIQ19BUHUwQjY4U0M2SnE4b1lZ?oc=5"
       },
       {
-        "symbol": "CIPLA",
-        "ltp": 1420.0,
-        "pct": 1.23
+        "symbol": "HCLTECH",
+        "ltp": 1316.1,
+        "pct": 2.66
       },
       {
-        "symbol": "BEL",
-        "ltp": 411.0,
-        "pct": 1.01
+        "symbol": "WIPRO",
+        "ltp": 180.95,
+        "pct": 2.58
       }
     ],
     "losers": [
       {
-        "symbol": "HINDALCO",
-        "ltp": 1024.0,
-        "pct": -2.75,
+        "symbol": "ICICIBANK",
+        "ltp": 1422.8,
+        "pct": -1.4,
         "catalyst": null,
-        "headline": "Sensex falls 539 points, Nifty slips below 24,100; benchmarks end at 1-week lows",
-        "source": "Fortune India",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSHFPZHZqNmxQR2NvaERVZ0s2OVEwa3JvWFlnU0JjaEdxQnNXckFJVXBPWlV3dzJkX1ZLTVlVOUdfSUhycDJEVDQydnlaVzNrM1dZQWJrb2pwbFVoMHQyVml3T3EyclpMQjhkakJfdEd4ZWNGcWZ3aXZQM2VKRG5ZcWNCTWoxbFdNamZ1Z0VnVDBuYW42VGhJQmprOTlpSzdUV2l1YW5KSGRhcXFGV2hhalhPZ3dwbmtfRUE3dlBB0gHLAUFVX3lxTE84SHliZ2xXWDNuNlR3T1hlaVB1SUdZNlUtc0NjOHBsNFdvVFhnLThLZFo0TTgycjdRV203M0w1Nkp6YWtMcHNpa21JU2dqYnFhSFhlbllYbDlHOHQ3eHB4UlpwMnZOM3djMkwxWTlDYk9oMk8xeU1XZ0tITGt1d3BabFVFekhPUVdKR1BJWGpzVnhKY0psb3d3VzZ6NlhkTG1ER2k5MGJlWFN6Zk1IYmRBdFh3WnBpTHlQek4xbmRBal9adzVsbE4xZ1RV?oc=5"
-      },
-      {
-        "symbol": "HDFCBANK",
-        "ltp": 711.0,
-        "pct": -2.23,
-        "catalyst": null,
-        "headline": "Sensex tanks 539 points, Nifty drops below 24,100 on HDFC Bank, geopolitical woes",
-        "source": "Rediff",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORXdsbUhxOEpyd3F6RGlTTVctOTZLeWdSNkpTZHVhUWdBV2JpcXhyRno5dy1LaUlUajBsUFVfdkN5TmktdFZkbnF4RGRicHJhUDQ4N3J5OVdUa18wQ3BBSVo5S3Q1NGFQUHRKVXBNSUM1ZE5aalZJY2RhVHZjNHFNWjQzTUQycEw3ZkNjNW5ObWdENlozQ0haT1FMWU1HclpDdU9Yb0t4cUt3QXhVNlowNi1pQi1iSHdwcTYweGNVOWlfRUR6WG94LXYyZ9IBzgFBVV95cUxQck9vcy1vWVBGWnMtbGFXTks2RXdCVVZ1NGdTUXlzTU5WcmZaUlh2ZmlGeXp0cTloNWttMjNPTjFFR0xKaXNGYTBnRGFUWGE0VkhmWUxnLWU1WTlUQWludTJTblE3M2tXLWQ2ejk4ellnemdUQ3dxMEFDMi1wNkhQYi1pRVF4dVp3TnFzUnVxLWd6T2xfRzJIZVQzSTRnQl9aUFdqendSYkFxZ3Y5ZWlNdmdOR2dtQThjWWY1UnNtdG9Lb2d1LW1NeFdUajUxUQ?oc=5"
-      },
-      {
-        "symbol": "M&M",
-        "ltp": 3330.0,
-        "pct": -2.01,
-        "catalyst": null,
-        "headline": "Half Yearly Results, Half yearly Earnings for Menon Pistons",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUhwb0ZEaU1qOXpSaDh3LUxYMHpwdTFBYzR4N21CZkNkTWFxRmJlel9ta0JTcEpoNVo1aEJGNUVMdlhiTlhoT2hCem5RYUNtWktkY0cwTUtGTFdaZlpzcWRQTTBqR1kwNWxhV3dGc2dhclcwTXg0dGRGOEhySHAwMTdVLXdkMzF6U0dvQ09DMA?oc=5"
+        "headline": "Top gainers and losers, Aug 28: TCS, TechM gain 4%, ICICI Bank, Shriram Finance fall over 1%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMnpYSTRnQlVTS3NDNmxBWmNrbktzTklKZFlZWDlxRUJJYUNOU1JIVU5Pd0s4cHRGYW92VEhybThfbklFMVZnUjl2a2oycDBRc3RwM2hJaUZ0OXpfTFgzd0w3QVc1NHFkQXVPR3lOZ2lwUkhuVmJncmQ2aVd6UkxrNjNTMFZvTFFKVEdLekx1dzM1VUR4RnhxaFprOU9vcVR1M3p1MzZ1d2xrMWdhTWF4R1VtcGxiZmMzSThDZ3JpM1FMTGFNUUwtYUZ0VWtfb1Q0NU9YM2J1YXZKU2k3a21ib29VN0pHQTNyLTFJYg?oc=5"
       },
       {
         "symbol": "SHRIRAMFIN",
-        "ltp": 1101.0,
-        "pct": -1.48
+        "ltp": 1086.9,
+        "pct": -1.28,
+        "catalyst": null,
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "GRASIM",
-        "ltp": 3258.0,
-        "pct": -1.27
+        "symbol": "ITC",
+        "ltp": 266.0,
+        "pct": -1.12,
+        "catalyst": null,
+        "headline": "India stocks higher at close of trade; Nifty 50 up 0.35%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR05YZEpObmw1b0FYNU5sTGVtbUVuUXdyejQzVTJjM1hEd3RQY0dBQTlEb2E3ZTlMeVBmcVFsN3dsRk42SHZ3UkhfYS1IeFdDWmJET3Z5aVQzWU13T19idTFrMzVsZmN3ajgzZnZ6UUpzWDdpRFNlOFJBN25VZnplNHQ2cVFDZHVWTTJiSGlnZlRrZFNPMnBILUd5a2FIQ19BUHUwQjY4U0M2SnE4b1lZ?oc=5"
+      },
+      {
+        "symbol": "ULTRACEMCO",
+        "ltp": 11589.0,
+        "pct": -1.09
+      },
+      {
+        "symbol": "ASIANPAINT",
+        "ltp": 2608.7,
+        "pct": -0.85
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": 0.84,
+        "name": "NIFTY IT",
+        "pct": 3.51,
         "catalyst": null,
-        "headline": "Indian Pharma Stocks: Why R&D-Led Companies Could Become Multibaggers",
-        "source": "Business Today",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVkh3cEZMMWdfY3g1NGM0Z3l5X21uQ3l2QnNYZGFQMHU5cEtLSzlXVS13cFU2dk5aem9FRnRYcnZaVmhDeDBZRWFSVFVRNm9KOC1kRUVFczBlckhkODNqaXprdGRXenB5ZWVoazE2MWU0Q0pydE5PSVp5S2ZuV1YtUlVnSHNKb3M0UVZMSHdWZWFtQ3ZEaVlHQkVkTDRjSm13cVRVSk8tbmlBUVoyRUp2OFFBYkhvT0pBYk0wVWdaZkNuQlNVaDFwZU9kTVpxMDlOUkszdkFn0gHbAUFVX3lxTFBPOGlsUU9Rb2U2V1RzSlgzMnY5bXI4MXVmdzRQaUNKdE1zRDRsdXFSY1E1TGZFbUhrYWRTV0FwcWRiaFRSU1AtNFZvRVRqN2NXMEVicXFBRW9oOFRsZDFIWVU4WDBEby1LRTYtQmtSb29uVURiVDV4R3YwaUoyQ2lWRHdhdDdKTURlTWpXSmZ3MHc1YjNMYndraUZtbzBlWWl4VlRwcUI4emNqSDNzYlJyQlJaMkQxUEVwdFlJWWZscHdrTGEwYnJjVVBxcC1HcHYzeFJLRU5IRmVrWQ?oc=5"
+        "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News",
+        "source": "News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5"
       },
       {
-        "name": "NIFTY ENERGY",
-        "pct": 0.01,
+        "name": "NIFTY METAL",
+        "pct": 0.75,
         "catalyst": null,
-        "headline": "3 Indian Nuclear Energy Stocks Linked To Long Term Power Demand",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSmtVUjlLRVppcF9PLWhveDhOakEta3ExMlFXWlZVWTdZX0hfb0hRLUxNR0pqVUoycXNPVmM0a3o5RE9pNnI3ZnplcmV6NTBLeTc4SGp3dWVWXzhQcDFueTFCUkFCOWhDZW5aUFg2V0RyYmx0Q1R1OWQ3bWMwVUUxWHBQVGhJWUkzemtKTkNIc0hFSGk1WTBPUURicW5NVW9GRTRJVktRbFVYRGg5TkhmbFYwY3BFb2F1ZVZ5bmg4dXRiTUhRbHFoWVhIaWdPNHRZZTU5czhpQUs3TnUwUlNlOHFWcENrLWMwRmfSAe8BQVVfeXFMTnZjUFdMckpmMG1JWGVWUlFvbDBlSGQ0Z29XSDVxQkpUTk1WLXBza1A2Ry00eXcxMVdLdWcxWUF5YVpiYWdyMlRKRmN3REZ2dDhtY285SUpkNE4xN2xuUVBkVHI3NTlUbm1IclRDekswZWtBUWhtTi1zcldmOEZKRlJmN09EcXZBaXhKMU8yQ0Z5WGY5U1E4UFN6SndoeWM0c2NOSGktQWRuZG1DVndFWFp6dElvUnVBR3BWRVV4d1ptS2UzWjZhaUM5OHdjbXAtSnlXRkwtdzZPVE9GTE56ZS1WdmJMYzF1Nnp0NzN4eVk?oc=5"
+        "headline": "Sensex, Nifty End Two-Day Losing Streak as IT, Pharma and Metal Stocks Rise",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNnVzWGlOeTItUmtXYVlheWpBRmc2Mm53a2pZLXVmZ0N6aFF5czhxbEhhZm5rTlU2S002MlFTQ3g5cUpfMElFaV9WQ1NSMW9VUFFQU3JXU3pzQndoelhPamNzbXlhZG91M1hWM09pTHYzUXc1bDh3dDR2Si13eVZMRU5QUnpuUXIyQ0JGb0x4Rnd6bWNZaGlSSkpJQWptcGZhQzljRQ?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PSU BANK",
-        "pct": -0.94,
+        "name": "NIFTY FMCG",
+        "pct": -0.46,
         "catalyst": null,
-        "headline": "Why PSU Banks Beat Private Banks in 2025: Key Reasons",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXNYVWNDcFVDMndTNGNrRzdZMDB6d2R0d0RWYTllTGxEVFlKWmRzYXl0empiWTNNSnFidXhhbFJaZVFwRGNicTlPeTdJbnVseU1pVlZ1SUF2VmlqdHk4VE5odV9GaS1wMHRfa0RsNW1wYVAxdk50SjcyYVJWRk5tQUktSEVWT1FpX3RKY1dR?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 28, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUkdxeGd6U3V3a0d4UHJBRV9XUmdjbDJNWVA1WGhFdDdHcmIxVVdYS0FZbnZPbl9RZGRZNkMyTzJzVVdEdVRCWEtHekJQMC15UjVuTXBTUmtxTktaZFI3dGQ2cGxFTGNsVlNlZ2NzeVRRbmszWEZ5OGxQcFp0V0Q1eTNURnFRNC1MLTE3bkZ2VDZLa2s4dHR5cGNEX1p1ZUZuWmwtOWplaHNVWVhtNnc3UHRScFJJNG9DSVRESXZyYWJMNlZoVl9fakZHM0lZRm5jcmU0SlZXUWJZa09BYXc?oc=5"
       },
       {
-        "name": "NIFTY METAL",
-        "pct": -0.86,
+        "name": "NIFTY ENERGY",
+        "pct": -0.26,
         "catalyst": null,
-        "headline": "Share Market Today: Nifty 50, Bank Nifty | Aug 27, 2026",
-        "source": "Liquide Blog",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQld1bkFyX2xZOEdqLVlsRmJhcmxXem02b2dLcHJab0d4VkVaNmo0X2dLLVB1bFNOS0stX0EzbHA5N2ZWczRHTDd6TXp6dGl5eDhpejBYVWI2bmc1d0dMbTdBa2RjVVFJR2duVVBHSHFEcURrV3p4dFpzMUZVX1pQSWNZblQ4R2VRZDRGcERuUkYwOUtqa1h1TDRLazNzZlRUcnBoYjhzRkhQQl82WmpZYmQzOEU3X0k?oc=5"
+        "headline": "3 Indian Nuclear Energy Stocks Backed By Reactor And Power Equipment Exposure",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYnprc01fNGhRaGVVV0xnOG5Db1JLS1VLT2FldTRHTDRycUhnVV9ZVXkzaHQ4enZkVy1XR2FsME01aTJkZ1FyV0ZPeGJXTVhIUXIxa2paUk1Qal9JcXhGQmlUQ04wYU8wZ1V4SG5SWElGSUZnZEVoQVVLWUtlNjdkRmVBN1RqSUlob1RCNlV4UnlRN1ltQ3ZZUVFJRU10QjZzWDU1dHFaVU9DclZ6V0ZaWXZZR1l2VUNyMGNtMU92R2p2dVpSYUNzS1U3UEFmNnE4ZC1VekVFcmtwYmVXQjJlU0xoaXNRYUxjbFE?oc=5"
       }
     ]
   }
