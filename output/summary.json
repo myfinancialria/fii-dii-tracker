@@ -1,51 +1,51 @@
 {
-  "date": "2026-09-01",
-  "date_pretty": "Tuesday, 01 September 2026",
-  "mood": "Range-bound",
+  "date": "2026-09-02",
+  "date_pretty": "Wednesday, 02 September 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 24055.8,
-    "change": -24.6,
-    "pct": -0.1,
+    "last": 23914.45,
+    "change": -141.35,
+    "pct": -0.59,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 20,
-    "declines": 30,
+    "advances": 14,
+    "declines": 36,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 57409.6,
-    "change": -615.35,
-    "pct": -1.06,
+    "last": 57172.0,
+    "change": -237.6,
+    "pct": -0.41,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 3,
-    "declines": 11,
+    "advances": 7,
+    "declines": 7,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 24055.8,
-    "change": -24.6,
-    "pct": -0.1,
+    "last": 23914.45,
+    "change": -141.35,
+    "pct": -0.59,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 20,
-    "declines": 30,
+    "advances": 14,
+    "declines": 36,
     "unchanged": 0
   },
   "midcap": {
-    "last": 63334.5,
-    "change": -890.25,
-    "pct": -1.39,
+    "last": 63001.6,
+    "change": -332.9,
+    "pct": -0.53,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 26,
-    "declines": 73,
+    "advances": 38,
+    "declines": 61,
     "unchanged": 1
   },
   "vix": {
-    "last": 11.25,
-    "change": 0.06,
-    "pct": 0.49,
+    "last": 11.34,
+    "change": -0.15,
+    "pct": -1.34,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 17807.53,
-    "sell": 16664.15,
-    "net": 1143.38
+    "buy": 26715.88,
+    "sell": 20027.51,
+    "net": 6688.37
   },
   "dii": {
-    "buy": 15635.49,
-    "sell": 13788.55,
-    "net": 1846.94
+    "buy": 17639.89,
+    "sell": 14826.91,
+    "net": 2812.98
   },
   "global": {
     "Dow Jones": {
-      "last": 52739.9296875,
-      "change": -445.96875,
-      "pct": -0.8385093851974097
+      "last": 53004.25,
+      "change": 237.37109375,
+      "pct": 0.44984865254534595
     },
     "Nasdaq": {
-      "last": 26056.33203125,
-      "change": -314.55859375,
-      "pct": -1.192825066938747
+      "last": 26186.80078125,
+      "change": 87.03125,
+      "pct": 0.33345600962412714
     },
     "S&P 500": {
-      "last": 7622.22021484375,
-      "change": -63.919921875,
-      "pct": -0.8316257671342397
+      "last": 7663.580078125,
+      "change": 32.10986328125,
+      "pct": 0.4207559274593517
     },
     "FTSE 100": {
-      "last": 10789.2802734375,
-      "change": -3.2197265625,
-      "pct": -0.029833000347463515
+      "last": 10756.4501953125,
+      "change": -32.849609375,
+      "pct": -0.3044647008578649
     },
     "Nikkei 225": {
-      "last": 66311.9296875,
-      "change": 179.953125,
-      "pct": 0.2721121223859534
+      "last": 66215.34375,
+      "change": -96.5859375,
+      "pct": -0.1456539388239319
     },
     "Hang Seng": {
-      "last": 25566.990234375,
-      "change": 1.25,
-      "pct": 0.004889355788412823
+      "last": 25329.73046875,
+      "change": -237.259765625,
+      "pct": -0.9279925538752019
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.94000244140625,
-      "change": -0.44029998779296875,
-      "pct": -0.4616256989956636
+      "last": 94.95999908447266,
+      "change": -0.1544036865234375,
+      "pct": -0.1623347064431349
     },
     "Dollar Index": {
-      "last": 99.70099639892578,
-      "change": 0.27099609375,
-      "pct": 0.2725496257852203
+      "last": 99.58499908447266,
+      "change": -0.08499908447265625,
+      "pct": -0.08528051172287454
     },
     "Brent Crude": {
-      "last": 94.81999969482422,
-      "change": 4.3300018310546875,
-      "pct": 4.785061259006105
+      "last": 95.26000213623047,
+      "change": 0.6100006103515625,
+      "pct": 0.644480296373559
     },
     "Gold": {
-      "last": 4383.10009765625,
-      "change": -48.0,
-      "pct": -1.0832524416541331
+      "last": 4421.0,
+      "change": 73.0,
+      "pct": 1.6789328426862926
     },
     "US 10Y Yield": {
-      "last": 4.788000106811523,
-      "change": 0.03000020980834961,
-      "pct": 0.6305214471998043
+      "last": 4.791999816894531,
+      "change": -0.004000186920166016,
+      "pct": -0.08340673304804631
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "ITC",
-        "ltp": 266.6,
-        "pct": 4.34,
+        "symbol": "COALINDIA",
+        "ltp": 417.85,
+        "pct": 4.05,
         "catalyst": null,
-        "headline": "Why ITC share price is down today? What's behind the stock plunge? Trigger and data details here",
-        "source": "Livemint",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOEY3dG5JTjV4ejZHYThaRUlnZTJQd0oyRlE3RFF2RTJGS0NJLTJ4ZHRxdlh1ZEZEOEVOT2NlMVZmRFdnOUZOWEpHZUdyVzRfZVJEUGM5WTFubTRLclUzZ05ENUMtbUNGY29ySld4QTdvNmFBWVE4ZVNNckFwWW1Rcll6QXRONUd4QlB4QlU4VEdQbG13VXhIQUNFdS1mTUFmM2JXQnFwdWstQ1Bxel91THhXamtJdFdHb1ptaHBReHd6V052ZzBrTzc0MGIwZVdEU3JMdXJLWTE4WTlqNWVNVFp1Z0xsdThkUmM1YTVhSE9fVlZQZUHSAfsBQVVfeXFMT2RGdW95LTloWHZtSDU5WmZjVThuY0NrUFFHaU9qNk11anhfcjcxRTF1WHo0Z201SF9CSEp1dkRzTWFMVGl1bDVIVEp6U3V0WUtjUGU1eFYwMGQyX1VBUExVTzdvNm1OakRJbzBjZ0hXTVAyUDh3emZjVkRyWUdSSDRqMjhCMmZhVlNsS0V3MW1RQ1RyWGp2eXAtUUNDWkFQcnNVQXNPcWhQTWJ0REwxSXkxclNHRGJveHNaNzZzM01GQ2FVRUwtQURmdU9iQzRsV2pLZWF1dkgzMFIxb0l6dUdqSDRFZWNjXzZpdm5lNW1RbHRsMC0xUW5LbVU?oc=5"
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "ltp": 1877.2,
-        "pct": 3.6,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Top gainers and losers, Sept 2: Eicher Motors, Wipro fall 3%, Coal India soars 4%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQWhzeEl4N1k5V0Z5UFBWUDQ2N25KRDh4ckQ5SEJfdmJKRHU1enIxbDRHVk1TRkNnMlJ6TlI1WlJXeGpybERTTUN0bVE5OTQwVUc1QzBONC1LSzdlbTRhOGlmVVhNYUliZG0tOEtiNTlaV3QxMm5TT1cwTVVIVjM0TTVWbGRRLUVKWS1HZEtIbkNya2dkSi1pOF9mdGloUHRGVmhrMEhiLTZlcHZYVjZXSEdqYV9JQXR0ekVuZW5yZDA0NVJndTAxelBELVZfYk1sOVFKWmQ3Mko4c3N5TlE?oc=5"
       },
       {
         "symbol": "ADANIPORTS",
-        "ltp": 1647.5,
-        "pct": 3.41,
+        "ltp": 1672.7,
+        "pct": 1.53,
         "catalyst": null,
-        "headline": "India stocks lower at close of trade; Nifty 50 down 0.10%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbmx3bkhodHpZWG14VFBFREVxZnlsaVY0UURCNU5Sc1l5MzVVRHhabUtyTnpvaDI3TnJjQy1kS1VsVWtPaDYxOGRPbkllYlpDaGx5d1dKa3lIV1RadHVnN1VYQUV0dm1ERGN4UjlKMmYtdkJqLWRLd20yQmdxUlJXSy0yV01rVFk2SFpTTFVBa21ucDFUYzBDczRuQ3pGdzRvV0xnemg0V2VTeldFZTZwcnhhSC16X1pxUTBv?oc=5"
+        "headline": "India Logistics Stocks Worth Watching As Supply Chain Software Takes Hold",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRWc3SzhXMndRVDJRZUgwX1poQkV2OXJUNVloSW5wVFZ3WUVGSW9Zdmt3d05WQ19DREpnYXE5ckY1c3d5bENNNnlHcWJqWHRMVFd4Q0M0b1JxOFllOFl0Q1h2QkxVUk14X2xaZUZGckMwYVBtNEhWbEtDZzhpV2RNZzBGdDNGWHRjbmFDQnpPZ3p2NmIySzNLdzltOVc4aXBuelBoVUdsQ3JGeWVKdEJxN056LVJuSHhyS19QVjExR3dVd05zdk5IMEI2dFZfS3FBS254X0VJQTh3bEJwYnVOMNIB4AFBVV95cUxNRWc3SzhXMndRVDJRZUgwX1poQkV2OXJUNVloSW5wVFZ3WUVGSW9Zdmt3d05WQ19DREpnYXE5ckY1c3d5bENNNnlHcWJqWHRMVFd4Q0M0b1JxOFllOFl0Q1h2QkxVUk14X2xaZUZGckMwYVBtNEhWbEtDZzhpV2RNZzBGdDNGWHRjbmFDQnpPZ3p2NmIySzNLdzltOVc4aXBuelBoVUdsQ3JGeWVKdEJxN056LVJuSHhyS19QVjExR3dVd05zdk5IMEI2dFZfS3FBS254X0VJQTh3bEJwYnVOMA?oc=5"
       },
       {
-        "symbol": "HCLTECH",
-        "ltp": 1351.4,
-        "pct": 2.99
+        "symbol": "ADANIENT",
+        "ltp": 2891.8,
+        "pct": 0.97,
+        "catalyst": null,
+        "headline": "BAG Convergence Nine Monthly Results, Nine Monthly Earnings for BAG Convergence",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT2ZpcXlhV2pPMGd0WVkzbUVETlV4cHc5QmNLYjJMUkF6c1VlOThQWENuQnVoaGNrRlhxcUFoaTdUeExpbE4tT2tWNEdxQWVvR0FQZ3Rtb2FTSTRIR0l5Z3A1cFY5NVV6LUh6bHNmUzVFSVlZenRaZW55NEZLUnNTN25ZNWpvTDlW?oc=5"
       },
       {
-        "symbol": "RELIANCE",
-        "ltp": 1309.0,
-        "pct": 2.51
+        "symbol": "BAJAJFINSV",
+        "ltp": 1990.0,
+        "pct": 0.91
+      },
+      {
+        "symbol": "TMPV",
+        "ltp": 312.75,
+        "pct": 0.89
       }
     ],
     "losers": [
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 1059.1,
-        "pct": -4.58,
+        "symbol": "EICHERMOT",
+        "ltp": 7711.5,
+        "pct": -3.24,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Top gainers and losers, Sept 2: Eicher Motors, Wipro fall 3%, Coal India soars 4%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQWhzeEl4N1k5V0Z5UFBWUDQ2N25KRDh4ckQ5SEJfdmJKRHU1enIxbDRHVk1TRkNnMlJ6TlI1WlJXeGpybERTTUN0bVE5OTQwVUc1QzBONC1LSzdlbTRhOGlmVVhNYUliZG0tOEtiNTlaV3QxMm5TT1cwTVVIVjM0TTVWbGRRLUVKWS1HZEtIbkNya2dkSi1pOF9mdGloUHRGVmhrMEhiLTZlcHZYVjZXSEdqYV9JQXR0ekVuZW5yZDA0NVJndTAxelBELVZfYk1sOVFKWmQ3Mko4c3N5TlE?oc=5"
       },
       {
-        "symbol": "MARUTI",
-        "ltp": 12950.0,
-        "pct": -4.41,
+        "symbol": "WIPRO",
+        "ltp": 177.09,
+        "pct": -2.54,
         "catalyst": null,
-        "headline": "Maruti Suzuki is top Nifty 50 loser today - what's driving the fall?",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSjBGd2dzdFRLU3RjSVV5Yk5jV0NBd2lkMTZYYnB6Y2hmakxaZTVBUVFYNjhfR1ZSYjczV3ctRUZ1bS05SXNGZDRfYzlYd1RoNkd0c050Q0dJSXdHRVpOUXNnTVJQckFHTU5rQnRWRmdyR2ZmZGF5MU9EYlQ4Q0NGdVlKendVeldCajBwa3VUdnFIX2Q0SGFzbE9PLWl5U2hzRDg2TXhQeEdkRTBQZTdncHNMOUFtSmg3a1JJVTFYaw?oc=5"
+        "headline": "Top gainers and losers, Sept 2: Eicher Motors, Wipro fall 3%, Coal India soars 4%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQWhzeEl4N1k5V0Z5UFBWUDQ2N25KRDh4ckQ5SEJfdmJKRHU1enIxbDRHVk1TRkNnMlJ6TlI1WlJXeGpybERTTUN0bVE5OTQwVUc1QzBONC1LSzdlbTRhOGlmVVhNYUliZG0tOEtiNTlaV3QxMm5TT1cwTVVIVjM0TTVWbGRRLUVKWS1HZEtIbkNya2dkSi1pOF9mdGloUHRGVmhrMEhiLTZlcHZYVjZXSEdqYV9JQXR0ekVuZW5yZDA0NVJndTAxelBELVZfYk1sOVFKWmQ3Mko4c3N5TlE?oc=5"
       },
       {
-        "symbol": "NESTLEIND",
-        "ltp": 1438.2,
-        "pct": -3.9,
+        "symbol": "M&M",
+        "ltp": 3190.0,
+        "pct": -2.12,
         "catalyst": null,
-        "headline": "Nestle India Share Price Today: Fall, Fundamentals, Peers",
-        "source": "Univest",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWTWVrSUQyMUhRNHZqZUxnS0VOLVBaNFROQXZqM3FEcHVWNXRFTXl2cWh5NGJuaUdfN1VGZkZaOWRKaG5Xa1l5TC1jMTVhdUc2ME56ekk0NWFkUDhXcngtUGs0N1ctM3RPWjZGWlZfbHhTSU83OUhWSA?oc=5"
+        "headline": "Nomura retains 'Buy' on M&M, Hyundai, TMCV, TVS and Sonacom after strong August auto volumes",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcjZrcERuUDlYX0ZQR2N5RjIyZ3BoV0lXcjBBbUo0eDBqM3k5TXZSUWVIdFFsS29WY3g5eDBmOFpPNWdhZVVhY1RBWEcxeUJPNVZ4MmhtMS03M3Z3VjNkNVZPd3gtY3lfbVVyT3NnUnZTTEM3LTYtUTJyLUkzX3hUbmFCemctTW5jVURUMTAySk9JWHFOLWRlTkVqYnpKNk9naDliWVhzellqRUtfbzRCRGppcGFzOUVHTF9tWkdrQ2pscGlQS0VZZ19MXzcyUWZJcnZwT0hzMUtPWGVGVkoxTGlzTkdTQdIB6wFBVV95cUxOTnlwUVpuVDNsVE4zQzRMaENlZl9XcGg1TUw3WGhYYldpY211b1cxMU5KNGJNSkliUHdROFBBd0pZWEJqUlpIMXp4SDRXTk9oSTFJZEJTa0tuT1FHTDh0MERXTlJva0s5QTV3OHZyRWQwRElLZk05b2pPeXpHUkFzTWxreTVMUVUxR2tpVjZIckF5eGlyUzQtV1o4MS1jZE5JdzBHT3VWVl85RDBJOTVlc2puUndVQ01QWmNNUjloVXp4LTY1bkt0Y19EbzlfNmVUa194M2ZaRXBXN002VlZwdS1tOTdiZWlFaXc4?oc=5"
       },
       {
-        "symbol": "MAXHEALTH",
-        "ltp": 1003.0,
-        "pct": -3.75
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 12130.0,
+        "pct": -1.87
       },
       {
-        "symbol": "INDIGO",
-        "ltp": 5052.0,
-        "pct": -3.48
+        "symbol": "ASIANPAINT",
+        "ltp": 2527.5,
+        "pct": -1.86
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY IT",
-        "pct": 0.98,
+        "name": "NIFTY ENERGY",
+        "pct": 0.59,
         "catalyst": null,
-        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
+        "headline": "Market Wrap Sep 2: Oil Shock, Send Sensex, Nifty Lower; Auto, IT Stocks Lead Selloff",
+        "source": "The Indian Awaaz",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUzUyd25lbUlBRjkwX0pWNHB1ZUQtVEZuQnYyQWFTLWZ6NlJDVldJRTBwam9kM1FwU2tYbE1jS201aHcyOEg5SjdSN1NuOGk5Mzk1dlNSeUtzLVJXRE5sS0h4ZWxKTE5DSUJQV0J6MnZFUFdPMnlkeTltU3Y2b0FBQmY2c3B5Z1FTai1jaERDYTJiMUtoWEFOQlJZUTBHdjhHNWZRajRYbG1FZ2M?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": 0.94,
+        "name": "NIFTY REALTY",
+        "pct": 0.21,
         "catalyst": null,
-        "headline": "Sectoral Snapshot Today, September 1, 2026: Pharma, Banks, Autos Drag; IT, FMCG Stocks Gain",
-        "source": "hdfcsky.com",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMEwyc0tUd1ZFdnYzR2NRWU9aUmxkYmtCZFdsR2hIWWMzWHU5SkwyeE9rZDhaakJZeTZZeUdTYzF0elcwSE5GWTFRTXhidW9DcGJfTFQxbHc4SThiNlhxMFVfZ0JWdy1CakRBaUxNOW9RMVZJUmwwcUYta2hhUnNPLWc1QXpvQmo2U18wakhId0xabjg2V1piY2xqd0FQOXVlYUlsYnNURC1zVkdTU0E?oc=5"
+        "headline": "Real Estate Stocks",
+        "source": "INDmoney",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoaG5Qd0thN2liM2Y4QUtjQVoyTEZKY1J4bFR5Q243YU5GcEtFQjB4V2dPZ0t6WGtXVTlQQmdqTHFoVDdyT0JPWUFLaTFQSU9ZQTNiUlE1OUtCMmdtSThvSTlrZ1Q?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": -1.45,
+        "name": "NIFTY AUTO",
+        "pct": -1.79,
         "catalyst": null,
-        "headline": "Sectoral Snapshot Today, September 1, 2026: Pharma, Banks, Autos Drag; IT, FMCG Stocks Gain",
-        "source": "hdfcsky.com",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMEwyc0tUd1ZFdnYzR2NRWU9aUmxkYmtCZFdsR2hIWWMzWHU5SkwyeE9rZDhaakJZeTZZeUdTYzF0elcwSE5GWTFRTXhidW9DcGJfTFQxbHc4SThiNlhxMFVfZ0JWdy1CakRBaUxNOW9RMVZJUmwwcUYta2hhUnNPLWc1QXpvQmo2U18wakhId0xabjg2V1piY2xqd0FQOXVlYUlsYnNURC1zVkdTU0E?oc=5"
+        "headline": "Nifty Auto falls over 2%, Hero Moto down 5% as surging crude oil prices weigh, offset strong August sales...",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOHJVenVHNmQzYWFFVWJTanlDYkJ3ZVJsSDFIdDJmRk1uWTdIcEMwa3dDZU52SUlBanlFVzdHdU42TWNSSWdpMVRBR0R1STJjaHJiTGo1NG1NZTczZzU4NGhKVVVYeVNidy1yRlZDb2xOdHQwSUsxSXFMbHZzQ1FhYzQ4VVQzRnVma1lHUlc2UllOYUNaVlkzU01TNmpTTHlaRWNDMW9hWVVDQVktWEtZUjJKeC1MaVNuS1BpenZTQk1yeGF4MUpyZ2U5OWV1dVB1NVpXSHFlVFIybXNETWxVNGdn0gHnAUFVX3lxTFByaHF3Tld4bkJtQXlodnV0bUhYVkNoemFZUzdLV0txOWFjN1hNLXo3ejRDNWVvUzVuc3J5aXRsTEJjdEhsc2hZQTctSWszMm5FenY2QWVmUGxmcjhIeUJGSDJMUTBZRXRkb25CS2xJOHNvQUdCZzlPSGt1b0VJcjFQZ09HLXVnYXhRVW95Y0J4T0JvTUVfY2g2OENiTGwwWHR1ZkpTOTZSc2dUS2lvWWJidVZucERZY01tcXZaaDdTTG1hNjRwbjVncTBFdVdwU0ZCVVZ5Tm4tNFZ0dzVFUzNpRmg3clBRbw?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": -1.42,
+        "name": "NIFTY IT",
+        "pct": -1.25,
         "catalyst": null,
-        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
+        "headline": "Indian shares join global slide as Mideast woes mount",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd3NvTmc3Z2RhR2tVLUVxZjU4LTlUVjlTSHIybm13Z1YtQWxWdm5VOEs3enRCYnY3MEYtWkRNUnItaG5WOXE5cTdxamtmaGpTa3NBbVZ4anlZTkY1d2tDc0hKRlFVRDM5czBnNHpZV2FBWjBvUkNQWHpjaURwUnhIeVVDelZTWm1vc0hweGVtbVdPckstbHJaUFlxS09haU8tdGRNOE5ORVoxQQ?oc=5"
       }
     ]
   }
