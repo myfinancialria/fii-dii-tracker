@@ -4,3 +4,4 @@ entry_date,exit_date,sector,A,B,direction,days_held,exit_reason,entry_z,exit_z,r
 2026-06-23,2026-07-27,Metals,TATASTEEL,JINDALSTEL,short,23,target,2.271,-0.153,1.2972
 2026-06-12,2026-08-27,Metals,TATASTEEL,JSWSTEEL,long,53,time,-3.091,-1.999,-4.4577
 2026-08-25,2026-08-27,Metals,NMDC,SAIL,long,2,stop,-2.792,-3.889,-1.8335
+2026-09-02,2026-09-03,Metals,NMDC,SAIL,long,1,stop,-3.114,-3.554,-1.385
