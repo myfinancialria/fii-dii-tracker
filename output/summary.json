@@ -1,51 +1,51 @@
 {
-  "date": "2026-09-04",
-  "date_pretty": "Friday, 04 September 2026",
-  "mood": "Range-bound",
+  "date": "2026-09-07",
+  "date_pretty": "Monday, 07 September 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 23897.7,
-    "change": 24.25,
-    "pct": 0.1,
+    "last": 23779.15,
+    "change": -118.55,
+    "pct": -0.5,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 23,
-    "declines": 27,
+    "advances": 13,
+    "declines": 37,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 57369.65,
-    "change": -10.95,
-    "pct": -0.02,
+    "last": 57088.3,
+    "change": -281.35,
+    "pct": -0.49,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 5,
-    "declines": 9,
+    "advances": 1,
+    "declines": 13,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 23897.7,
-    "change": 24.25,
-    "pct": 0.1,
+    "last": 23779.15,
+    "change": -118.55,
+    "pct": -0.5,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 23,
-    "declines": 27,
+    "advances": 13,
+    "declines": 37,
     "unchanged": 0
   },
   "midcap": {
-    "last": 63079.05,
-    "change": -156.15,
-    "pct": -0.25,
+    "last": 62786.15,
+    "change": -292.9,
+    "pct": -0.46,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 33,
-    "declines": 66,
-    "unchanged": 1
+    "advances": 28,
+    "declines": 72,
+    "unchanged": 0
   },
   "vix": {
-    "last": 10.78,
-    "change": -0.56,
-    "pct": -4.89,
+    "last": 11.28,
+    "change": 0.6,
+    "pct": 5.61,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 13857.58,
-    "sell": 16969.52,
-    "net": -3111.94
+    "buy": 9581.19,
+    "sell": 9301.06,
+    "net": 280.13
   },
   "dii": {
-    "buy": 19254.19,
-    "sell": 10324.07,
-    "net": 8930.12
+    "buy": 13154.13,
+    "sell": 12587.37,
+    "net": 566.76
   },
   "global": {
     "Dow Jones": {
-      "last": 53420.76171875,
-      "change": -265.34765625,
-      "pct": -0.4942575637145432
+      "last": 53414.25,
+      "change": -271.859375,
+      "pct": -0.5063868068759638
     },
     "Nasdaq": {
-      "last": 26476.482421875,
-      "change": -107.578125,
-      "pct": -0.4046715316883597
+      "last": 26506.990234375,
+      "change": -77.0703125,
+      "pct": -0.28991174002219816
     },
     "S&P 500": {
-      "last": 7714.75,
-      "change": -32.9599609375,
-      "pct": -0.4254155241184549
+      "last": 7718.60009765625,
+      "change": -29.10986328125,
+      "pct": -0.375722160845159
     },
     "FTSE 100": {
-      "last": 10831.08984375,
-      "change": -0.41015625,
-      "pct": -0.003786698518210774
+      "last": 10822.1298828125,
+      "change": -8.9697265625,
+      "pct": -0.08281455148594642
     },
     "Nikkei 225": {
-      "last": 64214.48046875,
-      "change": -111.16015625,
-      "pct": -0.1728084713497558
+      "last": 65020.94140625,
+      "change": 806.4609375,
+      "pct": 1.255886416292762
     },
     "Hang Seng": {
-      "last": 25213.310546875,
-      "change": -97.900390625,
-      "pct": -0.386786672778089
+      "last": 25650.869140625,
+      "change": 437.55859375,
+      "pct": 1.7354269798744542
     }
   },
   "fx_commodities": {
     "USD/INR": {
       "last": 94.4749984741211,
-      "change": -0.01270294189453125,
-      "pct": -0.013444016209688542
+      "change": -0.01990509033203125,
+      "pct": -0.021064723684758698
     },
     "Dollar Index": {
-      "last": 99.16899871826172,
-      "change": 0.16899871826171875,
-      "pct": 0.17070577602193812
+      "last": 98.91899871826172,
+      "change": -0.24100494384765625,
+      "pct": -0.24304652576343952
     },
     "Brent Crude": {
-      "last": 95.87999725341797,
-      "change": 0.3600006103515625,
-      "pct": 0.3768850743334843
+      "last": 96.27999877929688,
+      "change": 0.0,
+      "pct": 0.0
     },
     "Gold": {
-      "last": 4472.2001953125,
-      "change": -19.5,
-      "pct": -0.43413405062853555
+      "last": 4476.60009765625,
+      "change": 46.80029296875,
+      "pct": 1.0564877654115912
     },
     "US 10Y Yield": {
-      "last": 4.776000022888184,
-      "change": 0.01399993896484375,
-      "pct": 0.2939928332237536
+      "last": 4.783999919891357,
+      "change": 0.021999835968017578,
+      "pct": 0.46198730744020156
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "SBILIFE",
-        "ltp": 1775.0,
-        "pct": 3.5,
+        "symbol": "APOLLOHOSP",
+        "ltp": 8760.0,
+        "pct": 1.27,
         "catalyst": null,
-        "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "TATASTEEL",
-        "ltp": 188.79,
-        "pct": 2.49,
+        "symbol": "LT",
+        "ltp": 3999.0,
+        "pct": 0.88,
         "catalyst": null,
-        "headline": "Sep 4: Sensex Gains 363 Pts, Nifty Ends Near 23,900 as Markets Break 4-Session Losing Streak",
-        "source": "The Indian Awaaz",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVFJOQ0k1S3V0XzNBdy12YktsSGVMU1p1S2xJVUs0ZFVpa05nczByVzlMTVJWMzZSSmZ1M3dUa0FKZU80VzNqZ3VCZFpvaWxta2lSc0cyVlVvQmVYS0pEVzNKMXBzdEZKSnAtM1l0R01KT0Y2bXZLaVQyOTNydXJiQUIwWXcwcC1lbnNTR1dkMm1VTUVNODBYbGZ6N1ZGS25YYXlaeEkyM0hzYkdidUdtaXF0S0pJVG95?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "HDFCLIFE",
-        "ltp": 546.4,
-        "pct": 2.42,
+        "symbol": "COALINDIA",
+        "ltp": 418.85,
+        "pct": 0.84,
         "catalyst": null,
-        "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "RELIANCE",
-        "ltp": 1322.0,
-        "pct": 1.5
+        "symbol": "BHARTIARTL",
+        "ltp": 1854.0,
+        "pct": 0.76
       },
       {
-        "symbol": "TRENT",
-        "ltp": 2853.0,
-        "pct": 1.33
+        "symbol": "MAXHEALTH",
+        "ltp": 992.0,
+        "pct": 0.73
       }
     ],
     "losers": [
       {
-        "symbol": "HCLTECH",
-        "ltp": 1293.4,
-        "pct": -1.94,
+        "symbol": "INFY",
+        "ltp": 1087.5,
+        "pct": -3.76,
         "catalyst": null,
-        "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "BHARTIARTL",
-        "ltp": 1840.0,
-        "pct": -1.55,
+        "symbol": "HDFCLIFE",
+        "ltp": 533.2,
+        "pct": -2.42,
         "catalyst": null,
-        "headline": "NSE IPO: Stock exchange receives SEBI approval for \u20b930,000-crore issue; all you need to know",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc0RfajM1VUFSV1J2ei1KUVhQLWFDUkRQM3lJQ19fV0dDeFpoT2tSRlNPZjY3VnU3S0xnbmNIR2l5cUhHaUMta0RSbG4weWREeVZQazBGU3RiXzZhVVBnZzBSN2NIMkhrRzAxMXAwWnViQTBYTjNqUmZMNVU3WG91bUFZZEVDOGRpRDFsX0NCNnJ1OGdNYmZVWFY3bmc0UlhtZEZtVW9zcGx1RkRyMzlqSWdmVENra2lMV09NeXFWN2Jmc2p6ME8tNmxNb2NHQlQ5OXR6RWdDNVFpYjlNUUE?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "MARUTI",
-        "ltp": 12694.0,
-        "pct": -1.27,
+        "symbol": "SBILIFE",
+        "ltp": 1732.0,
+        "pct": -2.42,
         "catalyst": null,
-        "headline": "Share Market Live, Share Market Today: Latest Share Market News, Share Market Live Updates on The Economic Times",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "BAJAJFINSV",
-        "ltp": 1970.0,
-        "pct": -1.11
+        "symbol": "JIOFIN",
+        "ltp": 234.4,
+        "pct": -2.13
       },
       {
-        "symbol": "MAXHEALTH",
-        "ltp": 984.8,
-        "pct": -1.02
+        "symbol": "TECHM",
+        "ltp": 1564.0,
+        "pct": -2.06
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY METAL",
-        "pct": 1.07,
+        "name": "NIFTY PHARMA",
+        "pct": 0.75,
         "catalyst": null,
-        "headline": "Sensex Rises 363; Nifty Near 23,900 as Metals, Banks Lead Rebound",
-        "source": "hdfcsky.com",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNTZaZ0cwRVpTZXpOWkd6REVNUG0tc3lFZ2Q5eFoyM0Q1VkZwRk0xdkw0UnExSWdOMHMyTGxxQlJfTnFyb044Vlh0cTFudGM5aWRDT0xmVkZrSkl4WUstZTdXZmx0ejF1SHN1dHQ0Tm9ob19mS09aM09CYzhBeE5KS1lQSG5nQUIwUURMZXJ5VHppeHVnYlpvMDNPMXJjSFAta0JmVV94RHh5NjItZ3BMQk0tUlBCY2RFcmRJT01XTndaek1HcHZ1bGVEZDNJeDlw?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "name": "NIFTY FINANCIAL SERVICES",
-        "pct": 0.49,
+        "name": "NIFTY AUTO",
+        "pct": -0.04,
         "catalyst": null,
-        "headline": "Finance Minister Sitharaman Courts Global CEOs for Investment in India",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMS1UMXQxYk4zRENkLXhWTDVzZ1ZhdzU1Y09DWmkweUxmQmtoZ1lTOUZBcHphMFpEd0xrRllGTzFZREc3M3U0RGN3cm16VHB2UldJYkRralZWcVJFaXNGVWw4R1V0ampHZXItV245UGl1QTZtWEhzQVdwRGYyaGRXWDFFUFVrbU5EQUw3UVgtU3dRLTZnV3ZwMFh4WkpaejhO?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY REALTY",
-        "pct": -0.9,
+        "name": "NIFTY IT",
+        "pct": -2.28,
         "catalyst": null,
-        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "name": "NIFTY PHARMA",
-        "pct": -0.68,
+        "name": "NIFTY REALTY",
+        "pct": -1.7,
         "catalyst": null,
-        "headline": "Sensex Rises 363, Nifty Near 23,900 as Metals, Financials Lift Markets",
-        "source": "hdfcsky.com",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXNCNDFrdXJWZ0lNRHRXMGw2NjB1LTVZOUd2eDBtMFpGQjFvSjcxQ254c3dYU1BSNDN3MUZac1M5UXJJQjh1VXdTd2RSU0VadFBVMmhQeG5mRmx2cWR3bGdtNnMxaUNlQVltNEZ0VTFuWTFaT0NFUEpjOUZuUUxiSW9vVU9XZkNsVkZpVnpPczdMcXJOcFhCTXY0a2dRaFl6TnNDcFBqbmpBaUxGQS1PZ1IzY1BISmEtVlpENQ?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       }
     ]
   }
