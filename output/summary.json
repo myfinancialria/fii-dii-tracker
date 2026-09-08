@@ -1,51 +1,55 @@
 {
-  "date": "2026-09-07",
-  "date_pretty": "Monday, 07 September 2026",
+  "date": "2026-09-08",
+  "date_pretty": "Tuesday, 08 September 2026",
   "mood": "Mixed",
   "nifty": {
-    "last": 23779.15,
-    "change": -118.55,
-    "pct": -0.5,
+    "last": 23635.1,
+    "change": -144.05,
+    "pct": -0.61,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 13,
-    "declines": 37,
-    "unchanged": 0
+    "advances": 17,
+    "declines": 31,
+    "unchanged": 2
   },
   "banknifty": {
-    "last": 57088.3,
-    "change": -281.35,
-    "pct": -0.49,
+    "last": 56777.55,
+    "change": -310.75,
+    "pct": -0.54,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 1,
-    "declines": 13,
-    "unchanged": 0
+    "advances": 7,
+    "declines": 7,
+    "unchanged": 0,
+    "catalyst": null,
+    "headline": "Bank Nifty Rises to 57,380 on September 3 as Private Banks Outrun Sensex Selloff",
+    "source": "The Eastern Herald",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOU0dLQTIwM25LM0k2NUJOSUFXRTFYQkZObFI1VUJJS3VMWHpLNnBGbFd5NVp6dU9BSDVtWGE0QU9sZmhINmVjeWRyQ1BwbnNheERNbmNVa2trTzhseGJTRF9jOTdmeWVJczdPWVVDX2Jma0pBU3pYSS03Z21IVzhLU0JR?oc=5"
   },
   "sensex_proxy": {
-    "last": 23779.15,
-    "change": -118.55,
-    "pct": -0.5,
+    "last": 23635.1,
+    "change": -144.05,
+    "pct": -0.61,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 13,
-    "declines": 37,
-    "unchanged": 0
+    "advances": 17,
+    "declines": 31,
+    "unchanged": 2
   },
   "midcap": {
-    "last": 62786.15,
-    "change": -292.9,
-    "pct": -0.46,
+    "last": 62915.8,
+    "change": 129.65,
+    "pct": 0.21,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 28,
-    "declines": 72,
+    "advances": 42,
+    "declines": 58,
     "unchanged": 0
   },
   "vix": {
-    "last": 11.28,
-    "change": 0.6,
-    "pct": 5.61,
+    "last": 11.1,
+    "change": -0.06,
+    "pct": -0.51,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,151 +57,151 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 9581.19,
-    "sell": 9301.06,
-    "net": 280.13
+    "buy": 11704.84,
+    "sell": 11828.03,
+    "net": -123.19
   },
   "dii": {
-    "buy": 13154.13,
-    "sell": 12587.37,
-    "net": 566.76
+    "buy": 14678.53,
+    "sell": 13328.89,
+    "net": 1349.64
   },
   "global": {
     "Dow Jones": {
-      "last": 53414.25,
-      "change": -271.859375,
-      "pct": -0.5063868068759638
+      "last": 52805.8515625,
+      "change": -608.3984375,
+      "pct": -1.1390189649765747
     },
     "Nasdaq": {
-      "last": 26506.990234375,
-      "change": -77.0703125,
-      "pct": -0.28991174002219816
+      "last": 26435.22265625,
+      "change": -71.767578125,
+      "pct": -0.27074963053304263
     },
     "S&P 500": {
-      "last": 7718.60009765625,
-      "change": -29.10986328125,
-      "pct": -0.375722160845159
+      "last": 7683.39013671875,
+      "change": -35.2099609375,
+      "pct": -0.456170296323442
     },
     "FTSE 100": {
-      "last": 10822.1298828125,
-      "change": -8.9697265625,
-      "pct": -0.08281455148594642
+      "last": 10811.66015625,
+      "change": -10.439453125,
+      "pct": -0.09646421213824793
     },
     "Nikkei 225": {
-      "last": 65020.94140625,
-      "change": 806.4609375,
-      "pct": 1.255886416292762
+      "last": 66399.84375,
+      "change": 1378.90234375,
+      "pct": 2.1207049820066985
     },
     "Hang Seng": {
-      "last": 25650.869140625,
-      "change": 437.55859375,
-      "pct": 1.7354269798744542
+      "last": 25413.119140625,
+      "change": -237.75,
+      "pct": -0.9268691781810208
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.4749984741211,
-      "change": -0.01990509033203125,
-      "pct": -0.021064723684758698
+      "last": 94.80999755859375,
+      "change": 0.37969970703125,
+      "pct": 0.40209521273363985
     },
     "Dollar Index": {
-      "last": 98.91899871826172,
-      "change": -0.24100494384765625,
-      "pct": -0.24304652576343952
+      "last": 98.8219985961914,
+      "change": -0.33800506591796875,
+      "pct": -0.3408683475544545
     },
     "Brent Crude": {
-      "last": 96.27999877929688,
-      "change": 0.0,
-      "pct": 0.0
+      "last": 97.66999816894531,
+      "change": 1.3899993896484375,
+      "pct": 1.4437052422847865
     },
     "Gold": {
-      "last": 4476.60009765625,
-      "change": 46.80029296875,
-      "pct": 1.0564877654115912
+      "last": 4429.0,
+      "change": -0.7998046875,
+      "pct": -0.018055097809469116
     },
     "US 10Y Yield": {
-      "last": 4.783999919891357,
-      "change": 0.021999835968017578,
-      "pct": 0.46198730744020156
+      "last": 4.800000190734863,
+      "change": 0.01600027084350586,
+      "pct": 0.33445382758010617
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "APOLLOHOSP",
-        "ltp": 8760.0,
-        "pct": 1.27,
+        "symbol": "BEL",
+        "ltp": 410.55,
+        "pct": 1.62,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "IFCI shares fall 10% after sharp run-up; NSE IPO buzz and profit booking explained",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSzNLdGxTVHNzZ0J0UDUySkk1SE44elhBTFJFbXI4M1BRMXhEX1JiUkppLTRpVXFMMGNqRjZERVZHbU0wMXpWSHZSbjBwYU9SR2dNc0tiQzd0VWhLSlJfXzZTV0o2d2hvYlp3T3VLX3htTllsdFJxTE5sOHRjSXpZdjBFRWhaVjJENTlnTVRkR1MtcmNvdnc3VXdlMkNmc2Fvc2NDbnlLVkM4RnVfMXNfd0YxOGlaWTR0bS1vbmRTaW11WHcyRzg0bVBtRFB1TGlVZGthd3FB?oc=5"
       },
       {
-        "symbol": "LT",
-        "ltp": 3999.0,
-        "pct": 0.88,
+        "symbol": "HINDUNILVR",
+        "ltp": 1980.0,
+        "pct": 1.02,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "India Stock Market Today, Indices, Stocks & Movers",
+        "source": "TechGraph",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PMEM5MzZ5ZlBNd3ZVYmN5OXpINTdRZFVmRmJGcWpIVHhUM3JvMVVOUGJ6cXlIenZ4UkVaQmRkVTNIdTBrdnRGT3BEcXZ2MjZFV1Yzbi1iMjZ5TUE?oc=5"
       },
       {
-        "symbol": "COALINDIA",
-        "ltp": 418.85,
-        "pct": 0.84,
+        "symbol": "ONGC",
+        "ltp": 236.0,
+        "pct": 0.98,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.61%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbnlOWFBla0FWMHU4MVZzMTdOSFRQSk5sVl9FeTR6aWZBSXdKQnNYaUljMDNpV21ZOUlXaUJ6Wmhmb1lHcURmeThfTmQ4QUliSjRDM1JmbnhfMnVqRTZiejRhNkt1ckJoVFlNOVlBR3ZydW9HdV9DTU00NDJ2eHZ2Snh6VWZHZlhSNmp0cVJ1WUd2VFlGT28ycTh6XzZHSmVjNU5rZElUOVg1UDZ4dVBTUnFDQ2Znbzl5UXhB?oc=5"
       },
       {
-        "symbol": "BHARTIARTL",
-        "ltp": 1854.0,
-        "pct": 0.76
+        "symbol": "EICHERMOT",
+        "ltp": 7747.5,
+        "pct": 0.98
       },
       {
-        "symbol": "MAXHEALTH",
-        "ltp": 992.0,
-        "pct": 0.73
+        "symbol": "ADANIPORTS",
+        "ltp": 1710.0,
+        "pct": 0.93
       }
     ],
     "losers": [
       {
-        "symbol": "INFY",
-        "ltp": 1087.5,
-        "pct": -3.76,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
-      },
-      {
-        "symbol": "HDFCLIFE",
-        "ltp": 533.2,
-        "pct": -2.42,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
-      },
-      {
         "symbol": "SBILIFE",
-        "ltp": 1732.0,
-        "pct": -2.42,
+        "ltp": 1696.6,
+        "pct": -2.04,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "SBI Life Insurance Plans Analyst And Investor Meetings Starting September 11",
+        "source": "Sahi",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZFRWTlpmRnA4WW9RQlB4WDlKZmh0RXh0d3JqVTNMUjBaVTkyTEJhZFZfUWRSa0ExcjBBZnBFV2tlYlpFX2U3dzdnMUZQSzZwN1JsVUE2NmpRUG5hRVJwRmo3cWpWcVRLLUJTSkszMGw2dVk5TVlxWDNFek5XaHc1dVZtTmstZjVaQ3VBRlZfMW5Lak1rdFRtQ2RYVUE4SmJhVnprNi14Qmx4dkd1NlAwQVNKWVlvUQ?oc=5"
       },
       {
-        "symbol": "JIOFIN",
-        "ltp": 234.4,
-        "pct": -2.13
+        "symbol": "ICICIBANK",
+        "ltp": 1399.4,
+        "pct": -1.97,
+        "catalyst": null,
+        "headline": "Axis Bank to ICICI Bank - Why banking stocks are falling today?",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1J1UGZ2UUN0bDNJTjJVSExMWVlQaU9jVUtzbnEweXRGR2VfWXJ1VnZENHI5MEEzU3phUDZpWVhMYTEtaExIZC1HdDJIMU9tWjBzUzJtS1NDeXJWZ0k2TmRqc3FjTkFwaWRBamhfMG1pMFotajR0N1pBVjdYcEdKM1FicDN0d2d2LXQtUnVQRGNNQ0JKQmI3XzdIMFhsX3FnXzczMWYxR2pFYktoem04dDJB0gG3AUFVX3lxTE9PVERXNkVqLTBjN2I2VzFlX3ZKZUQxUllQelpqd1FlWGlNeEpRQmh6a19oQThnN0tWNFowS2VGbGdDY0VyUnMwd0xZeEgwZG12VUV4WmlBZ1ZIZTZUT0UzbkZiV3k5dFh0YllKUGN1ZDdlUTc0OVZPNHlKSUtTV0JPTGM2akRiV05LaW5pbXZnNXJ1U3RFam83cHdTTFdDNl9WSTZZM1RIcm1fZW4wVjViQzdtTC1aWQ?oc=5"
       },
       {
-        "symbol": "TECHM",
-        "ltp": 1564.0,
-        "pct": -2.06
+        "symbol": "AXISBANK",
+        "ltp": 1244.9,
+        "pct": -1.67,
+        "catalyst": null,
+        "headline": "REG - Axis Bank Ltd Axis Bank Ltd (AXBA) - Update",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR3Z4TTJ6dHpKaUtLcTNuM0tieEYtcGJZQjdNLUxLYUYzYjR1LTItMkxfVXhpSlZrbElQbURkQUktOXpXQ1N0cE8wblExUUVsejFlYUJIQ1QwanF6ZkJQYktmVng0ZjZ6d3ZLSjRrMThWeENsOVluWmdWaU1zUGJUd3YyeDJCczlaaUdMY21qa2hkVDZpNlMtS3Z6M00zOWFCRlp1Mi10aXhyNUowWkdFTEZWZTMzZ2xuWUxn?oc=5"
+      },
+      {
+        "symbol": "ULTRACEMCO",
+        "ltp": 11009.0,
+        "pct": -1.49
+      },
+      {
+        "symbol": "LT",
+        "ltp": 3946.1,
+        "pct": -1.32
       }
     ]
   },
@@ -205,37 +209,37 @@
     "top": [
       {
         "name": "NIFTY PHARMA",
-        "pct": 0.75,
+        "pct": 0.77,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Top 14 Pharma Stocks To Buy In India September 2026",
+        "source": "Samco",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSmxaNUxpT2wtdzdBOEMwZ18tbzhmM3NVOXN1RXlaTy1wR1N2SmZRb0RKSlZPSUpvRnhxaTlHQnBpYXV5X2RhNHNlYnEtYjctblphSkpUbWJHRDRoRWZwY3ZXMmMwRlBYZWR2TFhMcUhHU0lOd19VVmY4a0pxYUF2djNyOWp0TE9Rc0E?oc=5"
       },
       {
-        "name": "NIFTY AUTO",
-        "pct": -0.04,
+        "name": "NIFTY FMCG",
+        "pct": 0.35,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Sep 08, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU1gxUEZncHVudm13VGVVa0Q1MHc4T2FFamRGcTRULUhyaDBMNU51UXRaYUFhSktSREVjbGpsOTZDLVhEY242eUpHUjRFREZFQXdVbXRFeU5FV3hOZzJpQlFoVzV4TlJwbkpOMTJOUHBqT2NpRXNKTURuTTZhTmM3MFAyS1l4SjA3Wl9XRDNOZHdDRjVLamVWVFdDejI1ZlJqTEtoemNrU0dLbmVHcS1iTXlmbGxvSWt6U1hKa0Ezd1BQNFF4X09xdldYRjFiMkZFMnFN?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY IT",
-        "pct": -2.28,
+        "name": "NIFTY FINANCIAL SERVICES",
+        "pct": -0.93,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "7th Global Fintech Fest 2026",
+        "source": "PIB",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbDExRUx2ME8tYnlnWEVqS2pCR1Y4Tlk4ZmpsdmtWd19VY3lmMnV0UWtiOW1yMVFoUzFHN3UxYjVIdEdaZEtqTDZqSlZVN2Y4SDRKeXMxM2Y0Rk5KaE5tQ2QyM1hodkJVOURSMndyMEF0Y3BDeVl1Y2xLUDBuX1FmSUIwWTI2bTQ?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": -1.7,
+        "name": "NIFTY BANK",
+        "pct": -0.54,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Bank Nifty Rises to 57,380 on September 3 as Private Banks Outrun Sensex Selloff",
+        "source": "The Eastern Herald",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOU0dLQTIwM25LM0k2NUJOSUFXRTFYQkZObFI1VUJJS3VMWHpLNnBGbFd5NVp6dU9BSDVtWGE0QU9sZmhINmVjeWRyQ1BwbnNheERNbmNVa2trTzhseGJTRF9jOTdmeWVJczdPWVVDX2Jma0pBU3pYSS03Z21IVzhLU0JR?oc=5"
       }
     ]
   }
