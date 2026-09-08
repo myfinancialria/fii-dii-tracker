@@ -6,3 +6,4 @@ entry_date,exit_date,sector,A,B,direction,days_held,exit_reason,entry_z,exit_z,r
 2026-08-25,2026-08-27,Metals,NMDC,SAIL,long,2,stop,-2.792,-3.889,-1.8335
 2026-09-02,2026-09-03,Metals,NMDC,SAIL,long,1,stop,-3.114,-3.554,-1.385
 2026-07-20,2026-09-07,PSU Banks,PNB,CANBK,short,35,time,2.794,1.299,-3.6103
+2026-06-30,2026-09-08,Oil & Gas,IOC,BPCL,long,50,time,-2.275,-0.604,-2.0774
