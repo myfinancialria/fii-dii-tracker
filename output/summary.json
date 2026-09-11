@@ -1,51 +1,55 @@
 {
-  "date": "2026-09-10",
-  "date_pretty": "Thursday, 10 September 2026",
-  "mood": "Range-bound",
+  "date": "2026-09-11",
+  "date_pretty": "Friday, 11 September 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 23477.8,
-    "change": 46.3,
-    "pct": 0.2,
+    "last": 23398.1,
+    "change": -79.7,
+    "pct": -0.34,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 24,
-    "declines": 26,
-    "unchanged": 0
+    "advances": 12,
+    "declines": 37,
+    "unchanged": 1
   },
   "banknifty": {
-    "last": 56471.95,
-    "change": 176.4,
-    "pct": 0.31,
+    "last": 56606.55,
+    "change": 134.6,
+    "pct": 0.24,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 9,
-    "declines": 5,
-    "unchanged": 0
+    "advances": 5,
+    "declines": 8,
+    "unchanged": 1,
+    "catalyst": null,
+    "headline": "Foreign investors may rejig allocation to Indian financials: Jefferies",
+    "source": "Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVzAxY29jV2tXNG9HNjRxRXZmM0hsMV9KRDM2c2NscXNMNHRUcFpraWJUUHN6dHAwQmNFamJuN0tsdGg0eGZXZkNwcExWRlF3VS03RjdhLVFyQVVISnZ6N0pma1BtTUdCZVQ3ZGVYdFpJakF3aHdPUHJIZnAtMmJ5eHdYWm1wUDRlQkxxYmt3QmRqSVVtUnYzMjNWTXRPMWpxcGRxa1paU19CQVNaWTYtbUhselAyeU5sQVp2SVJNNUphbEEzQmFtNHBBWE9zZGx4dXfSAdcBQVVfeXFMTmZnUzNGNDAta2FXc3c0S3ZNUUd4d0hHbXBLVEZmRVRGN00xbnRFVG5adDhUQmZnaXZydWFKWV9qMzdkRmo0MDcwUHE5b3BuMUQ2aVgzNzJwa3hRQmktZWk5aXFlNVJoTXMwQm94bVV5R1B4eWQ4MXRNb0VUNERQTHVBS1ZqY25YbWlzNTk4Uy1obzU5MzFRblNXbzVUR3ozTUgwWDFmUHdaX1h0ckZEVU1rQzdmLUw2d2hlNzhKWmttU3lPYklWaGJuMjMzSVc4TnN1QnVDb28?oc=5"
   },
   "sensex_proxy": {
-    "last": 23477.8,
-    "change": 46.3,
-    "pct": 0.2,
+    "last": 23398.1,
+    "change": -79.7,
+    "pct": -0.34,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 24,
-    "declines": 26,
-    "unchanged": 0
+    "advances": 12,
+    "declines": 37,
+    "unchanged": 1
   },
   "midcap": {
-    "last": 62357.35,
-    "change": -235.45,
-    "pct": -0.38,
+    "last": 62197.2,
+    "change": -160.15,
+    "pct": -0.26,
     "year_high": 64450.9,
     "year_low": 52032.85,
     "advances": 34,
-    "declines": 64,
-    "unchanged": 2
+    "declines": 66,
+    "unchanged": 0
   },
   "vix": {
-    "last": 11.72,
-    "change": -0.2,
-    "pct": -1.71,
+    "last": 12.27,
+    "change": 0.47,
+    "pct": 4.0,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +57,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 11882.95,
-    "sell": 12321.19,
-    "net": -438.24
+    "buy": 12616.89,
+    "sell": 13547.79,
+    "net": -930.9
   },
   "dii": {
-    "buy": 13326.33,
-    "sell": 12300.48,
-    "net": 1025.85
+    "buy": 15109.58,
+    "sell": 13141.41,
+    "net": 1968.17
   },
   "global": {
     "Dow Jones": {
-      "last": 52004.4296875,
-      "change": -376.23046875,
-      "pct": -0.7182621746799589
+      "last": 52596.26171875,
+      "change": 532.16015625,
+      "pct": 1.022124919626572
     },
     "Nasdaq": {
-      "last": 26088.798828125,
-      "change": -164.541015625,
-      "pct": -0.626743174789517
+      "last": 26385.890625,
+      "change": 304.169921875,
+      "pct": 1.1662187680683034
     },
     "S&P 500": {
-      "last": 7590.41015625,
-      "change": -45.94970703125,
-      "pct": -0.6017226512882798
+      "last": 7667.27001953125,
+      "change": 75.56982421875,
+      "pct": 0.9954268777027132
     },
     "FTSE 100": {
-      "last": 10608.919921875,
-      "change": -61.1796875,
-      "pct": -0.5733750362203375
+      "last": 10650.4404296875,
+      "change": 41.5400390625,
+      "pct": 0.3915583852517702
     },
     "Nikkei 225": {
-      "last": 65142.78125,
-      "change": -126.546875,
-      "pct": -0.19388413920493378
+      "last": 65270.94921875,
+      "change": 128.16796875,
+      "pct": 0.19674930405278024
     },
     "Hang Seng": {
-      "last": 25274.9609375,
-      "change": -42.21875,
-      "pct": -0.16675929357504585
+      "last": 24954.470703125,
+      "change": -320.490234375,
+      "pct": -1.268014756452084
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.43000030517578,
-      "change": 0.6070022583007812,
-      "pct": 0.640142445191107
+      "last": 95.54000091552734,
+      "change": 0.42819976806640625,
+      "pct": 0.45020677024350225
     },
     "Dollar Index": {
-      "last": 99.03700256347656,
-      "change": 0.26700592041015625,
-      "pct": 0.270331000794764
+      "last": 99.1240005493164,
+      "change": 0.03400421142578125,
+      "pct": 0.0343164927666654
     },
     "Brent Crude": {
-      "last": 107.8499984741211,
-      "change": 6.6399993896484375,
-      "pct": 6.560615996159146
+      "last": 104.63999938964844,
+      "change": -2.9899978637695312,
+      "pct": -2.778033949707807
     },
     "Gold": {
-      "last": 4382.39990234375,
-      "change": -33.60009765625,
-      "pct": -0.760871776636096
+      "last": 4389.7998046875,
+      "change": 25.2998046875,
+      "pct": 0.5796724639133921
     },
     "US 10Y Yield": {
-      "last": 4.946000099182129,
-      "change": 0.10900020599365234,
-      "pct": 2.25346719868958
+      "last": 4.963000297546387,
+      "change": 0.019000530242919922,
+      "pct": 0.3843149501862356
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "HDFCLIFE",
-        "ltp": 526.15,
-        "pct": 2.36,
+        "symbol": "HDFCBANK",
+        "ltp": 708.25,
+        "pct": 2.08,
         "catalyst": null,
-        "headline": "HDFC Life Share Price Today (HDFCLIFE) | Live Chart, News & Stock Market",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vMEFKTjY2dUxNZjhBdlBfTFU5dldGMTVPeU1ZNURPaF9HZnpvbUNLYUhRQTBOVm9SYmp1ZUllMVdTb09fV0N3SnFlR3JKMmdJXzE0MWc0T1YwQm1EUl9TMnhn?oc=5"
+        "headline": "Indian Stocks Dip Marginally; Crude Cools, IT & HDFC Bank Gain",
+        "source": "Rediff MoneyWiz",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN0JFd3lfeThkY0NmRWUxM2hscE5xTGJ1Y3FOUUVvME9sbU0waTdXNDdNclo1VFRIdnNOcW1KTU5wT2hpZ2hYSlhmWGEyTGxxSHJuZExNaGtpaTB1RDJjU3hSQ1pjMFEyTkRMczVNdWhVSF9tQUpyY2Q2dDhnUlBCcXh6azZNSmV6U0JZZFVGX1lwWHlUcnliRENnQko0aV96OE5qbzhPdGQ4S0Y0YjI00gG0AUFVX3lxTE1nM3lVZGNNOXNZNVdRUWg0RlNhY0pFQV92OVlpNTJ0V3BZRlRnY29XdWgzS0VGMXN6X2hQUE5uYnplOVBaT1dNdkNPcFpIXzFYaWhrMzR0SzlveTd1RUJ0cUNaRmdlQnZqQlZHaFRWdWV4cjFwM0FHdXRHZmVMRklKejJSNlN0R1Q5dUNqbEJ1Y19VOW1JUEtCYmdIeXprTHJiRDA3WWdZRmhKaVRSdDZTVWVwcA?oc=5"
       },
       {
-        "symbol": "POWERGRID",
-        "ltp": 271.75,
-        "pct": 2.22,
+        "symbol": "DRREDDY",
+        "ltp": 1165.5,
+        "pct": 1.97,
         "catalyst": null,
-        "headline": "Markets rebound after 3-day decline; PowerGrid, Axis Bank among gainers",
-        "source": "rediff.com",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcXlCNGZwLXgxbFFRQXBmMnZIeW1CZDlNelVJNGtkU182QVAyNkFyYTdhcklXTWJWbVQ0OUM0cnUzRC10MF9QTzlzYlBEUTlDOXBfMVROem5hNVFiTzJuQ1VEQVlZbjYzbUxWd2hjblNnSUJhOHg4RUNaTVRkdmZROHREcFRwanpVempWVTF4TEVCT2ljdXZPOGI4TTJfdFF6UlA5Nm9udEJ1TmRKcTZCY2dnV0FxSUQxdGVTcXQyNjYxTXJmRVJiZ0t6cW1kSlRZcnpaYWhIdDBPWlpYeXVWenlELWJRV2s?oc=5"
-      },
-      {
-        "symbol": "ONGC",
-        "ltp": 237.27,
-        "pct": 1.39,
-        "catalyst": null,
-        "headline": "Oil and Natural Gas Corporation Share Price Today (ONGC) | Live Chart, News & Stock Market",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GSjNtNUdBc0ZOV1ZjTHBMRE4tVUs2a0lTa3Q2aUhpVjNlVHZWMElBUXpSSDZIanNUUWtaVUVmdHZLMHJ4NGtwMDFTZm9rUk5zZXpGeHhhd2FyN0I0?oc=5"
-      },
-      {
-        "symbol": "BHARTIARTL",
-        "ltp": 1839.0,
-        "pct": 1.34
+        "headline": "Top Gainers & Losers, September 11, 2026 at 12:00 PM IST: Dr. Reddy\u2019s Leads, Metal Stocks Stay Under Pressure",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rUm9aUFpOUkVfWlN4MTNyNElPZWJ3VV9JMEI0Rm9NZVVseWQzSGZhMUVIZjF0dUJuV0d1anBLNE1sY2FjbUJZVkh6TmswR2g5SHZfdDA5cHRubDAyWmNJOTByOHN0My1WYk84M1pxdHRRYTZBbEgwTXhn?oc=5"
       },
       {
         "symbol": "TECHM",
-        "ltp": 1525.8,
-        "pct": 1.18
+        "ltp": 1541.0,
+        "pct": 1.0,
+        "catalyst": null,
+        "headline": "Tech Mahindra Share Price Today (TECHM) | Live Chart, News & Stock Market",
+        "source": "TechGraph",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QQUYtVTgtYzZIR1FYVFBKR0NDU2JkZmpHMDZiMFJUYVdMaW1qQ0stVkhUMTllSG9FUDc4YnFZcDB2NGdHcnZYdnFnNjBWcTdFMk9DRW1oSGFEVEJLZ0E?oc=5"
+      },
+      {
+        "symbol": "HDFCLIFE",
+        "ltp": 530.0,
+        "pct": 0.73
+      },
+      {
+        "symbol": "WIPRO",
+        "ltp": 167.4,
+        "pct": 0.66
       }
     ],
     "losers": [
       {
-        "symbol": "HCLTECH",
-        "ltp": 1207.0,
-        "pct": -1.85,
+        "symbol": "HINDALCO",
+        "ltp": 981.5,
+        "pct": -3.21,
         "catalyst": null,
-        "headline": "Nifty Midcap 100 Share Price Today (NSMIDCP) | Live Chart, News & Index Market",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16a04xTlRwOWRDeXNYb0xRZk9vanBPSVA4bkZQQ09IZ3VXdGJPaV9VT0ZQMC03TlRZMVFpZEg5YUt4TVpGMUxQa0NmVmNlbDNvcE5WT3p3SUdhWFF4?oc=5"
+        "headline": "Top gainers and losers, September 11: Hindalco, JSW Steel fall 3%, HDFC Bank jumps 2%; check full list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdEM0RGFvb09pUmdQcW1jWHF2Ny1GWHRhNkV5MndDTjBKcFJlODN2YVR4TGhHWGdGVnNqT3BRYXFiWDZrdmNVN05iZ3ZwT29Za1FraU9HSDctSDdrZGdmQ2FCRzgyeUlCUUU3LWd5MW1uQm5DeFN1SlhqT1JsaThRMjBEZkFQbTVyYUwzNTYtUk5oaVpFMmJjV21vVHNGV292M3MxdUpWNjlFb0lXVGlqbHRqcWY2SVZQb2ZNSnNOSWw5MnJ6b2FSeU1HaDlLblIxdTJIbHFybEJyOXhqNzhPY09SWmZZbk1Xd2c?oc=5"
       },
       {
-        "symbol": "HINDALCO",
-        "ltp": 1014.0,
-        "pct": -1.26,
+        "symbol": "JSWSTEEL",
+        "ltp": 1265.0,
+        "pct": -2.99,
         "catalyst": null,
-        "headline": "Hindalco Industries Share Price Today (HINDALCO) | Live Chart, News & Stock Market",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VSFNGNG53eTJZSi1kT2g1NThFY2tnWDRLT29yeXFuR2pGSkZfT3NoN2k1RWR6MDZVeVlrdlFSV0U0QjRCU2NPLVIzTzFnVWlVbFhYNHZOSE5KU2ZKTjI5bVhB?oc=5"
+        "headline": "Top gainers and losers, September 11: Hindalco, JSW Steel fall 3%, HDFC Bank jumps 2%; check full list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdEM0RGFvb09pUmdQcW1jWHF2Ny1GWHRhNkV5MndDTjBKcFJlODN2YVR4TGhHWGdGVnNqT3BRYXFiWDZrdmNVN05iZ3ZwT29Za1FraU9HSDctSDdrZGdmQ2FCRzgyeUlCUUU3LWd5MW1uQm5DeFN1SlhqT1JsaThRMjBEZkFQbTVyYUwzNTYtUk5oaVpFMmJjV21vVHNGV292M3MxdUpWNjlFb0lXVGlqbHRqcWY2SVZQb2ZNSnNOSWw5MnJ6b2FSeU1HaDlLblIxdTJIbHFybEJyOXhqNzhPY09SWmZZbk1Xd2c?oc=5"
+      },
+      {
+        "symbol": "EICHERMOT",
+        "ltp": 7530.0,
+        "pct": -2.17,
+        "catalyst": null,
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
         "symbol": "TATASTEEL",
-        "ltp": 186.78,
-        "pct": -1.04,
-        "catalyst": null,
-        "headline": "India stocks higher at close of trade; Nifty 50 up 0.20%",
-        "source": "Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFdVblpWbEVlNGdtckh6QUh3OGs3cjJKR21ScEdZTllKNUI4dVl1NXV5eUxDbDZOYk1PMTZCREZQbTIybDU0TGNtUHFOaGJRVmlIcnpld0JYZlJRYmxzMXFxNGpqRFl2OC0tLV9ub3kzM2U5MU1CRFJLLUZ4OXp1OFFTc1hrNS03SGtMdnpwQzRNUTVVb2ZLN2VaTC1xUkFiSVBXd253bndmXzZKVFJzQlRLNEJrZzItbXc?oc=5"
+        "ltp": 183.0,
+        "pct": -2.02
       },
       {
-        "symbol": "ADANIENT",
-        "ltp": 3077.2,
-        "pct": -0.89
-      },
-      {
-        "symbol": "M&M",
-        "ltp": 3123.8,
-        "pct": -0.83
+        "symbol": "ONGC",
+        "ltp": 232.5,
+        "pct": -2.01
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY FINANCIAL SERVICES",
-        "pct": 0.57,
+        "name": "NIFTY BANK",
+        "pct": 0.24,
         "catalyst": null,
-        "headline": "Intelligent, sovereign and scalable",
-        "source": "kpmg.com",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3pEZzctVGZjd1A3RjVHYWhBdlE2bHR3YXBTUjVoXzNFbTYtUFlmVGUyZ0hyNUIwVHRNeHlzb0VhNjlTX2lha1ZkcHkzMGM2cDE4SGdOc1pPMzN6OE9TaVNISzk3VldCbk9qSGJjTUJNUkc3MjFGa0hXUmVWUGptWVhWcng0dw?oc=5"
+        "headline": "Foreign investors may rejig allocation to Indian financials: Jefferies",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVzAxY29jV2tXNG9HNjRxRXZmM0hsMV9KRDM2c2NscXNMNHRUcFpraWJUUHN6dHAwQmNFamJuN0tsdGg0eGZXZkNwcExWRlF3VS03RjdhLVFyQVVISnZ6N0pma1BtTUdCZVQ3ZGVYdFpJakF3aHdPUHJIZnAtMmJ5eHdYWm1wUDRlQkxxYmt3QmRqSVVtUnYzMjNWTXRPMWpxcGRxa1paU19CQVNaWTYtbUhselAyeU5sQVp2SVJNNUphbEEzQmFtNHBBWE9zZGx4dXfSAdcBQVVfeXFMTmZnUzNGNDAta2FXc3c0S3ZNUUd4d0hHbXBLVEZmRVRGN00xbnRFVG5adDhUQmZnaXZydWFKWV9qMzdkRmo0MDcwUHE5b3BuMUQ2aVgzNzJwa3hRQmktZWk5aXFlNVJoTXMwQm94bVV5R1B4eWQ4MXRNb0VUNERQTHVBS1ZqY25YbWlzNTk4Uy1obzU5MzFRblNXbzVUR3ozTUgwWDFmUHdaX1h0ckZEVU1rQzdmLUw2d2hlNzhKWmttU3lPYklWaGJuMjMzSVc4TnN1QnVDb28?oc=5"
       },
       {
-        "name": "NIFTY PSU BANK",
-        "pct": 0.39,
+        "name": "NIFTY IT",
+        "pct": 0.11,
         "catalyst": null,
-        "headline": "Central Bank of India becomes first PSU bank to launch \u2018Bharat Connect for Business\u2019",
-        "source": "The Statesman",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaDBrNG5pbkdLUkl3NXRfUEEtN09xb0hNaGhDNXk5bnlrQjNkeUxKcXFORFU4OFdEYW5vUU1hRDdVZjNiSXpDalRuamVMTmVRQ3hwX1pUc0toLTVKd0YyU29mSkFPbTc3QW9nalAzUjV0ZjFteGRNeWRRZ1E3UHQ5NEFqNlJLa0NVY2tMUzVoY1RfbjZ0YnYyREVMSWFwNkRLRXVTS0xNUmxHN05NMHFjMWhxcGdtSHdKQXhPWGtDbi1LSHBpd1JjQkMzOXNqVHJwdUHSAdcBQVVfeXFMTmU4WU9zbVM3dXMtWjRhWWZFUVVjV05UTmkzN21MYXpyRkVsaWVodjJRNDJ0SGxzUlhmaWRSaUhMbVkxTHA4UHRUeXQ5MmpWRkJNOW5fS3Z3Y2RYaGcwb2FNYUpfcktnSEEzNnFnUVc3WjlWOFpmcXJDb2pRbjhDV0RXM1VDdG1HSUxxWWp2WDhLcmVRcjVKckhvRHNBUE93SzFodzk4dXAwbUw0dzBDc1U0N3NpQXBmWC1IcVF0allaZFNJRkMwdkxzYzZjY2ZmdDE2bE9WR1k?oc=5"
+        "headline": "Indian shares slide to three-month low in broad-based sell-off on Mideast worries",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcV9paWE2NzJNbkNRNUdicjF3UjUwSURuaUJ5TzRObXdfX2pKUEZ5NlZQQ1RSSW5GdFlNWUNHMzBSZlkxUzVRWEowU2NZRXMzTW8zeDNrZWQ3YmtBNERoXy1RZ3RLa0xwMjl4SDJyWXNQUXktY2h4aTQtRkpObkhQcm9uVVgzc1V2MUpYaDNvVGU4LU1IUm13WEk3eEJ6VDdfeUdKZ3FpQmMwdw?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY METAL",
-        "pct": -0.65,
+        "name": "NIFTY REALTY",
+        "pct": -2.7,
         "catalyst": null,
-        "headline": "Tata Steel, JSW Steel, SAIL, Jindal Steel: Top metal stocks to buy; check fresh targets & more",
-        "source": "Business Today",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdktKdnFQRlVUYnJENk9DUkstUElIczNkU3RfaDBENjdrS2VMV09Ub2hwRGhYdXhOYVdadk53T2RJOTdub0xZY0NLdndjbVZ1Q2RVRmx5Z09ZRmllNFRqUFRmLThieXRjd0M2WjVQdFM3MWxVY1JsdTV4YllhYU9jdEIyWmZ0eDdUa1lQZm1XQkRjVmM5VUVlbU5tREdrbVRfeGQ2bm1xYUtyX2R0WE5KX3VJNWtZVFpqQmxUWXBrNE1QR19rYzVaTnRzdUVoQ0FtX3hqcFNNeU8xSTJIWG5sbUlHdEU2NE5RNk9B0gHwAUFVX3lxTE1vZHlqOWYtUk1hQ3l5alZSTjNxaFozdFd0SHR5NFQtT1J3MWI3UHVwTVRyOXpIVW5FYUdOZUpTcEtkNlJjY19MN2pCdENReUdtUGxJMDFFbUdsMU93TE1ReC1HYlZNeFpxWWtfaXVEYVpMVkR2dWlfSHdPclNldThTNm9KMzhtdTFsRGtPS0xCdXpTN1MwTVdMVGdMS3d0bEhVVW5GaXB4bHBBcWpzU0ZZUHpwOFFCcUFjWGlTZWZGOTFYUEc4X1JrT3h4VWk1d09CWWFRTHJtd2tyeGtjQjlkeWNpd203VEhIUm5vVkhKZA?oc=5"
+        "headline": "Nifty Realty Selloff: Why Rising Crude, Bond Yields And Fed Rate Fears Hit India's Real Estate Stocks",
+        "source": "Outlook Money",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNF9tanRDTjhlUmhzakViUU50SkFXWXFvRWxJQnZZY0VpMmZtSnZpTWVSX2djUVBLTV85UWNqWnZ0ZDdFT25KSG96Y2NPNDZtaDFIVDM2LUVlcFFwTmdaeXlHRjBKemVTYzlZUWtsRGQxR0owYmI2U0ZXaW9IS0hIeklpTXg4TW54Tnp3U3U3VG9zYU9iR2Z6TFF2cU1CMkxBWF9fLW5BdWZKZktqWXVXREpod9IBwAFBVV95cUxOOHhaWWdFRTdCb0NEVlVBZEhNc1JtU01ZMnQ5cy1xaWVyZm43MlZoZTRPUS16aC1kR2pSSU8tTk1zZjRwTU1MX2RFejAzOTV5MWk0UEYtZjRSNHRvUmpZLTdoVXV4S1ZkZDNUcEloOGx4cmIwTGRTaVJJSkZhamxIdlRpeGo2cDFLYVRjMDVXaFVrX2QyQTRwT004QXAtQ29uZ2ExMEh3c3VoRFZJMHkzWDB3Smo0MGh6VkxISTZKcUg?oc=5"
       },
       {
-        "name": "NIFTY PHARMA",
-        "pct": -0.51,
+        "name": "NIFTY METAL",
+        "pct": -2.3,
         "catalyst": null,
-        "headline": "Novartis India zooms 51% in 3 days; what's driving the pharma stock?",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUdrU29QaUlXWjlFaFFHN1NHRTdkVGQ2Y2hyZDhDMF9URkdENDU2azFnYTVsYWZ4UkVMZE1wc3BBQWQxd0FHNUMtMHM5TC1NdlNIeGFRV1hvS2NDd2QwWnhCWjdDM2c2eFVtTDhkSkpzTEVnLS11dXA4UVJibXlKb2EzaVJHX2FOVTl6b0U4UzRueHJCSW9KbTJ6QnkyR0xKRGNkbFQ3c05MRnJYc0VIbGFCaWJ0LVdxNFlIbndQelQ5UUJCeXdmLXZEMktkaWlNVVM2RDJBTlN4b2Jn0gHiAUFVX3lxTFBGempjamsyc0k2VzhJNUgxZVdQZVB3NnZjUTZWREJwR1ZITzZEMkFUTTBKd3NZb1ZlaV9FSzNnSkh2aHVQR3BsdzNYdlVGaHdUeWhEY0l3X0JxRndHbUpMaFdRRVhiekJtRmpQTWlfN3ZFZWl1c2NmdktIZklPa1N3eFlKbDB6UWRyM0lFMVhCV0hkSmxlWjVPM2F6b0RSb1VxZDlFX2M2NHRsLXNFYkI1TUpLdUNpZzh0YVpzdjVjTk1DQmZ1SEkyYTVZa3VlWWNROGRJa1FGRzczWWM4b2hOTHc?oc=5"
+        "headline": "Vedanta, Tata Steel, Nalco, other metal stocks fall as Nifty Metal slips 2%; what's weighing? - BusinessToday",
+        "source": "IndiaIPO",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa29hd1A0VHVqdkVyODczbVMzZXpDb3VXeVFwQk9IalQwQ053ZkRicDhhYnB2NmFLT05raEgtd0dsd0xET29SOXJieXJkTmlCajNtRGVtV3pSUWc1czJ5Y1RhUHlDQ1d4UlVsaFpna25remVnM1NrX0JjXzIzcnBhTzVLMWVwb2FpN29DOThPVUQ5VGJuRDQtNzBMT2MxSEhVZC1hLWVkc3JHb1lnNWdQSHQxQndxcElLdmhPWDVDTGZMOHdOemlkUXVNMkd0aGhQTWc?oc=5"
       }
     ]
   }
