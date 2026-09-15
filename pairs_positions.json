@@ -1,27 +1,5 @@
 {
-  "open": [
-    {
-      "key": "TATASTEEL/JINDALSTEL",
-      "sector": "Metals",
-      "A": "TATASTEEL",
-      "B": "JINDALSTEL",
-      "direction": 1,
-      "entry_date": "2026-08-20",
-      "entry_z": -2.0857286765339023,
-      "entry_spread": -0.026701917800017405,
-      "beta": 1.2055452687448904,
-      "alpha": -3.2241333698218546,
-      "half_life": 12.90904173553509,
-      "entry_priceA": 183.5,
-      "entry_priceB": 1118.9,
-      "lotA": 2750,
-      "lotB": 625,
-      "ratio": [
-        8,
-        7
-      ]
-    }
-  ],
+  "open": [],
   "closed": [
     {
       "key": "NMDC/SAIL",
@@ -246,6 +224,34 @@
       "exit_priceA": 134.35,
       "exit_priceB": 303.85,
       "realized_pnl_pct": -2.077407597506421
+    },
+    {
+      "key": "TATASTEEL/JINDALSTEL",
+      "sector": "Metals",
+      "A": "TATASTEEL",
+      "B": "JINDALSTEL",
+      "direction": 1,
+      "entry_date": "2026-08-20",
+      "entry_z": -2.0857286765339023,
+      "entry_spread": -0.026701917800017405,
+      "beta": 1.2055452687448904,
+      "alpha": -3.2241333698218546,
+      "half_life": 12.90904173553509,
+      "entry_priceA": 183.5,
+      "entry_priceB": 1118.9,
+      "lotA": 2750,
+      "lotB": 625,
+      "ratio": [
+        8,
+        7
+      ],
+      "exit_date": "2026-09-15",
+      "exit_reason": "target",
+      "exit_z": -0.36812673626498316,
+      "days_held": 17,
+      "exit_priceA": 183.65,
+      "exit_priceB": 1095.0,
+      "realized_pnl_pct": 1.1172442246954097
     }
   ]
 }
