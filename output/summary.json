@@ -1,51 +1,55 @@
 {
-  "date": "2026-09-16",
-  "date_pretty": "Wednesday, 16 September 2026",
-  "mood": "Mixed",
+  "date": "2026-09-17",
+  "date_pretty": "Thursday, 17 September 2026",
+  "mood": "Range-bound",
   "nifty": {
-    "last": 23217.6,
-    "change": 99.0,
-    "pct": 0.43,
+    "last": 23270.6,
+    "change": 53.0,
+    "pct": 0.23,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 30,
-    "declines": 19,
-    "unchanged": 1
-  },
-  "banknifty": {
-    "last": 56292.45,
-    "change": 497.7,
-    "pct": 0.89,
-    "year_high": 61764.85,
-    "year_low": 49954.85,
-    "advances": 12,
-    "declines": 2,
+    "advances": 36,
+    "declines": 14,
     "unchanged": 0
   },
+  "banknifty": {
+    "last": 56055.75,
+    "change": -236.7,
+    "pct": -0.42,
+    "year_high": 61764.85,
+    "year_low": 49954.85,
+    "advances": 5,
+    "declines": 9,
+    "unchanged": 0,
+    "catalyst": null,
+    "headline": "Invesco India Banking and PSU Debt Fund Direct-IDCW Monthly (\u20b9 1,012.04) - NAV, Reviews & asset allocation",
+    "source": "The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUXZuOURhNEZBdGlkaFd3WXBrbUljcVRuaXJVUGhVanFFeGthaUpoV042ZGtuVGs5T3pxWUlBS0gyWlhROEVJaGJkQ2E1LU55TnlNc0ZuSUtKSHhzWVA0MXp3d20xN2R0NzJHWWc4aGp1NWw0REZSdkFBV0daa0tWcWJXNzhxems4TjFzS0NrYnFnMy11dmp1d1JPbzNQb0h1RUhuYWZyU2tSV3VaV0tB?oc=5"
+  },
   "sensex_proxy": {
-    "last": 23217.6,
-    "change": 99.0,
-    "pct": 0.43,
+    "last": 23270.6,
+    "change": 53.0,
+    "pct": 0.23,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 30,
-    "declines": 19,
-    "unchanged": 1
+    "advances": 36,
+    "declines": 14,
+    "unchanged": 0
   },
   "midcap": {
-    "last": 60874.2,
-    "change": -4.05,
-    "pct": -0.01,
+    "last": 61432.1,
+    "change": 557.9,
+    "pct": 0.92,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 50,
-    "declines": 49,
-    "unchanged": 1
+    "advances": 79,
+    "declines": 21,
+    "unchanged": 0
   },
   "vix": {
-    "last": 13.17,
-    "change": -0.26,
-    "pct": -1.93,
+    "last": 12.14,
+    "change": -1.03,
+    "pct": -7.82,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +57,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 12959.04,
-    "sell": 14991.65,
-    "net": -2032.61
+    "buy": 8761.71,
+    "sell": 11970.47,
+    "net": -3208.76
   },
   "dii": {
-    "buy": 15279.59,
-    "sell": 11371.36,
-    "net": 3908.23
+    "buy": 14105.01,
+    "sell": 10487.26,
+    "net": 3617.75
   },
   "global": {
     "Dow Jones": {
-      "last": 51585.890625,
-      "change": -507.21875,
-      "pct": -0.9736772407819052
+      "last": 51827.46875,
+      "change": 365.5703125,
+      "pct": 0.7103708250172344
     },
     "Nasdaq": {
-      "last": 25982.12890625,
-      "change": 0.55859375,
-      "pct": 0.002149961466075262
+      "last": 26410.46875,
+      "change": 432.0390625,
+      "pct": 1.6630684290663018
     },
     "S&P 500": {
-      "last": 7555.35009765625,
-      "change": -30.3798828125,
-      "pct": -0.40048726873643237
+      "last": 7639.10009765625,
+      "change": 87.2900390625,
+      "pct": 1.1558823432425496
     },
     "FTSE 100": {
-      "last": 10688.4697265625,
-      "change": 30.3701171875,
-      "pct": 0.2849487084994595
+      "last": 10816.1396484375,
+      "change": 127.6396484375,
+      "pct": 1.194177372292651
     },
     "Nikkei 225": {
-      "last": 63484.1015625,
-      "change": -8.88671875,
-      "pct": -0.013996378167987914
+      "last": 63923.0,
+      "change": 438.8984375,
+      "pct": 0.6913517348401083
     },
     "Hang Seng": {
-      "last": 24667.240234375,
-      "change": -250.359375,
-      "pct": -1.0047491689600982
+      "last": 24713.779296875,
+      "change": 46.5390625,
+      "pct": 0.18866748796302535
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.94999694824219,
-      "change": 0.114593505859375,
-      "pct": 0.11957324928283913
+      "last": 95.91999816894531,
+      "change": -0.07270050048828125,
+      "pct": -0.07573544810802456
     },
     "Dollar Index": {
-      "last": 100.11199951171875,
-      "change": 0.46199798583984375,
-      "pct": 0.46362065104420874
+      "last": 100.24199676513672,
+      "change": -0.06800079345703125,
+      "pct": -0.06779064411531878
     },
     "Brent Crude": {
-      "last": 105.58999633789062,
-      "change": -3.160003662109375,
-      "pct": -2.9057504938936782
+      "last": 104.69000244140625,
+      "change": -1.1399993896484375,
+      "pct": -1.077198686501314
     },
     "Gold": {
-      "last": 4334.2001953125,
-      "change": 1.400390625,
-      "pct": 0.032320686118130076
+      "last": 4392.60009765625,
+      "change": 5.10009765625,
+      "pct": 0.11624154202279202
     },
     "US 10Y Yield": {
-      "last": 4.965000152587891,
-      "change": -0.03099966049194336,
-      "pct": -0.62048962473506
+      "last": 4.949000358581543,
+      "change": -0.05699968338012695,
+      "pct": -1.1386273052804619
     }
   },
   "movers": {
     "gainers": [
       {
         "symbol": "HDFCLIFE",
-        "ltp": 530.2,
-        "pct": 2.73,
+        "ltp": 557.0,
+        "pct": 5.05,
         "catalyst": null,
-        "headline": "Nifty Top Gainers And Losers as of 3:30PM IST: HDFC Life, SBI Life, TCS",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXdPMFN0U2NjeGR0ZXNMQmRuR1I3YUg1TlpBWDVGQlJOd3lkdlVnOGFGR3JmU25TNHZUWWd5QVVvTDQzLVljRHJPOExvN1I4Uk1meUZnRlREcUc1eXA0N1JmYXNJeG1DcUowTEJjNmlNS2N6czBwUUlVY3UtS1VuSWhDb1JoU0M1ZzZNa3RGZHcxYzBqdG91U2lR?oc=5"
+        "headline": "HDFC Life, other life insurance companies' stocks rise up to 7% on hope of lower commission payment",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQ3piQlVyV1NuSHExS3NCVmdIRVRaV3c0Zm5NSW9qQTcwcGhoMkdvTnZ2ME1tQndtVmsyOWNSV2FDbTZsYm02MkoyRnVmendwOElEVmlDZlZLa284Z3QtcWhkdHVpLW5wSUw1b3U3SmJ1WmtDOURiUnZsTzVOZmY5cE9tSEwzRWVYWnJqVW1lWjJPcVZjZy1DZ1dWMU44ZVk0MTJNRW9UTWVxdU1SOExKYjdDMVY3dEJkS05TblhlcjdOS1VZeE1CdlVETXA0Y2tiR0dEaXB6eHZnS1czZDVEMHMwT2dKdmhxZDEyWGtMVlQ4eXPSAfgBQVVfeXFMT2lodUtvOXZVMXl5NGMzY2lKdHFEUUNKMzgxQko0WXpyWnE0eUZiNXMzNHBhdUgwWklKT2ZhWHNaTUp5bTRRclpQVU04SFBPU3N3REc4azI2NUk1OVNSbHN1SFFWTk1MVTQ5SjEtQUFTbHBZdm9vSEw4dk1iV2hEYndmeE03ZFRJbWczTVpJSVNocU9YeXdsaEVoS3gzNElxWGNuMkRTQU5UZXliekRPUU4zbVRGUDZCcHVLaTJ4d3VmTDA4WTFJU1hsd3Qzd1diNkNaRC1fcFBYVl9tSy0xMVNXb0E1N2kzZ2gyVmQ2dVFLTmlVQ0RNVlY?oc=5"
+      },
+      {
+        "symbol": "TMPV",
+        "ltp": 314.5,
+        "pct": 4.49,
+        "catalyst": null,
+        "headline": "Top gainers and losers, September 17: HDFC LIC jumps 5%, TMPV rises 4%, ONGC falls 2%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObEpYYVhST2RNbTFiclduQ2dFRkxJdkd5NEJ2OVFNNEtnR3dQbTNaejVmT2owV1VtTEV5V1MwZHV0bGszamJBdVJ5dFdCTFd1UGo4Y0sxNk82aklqYkNyTnJ5UnpCbmlvbTB1U3d6NU9rYTdlR1EyUmlXQXNkYTNwRUc4U19aT3M0bDdSQXhjQ1lOVFdmVXRLb0tlblJNZTRZcWpacEJ2TEFXNXdZQ1M1bk40TFkwU1BSakVBRnRUNU9zVUozRFlBUURQOThRcko1VE41bk16Y0liUnBjeW8zZjlR?oc=5"
       },
       {
         "symbol": "SBILIFE",
-        "ltp": 1697.9,
-        "pct": 2.65,
+        "ltp": 1766.9,
+        "pct": 4.06,
         "catalyst": null,
-        "headline": "Nifty Top Gainers And Losers as of 3:30PM IST: HDFC Life, SBI Life, TCS",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXdPMFN0U2NjeGR0ZXNMQmRuR1I3YUg1TlpBWDVGQlJOd3lkdlVnOGFGR3JmU25TNHZUWWd5QVVvTDQzLVljRHJPOExvN1I4Uk1meUZnRlREcUc1eXA0N1JmYXNJeG1DcUowTEJjNmlNS2N6czBwUUlVY3UtS1VuSWhDb1JoU0M1ZzZNa3RGZHcxYzBqdG91U2lR?oc=5"
+        "headline": "HDFC Life, other life insurance companies' stocks rise up to 7% on hope of lower commission payment",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQ3piQlVyV1NuSHExS3NCVmdIRVRaV3c0Zm5NSW9qQTcwcGhoMkdvTnZ2ME1tQndtVmsyOWNSV2FDbTZsYm02MkoyRnVmendwOElEVmlDZlZLa284Z3QtcWhkdHVpLW5wSUw1b3U3SmJ1WmtDOURiUnZsTzVOZmY5cE9tSEwzRWVYWnJqVW1lWjJPcVZjZy1DZ1dWMU44ZVk0MTJNRW9UTWVxdU1SOExKYjdDMVY3dEJkS05TblhlcjdOS1VZeE1CdlVETXA0Y2tiR0dEaXB6eHZnS1czZDVEMHMwT2dKdmhxZDEyWGtMVlQ4eXPSAfgBQVVfeXFMT2lodUtvOXZVMXl5NGMzY2lKdHFEUUNKMzgxQko0WXpyWnE0eUZiNXMzNHBhdUgwWklKT2ZhWHNaTUp5bTRRclpQVU04SFBPU3N3REc4azI2NUk1OVNSbHN1SFFWTk1MVTQ5SjEtQUFTbHBZdm9vSEw4dk1iV2hEYndmeE03ZFRJbWczTVpJSVNocU9YeXdsaEVoS3gzNElxWGNuMkRTQU5UZXliekRPUU4zbVRGUDZCcHVLaTJ4d3VmTDA4WTFJU1hsd3Qzd1diNkNaRC1fcFBYVl9tSy0xMVNXb0E1N2kzZ2gyVmQ2dVFLTmlVQ0RNVlY?oc=5"
       },
       {
-        "symbol": "SBIN",
-        "ltp": 991.4,
-        "pct": 2.42,
-        "catalyst": null,
-        "headline": "NSE raises \u20b96,746 crore from anchor investors ahead of IPO",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSEp3aTFSWEhhUDBoVU4zZGd3RXh1U1l6b0FtVU5LMTZta2RnTm5OMXJRQ18tLTJOX1AyTWNXQ01qcEpfLXNJaGd0NHdyeTVZTGU0NV9DbDQyQUdTVl9JbTBhOFozNXpFaTlzT1ZBSTd1dC00cjhYbkdkYUdKX19GMmxxTG1wbmlHeXA4dTY1bWRsbkNPeWU0am1YYWVoTUFjMkFiUGN6T1VxMWpsTENVcUNXX2U?oc=5"
+        "symbol": "DRREDDY",
+        "ltp": 1175.0,
+        "pct": 3.07
       },
       {
-        "symbol": "ITC",
-        "ltp": 264.15,
-        "pct": 2.38
-      },
-      {
-        "symbol": "NESTLEIND",
-        "ltp": 1384.5,
-        "pct": 1.65
+        "symbol": "BEL",
+        "ltp": 395.45,
+        "pct": 2.51
       }
     ],
     "losers": [
       {
-        "symbol": "TCS",
-        "ltp": 2188.8,
-        "pct": -2.76,
+        "symbol": "ONGC",
+        "ltp": 232.43,
+        "pct": -1.85,
         "catalyst": null,
-        "headline": "Nifty Top Gainers And Losers as of 3:30PM IST: HDFC Life, SBI Life, TCS",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXdPMFN0U2NjeGR0ZXNMQmRuR1I3YUg1TlpBWDVGQlJOd3lkdlVnOGFGR3JmU25TNHZUWWd5QVVvTDQzLVljRHJPOExvN1I4Uk1meUZnRlREcUc1eXA0N1JmYXNJeG1DcUowTEJjNmlNS2N6czBwUUlVY3UtS1VuSWhDb1JoU0M1ZzZNa3RGZHcxYzBqdG91U2lR?oc=5"
-      },
-      {
-        "symbol": "WIPRO",
-        "ltp": 166.89,
-        "pct": -1.83,
-        "catalyst": null,
-        "headline": "Nifty Top Gainers And Losers as of 3:30PM IST: HDFC Life, SBI Life, TCS",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXdPMFN0U2NjeGR0ZXNMQmRuR1I3YUg1TlpBWDVGQlJOd3lkdlVnOGFGR3JmU25TNHZUWWd5QVVvTDQzLVljRHJPOExvN1I4Uk1meUZnRlREcUc1eXA0N1JmYXNJeG1DcUowTEJjNmlNS2N6czBwUUlVY3UtS1VuSWhDb1JoU0M1ZzZNa3RGZHcxYzBqdG91U2lR?oc=5"
-      },
-      {
-        "symbol": "INFY",
-        "ltp": 1060.0,
-        "pct": -1.58,
-        "catalyst": null,
-        "headline": "Infosys Q2 results: Check IT firm's earnings date, plans to expand Indore development centre; stock to be in focus",
+        "headline": "Top gainers and losers, September 17: HDFC LIC jumps 5%, TMPV rises 4%, ONGC falls 2%; check list",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMWs1VW5WTWRhTmd4NFpyMktrdU5LTjM5Rnd1QkZzdnk1djBvbWFreWNOemxad1RlelE2WlAwSEprOFhha1A3OGJWSF8wWEgxazcwOU9kTmxvLW5RQzJtdHlFc01GT05hNFdKYl9KSGVsWjRWQzlCUnd1LS1VNWhVb29wWXh6eklaaU5IQzN4V3F2RG5CTnE5V3N3REZZWWRPVUpPcFI3enFLRDNOa3ZrYXRGVE1obTFpUUdFQklBMWdzaGtiLTlTSFB1TnFSbW9Lc2JBSmJMazk2bGVUX0IwcFpBRUp4UDZNcHYtRHZXU2J3NnZvRFV4c2phRVFRcXM?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObEpYYVhST2RNbTFiclduQ2dFRkxJdkd5NEJ2OVFNNEtnR3dQbTNaejVmT2owV1VtTEV5V1MwZHV0bGszamJBdVJ5dFdCTFd1UGo4Y0sxNk82aklqYkNyTnJ5UnpCbmlvbTB1U3d6NU9rYTdlR1EyUmlXQXNkYTNwRUc4U19aT3M0bDdSQXhjQ1lOVFdmVXRLb0tlblJNZTRZcWpacEJ2TEFXNXdZQ1M1bk40TFkwU1BSakVBRnRUNU9zVUozRFlBUURQOThRcko1VE41bk16Y0liUnBjeW8zZjlR?oc=5"
       },
       {
-        "symbol": "TECHM",
-        "ltp": 1558.0,
-        "pct": -1.14
+        "symbol": "TITAN",
+        "ltp": 4841.0,
+        "pct": -1.38,
+        "catalyst": null,
+        "headline": "NSE IPO: India's largest exchange gets 43% subscription on Day 1; NIIs, retail see strong demand",
+        "source": "Business Today",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQ3BFdElNVFB4ckpiMlFtVzB5MkRub2RQaHQtYVg2dUdnR21pTUJ0QUhxQTBXU1JUai1DOWt5U0t1RTRMblA5SmQ5YlBDdzZ0eUZJS3RBZUZVRUxJcktYNE90M2MwNUNqNmlNVmhaQlJUYTFJTUdsZGR5ZWUxSlNmaFRXRGVBcmFxQzVyNXRxNjctdlh1dGF5S2gzQmppUmdfTHZwZFNaQWZQVzA1a2F6T3U2UFE5cnZpTnRsMGZhTzctM1dJbzNTbTF6NmxIX094bXcxeG1zWDZrQ1M2S2MyVm1EZGdDdDM1WEhoaHRiVGVYZ3lBamfSAfsBQVVfeXFMUFgxZGdBcW5lMlBodi1Na052ZzJJSTBSSVJ6MkxxT3ZfT1VnTHMtOUNJcFUxTTBCeEdtMENnbGxmSzlWd21FczE2YkZKU0UyMnVRZDViZFhSdzFWNkZJYTN6cEtSZ0ZwT1dReF95bnNWeUJVaXN3Q3NvTTk3R2FLVW1vYnpKZVM3bDZPQ2RiLTFuaHZENjdXTHA2XzZtSjgxMzJXV0hqSXpDVUVQaFc0WFFNelY5Q09RN216VWZPTy1CMFl1eGZpNUlyaVNidlZlZG1Xa1pUbmZuV3Y0d01xbHpLWUFxc1BRajR0RnYtSGpJOUZyM3BSY0pRUUU?oc=5"
       },
       {
-        "symbol": "LT",
-        "ltp": 3807.7,
-        "pct": -1.12
+        "symbol": "HDFCBANK",
+        "ltp": 713.0,
+        "pct": -1.18,
+        "catalyst": null,
+        "headline": "HDFC BANK STOCK: WHAT NEXT? - WHAT\u2019S HOT",
+        "source": "Business Today",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOS0tLcjhiRF9sckdmU0JmNktvUlUwMy1ybjJMRjU3dkJQaGZHY2d0NTlUdXd3ZlE5TnBfYnhNUkpwZ29hamdyblZDc3J0allva0pULUZaS3Mxb0lUR21Wb1FNa3B0SjAxY3hZWGRrZnNwMWpsY05lMW5pT0R3Uzd1TnhUVHhnbWlzWEFlYUlpUFdEM25qUWFQMjMwakVrRU1TNGtoYzNRSGJkRFZxODNUU0xTMmpWcWNoQWFuWXc1Smp5VllxNFRwOEYwa1NDelQ1ZUZodlR5Wl9wZHg0XzQw?oc=5"
+      },
+      {
+        "symbol": "COALINDIA",
+        "ltp": 418.0,
+        "pct": -1.01
+      },
+      {
+        "symbol": "HINDUNILVR",
+        "ltp": 1942.2,
+        "pct": -1.01
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY FMCG",
-        "pct": 1.63,
+        "name": "NIFTY PHARMA",
+        "pct": 1.66,
         "catalyst": null,
-        "headline": "FMCG Stocks Surge: Nestle India, ITC, HUL, Patanjali Foods Shares Jump Over 3%",
-        "source": "NDTV Profit",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNVpDYzZXbVRpUW1CWkNCY2w4NXZWX1VjU2hZYThneUNIYWd1ODFCUnVfeVAweGJTYXBNMmtQalZwQl8wamc0Rl91UjF1M3lzdkQ4ZjBlZVNWQ2d5bVlLaGgxUnAyM040NWNleGlHZm5WWklNLTZIdmpOQjFTd0luVUVLd2gyZXZtQTh2VmdlZ3g2VFZqOVVBUF9pNGo4aWZrMG9QX0NGSUYtUdIBsgFBVV95cUxOR0M3TF9HXy1VOWpndmtBa3BVcnhuejdXc3N2SUgzWkozQW4zZmlUVjNzMFg0OFVmNGVmbzdzNWtCNlA0aFpCTlZfNU9YTW1EQjVzbGNqcWxuTnhsR2ZrSXJSSnUxbUFqdE5BbDVYQm1UYXUwa2JyQlRuWW1uQWJzOEM4VmxyNmxaREs5UDd0YXRYUXJwNEVTZHlXdGtRa0cyUUc3cXhRaE5TT3Z0aHY5a2Vn?oc=5"
+        "headline": "Sectoral Snapshot Today, September 17, 2026: Realty, Pharma Lead Gains; Banking Stocks End Lower",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNnBiQjlLcUY1M2FqanlldXdaMk5wamcwVzk5cW1jLTh3Um11dUtKVGppeWRrSnR4amN0bkVUZElHS2JGUE9YbTVSTE1JV3I0elJ6d01QcUxQTG9CbDBfSXpHVE1LeEJlOEE3RjFPcXR4Y0lyY2hic1RjRFdUTEZOMmdmRVdDQWttaTIzbWhqYjhGMkIxamNhT2JPU1VWMzRkbkJ6ZkZkMm1oQm50U1ZRTmdyZGFyd3M?oc=5"
       },
       {
-        "name": "NIFTY PSU BANK",
-        "pct": 1.44,
+        "name": "NIFTY REALTY",
+        "pct": 1.45,
         "catalyst": null,
-        "headline": "SBI, PNB, Bank of Baroda: Did Centre order merger of 9 public sector banks?",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUJaaTVVVWl0VkZWMEFRZnJkcnp0eVNhbmNsTVRQQjI5R2toT3NRV01pNThreG9oVWJIWE5BRVcySkVJcmFBU18tU3dEeGZ5MVNuOWFsY1dCOXFRQWM4VmxhX1p2R3k4SWliNVZqN09UX0lncnI4N3F3TWZGVDZiUGkyQjA0Q1RURHFWYW5mVWVZNEZjSEhoRkJ0ZlVoWEZDdkVZTG1LTHJ5YTlpZjFNSFdCbk5rNmtlVlhVMk1xb1dLTnfSAcgBQVVfeXFMTzhVQm1MV2VnakN6MHR3eXRKN0pkUWVjXzc1V3ZMekVTSTZFMVJsd3M0T3Izd1haOW5CcW9zT2VaM2xIcUhBYXFNazBlY1h5SWo3THV3TkVzdXFiNVFSQXVaTWF5dXhHT05uNUNENnE5RTBKWUh3MUc1ODlHZUItOEY0YlRMQk1yQlkwVzRSSlQ4VVU2UjhrZkRiMHY4UjJOcFNVRmJSMTJfdU9KcGJidGZtbGdNLWxFQ014VnBMemhKMVYySTVENzM?oc=5"
+        "headline": "Sectoral Snapshot Today, September 17, 2026: Realty, Pharma Lead Gains; Banking Stocks End Lower",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNnBiQjlLcUY1M2FqanlldXdaMk5wamcwVzk5cW1jLTh3Um11dUtKVGppeWRrSnR4amN0bkVUZElHS2JGUE9YbTVSTE1JV3I0elJ6d01QcUxQTG9CbDBfSXpHVE1LeEJlOEE3RjFPcXR4Y0lyY2hic1RjRFdUTEZOMmdmRVdDQWttaTIzbWhqYjhGMkIxamNhT2JPU1VWMzRkbkJ6ZkZkMm1oQm50U1ZRTmdyZGFyd3M?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY IT",
-        "pct": -1.58,
+        "name": "NIFTY BANK",
+        "pct": -0.42,
         "catalyst": null,
-        "headline": "Indian stock markets rise on US-Iran peace deal hopes and lower oil prices",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObnNVbGpWSlRSWUtBZXY2Y3loYWUza3Fvd2ZJY0NHLVdhZkw0aTdPcG41UDlxQXFjMWl1ajRvckhWZVJaWmx5U3RuTWg5dGdFcXhFRGxYaGlyaElOOUVqVGhOcl9QME4xSVZ2UVhUMmlNSlhOVFh2VDF1VkMtYnE5MTBpZzFITDN4Z011SmlQVUpETW9COUpGaDhvRUlFNTJpNEE?oc=5"
+        "headline": "Invesco India Banking and PSU Debt Fund Direct-IDCW Monthly (\u20b9 1,012.04) - NAV, Reviews & asset allocation",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUXZuOURhNEZBdGlkaFd3WXBrbUljcVRuaXJVUGhVanFFeGthaUpoV042ZGtuVGs5T3pxWUlBS0gyWlhROEVJaGJkQ2E1LU55TnlNc0ZuSUtKSHhzWVA0MXp3d20xN2R0NzJHWWc4aGp1NWw0REZSdkFBV0daa0tWcWJXNzhxems4TjFzS0NrYnFnMy11dmp1d1JPbzNQb0h1RUhuYWZyU2tSV3VaV0tB?oc=5"
       },
       {
-        "name": "NIFTY PHARMA",
+        "name": "NIFTY PSU BANK",
         "pct": -0.16,
         "catalyst": null,
-        "headline": "Top 14 Pharma Stocks To Buy In India September 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSmxaNUxpT2wtdzdBOEMwZ18tbzhmM3NVOXN1RXlaTy1wR1N2SmZRb0RKSlZPSUpvRnhxaTlHQnBpYXV5X2RhNHNlYnEtYjctblphSkpUbWJHRDRoRWZwY3ZXMmMwRlBYZWR2TFhMcUhHU0lOd19VVmY4a0pxYUF2djNyOWp0TE9Rc0E?oc=5"
+        "headline": "PIB debunks viral fake gazette claiming govt merger of 9 public sector banks",
+        "source": "Gulf News",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQkFOMW5QZmdWcE91N25uY1hfbjdVMWVVbnZ6QTdWRHJGMDZKNmxIQk1MRXU4SzI5Z0N0cTVlSmF6Smhmc25vRHlXNUZPY1lfRXlEWHBlVWtkem9hQjBRX2NGRXU3T1FVWFVyVXBNMWVRLTdyNVZCU2tiZWNTWjktWFlrdFphS0EwMHc5UXgzU3RrZngwVlM3VDhHeUNNRkJRSjlQUzRVRnNoaDEyV1M4Wlk0ZE10WW0zdmFBQ0daNGx3cFU?oc=5"
       }
     ]
   }
