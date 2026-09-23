@@ -1,51 +1,51 @@
 {
-  "date": "2026-09-22",
-  "date_pretty": "Tuesday, 22 September 2026",
+  "date": "2026-09-23",
+  "date_pretty": "Wednesday, 23 September 2026",
   "mood": "Mixed",
   "nifty": {
-    "last": 23329.0,
-    "change": -85.3,
-    "pct": -0.36,
+    "last": 23446.8,
+    "change": 117.8,
+    "pct": 0.5,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 15,
-    "declines": 35,
+    "advances": 36,
+    "declines": 14,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 56215.55,
-    "change": -255.1,
-    "pct": -0.45,
+    "last": 56548.9,
+    "change": 333.35,
+    "pct": 0.59,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 2,
-    "declines": 12,
+    "advances": 13,
+    "declines": 1,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 23329.0,
-    "change": -85.3,
-    "pct": -0.36,
+    "last": 23446.8,
+    "change": 117.8,
+    "pct": 0.5,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 15,
-    "declines": 35,
+    "advances": 36,
+    "declines": 14,
     "unchanged": 0
   },
   "midcap": {
-    "last": 61963.15,
-    "change": -49.95,
-    "pct": -0.08,
+    "last": 62396.45,
+    "change": 433.3,
+    "pct": 0.7,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 39,
-    "declines": 60,
+    "advances": 67,
+    "declines": 32,
     "unchanged": 1
   },
   "vix": {
-    "last": 10.92,
-    "change": -0.33,
-    "pct": -2.88,
+    "last": 10.29,
+    "change": -0.71,
+    "pct": -6.41,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,35 +53,35 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 9845.81,
-    "sell": 13655.8,
-    "net": -3809.99
+    "buy": 13580.4,
+    "sell": 11962.95,
+    "net": 1617.45
   },
   "dii": {
-    "buy": 14599.72,
-    "sell": 10479.65,
-    "net": 4120.07
+    "buy": 14404.9,
+    "sell": 12063.44,
+    "net": 2341.46
   },
   "global": {
     "Dow Jones": {
-      "last": 51888.03125,
-      "change": -160.796875,
-      "pct": -0.30893466921835716
+      "last": 51555.19921875,
+      "change": -493.62890625,
+      "pct": -0.9483958122255994
     },
     "Nasdaq": {
-      "last": 27231.091796875,
-      "change": 109.001953125,
-      "pct": 0.4018936363420327
+      "last": 26961.68359375,
+      "change": -160.40625,
+      "pct": -0.591422898914126
     },
     "S&P 500": {
-      "last": 7767.52978515625,
-      "change": 2.82958984375,
-      "pct": 0.03644171407233734
+      "last": 7711.85009765625,
+      "change": -52.85009765625,
+      "pct": -0.6806456956078647
     },
     "FTSE 100": {
-      "last": 10708.330078125,
-      "change": -30.669921875,
-      "pct": -0.28559383438867675
+      "last": 10705.259765625,
+      "change": -33.740234375,
+      "pct": -0.31418413609274604
     },
     "Nikkei 225": {
       "last": 65018.94921875,
@@ -96,146 +96,146 @@
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.58000183105469,
-      "change": -0.43309783935546875,
-      "pct": -0.45108203030856137
+      "last": 95.7300033569336,
+      "change": 0.01800537109375,
+      "pct": 0.01881203137814949
     },
     "Dollar Index": {
-      "last": 100.59600067138672,
-      "change": 0.1660003662109375,
-      "pct": 0.16528962033905567
+      "last": 101.10099792480469,
+      "change": 0.6709976196289062,
+      "pct": 0.668124681459675
     },
     "Brent Crude": {
-      "last": 99.4000015258789,
-      "change": -0.9399948120117188,
-      "pct": -0.936809693361286
+      "last": 98.20999908447266,
+      "change": -1.0400009155273438,
+      "pct": -1.0478598645111776
     },
     "Gold": {
-      "last": 4390.2001953125,
-      "change": 6.30029296875,
-      "pct": 0.14371434360035673
+      "last": 4326.2001953125,
+      "change": -50.19970703125,
+      "pct": -1.1470548430541254
     },
     "US 10Y Yield": {
-      "last": 4.965000152587891,
-      "change": 0.0020003318786621094,
-      "pct": 0.040304895243301775
+      "last": 5.125,
+      "change": 0.16200017929077148,
+      "pct": 3.264158475581431
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "COALINDIA",
-        "ltp": 428.0,
-        "pct": 3.21,
+        "symbol": "BAJFINANCE",
+        "ltp": 1043.2,
+        "pct": 3.41,
         "catalyst": null,
-        "headline": "Top gainers and losers, September 22: Tata Consumer Products falls 2%, Coal India jumps 3%, Eternal up 2%; check list",
+        "headline": "NTPC Share Price Today (NTPC) | NSE/BSE Live",
+        "source": "TechGraph",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12NlF4T3VocE9pMGNCOVQ3UmVPYmpPM19haW5LNE4xQURLYTk3dVJMZkY4QllreDh2UzE3RDZqNERodHdKbmhFc1ljdzNuLVM3OGlsRVRXRnpGUGFH?oc=5"
+      },
+      {
+        "symbol": "HINDALCO",
+        "ltp": 1003.8,
+        "pct": 3.17,
+        "catalyst": null,
+        "headline": "Hindalco Industries Share Price",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYVU3d1Fob3plMzZFNEp6SHJiZzlFZFAyTmpaVGZCTjFWRy15X1N3b01GRjlzdkNKcnIxdVRMX1JRMDliQTUyMUFpVFFOWmNQbXFhMUQxZ1ZHeEN5X0k1YVJrS1lHNmhacnozUllGdlNSUXNULUtwLVJRVEpUU2xpTnZGV0V3QW5iSnd4d0Y3dGFOZmlnN2Jwcm40SzBMc19FQTJKSE0yX25mRUdzaWg5ektYdWZnTWQ2MEQ3MjQ3QkF2clMyUzIzdDFtUUxVSklpX2sxR1F5TGpEQWNieGRrb2Y4eDJfUGRBUkdrQ3htWmYzcFdjdy1GRnFtMmI?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5LanFkeG95aGdQRGNtS2RLWTRfUkx0VnFNNmVIQ0pXWXFXUGZXcXFkYnF5YUhfS1hCNnR0QmhhazlPYmowNmdGclp6U3RqRDk5WjRwZmkyeUg4QWJGWXc3eGdZV2otYzFsZ05JWkp6WQ?oc=5"
       },
       {
-        "symbol": "ETERNAL",
-        "ltp": 342.0,
-        "pct": 1.82,
+        "symbol": "TATASTEEL",
+        "ltp": 190.82,
+        "pct": 3.16,
         "catalyst": null,
-        "headline": "Zomato Share Price - Live NSE: ETERNAL Stock Price & Chart",
+        "headline": "Tata Steel Share Price - Live NSE: TATASTEEL Stock Price & Chart",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WQzNEWlBxdEUyRW9HUDYwalMxLXRKX0dLSG1TU1pXbFlfUmxWTW9pVXlBZXhQTHFLWDNOemxxMUdtWWxMekNaNUZqWUhVTlVKR0dEeEh5S3p0dmNhcmFjd0dPMUM?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LRXJEU2pOS05Zc1RWQTRTNXNFT19YSXA3NG5Fek51VUNvMGpoNG9vNW9jem5MUTd5dEJITmJqLUtmcnhaZnRsbEVlTEt0YTdWM1IxbUFiMmZIVDUteE8zNmNpMTR6ai1L?oc=5"
       },
       {
-        "symbol": "INDIGO",
-        "ltp": 5030.0,
-        "pct": 1.8,
-        "catalyst": null,
-        "headline": "Top 10 52-Week Low Shares To Buy In India September 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RSERnMHJOMFZWbERwRE04WjRzYjNoYUxBQVJONTZSNGJsX01zRlhkUlN2ZlE2aEdCcDBRTm8xM09tajQ5Z1lvWlZxWUNEdWVxSFI4NWtURkg0UWNQaXBjVHBhSUtjYUtzWlZOZDFtc2czLXUyTnpoQw?oc=5"
+        "symbol": "APOLLOHOSP",
+        "ltp": 9069.0,
+        "pct": 2.64
       },
       {
-        "symbol": "TITAN",
-        "ltp": 4928.5,
-        "pct": 1.1
-      },
-      {
-        "symbol": "DRREDDY",
-        "ltp": 1211.0,
-        "pct": 1.06
+        "symbol": "JSWSTEEL",
+        "ltp": 1297.8,
+        "pct": 2.43
       }
     ],
     "losers": [
       {
-        "symbol": "TATACONSUM",
-        "ltp": 984.1,
-        "pct": -1.65,
+        "symbol": "HCLTECH",
+        "ltp": 1256.7,
+        "pct": -1.08,
         "catalyst": null,
-        "headline": "Top gainers and losers, September 22: Tata Consumer Products falls 2%, Coal India jumps 3%, Eternal up 2%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYVU3d1Fob3plMzZFNEp6SHJiZzlFZFAyTmpaVGZCTjFWRy15X1N3b01GRjlzdkNKcnIxdVRMX1JRMDliQTUyMUFpVFFOWmNQbXFhMUQxZ1ZHeEN5X0k1YVJrS1lHNmhacnozUllGdlNSUXNULUtwLVJRVEpUU2xpTnZGV0V3QW5iSnd4d0Y3dGFOZmlnN2Jwcm40SzBMc19FQTJKSE0yX25mRUdzaWg5ektYdWZnTWQ2MEQ3MjQ3QkF2clMyUzIzdDFtUUxVSklpX2sxR1F5TGpEQWNieGRrb2Y4eDJfUGRBUkdrQ3htWmYzcFdjdy1GRnFtMmI?oc=5"
+        "headline": "Market wrap: Bajaj Finance, Tata Steel, HCL Tech, Titan Company top gainers and losers on Nifty and Sensex",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTTZiZ0ZWSjN5VmhXNnpYMlVxV05zZUZtMHczUUEtZjVrYVJ4QUhSdWxLYmNJWnpadEU5Zmx3cnJET2UzLVZQN1RkMWxndUxUaElRMWNIengxRFBla2xsZnY4eGd5Rk9VZjU5RVhiN1IyRzJpa1ByTG9xRjhmNlBXUmJSX3NWZm16UGJxZ0I2Q1B1SHdlNDJid0VOcThVdmdteDdXN2N1WUNpVTd0MlFwbW9wblRQcWtBVXZFUTYwOXh5VEZMT01tN3FjWDdmd0RIdkktQWJTa1A3aUtCWHZJSHNzOEdLNjVLN0Z0a0FkWEZRNjNIeVpGajFSOGViQV9OZzRWOFZvd01odzVkOHZTRWdEUWVrLXpv0gGeAkFVX3lxTE1VczNIWWtoVm1JQ0xfZmRTa0l6dE9EQ2pLVnpDdEd2WWhpNE9zbjhsbXAwMnhuaGxiUGJscW5uUzlxR2UtWXVwaFk5NFV6Z0hSMm1UMXpGSDRvZFJ1UUxvOXlEcU1ORDRDVzljeHNrVzcwc3U1WlpBM0lMUDhmTXc5UUxNei1fMC1oUlRkUVB4RC1odjMxck1NeVBObVpxWi1TaVBlU21PWnBXVlg1WW9MOXR6R3FiYmc2eVJ6ZDNfOUZVVDAwZjZxMXNuU0MxMlZheThGeVV6RkVidjNjc2xqaE5Sd0ptZXlUVDd3UWZtQzVpR3VUYXVNYUhxa3VhV24zbG1jZExxbFMyNmVKSTh3a3VGVl9LYnVRUk11VGc?oc=5"
       },
       {
-        "symbol": "NESTLEIND",
-        "ltp": 1363.9,
-        "pct": -1.52,
+        "symbol": "TITAN",
+        "ltp": 4880.0,
+        "pct": -0.98,
         "catalyst": null,
-        "headline": "Nestle India Share Price Today: Fall, Valuation and Peers",
-        "source": "Univest",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZllQb3p0UlB1aFNqMWdqYWJFWDUxdGJoUG4tME82dE1WY2diLUhoU1FHMDlWSXhRVjdSdE1CejZKZE9tVEgwdUdheEpmbUlxaWx6VmhabGlISGU2dXZSdmtxXzktX25pd2sxU192dHVVVWM5OFJ0dDdnZWFzTkVXNQ?oc=5"
+        "headline": "Top 3 IPOs Performance Report Card: Ahead of NSE, know how Hyundai, LIC, Paytm fared on exchange debut day; data details",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOaHYzRVl2Sll3ckp4VUdrYTFhc2VCeUp6eVRqNk9SYThHRExtS2I5blJkdlpIa2hUM0lfYi1jZjdkZ2x2c2J6NDMyem56MVRGV1lHNmtyRUowZTFMcVZiem83ZEdvcnhkakxNZUtQRWdQa1B4b01RVTV1VnE1UXBZQV9CbEJGYjJFSXpVcVNNcXhPeDFqb09yLTlROWxvM1dqR3pFaFF3N2lBZHlucHN3SHBmWmR4Nk9vdGNrUjFlVGZiZlVUdnVKdWs3c3pFUGFsRi1JSkVDUUx4emdrUDVWX180dnUxamNoY2lHdmZIcUNJVEVfZDlTSkdzWWRyTXZJSmhBRUpFTVhoOUxrNEZvNTJHa9IBmAJBVV95cUxQQnlGN3FPZ0VmcktReVdKUDFaNFRhejNOX0MwR3RnY0hHV2IzQ09DNEI4eVRvd3NXRnY0UTMzTjR5Wml3WlZ4WU9JYnFYZkJKeDRfcThNY0FsQk1CSkI3azRUU0tLZkVHa3NBbklSMWlqMDE5YndxbmRhdzMzLTZRWGFjc3hEV3FjZzN6QXE3TW9xYzZRcnFqN1c2czRmRS02djVVNW80RVo4WUxyRWlUX0ZJNFlMdDBmUjNlVHY5bHJhNkh5SzdGQkVsbTlJZzl2QmhhdzJjUExZY19mRlk0Z0dsNkpYWjE2c004SnMyNGlsV3RlYklMdWpYeTl4U3JRR3g4RjJGVmVhTG5mMmhmOVN4NVJyT2tr?oc=5"
       },
       {
-        "symbol": "BAJAJFINSV",
-        "ltp": 1823.4,
-        "pct": -1.43,
+        "symbol": "INFY",
+        "ltp": 1020.5,
+        "pct": -0.86,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "India stocks higher at close of trade; Nifty 50 up 0.50%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU21TeE96bnZqUlo5NTVPdk9LQzY5ZnJjcE0zV3RtRXVCY0swZy1WdVkzQnA5dm5MWHZNN3FLcERVT1dwRzAtQlJwbU9scDlkdnF6bVYxQXFiMzRpV19Cd2I4dU1fYnd2ekNMSkRqVjBHTWdKLUQzRHhwT1Y2YnpvSFNLM2hJX19KcXo4a1VIbnJFSGctcndibmMzVWlyN2dvMnA5ZmVCV3JseVl6X1dz?oc=5"
       },
       {
-        "symbol": "BAJFINANCE",
-        "ltp": 1008.8,
-        "pct": -1.22
+        "symbol": "COALINDIA",
+        "ltp": 424.55,
+        "pct": -0.81
       },
       {
-        "symbol": "SUNPHARMA",
-        "ltp": 1846.4,
-        "pct": -1.2
+        "symbol": "TCS",
+        "ltp": 2089.6,
+        "pct": -0.73
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY REALTY",
-        "pct": 0.9,
+        "name": "NIFTY METAL",
+        "pct": 2.4,
         "catalyst": null,
-        "headline": "Share Market Today: Nifty 50, Bank Nifty | Sep 22, 2026",
-        "source": "Liquide Blog",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYzBaX3ZGVEVKTmNLSXhjb0dBWVI5SXlYOFhUVVozdGdqaGU1RHlOTnlmMDhvc1UybTMzUDhrRWNCY3FnODN2emdDYm1QdFZRYlJFMktIQzNKZmJzUmNadGdqYnc5cEtNLTFMQ0VYZHByZG5nQUo5VE1Gbi1tSHM5dTZWcVVrX0ZKbzNhN1BDUmFXS3ZUOHRHNXlBV2VyN2ZMMXQ2ZjVVdXNhQVJOYndqYVl5RWRIZw?oc=5"
+        "headline": "Sensex, Nifty Rebound as Oil Prices Stabilize; Metal Stocks Lead Gains",
+        "source": "indianewengland.com",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR1ZId25kZjNVbGhfRHZLY3JGbFh3MWVvU1liMGxuUDBSMV8tM1lPOEVtbjRxc1RwZlFCQk50bUNqTEgzMUZveEJlYVNGa0IyM3dTM0tlbzdVMDVuZERqMEFYQjE1bzIxS2pvenBpTENsZWtkbTdWSFFQTzg5M1pEOFFzZnFDcTVfRjdVeXU0dlNMbHhaaGp4Sld4dm1OQQ?oc=5"
       },
       {
-        "name": "NIFTY METAL",
-        "pct": 0.14,
+        "name": "NIFTY FMCG",
+        "pct": 1.32,
         "catalyst": null,
-        "headline": "Live: Nifty off day's low on expiry day, Oil above $101; metal stocks shine | Closing Bell",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcmdyU25rTnBHVW04ZDBqWTRpLUhzUGJKZkROTVo5MmRRYzF6MlN5N184NUxmaGhtNlFvRDE3VTlIcFFXRW5RaGxlYTBiMjBPU2VMS1Z2ZHhMMEhyMTF3TzF3YnNuQ2VFbHp6YmotU0NlVzRaX0xpOE5oSUk2d3ZqSFNjcC1qTzJubmtPN2JmTG56bG91eGJzWmlMR213WnItMUJwaXdQNmZXc0xYcWpiLVVKd3U4M3pRS0NDV05EdTQ3VHhrU05IR1o0T1c4LVcwaDgxbzQxQ2M4X1JUN1RSVld2RnN5QUZyRGc3enRhSDVSUdIB8gFBVV95cUxPcmdyU25rTnBHVW04ZDBqWTRpLUhzUGJKZkROTVo5MmRRYzF6MlN5N184NUxmaGhtNlFvRDE3VTlIcFFXRW5RaGxlYTBiMjBPU2VMS1Z2ZHhMMEhyMTF3TzF3YnNuQ2VFbHp6YmotU0NlVzRaX0xpOE5oSUk2d3ZqSFNjcC1qTzJubmtPN2JmTG56bG91eGJzWmlMR213WnItMUJwaXdQNmZXc0xYcWpiLVVKd3U4M3pRS0NDV05EdTQ3VHhrU05IR1o0T1c4LVcwaDgxbzQxQ2M4X1JUN1RSVld2RnN5QUZyRGc3enRhSDVSUQ?oc=5"
+        "headline": "3 Indian Founder Led Stocks With Earnings Growth Up To 115%",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZ3hBUE9TaVF5czlHTU1CYWRmUkJZdk9OSUxfNUVfYkUzWVN4TjRWQVY1WnVDSklRX21oSE9nQm03U3RYNVp1ZGpPYi1pdjItYkY1NEJ3aWNsLVE5ZHJzVVBVSE1SdThldFVHU1NZZWJOaGFwbGszSEhMWUtMd3hKSl8zOUwxZDdQUGR0a005dEJMTjR1S2NZTnpDTEMyUnM5ckFfaXpXaVo2Qmd3bDhEV0FzZmVKSGJDQXIyX01QeGowYVcwelp3c0pCVkppenJ3ek1xWU56dkJrMFZaR0dQUFNGTkswRWZDNnhiRtIB8gFBVV95cUxQOWYyaVo4TGxyNW9lbng3U1BDcExyWTJQZ3F3V1g5ZzQ5VnhnUlktT0VNTHlkVF93NllRWUstbGVWcUg2dmdTSXVtY3pFd21pcENiNEkzN2M3YVlENVVfQVhhZGhHeWkta1VVTmw2bi1Vbno5aGl6S0R2QlYxaHJjT3ZYSkV0WWFsZHllSTFfbU5FVFFKRlNwaExUVUNRM3JubFpPR3VQNEdYclkzYlg2RkJCbWVnMFppMlhMNEZZX1FxbEZ2bld5VWpNOVZkNi1JY2hYZ1pRbTFHdXpBcklZSFVXaXB4TUFicVpnMDFZN2hNdw?oc=5"
       }
     ],
     "bottom": [
       {
         "name": "NIFTY IT",
-        "pct": -0.86,
+        "pct": -0.87,
         "catalyst": null,
-        "headline": "Indian stock markets remain closed on account of Good Friday | Akashvani News",
-        "source": "News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHFzTXo5azNDUkNSNG1zbTJiQTFFMnZjUk5tbi05a0ROUzB0NnNMVEpIXzkyTVFPT1B5NWFTMHh6VDRYaTJxcmdTcS1LUlhaSWJWQkxCaDlnWV9abU5ibEZaS2ZBSnZhRktUOTc2aXhXTTJxVURaRElHWDhScUFkZjdDSlQzMWxsdExLaDlXbw?oc=5"
+        "headline": "Top 15 Low-Price Stocks In India To Buy In September 2026",
+        "source": "Samco",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZGN1MTZSOXVGTTdPYmlrSl8zMWdmNFV5RVhaVnNBQzdvM2o4MUs3WHhoZ0VzdEF1a2lUX0xYQmh0VnJTZ3RLNFplTXN1MzF0SnM0N3dNeGdsOUtYMVVsRnJwSTQ3dEhtem5wcTNMTm80QzM2b3hvck5BNUdiTFRLNld3?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": -0.53,
+        "name": "NIFTY ENERGY",
+        "pct": 0.09,
         "catalyst": null,
-        "headline": "Nifty FMCG Today: Down 0.02% in Early Trade",
-        "source": "Univest",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VYXFBeVlpa2ljU3BDQjdSb01nNzBnZ3NlUHNJX2pUUjdkdC1EcTU1NGRlbV80ZkNOOGlxRXJsSXJQRUdZX2d2LXRDdkZNbmtxTUhwcWdxN0NtTXQ0TXhBRUJxNkl5d0FuMFdF?oc=5"
+        "headline": "Mixed Trading in Indian Green Energy Stocks Amid Market Gains",
+        "source": "SolarQuarter",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaGtyTmRWMWFFYWNRTmRxaHBwMzJlei10aGdOR25JMWJYYmh1ZzFGWnQ1MGlOaGRlbVhZWDhmci03Y01qTklUZjlvTmIyUTZ4TW9qWXZCTHhwcjVMTTBuYWlJdkVlUWlHVXFjNU53U09rRm5wMjdjSWVHY19yNUNwajZuT25Sa3h5bmFJVC1GNFZCSTV0YnVLUUh3TFFCaEk0X3hXRFRtRHJjZ1EtNzdPSjBsTWd1MUtQRjU2eFR4RFJ2U2F2S2RZRmo2OGk1QQ?oc=5"
       }
     ]
   }
