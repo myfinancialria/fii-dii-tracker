@@ -1,55 +1,51 @@
 {
-  "date": "2026-09-24",
-  "date_pretty": "Thursday, 24 September 2026",
-  "mood": "Risk-Off",
+  "date": "2026-09-25",
+  "date_pretty": "Friday, 25 September 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 23063.1,
-    "change": -383.7,
-    "pct": -1.64,
+    "last": 23140.5,
+    "change": 77.4,
+    "pct": 0.34,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 3,
-    "declines": 47,
-    "unchanged": 0
-  },
-  "banknifty": {
-    "last": 55438.5,
-    "change": -1110.4,
-    "pct": -1.96,
-    "year_high": 61764.85,
-    "year_low": 49954.85,
-    "advances": 0,
-    "declines": 14,
-    "unchanged": 0,
-    "catalyst": null,
-    "headline": "Invesco India Banking and PSU Debt Fund Regular-IDCW Daily (\u20b9 1,049.59) - NAV, Reviews & asset allocation",
-    "source": "The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaGlycmtMMGxMaXhuY0RBLXBuRzA3Wi1oQlR2WEZOck1aekkwWFFGZllFVUdaSDROWUNtTkxWc2FGUk5IYXRpT0s3QVR0V1VkZmo3NDM1V2ZiN2tRQkxKUEhDd2h3bmxLXzhjXzExV2pwTTUyZ183WmxDc2RBOXR2YjlDZ19yZF9KcWN2VGtTT25mLUUtYWJDZm1sN0J4OXBQSUY1S0NPYmZpTzFKT3M1Tg?oc=5"
-  },
-  "sensex_proxy": {
-    "last": 23063.1,
-    "change": -383.7,
-    "pct": -1.64,
-    "year_high": 26373.2,
-    "year_low": 22182.55,
-    "advances": 3,
-    "declines": 47,
-    "unchanged": 0
-  },
-  "midcap": {
-    "last": 60990.15,
-    "change": -1406.3,
-    "pct": -2.25,
-    "year_high": 64450.9,
-    "year_low": 52032.85,
-    "advances": 13,
-    "declines": 86,
+    "advances": 34,
+    "declines": 15,
     "unchanged": 1
   },
+  "banknifty": {
+    "last": 55580.4,
+    "change": 141.9,
+    "pct": 0.26,
+    "year_high": 61764.85,
+    "year_low": 49954.85,
+    "advances": 8,
+    "declines": 6,
+    "unchanged": 0
+  },
+  "sensex_proxy": {
+    "last": 23140.5,
+    "change": 77.4,
+    "pct": 0.34,
+    "year_high": 26373.2,
+    "year_low": 22182.55,
+    "advances": 34,
+    "declines": 15,
+    "unchanged": 1
+  },
+  "midcap": {
+    "last": 60906.0,
+    "change": -84.15,
+    "pct": -0.14,
+    "year_high": 64450.9,
+    "year_low": 52032.85,
+    "advances": 54,
+    "declines": 46,
+    "unchanged": 0
+  },
   "vix": {
-    "last": 12.7,
-    "change": 2.35,
-    "pct": 22.76,
+    "last": 12.18,
+    "change": -0.51,
+    "pct": -4.0,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -57,179 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 13111.22,
-    "sell": 18138.58,
-    "net": -5027.36
+    "buy": 12327.36,
+    "sell": 16021.29,
+    "net": -3693.93
   },
   "dii": {
-    "buy": 18196.9,
-    "sell": 13895.72,
-    "net": 4301.18
+    "buy": 14035.77,
+    "sell": 11197.6,
+    "net": 2838.17
   },
   "global": {
     "Dow Jones": {
-      "last": 51331.1484375,
-      "change": -180.44140625,
-      "pct": -0.3502928307927062
+      "last": 51767.73046875,
+      "change": 417.75,
+      "pct": 0.8135348761315102
     },
     "Nasdaq": {
-      "last": 26929.115234375,
-      "change": -6.923828125,
-      "pct": -0.025704700341926897
+      "last": 27044.18359375,
+      "change": 104.814453125,
+      "pct": 0.3890753810078579
     },
     "S&P 500": {
-      "last": 7705.56982421875,
-      "change": -0.4599609375,
-      "pct": -0.005968844532446531
+      "last": 7735.2998046875,
+      "change": 31.169921875,
+      "pct": 0.40458718050092096
     },
     "FTSE 100": {
-      "last": 10679.990234375,
-      "change": -25.3095703125,
-      "pct": -0.23642093892053137
+      "last": 10695.25,
+      "change": 15.25,
+      "pct": 0.14279026217228463
     },
     "Nikkei 225": {
-      "last": 65018.94921875,
-      "change": 882.69921875,
-      "pct": 1.3762875421466019
+      "last": 65513.98828125,
+      "change": 495.0390625,
+      "pct": 0.7613765962819372
     },
     "Hang Seng": {
-      "last": 24834.119140625,
-      "change": -208.591796875,
-      "pct": -0.8329441544710958
+      "last": 24761.130859375,
+      "change": -72.98828125,
+      "pct": -0.29390324189353595
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.94499969482422,
-      "change": 0.2552032470703125,
-      "pct": 0.2666984950789942
+      "last": 95.802001953125,
+      "change": 0.06079864501953125,
+      "pct": 0.0635031135172541
     },
     "Dollar Index": {
-      "last": 101.29499816894531,
-      "change": 0.19499969482421875,
-      "pct": 0.19287803933462322
+      "last": 100.97000122070312,
+      "change": -0.31999969482421875,
+      "pct": -0.31592426886350644
     },
     "Brent Crude": {
-      "last": 106.94000244140625,
-      "change": 3.8600006103515625,
-      "pct": 3.7446648639742923
+      "last": 97.6500015258789,
+      "change": -8.949996948242188,
+      "pct": -8.395869677629449
     },
     "Gold": {
-      "last": 4302.89990234375,
-      "change": -15.5,
-      "pct": -0.35892924116609937
+      "last": 4328.10009765625,
+      "change": 30.10009765625,
+      "pct": 0.70032800503141
     },
     "US 10Y Yield": {
-      "last": 5.161999702453613,
-      "change": 0.04799985885620117,
-      "pct": 0.9385971905395282
+      "last": 5.184000015258789,
+      "change": 0.021999835968017578,
+      "pct": 0.4261882061972385
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "CIPLA",
-        "ltp": 1399.0,
-        "pct": 1.16,
+        "symbol": "AXISBANK",
+        "ltp": 1222.4,
+        "pct": 3.03,
         "catalyst": null,
-        "headline": "Market wrap: Cipla, ONGC, HDFC Life, Bajaj Finance top gainers and losers on Nifty and Sensex on Thursday",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPTW85R2pQcjhyVXRwRjlUR2RGMHRNYWxOU1pJbmlFZk91T3J5a1U5V0JHTktDN2xTbUpCZHFiWHluOEkzZ3lSN1p5dHdfaGVFZV9IX2dnVFdrWE5URGhsNExNSm9BRWR4VlNmMXI2V2hMUmtVQ1N3TC1jbEhMVlhjZ0hFYnBMVTJTY08wa014Q2U0UVFRek9oWU10NTlHMFBUNWNJUDM2Q3hfLTgxcV9JblFoTkFIY2lnaXpsSEJxRHN4VnRIbDhYam5ZdjYxc0J3YWpTeTdmRlFZRUM0Qkw1TUMwY1FSXzNCZ3A4TnFFOXgxZWd2WkZ6ZlluUWc4TlZrUGwyWkFPQUViaF9QalBMd1Bn0gGLAkFVX3lxTE9PMFJhRUdvRjl0X0l1b1Iyc3ZoTFRETHI2WUxxcnZCUW82Ml81SUJKLUc2TkNib0pfZDRpV1RRM0Y2dEFzMnJlVF93NVd3WkF1aUZDZGdVWVhjdHpkeC1yUDFydXZjcE13UmlNQVNHOEN3NGlFT0pLZWlFRk1zX2tybmp2N3lYbW1TNFVTRkRXbVBuYk5rcUdSX1h3a2RZWVpTaTZFZ2Roa1NKTzg4WDNLUVpLMFZvUUZSc0x3YXBhOU5QUnlEOU9jR1hadWlKTzFMazdvdlRRc2ZwQXptelVSNXNCemdTSUJrS09qbHJzbDh3VVFaWEJBbkxhd1Q1RFZHUlZ4UmtOZjh4TQ?oc=5"
+        "headline": "SENSEX surges 315 points, NIFTY50 ends above 23,100 led by HDFC Bank, Axis Bank",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSExZWjVHTzZGYlZTR2VwSWlhTTZsYTFMbTlWV0V1SHZBZ2JSNy1UZGF0elYzSVFHNUhVdzJQZmxjRmFBQkNCRjZUb0huQWx4bUhMM0dzbEtDbUZlZ1o4dVRzSVR5LTdlbndTbXRQcjlDNDVMOVpDMnJKVW9uTmlEcmJSNUlvaVBaMGNuWW9ITmhJU0p5Z1ItOXdKSmNpTVZmYV9XZzlMUkJHcU9rejhaSXQzNDN3ZDQtNDA2eTdfbUFJNmRvd1lWQVgwbWZyT0VnQUx3?oc=5"
       },
       {
-        "symbol": "ONGC",
-        "ltp": 239.0,
-        "pct": 0.89,
+        "symbol": "ASIANPAINT",
+        "ltp": 2444.0,
+        "pct": 2.14,
         "catalyst": null,
-        "headline": "Market wrap: Cipla, ONGC, HDFC Life, Bajaj Finance top gainers and losers on Nifty and Sensex on Thursday",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPTW85R2pQcjhyVXRwRjlUR2RGMHRNYWxOU1pJbmlFZk91T3J5a1U5V0JHTktDN2xTbUpCZHFiWHluOEkzZ3lSN1p5dHdfaGVFZV9IX2dnVFdrWE5URGhsNExNSm9BRWR4VlNmMXI2V2hMUmtVQ1N3TC1jbEhMVlhjZ0hFYnBMVTJTY08wa014Q2U0UVFRek9oWU10NTlHMFBUNWNJUDM2Q3hfLTgxcV9JblFoTkFIY2lnaXpsSEJxRHN4VnRIbDhYam5ZdjYxc0J3YWpTeTdmRlFZRUM0Qkw1TUMwY1FSXzNCZ3A4TnFFOXgxZWd2WkZ6ZlluUWc4TlZrUGwyWkFPQUViaF9QalBMd1Bn0gGLAkFVX3lxTE9PMFJhRUdvRjl0X0l1b1Iyc3ZoTFRETHI2WUxxcnZCUW82Ml81SUJKLUc2TkNib0pfZDRpV1RRM0Y2dEFzMnJlVF93NVd3WkF1aUZDZGdVWVhjdHpkeC1yUDFydXZjcE13UmlNQVNHOEN3NGlFT0pLZWlFRk1zX2tybmp2N3lYbW1TNFVTRkRXbVBuYk5rcUdSX1h3a2RZWVpTaTZFZ2Roa1NKTzg4WDNLUVpLMFZvUUZSc0x3YXBhOU5QUnlEOU9jR1hadWlKTzFMazdvdlRRc2ZwQXptelVSNXNCemdTSUJrS09qbHJzbDh3VVFaWEJBbkxhd1Q1RFZHUlZ4UmtOZjh4TQ?oc=5"
+        "headline": "Asian Paints (NSE: ASIANPAINT) Up 1.48% at \u20b92,428.2: EMA 51, RSI and Q1 Numbers",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQW9vNjNpQk9YLUF4b05lQWotQmtfTl9NWnBmRTRpSGp2OEE3Z0o3YXl5Tm9EbjV0UWpUMVpsOHFhOUFyeGdEY3lkYUxwcVllc0dUQnllMXdyTlZ0NmdfVTlUX2NlSHlkaXZabWNqVDlrY19STWM1WGpTel96NTVKYlh5QjktNUhSekJpb09NV01BUDZWVVZKeFlqWkVjX3VUNExndlpJMTN1RWd3dmZwWHo0NXJVcFYzU1FqaUpsQk05N3pPQzRZWmw5X2p5bWpleFgtZ2NUbDRxVk1GVkNQZQ?oc=5"
       },
       {
-        "symbol": "NTPC",
-        "ltp": 326.6,
-        "pct": 0.18,
+        "symbol": "M&M",
+        "ltp": 3035.0,
+        "pct": 1.75,
         "catalyst": null,
-        "headline": "Waaree Energies, NTPC Green, Adani Green: How renewable energy stocks performed on Sept 24",
-        "source": "upstox.com",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNb2tXUHN1Z09ZTUtmU3YweWdPOFRuYVlad3JDR2hONzBZeHg3bTNGRGVpdkhHSXZ1R3VoN3A3SjdmenZ5ZnZ3RG1YT3NPZC1kQ2NRUlpGUnJiQkx4OVZYWklIUEtRQ3RWSzhIbkxOQ21wMmR0ekVqblk4ck9EUGFiYXg0eTdNVXRhUHd5aW9vYWJUcVBjSjhnN2dTclJqa0tkNVl3WWlfRDFOVXhvcUZjNXFlXzdkcXpnN1l2V3AzTVdZTDRLOTk4TlF0elN3bndHU0dwTVczZXI4OTNlRkE2UzJnbWNOdmdCV3BSUTI4ZzVtRGM?oc=5"
+        "headline": "Mahindra & Mahindra (NSE: M&M) Up 1.68% at \u20b93,032.8: EMA 51, RSI and Q1 Numbers",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNS09jeWwyYzlXM0g5T2pCME5fVy1HMFZHbkZ6cjctUjIwb2hSQXdNYTBLTzFaX3FXeHpxZ1piNk5NQi1aSWpvZFBibGtKcXNUWmZDcFRDV2U3c0NzOW1hWk1HdC14MUVQNXNETDQwSEczUHY0NUtlQWlMVHJFeElGbHU3RnZia21PVml1MlJ6bG9OdktwYzM0N2lxcjVjUEpPcHhUTHdKQTlGRXJPS0dRaGRGVS05VTBUTzRnMEY4aFg4NEJCTURTbzlTMmdHRFdsUFdBc2NLdWxOX00?oc=5"
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "ltp": 996.9,
+        "pct": 1.52
+      },
+      {
+        "symbol": "HCLTECH",
+        "ltp": 1258.0,
+        "pct": 1.16
       }
     ],
     "losers": [
       {
-        "symbol": "HDFCLIFE",
-        "ltp": 526.9,
-        "pct": -6.16,
+        "symbol": "MAXHEALTH",
+        "ltp": 1014.0,
+        "pct": -3.06,
         "catalyst": null,
-        "headline": "Insurance Stocks Crash: PB Fintech, HDFC Life, Max Financial Shares Fall as IRDAI Proposes Dark Pattern Ban",
-        "source": "India Infoline",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOTl6aDl4ZDFwOW1TWUhmZUNIdkJVU1NtNENiZXdTWEZLMS1LekgtbFVIN05OWHpmRm14Y3hzRXNQcjMybktjT1pLSlhaamZMNmJHNG1tb29CNGxVU2FsUzhHSWZXS21LMUltVE1NaUp5ZTJEX3lNZ0NXcHBEWHR6cXBHZEM3S2RWclM4cmJYVTUxc2pYWDlHeDhGd1otcDAyZUUyR1FTQlZ3ZjZXSUJiUWpQRkctT2p5NFVESXAyU01TdDZsUjNzTTlBcUlVZVlGekpqWVFSaUpEbUZTUE1IaVNKTQ?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "BAJFINANCE",
-        "ltp": 982.0,
-        "pct": -5.87,
+        "symbol": "TMPV",
+        "ltp": 290.45,
+        "pct": -1.54,
         "catalyst": null,
-        "headline": "Bajaj Finance (NSE:BAJFINANCE) Gains Attention Amid Financial Sector Momentum",
+        "headline": "Nifty logs longest weekly losing streak since Covid-19 crash in 2020",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUUtnVHpwYkFNOFNFZjNYdE9VYmR6ZXVKQlA1ZExrLWF4dkp0alBuZDdEMnUteGx5NWdQZ3FwNEtRRXYySDJtZXRpT1dnbEQzX295bVZDUkRFSkl5Yk5MSEFOblhOUm5tN3VCVlB1QmV0ZnFIUnRULXd3Y0FsX284cUtMcERJNkEwRlgxZlkyUDNiUTFudFNmOThaOGp3RDZwd2t5ZFlPcXUtcjFSbThTUEItVjUzdnExcmhFRUhSd0NMTnE0X1VwZks5eHN1MUdN0gHWAUFVX3lxTE9BVlRVWVBPd2tYd1J2aFZZaEx0eDdDaDY5WW1hcUN0T0tOVTI5UmhYbnpBakt2Y3dhWmJ0M1otX282WVRhTU5aSURlTG82d3p6TFRsdVVSWTVhUW4xYmJLeXlTWEhOdEl2XzdaYUkwUTZ4WDRCNzdkR21OblBDSTE2a0tPc3MwQkxGZGVsRmtwYmlSRFJjS2JpY29rbFlHSHBLazNKYWZobGMya0d0eTF0RVNvN1pwLUtPVGJQQXE3NkFyM3Qwa0JfNXYtS196MGhYMWtzSGc?oc=5"
+      },
+      {
+        "symbol": "INFY",
+        "ltp": 1000.2,
+        "pct": -1.41,
+        "catalyst": null,
+        "headline": "Infosys (NSE: INFY) Down 1.41% at \u20b91,000.2: EMA 51, RSI and Q1 Numbers",
         "source": "Kalkine India",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOHZxeWV4cGJVRjNBcnV1cjFPcmlWYm9tODA5Wjd2ZVROR0I3WjNDMldjaXhlOEtqTjh3T3BtelBBNmhSdENGdTQzSldUN3UtWXI4LUhCQXZDRU55MVloTXMxZXBkTTRZZTl6eDJoSF9FYkVWNEI4d282SURWV1hSVG5DelpYMUU1LTJaZ0hfQkhtWmpRX09xTkk3QnZwMkFlTTk1UkhUYmpuTlpuMnlpbGNOd1RydUZvbnVKODl3Z1AwWnFvVl82R3J3QWxMOVU?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWWVyOUNHdV8wOHRLaUNrTUhwRWJZZ0dnY0QwaWdmOXRLb09QdEd3Z1VzUi01RGZnTjhyTU82SUhMSXNTZFJEUWZFSHpkQzh4OWlETU00UnhtRV9RNGpYSnN5bE1qOXhHQm1TaU92VFlZZTVjQUNYQkI4ZHZNbmRDazczdWQ1SkUyZmc3NDdYUEdwdEFUQk01SjNYZzlXVGdsVzZBVkdpSWtPMEVWNlgydGROZGpOOTBVUUdIeg?oc=5"
       },
       {
-        "symbol": "AXISBANK",
-        "ltp": 1186.5,
-        "pct": -4.56,
-        "catalyst": null,
-        "headline": "ICICI Bank Share Price Today, ICICI Bank Stock Price Live NSE/BSE Updates",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX203dWxrZzRtNEZVQVFkRUVXMVdIblBYdzRjQmw5em14S3g4MVlqQkZreTRzdUtfR2oxdEplVnQ3dW1WSWl3bjNPeG5EWVhwU3dBanNmT2RReDRoRWZnRkdOamNfdTdDMUJaYmFreW0tUEduS1NmRjFUX1dyelVSbXd5bw?oc=5"
+        "symbol": "ONGC",
+        "ltp": 235.86,
+        "pct": -1.31
       },
       {
-        "symbol": "BAJAJFINSV",
-        "ltp": 1762.3,
-        "pct": -4.56
-      },
-      {
-        "symbol": "ADANIENT",
-        "ltp": 2900.0,
-        "pct": -3.11
+        "symbol": "TRENT",
+        "ltp": 2669.3,
+        "pct": -1.14
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY IT",
-        "pct": -0.44,
+        "name": "NIFTY REALTY",
+        "pct": 0.92,
         "catalyst": null,
-        "headline": "Indian insurance stocks crash on regulatory overhaul fears",
-        "source": "Investing.com India",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOGVFUXVzczlHSUU2ekFiSE1wX29INXJ5Z1puM1dGSlRNTzFlMFB2UFdXcVJoV3ViZ2p2YW95TEdhMEh5SDc1SnNRRVlnMHJYcmI3T3RIYUVYaVJ0dmpyVXNBbUVvSjM3S011WlNnNDdxV2hyOUJHUnFUUXFDaVo2MU43d21FUWx3TGFyVGttbHJJV0lKN3p2TzRuSThvajZ1RFFoMzFjZnNTRzJRU0J1cXI4SGQ?oc=5"
+        "headline": "Top 45 Real Estate Shares To Watch In September 2026",
+        "source": "Samco",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLdUphN3JOelNWNU0wOGJ2b3VTQXlrX3RUVHd3Z0pmV1lfb3pnZ091azhqSW5ycldqc2RQb3ZEOC1kRGg3VVBvWE9keFBvV0l3cXlTMWctQnF6ZTE3cWhMNi1NQmxOTGQyZjlGVHZodGZlS0l0c1J3X0ZaVQ?oc=5"
       },
       {
-        "name": "NIFTY PHARMA",
-        "pct": -0.45,
+        "name": "NIFTY AUTO",
+        "pct": 0.89,
         "catalyst": null,
-        "headline": "3 Indian Export Stocks That Could Benefit From A Weaker Rupee",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVGN5NWZ1TnFTNUt1elFVSE5Tam8xZi0zWVY4Um1SX3UyVE5xNDZPZmpWQ2VWXzBsaW1vcnVzX1NoZXk0aWJjeU5iaXpiT1dTejAwSUt6Z3FhTThnTlhsa1ZFdHpfTG1sNjIzQ3pkZ0duUXY5N3ZqZU1qckxKVlZneVRJVmxjU1VrckJtQWlBNWRsNGdZbnRxX253TU56dE9NdXA0RlRoR0dLS0VDWFQ3VXJILUlrcF9OTU1lVk1sODFsbmVIeG1ROEFLcUlhWmswVzVkUjgwRW85cUNQUXpOcS1VZnBLT2pMSlZ1c3lGQ3MyN0JKeGlB0gH3AUFVX3lxTE1UY3k1ZnVOcVM1S3V6UVVITlNqbzFmLTNZVjhSbVJfdTJUTnE0Nk9malZDZVZfMGxpbW9ydXNfU2hleTRpYmN5TmJpemJPV1N6MDBJS3pncWFNOGdOWGxrVkV0el9MbWw2MjNDemRnR25Rdjk3dmplTWpyTEpWVmd5VElWbGNTVWtyQm1BaUE1ZGw0Z1ludHFfbndNTnp0T011cDRGVGhHR0tLRUNYVDdVckgtSWtwX05NTWVWTWw4MWxuZUh4bVE4QUtxSWFaazBXNWRSODBFbzlxQ1BRek5xLVVmcEtPakxKVnVzeUZDczI3Qkp4aUE?oc=5"
+        "headline": "Share Market Today: Nifty 50, Bank Nifty | Sep 25, 2026",
+        "source": "Liquide Blog",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSDhUYXNWRTlqWmlQcTBzV2Ryenl0ekYxa3A1clpiak8zNldSMFNJVm15Z3ZOT09IcXVjNTJGd3U2RDRrYkJNLUFqX3M2MUJ6Nll6YnJTODZfY2xBWEtNZU1NTEwzeHVGQ3hRM0pJdWE5bVl2dG5CN1FQd1BKVDB5YVc1Q0FWdWpycEdkenN4bzgwQTMyUURLZ3NTTkVZQ1dadU1iZFZ2LUdOa1E?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY FINANCIAL SERVICES",
-        "pct": -2.39,
+        "name": "NIFTY IT",
+        "pct": -0.17,
         "catalyst": null,
-        "headline": "Banks likely to deploy FCNR(B) liquidity in coming months as festive credit demand rises: RBI Deputy Guv",
-        "source": "bfsi.economictimes.indiatimes.com",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdWZwTFNidTcyT0JENTJMMmZ5ZUNNYUVsbEpnNVNBcUxQWThHWXd6anpjUVVpQlVjT3NsUFBXR0VHTWt4ZW40U2JuekZRREhzVWRLX2lzdlNDcnJIQ0NWc2VHZDJETE50VGpRYmdmZlVfQ2pJYmpIQnZsWHBkMGRVUFRCTFJWemdxbjNXY1F5ejhvNGNqMkU4M2dHdm5HaFZwT185TUFRWk1EeHViMW9xUUNiSklJUlFzeW5mWV9la1BRRFF4aGRIQm1YU2ZvTDFIQV9kRXB6Wm1Ea1JPWTFCcm11UGhYdXpuRklZRldjcWVhNWVXYV9KWmVBZ0VQbklka3pLTkpKc0jSAY4CQVVfeXFMUG42LTNZbl9TOE8ybmdqTHhVVmxoSWtzeTFSQWVFQUNUdFJKR1U4M3lxZjJYN0dkTGVSdUFqc3BWa0JNNk90aTU5RGxZVzNjYlBUbTZOVlN3Nm5sQ1pUZDlVREFqVjlSTUhCMDM2bzBEa2hyc1RvUDFBOU9rNmpnZEl6WjRQTjJxZWZwSF9HX0dveFZKU1hfTmJib1ZlM3ZmU1FhZjRPRTh2UHlENFRMM2hEZmVqMFVRZU52Wms4NlpoRXhqNEhDQzZpbFo3TG94OXg0NmpyR1ZMRnZYWGtsSmtuNmtGOTlWMlV0WWxMVHVyaHpnYnJyVm9zWnNCMzhKUHA0aWdlWGtQSEtJM2Fn?oc=5"
+        "headline": "3 Indian Undervalued Stocks Trading Up To 49% Below Fair Value",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT200SC1oSDI5TzQxXzcxelQ0SWx1Zk5Sem9pY2RWTkRDc0F3N2p3T1VNX1Zta3EzTzBkV3RXRG9QWWMyNDU2MXVUTnRuWG5qb3lNTUFBaXdITDZudkVKenN6Q05UQ1lYZVltR2tqbDB6YmV6NzRWQjRzVWs1WUhkRllDZ0xxaG1pTUpJbWRIbWpINTVRMFVfVTdzZWNIR3VGOWtPeEozVUxsTlJlbDNPdF9aelhMdEwwbXZHLTg5dm9Nbm0tcFVtMklIT1RVNEs2dXIzQtIB1AFBVV95cUxNT200SC1oSDI5TzQxXzcxelQ0SWx1Zk5Sem9pY2RWTkRDc0F3N2p3T1VNX1Zta3EzTzBkV3RXRG9QWWMyNDU2MXVUTnRuWG5qb3lNTUFBaXdITDZudkVKenN6Q05UQ1lYZVltR2tqbDB6YmV6NzRWQjRzVWs1WUhkRllDZ0xxaG1pTUpJbWRIbWpINTVRMFVfVTdzZWNIR3VGOWtPeEozVUxsTlJlbDNPdF9aelhMdEwwbXZHLTg5dm9Nbm0tcFVtMklIT1RVNEs2dXIzQg?oc=5"
       },
       {
-        "name": "NIFTY BANK",
-        "pct": -1.96,
+        "name": "NIFTY PHARMA",
+        "pct": -0.1,
         "catalyst": null,
-        "headline": "Invesco India Banking and PSU Debt Fund Regular-IDCW Daily (\u20b9 1,049.59) - NAV, Reviews & asset allocation",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaGlycmtMMGxMaXhuY0RBLXBuRzA3Wi1oQlR2WEZOck1aekkwWFFGZllFVUdaSDROWUNtTkxWc2FGUk5IYXRpT0s3QVR0V1VkZmo3NDM1V2ZiN2tRQkxKUEhDd2h3bmxLXzhjXzExV2pwTTUyZ183WmxDc2RBOXR2YjlDZ19yZF9KcWN2VGtTT25mLUUtYWJDZm1sN0J4OXBQSUY1S0NPYmZpTzFKT3M1Tg?oc=5"
+        "headline": "Indian stock market slides, but 28 Nifty 500 stocks hit fresh 1-year highs this week; MCX, PVR Inox among them",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPam1INGhCV1ZYV0xJTUxPZDVHRHladGhpMDNjakVJcE55YmZTX1NlOVo2TkNiT3VHNGdmVloyN3NITkJJeHp6b3l0bWo0Z1NNSVBPQlhlSTF2Y3ZmVnBWWk5Zb3BEaHpYNHl5RWlMTFg3LU55M191bW5iNi1tUUdPbmJGTEVHa21jZXJKOUw4WFF1RjlwcVZtajRSZTJkMG5RbHJnZHpxTG5YRk9QTl9ZMEpqaFg2TlIzVl9pMlpDVW1nODJaRDVQOGpfZGpEcHNBU1Y1bzZfSGtiUXphWkc3NVRPeDF4bjdQdmN0SS16MzVwSjl0dGpmSmFjVGZ3UmpqS0JSdVVwT3jSAY4CQVVfeXFMTkNnZ1EwUkF3Wmo4Y1l2TjRLaUg2TVNnaW1Lc3BoMG8zVW1vYmxaN3RnOVE4UER5Umc1dFYyenE1N2VFNHFhSU9DeFotOUlqM0J6UE1PSmctaHBNczFtZlI0SXlNU3ZCaDlwWmhHQzFCb0ZqTDR5cVF2Tk10Q3FlWi1tRXRnbGRaZXdpNzVpelJyY2c3V1I5cTFia2hUQzNrc2YxcnNaU0hXWXowV2FFY2l2ZTdydk1JdEhVaW5jaGFrdUdRQnBzYzdLVWNCZTRyd2FQNjRKb081ZDlSRnhvY2J3VEstVDVYRGotc3Roc2NkSjNDRERzWnlIRVRaSW5za2JKVGp0cV92YlBhYldB?oc=5"
       }
     ]
   }
