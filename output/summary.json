@@ -1,55 +1,55 @@
 {
-  "date": "2026-09-30",
-  "date_pretty": "Wednesday, 30 September 2026",
-  "mood": "Mixed",
+  "date": "2026-10-01",
+  "date_pretty": "Thursday, 01 October 2026",
+  "mood": "Risk-Off",
   "nifty": {
-    "last": 22620.45,
-    "change": -95.75,
-    "pct": -0.42,
+    "last": 22421.95,
+    "change": -198.5,
+    "pct": -0.88,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 17,
-    "declines": 32,
-    "unchanged": 1
+    "advances": 13,
+    "declines": 37,
+    "unchanged": 0
   },
   "banknifty": {
-    "last": 54633.05,
-    "change": 373.1,
-    "pct": 0.69,
+    "last": 54450.75,
+    "change": -182.3,
+    "pct": -0.33,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 10,
-    "declines": 4,
+    "advances": 4,
+    "declines": 10,
     "unchanged": 0,
     "catalyst": null,
-    "headline": "India benchmark shares log worst month since March as oil, global rate hikes spark outflows",
-    "source": "Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRTNmakVIbE1QRkJkd0VLTm03TjkxX29LaTgtekt5UmxjUVBzckppYmctZVc5V0JWNUNtR2dOaVRpU1F1eTd4M2YybFJ1TC1ncEZzZERrd0ptTGlKSHVZVnRxcHhnUldJVDlLdUhIM0ZYS3IxNzk4TWctZVdVbFMyUTEtbWd6MjYwMWs4RFE4b3ZERVZlLUdNYWF3d0xHX2pNbEVNdll3?oc=5"
+    "headline": "Nifty 50\u2019s longest losing streaks in 25 years, SP- Group\u2019s Tata monetisation play and Arup Bagchi at HDFC Bank - Editor's Picks from Moneycontrol",
+    "source": "LinkedIn",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTQ0STNEZ00tM0xSUllqNmt2ejBvSTVlV3E1bndhT2ZRb0xTN2FkUURzQ2I0anlxNzN4bEV6WlJUY0EtU3FwcGk2RUZRTUVYTU5tbi1EcE9NVHJ6NkpOTUFPcjgwcXdmZ3NpdVNkRnNjczRRR19kOXRuTXRabTJLYXZIaE4wX0lUeVc5aTdEdGVCVVA5QWs2MQ?oc=5"
   },
   "sensex_proxy": {
-    "last": 22620.45,
-    "change": -95.75,
-    "pct": -0.42,
+    "last": 22421.95,
+    "change": -198.5,
+    "pct": -0.88,
     "year_high": 26373.2,
     "year_low": 22182.55,
-    "advances": 17,
-    "declines": 32,
-    "unchanged": 1
+    "advances": 13,
+    "declines": 37,
+    "unchanged": 0
   },
   "midcap": {
-    "last": 59332.05,
-    "change": 12.65,
-    "pct": 0.02,
+    "last": 58732.0,
+    "change": -600.05,
+    "pct": -1.01,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 51,
-    "declines": 48,
-    "unchanged": 1
+    "advances": 26,
+    "declines": 74,
+    "unchanged": 0
   },
   "vix": {
-    "last": 13.5,
-    "change": 0.09,
-    "pct": 0.61,
+    "last": 14.44,
+    "change": 0.95,
+    "pct": 7.04,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -57,189 +57,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 14967.82,
-    "sell": 25116.23,
-    "net": -10148.41
+    "buy": 12260.26,
+    "sell": 21744.48,
+    "net": -9484.22
   },
   "dii": {
-    "buy": 24413.76,
-    "sell": 13142.03,
-    "net": 11271.73
+    "buy": 25420.04,
+    "sell": 15378.2,
+    "net": 10041.84
   },
   "global": {
     "Dow Jones": {
-      "last": 50906.05078125,
-      "change": -443.87109375,
-      "pct": -0.8644046135659287
+      "last": 50926.55859375,
+      "change": 20.5078125,
+      "pct": 0.04028560885252083
     },
     "Nasdaq": {
-      "last": 26861.064453125,
-      "change": 63.525390625,
-      "pct": 0.2370568076301316
+      "last": 26871.595703125,
+      "change": 10.53515625,
+      "pct": 0.03922092439952321
     },
     "S&P 500": {
-      "last": 7651.5400390625,
-      "change": -19.2998046875,
-      "pct": -0.2515996302963485
+      "last": 7666.4501953125,
+      "change": 14.91015625,
+      "pct": 0.19486477459283946
     },
     "FTSE 100": {
-      "last": 10606.0,
-      "change": -30.7001953125,
-      "pct": -0.2886251821408796
+      "last": 10428.26953125,
+      "change": -177.73046875,
+      "pct": -1.6757539953799736
     },
     "Nikkei 225": {
-      "last": 65481.26953125,
-      "change": -396.34765625,
-      "pct": -0.6016423683356982
+      "last": 66753.71875,
+      "change": 1272.44921875,
+      "pct": 1.943226250588715
     },
     "Hang Seng": {
-      "last": 24523.5703125,
-      "change": -118.939453125,
-      "pct": -0.4826596570569864
+      "last": 24613.26953125,
+      "change": 89.69921875,
+      "pct": 0.3657673723971549
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 95.81999969482422,
-      "change": -0.16159820556640625,
-      "pct": -0.16836373753030484
+      "last": 96.30500030517578,
+      "change": 0.254302978515625,
+      "pct": 0.26475911741771374
     },
     "Dollar Index": {
-      "last": 101.51000213623047,
-      "change": 0.1399993896484375,
-      "pct": 0.13810731563106124
+      "last": 102.0260009765625,
+      "change": 0.5760040283203125,
+      "pct": 0.5677713609140653
     },
     "Brent Crude": {
-      "last": 98.12999725341797,
-      "change": -4.459999084472656,
-      "pct": -4.34740154369749
+      "last": 102.4000015258789,
+      "change": -1.1299972534179688,
+      "pct": -1.091468431122919
     },
     "Gold": {
-      "last": 4185.60009765625,
-      "change": 5.89990234375,
-      "pct": 0.14115611331087077
+      "last": 4208.5,
+      "change": 21.7998046875,
+      "pct": 0.5206918019089933
     },
     "US 10Y Yield": {
-      "last": 5.293000221252441,
-      "change": 0.03800010681152344,
-      "pct": 0.7231228541194101
+      "last": 5.236999988555908,
+      "change": -0.0560002326965332,
+      "pct": -1.058005485654076
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "KOTAKBANK",
-        "ltp": 417.0,
-        "pct": 2.71,
+        "symbol": "INFY",
+        "ltp": 1035.0,
+        "pct": 4.11,
         "catalyst": null,
-        "headline": "Top gainers and losers, Sept 30: Apollo Hospitals falls 6%, Max Healthcare down 3%, Kotak Mahindra Bank rises 3%",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQV1ZydXFlQ0p5QlBhXzZfN0J5VWt2NFFSQVkwNkEwV3FIOXltZlltQ2tGUmxicDdvWUMtaEtEdVNjUkhmcVdqcVEwalJFNkVCN2dHNE1jUjVtYXZSc3FHSzI0U0NHWkVUUy01SGwzSV9tOENIVkhSV0FDdzRfalJjd2FyamhJN2VXcmp3S0tMM3FPeDVDTXllalZDT21RcUVGSjNlc1JyS0ppY3hnSC0zSmFnNHZMbHZuVnQ3MDdKN3FFZldkLUxMSC1icWozUVlyZUFTaUpXU2dsdnA5UklmZjh4MzJuVllsT01yWUhvRldWa0t0dENJ?oc=5"
+        "headline": "Infosys Limited (INFY.NS) stock price, news, quote and history",
+        "source": "Yahoo Finance UK",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GOEV1amlGdG5lR3Y1YVgydHJWMTlvWGZqSWlWMlIxLV9JbE5XNV85VXo4bHUxaHZwc2FGUVpvNjV5TGNXQjZ5aTdmSlJkNHhMZVNCZDZn?oc=5"
       },
       {
-        "symbol": "INDIGO",
-        "ltp": 4984.0,
-        "pct": 2.3,
+        "symbol": "HDFCLIFE",
+        "ltp": 534.2,
+        "pct": 2.49,
         "catalyst": null,
-        "headline": "Sensex falls 49 points, Nifty ends below 22,650 as market continues to bleed. What lies ahead?",
-        "source": "IndiaIPO",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcW9fdklXRnI4T0p4VUhhY2tLRmJqcnVpQUpWYTZOMmZ4Rms2bjFId1Q5X1hsc3ZoRXNnZWhjNERmbEttTXhLYi02WjlHZFVYSDU2c2FMWlV5MDE3VHJhUnlKVnRkRmVjcWxMQ2VnNjduRk93c3NwamVtRk1UaU00RlZXcy1uRDRGWlM2X1lxWnAzaF9NN3FwaFU0bDkyOGR6dWlCVmpJMUtjTmFQeld1eTFjREtPalpPZENIdS1NR1AyLUNW?oc=5"
+        "headline": "HDFC Life (HDFCLIFE) Share Price, News, Stock Market Cap NSE/BSE",
+        "source": "TechGraph",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MNm5vZ0NFYlk2LUJ3QjJSX0dodTdKR0lYMk5vT0s0R2Q3eVlpaDJMekFQcWRROGRKQXRra2p3clZic2JtajJVZG5NS2o2d3FSemd0OFlXcmpCRTVoWS1DRTNn?oc=5"
       },
       {
-        "symbol": "ICICIBANK",
-        "ltp": 1321.7,
-        "pct": 2.28,
+        "symbol": "HDFCBANK",
+        "ltp": 721.2,
+        "pct": 1.76,
         "catalyst": null,
-        "headline": "ICICI Bank Prediction for Tomorrow: 1 Oct 2026",
-        "source": "Univest",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaHEySTNxbTFQRS14Y0hUYXJtbTFpdi10eWYtdlRIQWJzS3c2MGd2Z0F5bVR2RTJmOFNlTXdlamUtQWo0eEV6ck1pc25qVmZoOVB1VzBRNjdmR2VURnk3aXRoNmV6U2FsZ3VINmRBMlNqTy00bjd6LWRxMWpObnJYRktBNzNYR0ZWQVl2UlRndw?oc=5"
+        "headline": "Top 12 Bank Stocks To Buy In India October 2026",
+        "source": "Samco",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVTJGTjNBTndCWnlCMVF4am9OclFTVEN0clJWVXBKc3BWX0E4bDhwTUxlVWFKd0xReUJWSVl6T0M3UnExVHowUHZHdkExQ016S1MtX1lJdjNKYUNoRzBpM19fbTZYeTNOVGpNY0NPMTQydUdvWDZWMGFveE12Umh4eVRkVC02b1FMYVJhZQ?oc=5"
       },
       {
-        "symbol": "ULTRACEMCO",
-        "ltp": 10956.0,
-        "pct": 1.17
+        "symbol": "SBILIFE",
+        "ltp": 1721.6,
+        "pct": 1.49
       },
       {
-        "symbol": "AXISBANK",
-        "ltp": 1226.0,
-        "pct": 1.15
+        "symbol": "MAXHEALTH",
+        "ltp": 940.95,
+        "pct": 1.2
       }
     ],
     "losers": [
       {
-        "symbol": "APOLLOHOSP",
-        "ltp": 8165.5,
-        "pct": -5.7,
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 10045.0,
+        "pct": -7.62,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Bajaj Auto, M&M, Hero Moto skid up to 6%; here's why auto stocks are down",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU1NkajhOX0VvXzliUDh1M0RScnpjNlpYY2czVjBpRnpmYzBBd1ZBazcycjBhMlhENVJyc2wxcTFCNWJBQUU3MzhlVDNvblhsSWpGeTh5bUFKWDJqZFIwVXpyWllqN1BxX21QODRxa0FXQmVORHpIY0xGTWlDd1N6WWx0OHdYS2JHUEh5RE1Ob0M3dnh2Njk0b2pKUWM0MkUtUDRXaGRDZkJhMVJBREYzdmlJdlpwYVd1TDVNbkY4SDVLalctbGVEbkwxeWVOeGc5WXfSAdcBQVVfeXFMTjNYS2VjWVEwZTEwd0FLNDZBVEtfNW9mcnBiSXZ0dHFnSXVfS1NJeDRuWG5KcEJ2MG5zVGVaRlR2cDI5aTFNMmZZSzF6Tkp0S3M1N0F3LXhHamswNjJTRl95Z29CeUhXNW1BYjJqbS01d1FiRXVjNHdRSzRJd2xEWGkxMGRxS1lxMTVQTmYwUHVYeklrTnFBUTQ0SzN1T2NiMU9IT1JjYVJNX29NdlVIeHM2cXlONUpSM0V3UlBkTnhZUmRMQWVhU1pkVXpaN2hmTVRhTWZjRlE?oc=5"
       },
       {
-        "symbol": "MAXHEALTH",
-        "ltp": 929.8,
-        "pct": -5.33,
+        "symbol": "MARUTI",
+        "ltp": 11386.0,
+        "pct": -4.86,
         "catalyst": null,
-        "headline": "Stocks making the biggest moves midday: Apollo Hospitals, Max Health, Rail Vikas, and more",
-        "source": "financialexpress.com",
-        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMkE2RGxWMzZoa1lqbnRkVlVzc3VORmExbFJhekprQlhnbi0tUlEwTEhZQUJuSktUQmQ4VC1Mand3blJQYXA4R1NoUnFCMVpTbDlTNFU0cDhTbXRpSWRscE5SNFBkakNxOUZYMDBJMlJyWFBEejh3QVRVU1RNdkt2QURNVV9la2x3Tk9lV0s5dU9uMXBCVjBORE9PU3JOeHFjUHp0VTh3Z1BlOE1LMGI3bXpUaGhyaFRtZXRpUm5GbGZBcGlXdUFZbjJZMnduVlJmN3Axc3lyYnJmOEszbWlzQlljSGRUX1FwZlhxbjhjTHBma3hzTTR0SDlsWXQ5LTVuMmlCRFZn0gGMAkFVX3lxTE9vczBPN2QxYlZneWlCNUVoQ1p3bnhlLTdWR0x0RXMwTF92UnBIWHJud0U1Tm8ydEFiZk5salFWR2VVOE1TMUtkVkR1bktSLTlXVTl6SVFJWlQ4SGljT1MxSFM0YjZlRjFLVDhPOXlCMnVxTHoyUUxtcDlLd1h2WWhUdVVBQkg5NTNyMmtVTzc4X01rdldXYTRpa1ZRcUJXYnJkMmFoMTJWVEhGQWVibGJOWG02RUFTbW9fMUthWGJMVmdkX0JpOXFSUDRieDJFNUg1ZzhnNUZUdU1sajltSm11MkpmNXU4WFRwZHlTeWM5ZzFzc2dVcjhFNG5tVm9VR3Z4UVpsVG43RGVLZzg?oc=5"
+        "headline": "India stocks lower at close of trade; Nifty 50 down 0.88%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR2c4R2NPbmE3a3l4UlhVN2FxcmxLdGhTWk1vQzNxb05yS0RCSE5jTERqVEpaRThGUi1heno5UHkxVzVNRlVBUE1HU0lQeExwTWpmRThzLTlPV3FnaTlpaURfZFBqTW9XSk5uVVhEeGYwZ2VpZzZraDdsTUptMklvaUxzejc4dE9KOVVKbW11SlpueDlPQkVCQVJ5SHltbTN6Y3Q4SmVkTVZzWVdvZW5qNA?oc=5"
       },
       {
-        "symbol": "BSE",
-        "ltp": 3092.0,
-        "pct": -3.38,
+        "symbol": "SHRIRAMFIN",
+        "ltp": 945.0,
+        "pct": -3.84,
         "catalyst": null,
-        "headline": "Indian Stock Market Weekly Round-Up: Bears Take Charge as Nifty Slides 2% In Week, Financials Lead Decline",
-        "source": "Goodreturns",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYkN3cFdtMnh5ZHpHNXBYTnlxYTN4UkFuT2ZxSWZYaGN3aGV4dWo4UTlicjJFX2kxci02MlJvM0pPeWRvVmFSUnU4WUxXUHYzXzZ1RGx6RHNoa2pnZW92eEVCb1JHRlNtUWxvUk9uR2M1TGR0ckxBNHpSYkdRRWhMbDRwNXE4ZEpnQ2Y5TndDelJpaUlmYnlZMlczODEydUU0ckNEa2FkaWxYaklfYU9iYzhmSnNyNjRpRlJPckpSU3AxQmNYRVYxd09XNjAydng1aS00S3J1VGV3aEk?oc=5"
+        "headline": "Shriram Finance SHRIRAMFIN USD Bond Tender Offer Settled",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUJpSjVQcW9tZ2RiNy1INjJpYTU0NklxZ2U1bEdCc18wbVNNSkpvTDNyb2JHamczSzJibzljUUVpMW01eGpGcGJuRy1xXzl5TWtzRFp5azRjRWg3TU9UXzJ3M1JsZXdsblpSVXdmZENxN1QwS0lLdGZHMVdQNXNWODRwR2VVOUFDNjNaLWdWOTZnTC05T2NvOEd0aUVtRm54bHRoNWJVdTl1VGltMnhOVjliRDFQdTBWMGxaSElQeHA3QU9CSFdkcGZmeGloQQ?oc=5"
       },
       {
-        "symbol": "NESTLEIND",
-        "ltp": 1310.0,
-        "pct": -2.65
+        "symbol": "TATASTEEL",
+        "ltp": 178.0,
+        "pct": -3.42
       },
       {
-        "symbol": "SUNPHARMA",
-        "ltp": 1816.6,
-        "pct": -2.6
+        "symbol": "ADANIPORTS",
+        "ltp": 1737.8,
+        "pct": -3.36
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY REALTY",
-        "pct": 1.62,
+        "name": "NIFTY IT",
+        "pct": 2.17,
         "catalyst": null,
-        "headline": "Top 45 Real Estate Shares To Watch In September 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLdUphN3JOelNWNU0wOGJ2b3VTQXlrX3RUVHd3Z0pmV1lfb3pnZ091azhqSW5ycldqc2RQb3ZEOC1kRGg3VVBvWE9keFBvV0l3cXlTMWctQnF6ZTE3cWhMNi1NQmxOTGQyZjlGVHZodGZlS0l0c1J3X0ZaVQ?oc=5"
+        "headline": "Indian benchmark shares post longest weekly losing run in 25 years",
+        "source": "reuters.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2lpSGdlN0dhOTM3eUw3MlQtN183dHZydW95WXVWM2MyTEFaeTlvRUllR29aLWJxT3dvdVNmNlpzTGVldkpIMFNScVVhVEJ5TTU5TDhoVTZZWlpXbENCUHlKMWx3MmJ4bWkyU1E1OGF6Sk9YakxYcHRyM0tWdnlrX0NpQktmLU90VkRRVG5FQXdPZ3c3dFV0N0xndUdrTl9lY0xKZUJsNmY4LS1BYndDNENRZC0?oc=5"
       },
       {
         "name": "NIFTY BANK",
-        "pct": 0.69,
+        "pct": -0.33,
         "catalyst": null,
-        "headline": "India benchmark shares log worst month since March as oil, global rate hikes spark outflows",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRTNmakVIbE1QRkJkd0VLTm03TjkxX29LaTgtekt5UmxjUVBzckppYmctZVc5V0JWNUNtR2dOaVRpU1F1eTd4M2YybFJ1TC1ncEZzZERrd0ptTGlKSHVZVnRxcHhnUldJVDlLdUhIM0ZYS3IxNzk4TWctZVdVbFMyUTEtbWd6MjYwMWs4RFE4b3ZERVZlLUdNYWF3d0xHX2pNbEVNdll3?oc=5"
+        "headline": "Nifty 50\u2019s longest losing streaks in 25 years, SP- Group\u2019s Tata monetisation play and Arup Bagchi at HDFC Bank - Editor's Picks from Moneycontrol",
+        "source": "LinkedIn",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTQ0STNEZ00tM0xSUllqNmt2ejBvSTVlV3E1bndhT2ZRb0xTN2FkUURzQ2I0anlxNzN4bEV6WlJUY0EtU3FwcGk2RUZRTUVYTU5tbi1EcE9NVHJ6NkpOTUFPcjgwcXdmZ3NpdVNkRnNjczRRR19kOXRuTXRabTJLYXZIaE4wX0lUeVc5aTdEdGVCVVA5QWs2MQ?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY PHARMA",
-        "pct": -1.84,
+        "name": "NIFTY AUTO",
+        "pct": -3.46,
         "catalyst": null,
-        "headline": "Taking Stock: Sensex, Nifty end flat amid volatility; metal, pharma stocks drag",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlFuRkRRZUhlRVJyZnBmVEdDeTdqdk5ENjRJX2ItNnhSUjdVRHdLUnN4UERueWt1M3I2TER3dm8zcU85QlN4Y2ZTNGdNcnpEeFhWbWx4WlBQOWVKdHdzcmpSS0oydktFczVQa2hvRGRrOThnTmpIQ3pwcFpTQXViZThZT29FT042UWx6LVlpNk0zZ1RuaDhWZlZXZ2wzbDhKSjN4RzJsWFIzZGZ0UGxFTFJXMllWWFFDYkZRUFhlc2tsRVQ3cVJIZ25GUFo2N0hHVzM1aHRsd9IB3AFBVV95cUxNTG1lRURYT0VLVEplb2p5emQyMDB3d3BhZUM4b1ZJZk10NEo0c195N2ZEc09rQUJsUXNjRmNMaFBoNGc3bVV3M2R1ZWNSZDRPMEJuWENZdkVlT2RUVEhGWVA3VEdLQnRtSUc0RmNWMzF0MlY2cVhjMEF1d0VSc3FCbXdwb1A1Q0hfOTZ1cndBbThOZ282N0ZKRWZhWTUtOFE4WTZRdU9xcEotMmxXczBkZjRsVmlHdW1KZmM1TFIyZzE5VFpHNVVTODNybUstU0oxSVhwOUhUMnVEZWhh?oc=5"
+        "headline": "Shares of Indian auto companies slide as sales soften in September, after hitting record highs in August",
+        "source": "CNBC",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTVjOUhMekxrR0NhRnlEZU1nRVo4aGhkbFlXalhvUF90Q25PcmJCYzlpb3RnSE9GLXYtTjgwcVRpNFJsSE1fWkZUTnlMcEREMTZhZ0ZVdVRXai1FRUg5b1Z0TjhyMjFLVDhmcXlXb1RUTHNZb2FmT2tRSXp0bEU5MDl30gGHAUFVX3lxTE1QdF9TckJJUVFhYXBiUndWejdIaU16NVQxaEZCZ09QU2RSTkxtVzdVLVZJZlprV1VoX0JlUnZrOXNHOG1HMXQzSEliWEtRMVN4cDU0OG5wenptcDItaXF3ZzdmbHI2R0lSMWxkV3U3UHJTN3NCQlpjVWtfZklSenlOQi1MNTFHYw?oc=5"
       },
       {
         "name": "NIFTY METAL",
-        "pct": -1.5,
+        "pct": -2.35,
         "catalyst": null,
-        "headline": "Share Market Today: Nifty 50, Bank Nifty | Sep 30, 2026",
-        "source": "Liquide Blog",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWE5Fb1lmY083ZXdDOGJOeWdrOW5Oa2dSQlkzNnVEV0h3MUZfM1JpMzE3eURBWDN2aWM1R0lSbXBweXBQSzhqVFFocXpMcGdVSjFxR01GQW9faGhNV29jdGpKWTdyc3VPN1pRMzBLbloyY1F4SzR4VVZwS2pYU0U1a3BEb0ZwQzhqa0ZjNU9tUkpWSzlNNm92NDU0QkNKRGJTTjRaazRjRlpUdW44MFlBSlIzcXhiRmp3R3c?oc=5"
+        "headline": "BSE SENSEX Rises to 74,828.25 as Metal Stocks Rally and India's Flash PMI Beats",
+        "source": "BBN Times",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdGxQSzhIUURlaG0tY1pLTUZzU0hQTmdUb0lJLTdfUjJoVjJCSnhJN0pTbm9Xa2hGNTBPZl90a3RHMUtZMnJwTDRMUjVNWEp3aGg2RS1STGNEdHJuZ2kweGtHY1lRZnp1NHJiTFNKZmREbmtYTlQtbERFQUZRS1JZeEE3ZW10SWVqd1Q3enVheWVFRW5RbVgzY1FTNmtfZTdPWE5kM1NGTVozZDFRV0VEdlJncTE?oc=5"
       }
     ]
   }
