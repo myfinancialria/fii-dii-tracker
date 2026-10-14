@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-14",
+  "forecast_for": "2026-10-15",
+  "symbols": {
+    "NIFTY 50": {
+      "close": 22622.7,
+      "today_open": 22715.75,
+      "today_high": 22757.95,
+      "today_low": 22558.95,
+      "today_date": "2026-10-14",
+      "chg": -99.25,
+      "chg_pct": -0.4368022990984488,
+      "atr14": 298.19285714285644,
+      "rsi14": 36.180702283932035,
+      "macd_hist": 20.464399092977715,
+      "ema20": 22851.52884868889,
+      "ema50": 23343.49403514688,
+      "ret_std20": 0.009278555498441633,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 22473.60357142857,
+          "high": 22771.79642857143
+        },
+        "normal": {
+          "low": 22324.507142857143,
+          "high": 22920.89285714286
+        },
+        "wide": {
+          "low": 22175.410714285717,
+          "high": 23069.989285714284
+        }
+      },
+      "pivot": {
+        "P": 22646.533333333336,
+        "R1": 22734.116666666672,
+        "S1": 22535.116666666672,
+        "R2": 22845.533333333336,
+        "S2": 22447.533333333336,
+        "R3": 22933.116666666672,
+        "S3": 22336.116666666672
+      },
+      "candles": {
+        "today": {
+          "color": "red",
+          "body_pct": 47,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 83,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
+    },
+    "SENSEX": {
+      "close": 72781.89,
+      "today_open": 73049.76,
+      "today_high": 73195.26,
+      "today_low": 72578.75,
+      "today_date": "2026-10-14",
+      "chg": -251.88999999999942,
+      "chg_pct": -0.34489519781120137,
+      "atr14": 950.1985714285693,
+      "rsi14": 38.592497123540625,
+      "macd_hist": 106.8672464705844,
+      "ema20": 73275.28995763413,
+      "ema50": 74748.24381044439,
+      "ret_std20": 0.008986232905660191,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 72306.79071428571,
+          "high": 73256.98928571428
+        },
+        "normal": {
+          "low": 71831.69142857143,
+          "high": 73732.08857142857
+        },
+        "wide": {
+          "low": 71356.59214285715,
+          "high": 74207.18785714285
+        }
+      },
+      "pivot": {
+        "P": 72851.96666666667,
+        "R1": 73125.18333333335,
+        "S1": 72508.67333333335,
+        "R2": 73468.47666666667,
+        "S2": 72235.45666666668,
+        "R3": 73741.69333333334,
+        "S3": 71892.16333333336
+      },
+      "candles": {
+        "today": {
+          "color": "red",
+          "body_pct": 43,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 81,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
+    },
+    "BANK NIFTY": {
+      "close": 55316.0,
+      "today_open": 55406.7,
+      "today_high": 55644.7,
+      "today_low": 55168.2,
+      "today_date": "2026-10-14",
+      "chg": -165.0500000000029,
+      "chg_pct": -0.2974889624475452,
+      "atr14": 785.8071428571436,
+      "rsi14": 40.10116419108794,
+      "macd_hist": 104.26774317630384,
+      "ema20": 55419.68844469492,
+      "ema50": 56182.56748826453,
+      "ret_std20": 0.009066826756707702,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 54923.09642857143,
+          "high": 55708.90357142857
+        },
+        "normal": {
+          "low": 54530.19285714286,
+          "high": 56101.80714285714
+        },
+        "wide": {
+          "low": 54137.28928571429,
+          "high": 56494.71071428571
+        }
+      },
+      "pivot": {
+        "P": 55376.299999999996,
+        "R1": 55584.399999999994,
+        "S1": 55107.899999999994,
+        "R2": 55852.799999999996,
+        "S2": 54899.799999999996,
+        "R3": 56060.899999999994,
+        "S3": 54631.399999999994
+      },
+      "candles": {
+        "today": {
+          "color": "red",
+          "body_pct": 19,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 70,
+          "notes": []
+        }
+      },
+      "ma_stack": "bearish stack (price < EMA20 < EMA50)"
+    }
+  },
+  "backtest": {
+    "NIFTY 50": {
+      "prev_date": "2026-10-13",
+      "prev_forecast": {
+        "tight": {
+          "low": 22575.035714285714,
+          "high": 22868.864285714288
+        },
+        "normal": {
+          "low": 22428.12142857143,
+          "high": 23015.77857142857
+        },
+        "wide": {
+          "low": 22281.207142857143,
+          "high": 23162.692857142858
+        }
+      },
+      "actual_high_today": 22757.95,
+      "actual_low_today": 22558.95,
+      "actual_close": 22622.7,
+      "inside_tight": false,
+      "inside_normal": true,
+      "inside_wide": true,
+      "verdict": "HIT \u2014 normal band \u2713"
+    },
+    "SENSEX": {
+      "prev_date": "2026-10-13",
+      "prev_forecast": {
+        "tight": {
+          "low": 72564.81821428571,
+          "high": 73502.74178571429
+        },
+        "normal": {
+          "low": 72095.85642857142,
+          "high": 73971.70357142857
+        },
+        "wide": {
+          "low": 71626.89464285715,
+          "high": 74440.66535714285
+        }
+      },
+      "actual_high_today": 73195.26,
+      "actual_low_today": 72578.75,
+      "actual_close": 72781.89,
+      "inside_tight": true,
+      "inside_normal": true,
+      "inside_wide": true,
+      "verdict": "HIT \u2014 tight band \u2713"
+    },
+    "BANK NIFTY": {
+      "prev_date": "2026-10-13",
+      "prev_forecast": {
+        "tight": {
+          "low": 55090.37321428572,
+          "high": 55871.72678571429
+        },
+        "normal": {
+          "low": 54699.69642857143,
+          "high": 56262.40357142858
+        },
+        "wide": {
+          "low": 54309.01964285714,
+          "high": 56653.08035714286
+        }
+      },
+      "actual_high_today": 55644.7,
+      "actual_low_today": 55168.2,
+      "actual_close": 55316.0,
+      "inside_tight": true,
+      "inside_normal": true,
+      "inside_wide": true,
+      "verdict": "HIT \u2014 tight band \u2713"
+    }
+  },
+  "oi": {
+    "NIFTY 50": {
+      "expiry": "19-10-2026",
+      "resistance_strike": 23000,
+      "resistance_oi": 11300640,
+      "support_strike": 22000,
+      "support_oi": 7501260,
+      "pcr": 0.75,
+      "pcr_read": "bearish"
+    },
+    "SENSEX": {
+      "expiry": "15-10-2026",
+      "resistance_strike": 75000,
+      "resistance_oi": 2693940,
+      "support_strike": 72000,
+      "support_oi": 2475500,
+      "pcr": 0.98,
+      "pcr_read": "neutral"
+    },
+    "BANK NIFTY": {
+      "expiry": "27-10-2026",
+      "resistance_strike": 56000,
+      "resistance_oi": 1190280,
+      "support_strike": 55000,
+      "support_oi": 1323630,
+      "pcr": 0.92,
+      "pcr_read": "neutral"
+    }
+  }
+}
