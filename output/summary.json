@@ -1,51 +1,55 @@
 {
-  "date": "2026-10-23",
-  "date_pretty": "Friday, 23 October 2026",
+  "date": "2026-10-26",
+  "date_pretty": "Monday, 26 October 2026",
   "mood": "Mixed",
   "nifty": {
-    "last": 22600.0,
-    "change": -87.65,
-    "pct": -0.39,
+    "last": 22753.2,
+    "change": 153.2,
+    "pct": 0.68,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 14,
-    "declines": 36,
-    "unchanged": 0
-  },
-  "banknifty": {
-    "last": 54287.35,
-    "change": -638.35,
-    "pct": -1.16,
-    "year_high": 61764.85,
-    "year_low": 49954.85,
-    "advances": 1,
+    "advances": 37,
     "declines": 13,
     "unchanged": 0
   },
+  "banknifty": {
+    "last": 54366.7,
+    "change": 79.35,
+    "pct": 0.15,
+    "year_high": 61764.85,
+    "year_low": 49954.85,
+    "advances": 11,
+    "declines": 3,
+    "unchanged": 0,
+    "catalyst": null,
+    "headline": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank",
+    "source": "The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5"
+  },
   "sensex_proxy": {
-    "last": 22600.0,
-    "change": -87.65,
-    "pct": -0.39,
+    "last": 22753.2,
+    "change": 153.2,
+    "pct": 0.68,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 14,
-    "declines": 36,
+    "advances": 37,
+    "declines": 13,
     "unchanged": 0
   },
   "midcap": {
-    "last": 55800.65,
-    "change": -1263.3,
-    "pct": -2.21,
+    "last": 56465.4,
+    "change": 664.75,
+    "pct": 1.19,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 1,
-    "declines": 99,
+    "advances": 72,
+    "declines": 28,
     "unchanged": 0
   },
   "vix": {
-    "last": 16.76,
-    "change": 1.0,
-    "pct": 6.32,
+    "last": 17.15,
+    "change": 0.29,
+    "pct": 1.73,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +57,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 14445.54,
-    "sell": 13557.89,
-    "net": 887.65
+    "buy": 9324.9,
+    "sell": 10787.39,
+    "net": -1462.49
   },
   "dii": {
-    "buy": 19232.31,
-    "sell": 15996.95,
-    "net": 3235.36
+    "buy": 17389.57,
+    "sell": 14780.0,
+    "net": 2609.57
   },
   "global": {
     "Dow Jones": {
-      "last": 52271.25,
-      "change": -596.73046875,
-      "pct": -1.1287181077452437
+      "last": 52361.578125,
+      "change": 146.41796875,
+      "pct": 0.28041275428794066
     },
     "Nasdaq": {
-      "last": 25967.205078125,
-      "change": -41.654296875,
-      "pct": -0.16015426233969554
+      "last": 26169.380859375,
+      "change": 214.041015625,
+      "pct": 0.8246511774205904
     },
     "S&P 500": {
-      "last": 7627.52978515625,
-      "change": -35.900390625,
-      "pct": -0.4684637270977696
+      "last": 7676.77001953125,
+      "change": 53.08984375,
+      "pct": 0.6963807836358971
     },
     "FTSE 100": {
-      "last": 10690.3603515625,
-      "change": -34.6396484375,
-      "pct": -0.322980405011655
+      "last": 10767.330078125,
+      "change": 76.9296875,
+      "pct": 0.719614651360148
     },
     "Nikkei 225": {
-      "last": 62907.83984375,
-      "change": -1713.3984375,
-      "pct": -2.651447856883836
+      "last": 62693.16015625,
+      "change": -214.6796875,
+      "pct": -0.3412606251195713
     },
     "Hang Seng": {
-      "last": 22934.6796875,
-      "change": -717.189453125,
-      "pct": -3.032273892861764
+      "last": 23093.369140625,
+      "change": 158.689453125,
+      "pct": 0.6919192039620675
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.93000030517578,
-      "change": 0.6176986694335938,
-      "pct": 0.6549502649392455
+      "last": 95.17500305175781,
+      "change": 0.4636993408203125,
+      "pct": 0.4895923956822942
     },
     "Dollar Index": {
-      "last": 101.79399871826172,
-      "change": 0.18399810791015625,
-      "pct": 0.18108267572573106
+      "last": 102.02100372314453,
+      "change": 0.21100616455078125,
+      "pct": 0.20725485670436525
     },
     "Brent Crude": {
-      "last": 111.80999755859375,
-      "change": -1.3600006103515625,
-      "pct": -1.2017324665158091
+      "last": 110.2699966430664,
+      "change": -6.450004577636719,
+      "pct": -5.526049100565511
     },
     "Gold": {
-      "last": 4010.60009765625,
-      "change": -49.7998046875,
-      "pct": -1.226475369057971
+      "last": 4026.300048828125,
+      "change": 18.400146484375,
+      "pct": 0.4590969568280614
     },
     "US 10Y Yield": {
-      "last": 4.98799991607666,
-      "change": 0.034999847412109375,
-      "pct": 0.7066393484130555
+      "last": 4.986000061035156,
+      "change": -0.0019998550415039062,
+      "pct": -0.040093325484193344
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "ETERNAL",
-        "ltp": 317.4,
-        "pct": 4.25,
+        "symbol": "DRREDDY",
+        "ltp": 1310.9,
+        "pct": 6.62,
         "catalyst": null,
-        "headline": "Eternal (Zomato) (ETERNAL) Share Price Today & Chart",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0TUNJaWhnNklqN0tjb2Z3X1Z6U0pWWklnZzZCMExHYzd3RGNDYi1zQVViNi1iT2pBbWE2QmpXTjNhU1ZfWGN2QjBHSlpSa2xkeHAwbTR0S05VT0dQR0laLQ?oc=5"
+        "headline": "Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on Nifty and Sens",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOX1VScTZCeWx6MkwzTmtkOEFsR3M3N3kzWklhbi1FbEJ6bkxSOFozSVUyXzQ4bWRfVng1TWljM20xcEVRQWdpY1M2ZDFaV0dJclA4MlRXbDFtc1RmdUxsVDFtMjVvU0RPcktGZzY4YXBWUVdyN3BET3VGVFE5bVJmWUNaNTBsZ044WXAxNThMd2c1QXhpOHNrQTVHTUdrVTk0VkRIYmZ5TTNDeWNRdktrbWpqSVhYbFV3cnVTSTZ5RWFZZEFjbFc3eHdPdGlqRXRYMGxaNS11STAwallwdnh4UWhkU1lxQmpZUzFLbjlaa1preWlHWEllb2RqZFZpUkdWakJkVm4xeTYzODRfRTNybXJiSDNycTdCaTA4Y0pJd213XzjSAZwCQVVfeXFMTks2LUQ5Z2R2czhzOUE0b0djc0hJWDY0RzRxVEFGNzlodkNiUnB2UDBTaUN1X3BXa2VCVmM3bDdnWDlHdGY1YkhQZ1ZUaUktN09oRGpqR244LUI2d0hfcldBaEhGQ0FwenA1SVhuOExydHluTGRXQ0xjQmpHODV2RnNqdkpoUV8yTEdxTVo4VHdVeW1vaE4yWFh4UG04YzM1UHdVRFluSmtSNE9ZaEQ2aFZtRmZsbHVnZU9tV294T29MWXMtOUJiYXpaMms3dzZHS2xoLTRCQklYV3pTNHRjZFBUYU5GT2E5V2YxWGwwaUZ5MlRuNHBBQTJ1TVRyY0Y4dnZ4aEs2TmtBU0Z1ZVI0TWpybTJfcTN3XzJHV04?oc=5"
       },
       {
-        "symbol": "APOLLOHOSP",
-        "ltp": 7730.0,
-        "pct": 1.65,
+        "symbol": "JSWSTEEL",
+        "ltp": 1260.0,
+        "pct": 6.28,
+        "catalyst": null,
+        "headline": "Market wrap: Dr Reddys, JSW Steel, Shriram Finance, Tata Consumer top gainers and losers on Nifty and Sens",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOX1VScTZCeWx6MkwzTmtkOEFsR3M3N3kzWklhbi1FbEJ6bkxSOFozSVUyXzQ4bWRfVng1TWljM20xcEVRQWdpY1M2ZDFaV0dJclA4MlRXbDFtc1RmdUxsVDFtMjVvU0RPcktGZzY4YXBWUVdyN3BET3VGVFE5bVJmWUNaNTBsZ044WXAxNThMd2c1QXhpOHNrQTVHTUdrVTk0VkRIYmZ5TTNDeWNRdktrbWpqSVhYbFV3cnVTSTZ5RWFZZEFjbFc3eHdPdGlqRXRYMGxaNS11STAwallwdnh4UWhkU1lxQmpZUzFLbjlaa1preWlHWEllb2RqZFZpUkdWakJkVm4xeTYzODRfRTNybXJiSDNycTdCaTA4Y0pJd213XzjSAZwCQVVfeXFMTks2LUQ5Z2R2czhzOUE0b0djc0hJWDY0RzRxVEFGNzlodkNiUnB2UDBTaUN1X3BXa2VCVmM3bDdnWDlHdGY1YkhQZ1ZUaUktN09oRGpqR244LUI2d0hfcldBaEhGQ0FwenA1SVhuOExydHluTGRXQ0xjQmpHODV2RnNqdkpoUV8yTEdxTVo4VHdVeW1vaE4yWFh4UG04YzM1UHdVRFluSmtSNE9ZaEQ2aFZtRmZsbHVnZU9tV294T29MWXMtOUJiYXpaMms3dzZHS2xoLTRCQklYV3pTNHRjZFBUYU5GT2E5V2YxWGwwaUZ5MlRuNHBBQTJ1TVRyY0Y4dnZ4aEs2TmtBU0Z1ZVI0TWpybTJfcTN3XzJHV04?oc=5"
+      },
+      {
+        "symbol": "BSE",
+        "ltp": 3359.0,
+        "pct": 3.97,
+        "catalyst": null,
+        "headline": "National Stock Exchange of India Ltd. Share Price Live Today",
+        "source": "CNBC TV18",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZXJPcG9QdzE2M2JHd3FPTGRJQktkZU9qZEtuNHY1cDA2d3NqNGJic2t6cUh2Nk1HSE14a1ZvdUlxWGN2VWpfVU4yX2NWZXhyd2NvT2hzbjdVSUFhVnlkcUM5NEplWjJtZ25XMmZUVnowY3RyRkNPVDhiSDNiTjNiVzU1SmNQM1Y4b2g5RFg0Ul9NVjlMel9faUpXcw?oc=5"
+      },
+      {
+        "symbol": "ADANIPORTS",
+        "ltp": 1752.5,
+        "pct": 2.92
+      },
+      {
+        "symbol": "ETERNAL",
+        "ltp": 325.55,
+        "pct": 2.57
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "SHRIRAMFIN",
+        "ltp": 825.0,
+        "pct": -4.62,
+        "catalyst": null,
+        "headline": "Weekly Recap: Shriram Finance Q2 PAT surge and debt securities plan",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM0tyVl9TLXFuN2VjalhKaHJSdnVLMGpYLUFhR3JqMzUzRE9acDJxVVFIM3RtMDVDd0l1bFMwcmJYWjZOS0E1MTlSVzBkTzBSUXlQdm42b2RHbnEtUWdUcHFKOGJXdmV5N0J0RXBGczRZcjBrbjUwYzZKR1NGTU8wTmowYnJJSXI1eUZDLWg1YXdlc3RILWhWTFdpWkFxb21POGJkSVd5QWdIS0Noa3prVHh0MkNlb1dfLWx2cno0d25INjFFbFBj?oc=5"
+      },
+      {
+        "symbol": "TATACONSUM",
+        "ltp": 936.5,
+        "pct": -2.84,
+        "catalyst": null,
+        "headline": "Tata Consumer Products Q2 FY27 Results: Revenue Up 17%",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWhNcndNelpubG10aUx1RmRSNExWcnlTalAxZllhLVk0cVFlQ2VGMEJVUGZWek81ZWFVbVJVc1J5dURvNDdJNUNmTEdZNGREdjJhNWNCWUZxOWVCNkRUbHIwZVEzc0hOcFNOR1hldkJuWkpDQXhHLVdZUUUzdmk2bzJfb2lDcFdJUjI0bzBTSDNqVDc1QldKaXFiZERKaWVHeklMU1gtZ2dsamZIU3VRVDJmWEo3a28?oc=5"
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "ltp": 918.7,
+        "pct": -1.1,
         "catalyst": null,
         "headline": null,
         "source": null,
         "link": null
       },
       {
-        "symbol": "ONGC",
-        "ltp": 227.5,
-        "pct": 1.11,
-        "catalyst": null,
-        "headline": "Global Market: Eurozone bond markets stabilise after volatile week",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvU1A3YXdwdkdEeEhvQ1lLLVhhUk9sWUdXUFdDb1F4NjUxRDlnVDFkOUNjdFVjbTBBc09kNmNkRl9UbzkyOFVvbjIxYjFoMVQ3MUNJNGFmOA?oc=5"
+        "symbol": "HDFCLIFE",
+        "ltp": 519.0,
+        "pct": -0.91
       },
       {
-        "symbol": "ASIANPAINT",
-        "ltp": 2307.0,
-        "pct": 0.97
-      },
-      {
-        "symbol": "TCS",
-        "ltp": 2530.0,
-        "pct": 0.92
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 865.0,
-        "pct": -3.98,
-        "catalyst": null,
-        "headline": "Shriram Finance SHRIRAMFIN Board Meeting October 2026",
-        "source": "Kalkine India",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbGlGb2YyeUp5REM2OXU1YWw2WlJVNjA1ZkFtZEp1WnJIU3VyN0ZXbE9Oa1p3SDlDRXoxVWRKQlBtd3ZpTEpvTXRsMmZVbm5WYUpPOF9qTUdOUk5JcXhZUTRVVzlWVEp0Z1RBV3p4TEN5Q0Q2LThpemJIc0VCT1dUdmdOb0tvLVB1TElRZDh0ZTZvMWJTRk0wTWlNZmZjSjZYRVZ5NS1VcmsxWDdoM05BM1FGOEwzTnJHclRTM3Jnaw?oc=5"
-      },
-      {
-        "symbol": "ADANIENT",
-        "ltp": 2477.0,
-        "pct": -2.86,
-        "catalyst": null,
-        "headline": "Half Yearly Results, Half yearly Earnings for Century 21st",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbTBFS1gwdHZJQS1INUdkSW1wcVNad2E1UVdmSWNURTNQcEFsNG54T1dON3VSOGhscEd2ZHYwX2s1TFZnblRkS20yZ0ExQVhhUTJJQWtjaUd4WTNLMndnZkV1MEpFM3ZoUk0tNUJqR3FuYzBQQXpZN3ZyOF82UDJQTG1NeU4zZw?oc=5"
-      },
-      {
-        "symbol": "JSWSTEEL",
-        "ltp": 1185.5,
-        "pct": -2.83,
-        "catalyst": null,
-        "headline": "JSW Steel Q2 results: Profit zooms 225% YoY at Rs 5,279 on record sales, firm flat steel prices; revenue...",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMENHU3hqMWtTbTFGN2VQUHRjeURaZEg3cjRBejN1SnBBNzlCSUJYTEs0aElEamdURkFiNWJ4c09zZlcxUEZmdmNWYzhURmZUOGRNQk9xZ1pmTXNPbFdKOHlxYW10RU9tWG9BQlQtellPSHUzNUd5X2JTN2JaUVQ2UVM4ZWV1UGJKYlpVVXJ1dTh6RE9UMUpZaTg5dlNSMnVkN05jbEhuLXRSVWVmd21tMWQ0TE5SeU9uVzkzNWluQ3JWbW8yc0JLSHFWejB0NXAtUUxQYTJCLW9KbTZNeGxiYV9OZXRjeWNxcVFtMF9lTndteGxKbFItcVVLNDRnSTVGaDkxLUVGSkbSAY4CQVVfeXFMUEtGN3Q3MmM4WU1raEFiNWZXV1hKd1FNNmwwSzJRVmpoRlk0a3Y4LW5QdUxBMUNSMmZNdmVkbDJaeGEwaHV1WFhtcE5RamFsTjZ0QVJLS0tJdFRlM0ROQm9JRGhXNVJvbXJpWkFlaVo5QWJfaXBiWlQ1TEhPYlpRcDBrZWxzUXdKT0FtdElPb2xCTDdoVE5fcVhaaWN0TFFBTFFBTUpTRFFoMUdWUVhxZFVTcjlaSklGTnNhNDZjWnlLUEhmdEpGb3p5dElpT3hOOENmLTVwSWZYMFJMVnpCNkxLWllURDBlb1dLT3Z0RW9wWEZSTVBKOTU1YVA1b2c0NlBSdW4wdVlQZFJWRkl3?oc=5"
-      },
-      {
-        "symbol": "JIOFIN",
-        "ltp": 205.03,
-        "pct": -2.74
-      },
-      {
-        "symbol": "TATASTEEL",
-        "ltp": 167.67,
-        "pct": -2.7
+        "symbol": "HDFCBANK",
+        "ltp": 688.05,
+        "pct": -0.69
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY IT",
-        "pct": -0.27,
+        "name": "NIFTY METAL",
+        "pct": 2.21,
         "catalyst": null,
-        "headline": "Surging oil prices drag Indian shares to weekly losses",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVk5bXN2THRVWVBubnpudHpPQ2dreFhuVUxXSUFqZWJLa2psTU1rbjl3UktXTlVabEpvVEM0YUpuZVBUWkJQSjB4X1o1QlI5OEZYNE1fNE5QREZ1RjZqeURTcEFZSm5DbkFGYkFCLVNVYkpRNXRCQ3RMTDExMGVJdS1lUjUtdlBFVkJQY1VXdVBZTF9qVklpbU1YRXp6dHpXNWhqcHVFVFNsZUtQeXV6SGNBTnJYaHBzWlE5SF9EeFpiYllha3c?oc=5"
+        "headline": "Sensex, Nifty Snap 4-day Losing Streak As Pharma, Metal Stocks Lead Recovery",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcVFTdXVIX0h2NzIxcmsyRWt4UFcwd0pLSjEwRW9lSWhGRHlXZU8tZXJ5SUhwZTI3bTRwMzVYc05XUGVxYlRlanNaaVQ3TUVXNU1ZZTRHVjdFaWVfZW1qajh6WWFGanItX0VSck5RQmRNTXAyMzZKR214U2FyUllZMmJTM2oybXVBTmZwdU1sSzhQUWt3RWZpY0kyYUItQjRrOE1kVUdtN0J6U0FrRUNoVGNHaFRMOFZQanJGOGNPbU5VUjJ1djM0UTk2OA?oc=5"
       },
       {
-        "name": "NIFTY AUTO",
-        "pct": -0.6,
+        "name": "NIFTY PHARMA",
+        "pct": 1.76,
         "catalyst": null,
-        "headline": "India Retail Traders Cut Back on Leveraged Bets as Stocks Slide",
-        "source": "Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYVdGZC01QndxX053cEp5bk9fcHJvanhMVlN6aDNEZ3FUSDIwTDdlZ1ZGMHNiZjBUd3lVVmRxUXZwS1pEN0ZJNHRVSy1FLXpkTU5aajdJa1VHVXRTUmpMTG9aVHpLWHBqd1dWelVLdlVDVXc4M2FHZnFiZW1mNFBaeHFUSzVTNTJacVhqN2VRcHhZaXRDWDBZSUV6Wml1NGs0emFhWThXLUtuZFloQ2hyYTFDY0Z0N0NP?oc=5"
+        "headline": "Sensex Jumps 482 Points, Nifty Closes Above 22,750 as Metal and Pharma Stocks Rally",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXJyZi1IRXFwcVFSWno3WHVOMEFJcE1aZ0c4QVRUSENqcXNXTk9HY1NnOEtLWl9xOUw2OWNaempORGZuenpMcHNpcW8zSHdfTUFBTkw0dFQ0RktPVnFpcTI3cEd1bUpBZE0wN01pVm83emc3TGhwNTh3ZUc5RDFEbk4wT1FDQjVnNWFCRFRKU2pGeGJ5Yk5jcFMtLXFyX0pUS3I0bVVQaXJDQ3VqLV9v?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY METAL",
-        "pct": -2.71,
+        "name": "NIFTY BANK",
+        "pct": 0.15,
         "catalyst": null,
-        "headline": "Lost mettle! VAML, Vedanta, Nalco sink up to 6% as metal index drops 3%",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaldJQzRveVFsQWRCX2tvVmlKcW5EVE4zVzlkVlVONXdxOEdRMzVmeHVNUEZ1ci13V1I0VkVRUk9wMjhOaWtJSms5cEJmdkVXZU5OMlc0Sm0wZXptMTlmMDVYWnlqUDNDYmtpanZJalNkTjkzclN4QUFreHhkSWJJU09pNXFGQVhzTDVSdUFvbXljZmxsZEpzRmpIV1Nwc180aTFXejRIUEdKMnAwNlBlMzMtQ1JqU29oT3ExVXZfRkN3VEt6SGs0akRFbmNYZ9IB0wFBVV95cUxQTE1mUDlLX25jTFJ3TVdwZzBzbzVOWXE0b2ZHOXlxTWFMaFotdTI1Z3BJUGJMSGtFQU1zcjBMb18wWTJ0SVdWMlNlc2w4MUozVlhYWUljSWRDcGUwdy1mb2IwZ205NVQ0U0dlVEhYOV9fcGE4SURydGhWSWM3MlBNRkVPN0dkZ0tFdXdsZ29JcXV3VElYeF9vTkhadFhrc0d3UzgyOEpudFEtU1BpZC1mMlQ1cHhwZGpCZzFPUG1sRDdXcWxuY3JrU3FQNUx6eXlKTTZV?oc=5"
+        "headline": "Nifty Bank Live | NSE Nifty Bank Index Today - S&P CNX Nifty Bank",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDgzbm9jRDVIMnYwdGNtY3NVVjdsSFhob2hXLVl1dDItVHp6SFBaaGY5M2NVeGszYm44bVVPTWc4bXF5dDU2eEJReGNuNUxiZ1ZLeTNBT1V1cEpiMEt3VjhJU0lsTE40Qm4yLUlEOWF2Rm8?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": -2.38,
+        "name": "NIFTY FINANCIAL SERVICES",
+        "pct": 0.21,
         "catalyst": null,
-        "headline": "Indian realty sector sees 69% fall in deal value to USD 705 mn in Jul-Sep: Grant Thornton Bharat",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPRXFOT19RVllJVWM3cndDZXdoSWRkUUxMbzEyanhkdXFjMzI5SEZsMW40c25QcUtSVGFjbTcySHktT0xMSHRiaUtiMzNWVzRqZS1tZDNSR1JoNHplQUFpX0NDcGNuUjVSRlZXQnFYc1RnMUtvYU5nR1VwRFdybEhJbFFUSFpHcjJEWTJocm9JZDhxUXFuNEdrRy1VcUFqYWp2ZF9BVGF3N18wQlhNaFh2bS1hSDEtRzJtQzZFSTdhWUx0RGJhOF9aSEdqTDZoY1RvVktYRkhEWXNoNXVYaDBic0ZSeWZZZGxHXzFmSmRnemxqWWtGM3laWUFISWJDbTVvUXFHNHg0VjFSb09PVU83WlV1dl9iWGPSAZwCQVVfeXFMTm9OZFJlbUFkQ0FoYzYwbW1qeWViMHdoM0lKY25kMmE0TTdhM3dzUk96eDJxLXZNZFRudU5zNW83c044N1o2YUZJNElWTi1KbGxHYWREcDAwQWlpVDJyTUJhakdQVi1zal82cVRYdFBUdzNNVmI4VWpoeUF5MVQ1VWctVjFqLUlQZmpZVWtkb01TOVRUaHZwRUZMUkxKb3dycEFTYVV6Q0ZiLUdQd3JidjZRTmhmXzZIdW43akFiR3lPVWE5R2dsS3EwZXgwR0ZHdHp1a3pRQ0hYZlJweUVhT1ltQnRGYlprUEU5c2RfV2dSTHMyWExhZ05HZ09XVGtGVnNPbmNzSnd5VVNWcXZrSG40VDZFLWJyYmpfWkw?oc=5"
+        "headline": "LIVE: Fortune India Banking & NBFCs Summit 2026",
+        "source": "Fortune India",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON1NVU2xma3EyRV9tN3hia01Qd0hPT19KcTBIT3p1ajFwRHBhd0hUUE8wUmRyUnBtY0dpaFUxWGRheGtHYmllbml3Q1VMdkoyaDlfc01BOG1BZGNoN1ZwMk5lZDFCeGstaGotYk5fNUdXYmF4YnpZUEROOHZWMDVoWk1WdnhMMG1iMVZIQmtjb2IxUTdvdkHSAaMBQVVfeXFMT0NVUEV2eEJKWnBuUEhKVFNUMGl6d2szTVBJYlBUZ2VpQjdJTlE0V2k4WXVZMUhkbDFaTEhZdGFwcmVNMDZGZ1FZNGpjRmg3NmZYWnNSd09BOTA1WFJ0dE9SQy1HaExnR2lISEw0eXBOam1kVUhzNDI4M3h2alY0NEYyOHY4VWtldkhqaVQ5OFFFMkZGZ1NxNlhYU2trR2N4WXJuSQ?oc=5"
       }
     ]
   }
