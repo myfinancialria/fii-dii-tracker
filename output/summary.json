@@ -1,51 +1,51 @@
 {
-  "date": "2026-10-28",
-  "date_pretty": "Wednesday, 28 October 2026",
-  "mood": "Range-bound",
+  "date": "2026-10-29",
+  "date_pretty": "Thursday, 29 October 2026",
+  "mood": "Risk-On",
   "nifty": {
-    "last": 22698.85,
-    "change": -50.9,
-    "pct": -0.22,
+    "last": 22936.75,
+    "change": 237.9,
+    "pct": 1.05,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 26,
-    "declines": 24,
+    "advances": 39,
+    "declines": 11,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 54267.4,
-    "change": 292.5,
-    "pct": 0.54,
+    "last": 54909.65,
+    "change": 642.25,
+    "pct": 1.18,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 7,
-    "declines": 7,
+    "advances": 11,
+    "declines": 3,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 22698.85,
-    "change": -50.9,
-    "pct": -0.22,
+    "last": 22936.75,
+    "change": 237.9,
+    "pct": 1.05,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 26,
-    "declines": 24,
+    "advances": 39,
+    "declines": 11,
     "unchanged": 0
   },
   "midcap": {
-    "last": 57274.7,
-    "change": 244.8,
-    "pct": 0.43,
+    "last": 57841.65,
+    "change": 566.95,
+    "pct": 0.99,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 54,
-    "declines": 46,
-    "unchanged": 0
+    "advances": 74,
+    "declines": 25,
+    "unchanged": 1
   },
   "vix": {
-    "last": 16.36,
-    "change": -0.04,
-    "pct": -0.28,
+    "last": 15.2,
+    "change": -1.05,
+    "pct": -6.43,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 16834.53,
-    "sell": 15962.7,
-    "net": 871.83
+    "buy": 13400.29,
+    "sell": 14343.89,
+    "net": -943.6
   },
   "dii": {
-    "buy": 17240.9,
-    "sell": 16597.55,
-    "net": 643.35
+    "buy": 18458.64,
+    "sell": 16534.23,
+    "net": 1924.41
   },
   "global": {
     "Dow Jones": {
-      "last": 52475.1015625,
-      "change": 97.53125,
-      "pct": 0.18620804557771553
+      "last": 52342.55859375,
+      "change": -132.54296875,
+      "pct": -0.2525825864141223
     },
     "Nasdaq": {
-      "last": 26549.8515625,
-      "change": 72.041015625,
-      "pct": 0.27208071263091094
+      "last": 26184.724609375,
+      "change": -365.125,
+      "pct": -1.3752431948656725
     },
     "S&P 500": {
-      "last": 7743.97998046875,
-      "change": 21.3798828125,
-      "pct": 0.27684824466035257
+      "last": 7720.39013671875,
+      "change": -23.58984375,
+      "pct": -0.3046217036910791
     },
     "FTSE 100": {
-      "last": 10694.5,
-      "change": 8.0,
-      "pct": 0.07486080568942123
+      "last": 10722.0703125,
+      "change": 27.5703125,
+      "pct": 0.2577989854598158
     },
     "Nikkei 225": {
-      "last": 63268.37109375,
-      "change": 1078.72265625,
-      "pct": 1.7345694715320765
+      "last": 63954.19140625,
+      "change": 685.8203125,
+      "pct": 1.0839860433323993
     },
     "Hang Seng": {
-      "last": 23041.3203125,
-      "change": -170.490234375,
-      "pct": -0.734497785214575
+      "last": 23094.830078125,
+      "change": 53.509765625,
+      "pct": 0.23223393841702186
     }
   },
   "fx_commodities": {
     "USD/INR": {
       "last": 95.20999908447266,
-      "change": 0.02300262451171875,
-      "pct": 0.02416572154516345
+      "change": 0.032196044921875,
+      "pct": 0.033827262128015345
     },
     "Dollar Index": {
-      "last": 102.10600280761719,
-      "change": -0.21399688720703125,
-      "pct": -0.20914473010681228
+      "last": 101.92400360107422,
+      "change": -0.26599884033203125,
+      "pct": -0.26029830118122343
     },
     "Brent Crude": {
-      "last": 110.37000274658203,
-      "change": -3.5099945068359375,
-      "pct": -3.082187031516274
+      "last": 111.7300033569336,
+      "change": -3.589996337890625,
+      "pct": -3.113073488892622
     },
     "Gold": {
-      "last": 4083.5,
-      "change": 8.89990234375,
-      "pct": 0.21842394665599973
+      "last": 4038.699951171875,
+      "change": -12.900146484375,
+      "pct": -0.3183963415302861
     },
     "US 10Y Yield": {
-      "last": 5.045000076293945,
-      "change": 0.05200004577636719,
-      "pct": 1.0414589517031674
+      "last": 4.988999843597412,
+      "change": -0.0560002326965332,
+      "pct": -1.1100145064352693
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "APOLLOHOSP",
-        "ltp": 8137.0,
-        "pct": 4.43,
+        "symbol": "ADANIPORTS",
+        "ltp": 1872.0,
+        "pct": 6.29,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Adani Ports shares gain 2% after Q2 profit rises 18%",
+        "source": "India Infoline",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRHBHd1FqN3Nmbng5c2VSYTJ6WjgtekRhbzh5MDRndlZwUm8zX09XY2ZLb0taYUktY0JOZEdNU05nMkM3bWg4N2JGeWdzRUpZMHAzTlJoNm9lNXdIblM4UFFCV01kWGk5ZzFRWTV0WDh2QUI1cTR3YkFYTDluS1hnQ3BWVkExR19QUk5XaVVfNC1nN1NzeGtyVDlBZw?oc=5"
       },
       {
-        "symbol": "LT",
-        "ltp": 3801.3,
-        "pct": 3.72,
+        "symbol": "ADANIENT",
+        "ltp": 2607.9,
+        "pct": 5.17,
         "catalyst": null,
-        "headline": "LT Share Price Today - Larsen & Toubro on NSE/BSE",
-        "source": "scanx.trade",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Va2pjTGxndWVGRWViRmlVZzB0LVJoYy1QWENCdHFJQzdzclE5ZUhOTVcwUnlEX01DQ3NHbFlBdkExYnViYjRmY0RqTkNNVkFoclJBUlhQdlMzeXNF?oc=5"
+        "headline": "Market wrap: Adani Ports SEZ, Adani Ent, Trent, Maruti Suzuki top gainers and losers on Nifty and Sensex",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQTExDS2xDVEJ0RTZvRW9FLTN2bkxpSEYzWTliaW80d0NSdjRLUjZhQS1rX283NjBEdTNlejFVZkpwQVdIbWh0cmpMaE5FdW1VcFJtM1kzUkJQVDB6VW84TWNJQ1cybVd4RU9CLWJBa1FwaWpmMkpjVEg1VHBfZnB3MVFqaWowYXZfWndZdkdpOUV4V3dDQk9BbHl5bDREeUpsZHRFb3JQZ0tGamp5YnBvNVN4SUIxVFBWRnRpVzlmVl9HUDFOd0swb1VkWUpERkxET1dYMzRNM2dGc3Y4eTE5c0FXMWJ6ZU1Ub2tId2d0UlJhcE1qUHlNazU0dHF6TURFNmRwUUpxSl9YS2lkVjVhcTkxZmdLSkxiWmlkeXgwRUHSAZoCQVVfeXFMTUVUZkk1X094YUVObmFiZ2JMOTB5Zkw3RkVSbTluYkpDRDdrRW1GUVh4VjZXNU56OTVnOWxGaTdIOUdfUXl3WEdjRGpUd1dyenZXcnZZSE84anV6NUMyeThKVzkxR0k0UWYxN2ctSURpTkc5bGhpVkdEdlBtcjkyc1VsTVpGYW5GRlRxc2oxNGdDWk50d2prREhfd1B4Z0Jmd3lnWlFVNmFyY3ZUVU1JdEc2ZXFvZTJIU2dmNmtUTlRSaXo2YnZId05xQUdLcmxfZ0ZRaGd1eUJjVmxkSHRPZFhjYnBVQXF4eFEzN3I5NzlsYWNSblhaTF9Ec0kxTFlfMHktdHIxQzBVNjNnV2xfZnRLeDlrengtbktR?oc=5"
       },
       {
-        "symbol": "TRENT",
-        "ltp": 2913.9,
-        "pct": 3.31,
+        "symbol": "KOTAKBANK",
+        "ltp": 459.0,
+        "pct": 4.32,
         "catalyst": null,
-        "headline": "Sensex ends in red on selling in IT stocks, rising crude oil prices",
-        "source": "DD India",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHdjeTlxY29wcTBTRVJKZlg0eklLVDZXX005c3AxOG1ueDdXV0NmcWJHNVFIaXBlX2FUaVI3SUhqaUY2RG9rc2JqWmppVnhPQzlPdjY5ODFFajZ2X0xLMnNwYWNIZXlXX205aTBRTm40WnJncDNOeFRPdWU4ZzhjNlVQSUNoWkxaSEZNU0E0aXAzZzlNalhkRWc1M1NXUQ?oc=5"
+        "headline": "Top Gainers and Losers Today, 29 October 2026 at 3:30 PM IST",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3hDdVFGdTM1SzQ0R2dSSmpSNmdhdGExdjVacVlkZUdOX24wYkdwdHFRMktoV21UdFIwME1fZUVvMkN1RzNZSjdqMFVCZE9LRjdYejM1TEdwRDJ4SmRmbHlUblBHc1NYbExLcXROT0Jnd2hncDBHT2hkaVZPSEIza29TWHRyOGM3TWVoNw?oc=5"
       },
       {
-        "symbol": "SBILIFE",
-        "ltp": 1666.7,
-        "pct": 2.06
+        "symbol": "ETERNAL",
+        "ltp": 337.85,
+        "pct": 3.63
       },
       {
-        "symbol": "INDIGO",
-        "ltp": 4690.0,
-        "pct": 2.03
+        "symbol": "POWERGRID",
+        "ltp": 260.0,
+        "pct": 3.42
       }
     ],
     "losers": [
       {
-        "symbol": "INFY",
-        "ltp": 1123.15,
-        "pct": -3.43,
+        "symbol": "TRENT",
+        "ltp": 2861.7,
+        "pct": -1.79,
         "catalyst": null,
-        "headline": "Why Is Stock Market Falling Today? 4 Key Reasons Behind Sensex, Nifty Crash",
-        "source": "NDTV",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObWxhVDV4ZlIydzBlUDdmdzFaMGRMcWw5N3RjWHRSWnZKOU85V1BaM1pOVDJBU0NjcUcycEZ0a1lGdTFjT2JBU3hGRl8xV0tmRmN6Rk9pSmo2MTJXLW1sRTFEZXROZ2NyaWlOc25CajVNNlBBTWN1aTNrWk9rTDU0QlhJaUt4MHV0cDdwSUs4M1M0WEZGYUJxTWtUUDhJeUNRc1Z1NXhlZTRPZHFzZmgwQzlWQWNxeldN0gHAAUFVX3lxTE5jb2ZQVkFqMmdkV1pQR3ZUaFBnRnNEODlSbFdlOWpxNGUxVnlRTlZjX1JraXlkVlZhNjc0ektuZ0VpaVFfbkhwRFI2N3JaSEtKc0pkZ1RQRjFVS3hhQlFVSUJHdE0yODNqS1NJRXc5LU9mM19GMWc4ZjdfbXd5WnRZTWpqTDJ3eGs3NnUxNmdhOWg2S2YxS2FnUUdPOFZoQ1JBdElkQWZJaVBNVXNuRDB2c1dpSEpxaDVwWWdKOFo4LQ?oc=5"
+        "headline": "Market wrap: Adani Ports SEZ, Adani Ent, Trent, Maruti Suzuki top gainers and losers on Nifty and Sensex",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQTExDS2xDVEJ0RTZvRW9FLTN2bkxpSEYzWTliaW80d0NSdjRLUjZhQS1rX283NjBEdTNlejFVZkpwQVdIbWh0cmpMaE5FdW1VcFJtM1kzUkJQVDB6VW84TWNJQ1cybVd4RU9CLWJBa1FwaWpmMkpjVEg1VHBfZnB3MVFqaWowYXZfWndZdkdpOUV4V3dDQk9BbHl5bDREeUpsZHRFb3JQZ0tGamp5YnBvNVN4SUIxVFBWRnRpVzlmVl9HUDFOd0swb1VkWUpERkxET1dYMzRNM2dGc3Y4eTE5c0FXMWJ6ZU1Ub2tId2d0UlJhcE1qUHlNazU0dHF6TURFNmRwUUpxSl9YS2lkVjVhcTkxZmdLSkxiWmlkeXgwRUHSAZoCQVVfeXFMTUVUZkk1X094YUVObmFiZ2JMOTB5Zkw3RkVSbTluYkpDRDdrRW1GUVh4VjZXNU56OTVnOWxGaTdIOUdfUXl3WEdjRGpUd1dyenZXcnZZSE84anV6NUMyeThKVzkxR0k0UWYxN2ctSURpTkc5bGhpVkdEdlBtcjkyc1VsTVpGYW5GRlRxc2oxNGdDWk50d2prREhfd1B4Z0Jmd3lnWlFVNmFyY3ZUVU1JdEc2ZXFvZTJIU2dmNmtUTlRSaXo2YnZId05xQUdLcmxfZ0ZRaGd1eUJjVmxkSHRPZFhjYnBVQXF4eFEzN3I5NzlsYWNSblhaTF9Ec0kxTFlfMHktdHIxQzBVNjNnV2xfZnRLeDlrengtbktR?oc=5"
       },
       {
-        "symbol": "RELIANCE",
-        "ltp": 1158.0,
-        "pct": -3.19,
+        "symbol": "MARUTI",
+        "ltp": 11426.0,
+        "pct": -1.32,
         "catalyst": null,
-        "headline": "Reliance Industries Limited (RELIANCE.NS) Stock Price, News, Quote & History",
-        "source": "Yahoo! Finance Canada",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05cTlPZzV1eU5MeDQ3eW1UaXJrYkVIUlZ4MkJ6NHluLXR0WHhKTEo2Z0h3cmp6WEZSQTJaQVRfWEN3MGVQbzk2VzU0dHFOZVJPTXpzNUM4MDhYa28?oc=5"
+        "headline": "Market wrap: Adani Ports SEZ, Adani Ent, Trent, Maruti Suzuki top gainers and losers on Nifty and Sensex",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQTExDS2xDVEJ0RTZvRW9FLTN2bkxpSEYzWTliaW80d0NSdjRLUjZhQS1rX283NjBEdTNlejFVZkpwQVdIbWh0cmpMaE5FdW1VcFJtM1kzUkJQVDB6VW84TWNJQ1cybVd4RU9CLWJBa1FwaWpmMkpjVEg1VHBfZnB3MVFqaWowYXZfWndZdkdpOUV4V3dDQk9BbHl5bDREeUpsZHRFb3JQZ0tGamp5YnBvNVN4SUIxVFBWRnRpVzlmVl9HUDFOd0swb1VkWUpERkxET1dYMzRNM2dGc3Y4eTE5c0FXMWJ6ZU1Ub2tId2d0UlJhcE1qUHlNazU0dHF6TURFNmRwUUpxSl9YS2lkVjVhcTkxZmdLSkxiWmlkeXgwRUHSAZoCQVVfeXFMTUVUZkk1X094YUVObmFiZ2JMOTB5Zkw3RkVSbTluYkpDRDdrRW1GUVh4VjZXNU56OTVnOWxGaTdIOUdfUXl3WEdjRGpUd1dyenZXcnZZSE84anV6NUMyeThKVzkxR0k0UWYxN2ctSURpTkc5bGhpVkdEdlBtcjkyc1VsTVpGYW5GRlRxc2oxNGdDWk50d2prREhfd1B4Z0Jmd3lnWlFVNmFyY3ZUVU1JdEc2ZXFvZTJIU2dmNmtUTlRSaXo2YnZId05xQUdLcmxfZ0ZRaGd1eUJjVmxkSHRPZFhjYnBVQXF4eFEzN3I5NzlsYWNSblhaTF9Ec0kxTFlfMHktdHIxQzBVNjNnV2xfZnRLeDlrengtbktR?oc=5"
       },
       {
-        "symbol": "ONGC",
-        "ltp": 224.89,
-        "pct": -2.16,
+        "symbol": "BAJAJ-AUTO",
+        "ltp": 10383.0,
+        "pct": -0.97,
         "catalyst": null,
-        "headline": "India shares lower at close of trade; Nifty 50 down 0.22%",
-        "source": "Investing.com India",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObXZfQ0VwNzFFbVRRNkUyUDRQbG1XQVhQNGJ5cTU2c0xCMTNmdGVXTHExMjhiUlhkUWFJSktMVHlUUlVpZmdURzhVdWd1SEpDVHF1VWF2NVFvRGVVZVVLcllWcHpPVTZqUndzVmhqQjNVMkt6cTJPUFY5bEhaWjNXMURGbUhLTWJDZlJ4ZTRkNk5ETERVMGFzMjNrVElpVFhuQjdwTVg1Z1FBQ3Fwdmg4?oc=5"
+        "headline": "Bajaj Auto to host JM Financial investor meet on Nov 17, joins Dec 2 conference",
+        "source": "scanx.trade",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc21uY1BNNHhvUFRRQnZCbXRuR3JPQVh6N1pnUjhveWQwYlFaTjNYMGZjS0poZXV6ei1fR0FrLXYxOFQ4eXBFVnc3NmMzY0NabEM3RmpKdURoNGJoZERZVnJ2ZDVmMndSN0xiZ01wZVcyeHhFMzNTX0VEd19NYWE1VGlXUEZZTzRjQlVOUmNCMGlhN0xQZ0RYZ2dnbUJxS045eE5FM1ZvN2ZSeENOTlNmSnIxeFVoUFd3dkE?oc=5"
       },
       {
-        "symbol": "TECHM",
-        "ltp": 1776.6,
-        "pct": -1.92
+        "symbol": "SBILIFE",
+        "ltp": 1652.0,
+        "pct": -0.88
       },
       {
-        "symbol": "BHARTIARTL",
-        "ltp": 1948.1,
-        "pct": -1.55
+        "symbol": "EICHERMOT",
+        "ltp": 7238.0,
+        "pct": -0.85
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY AUTO",
-        "pct": 1.45,
+        "name": "NIFTY REALTY",
+        "pct": 2.75,
         "catalyst": null,
-        "headline": "Indian Stock Markets Close Lower as Auto and Banking Shares Help Limit Losses",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdFg0QlFXc1hqenN0Y1BjTjlaSWZWbmFIUzk3WWFXQWZFVldoSkdyWGVINnZiM1JXeW95SWFEQ2dnYUdjXzU0V1hvdWRsU2k1bm53Y3NXWUF6bXZPTnk0cW1TZXJYMjR6XzY3V0dhQkg1amlOQjQ3RlRsdk5UVkdCUDVWc0V6Z3loUDdBUHlNLV8xaDVtVG9rV0RzdUlWVTNYQWE3ZWplQU1DQQ?oc=5"
+        "headline": "Why markets rallied: Sensex jumps over 900 points, Nifty gains 1 per cent; 5 key reasons",
+        "source": "The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOV2JFLS1oXzVnM3R0aFVjdkpzTDM0cVh6cWRtUnBmOVpqbGpGU19iWjAyS2NTdEhpMHZITGZwNm1kbFg5YVVpWUkzOEpaWHNvVGRCYTRyOUM0RWtsTkJIWFpYSjYwTXdfTjFVTXNEVmpROHBfblVxdTVTRlI5NmVpYlUwX3JXT2J6M0dWVmNRWjZwSDZSMlpaTHhxdUFRRGVNZDh1VV9mS2I3Wkp1UUx2SnVOaVMtTEtGZFhDcW53V0ZWWUFMdWJqU3dzeE1DV1dVMkR3THhJeHg2blJmVXU0SEtQbHdFSDN2Q0cyU0RMMGVPM0xM0gH6AUFVX3lxTE1CQWRvOTFHOU9DMTAtMjUyTWEyem5lQVRyYzNQMzd1OWxPRHEyVUx3OEtsUUc0Uy16Q0lkTTE2X0FBQ1VyaTFwUnFNMnc2b0pIM1N1SUdKcnhuWG1YbDNGZUE0RE5uSzBqdDcyRWEwN3lLR3htVTBfLTNSclZTeW84ajcwQ05tWS1pczQtN0dJdEtKdXA4d0N3UTlrdDFOWXVVdG8xMDVpQ2JkaGI3Nnlic1RHaUtEMWlQS0VrajR3RGc5SWo0aWNrSEloNzczZ3lMQ01LZ2hkWXIxSFBCanJHSUpwUWxsVGt3S2J5MVNvTFI2aFZYWXFPbmc?oc=5"
       },
       {
-        "name": "NIFTY PHARMA",
-        "pct": 1.04,
+        "name": "NIFTY FMCG",
+        "pct": 2.34,
         "catalyst": null,
-        "headline": "Ahead of Market: 10 things that will decide stock market action on Thursday",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeTFxSUNsUVVPcmwydHdhM1JQZkxpX1VaUXVCeXVuYjRoUnlaLXFoZmdWcHFxcUJtem4yQXRkY1l3Ync2OTNnVkt6NFVLNFJfRkRNZjVhTTFoNERzVkVzcHpSd0pZYlNRX1dMRHdjNFJqT1YtenB3c1hkMXg2Ykw2dHJpM0FGT3pvbUF6b2lDNkF3Q2RTb0lsUkhfWTBSMFFHTWhMVWxkb2RkNXQteU95UjFIRm5kRHEzUE5PVlVGVkhaODFsOHRKWTF6Vmc3dTBuOGYya2JrWnpndEhzaG1hWVhmZ9IB6AFBVV95cUxNYmZJMDgzV2dnTGdDVG41SFZDVjNvcUNvaXNza1JmMFF1UU1iQUV1SmhUREdDeXQ5TDRTZVNKR0V2RnJHSnBZSXRXVGhIVUhqNkJidG5nVFFPcUJfaGhjdDhyOWR4QjBLNmZnQUV5Y3RkSVJGUlgtRmlJMmdyNUt2RnZ2VkpZa0JxcElYaE9ieVRBU1dybURKSWJWVVNtSm1oZXlQWXJHNFJ0YXByTUFDUjk4MlgxOUVsdnd3eFNjUXRRRC0yczFoYlR5Nm8ySmQ1dG1VZkQyLXctSFhrZF9lVzFLbU5FVG4x?oc=5"
+        "headline": "HUL vs Nestle India shares compared: Which FMCG stock to buy post Q2 results: Who wins on profit, revenue and dividend?",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNb2U2VVN3VXhscXB1amxac1VPLTQ0d19GZHlqdGFJRjBubk5tT3lwSnRFcXZMRm5XbG1VZXBoa0l1b0tvVVBqb093UzZYYjQ0T3FReVBvUTdXWGhPc2p3dGNwYU1peHdKLVFRNV9QbHRMSHhNQ0JyaHVxV0F0cTUzZ1lSWmtoaWhaTnQ1QlRJVW1xUU9QaXdJRFF3b1Itdnh0Rm0tQ3ljaHF0bUNwazVnVW1Pb3MtR28yR0thTTgzLXlPQjJLN2ZvX3VmMWR0ME5USE9sMmg2c2lOUER3aTd3S0RXbWNFQzBsbjZJS3NOd3Y5UjljR0IzYXZrYjZIZy1VZFHSAYcCQVVfeXFMTUQ2WkVRZHFDNWFnZGROV1RWWGh4Z0FLTDN5eUZ2ZWZSeDM0MUN0Q3RfcjZLQmpJVmstcUs0MTFLejEyaGNINzNFUTVwd3FETlZPWGFUUUstQ2xxMEF2ZUNJVHdrLTJqOFVNcXljdExnd3ZTcW1tenhyaFRpQW0xWHJIalFkb0Y1Y2E2TC1VT2pIQlg5cHhNRU5hTVNDWVM4ZmNaX3N5SFZqVGVnZXNYdUJLRzlVRGNXMVNubU5aRXRwcUpLVVpZRDVwcEd3b1ZObkNYbDJaVlhWeEZZNzJsYXNIV3FCYmhiZ3hqTXlHNVBTTmZQTjJyNG5DR0cxcm5XUHNOVC1lemc?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY IT",
-        "pct": -1.98,
+        "name": "NIFTY AUTO",
+        "pct": -0.24,
         "catalyst": null,
-        "headline": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
-        "source": "CNBC",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uNkM4SHBzLVRtc0U3dHBoZGhOd0hmVzZqY2MzUWE2UHlFNHhDSkVCSHFWOUk4bnkxdk9XZ21hTC1vYUdjZzZIMVJnXzdTT2ZGUW92VHhpZ3RXNVJzMjZHbHdYdWxNNS1uOWU3YlFGRjZPaERu0gF6QVVfeXFMT1NsUnFwajBlOFlGWmNvNFhrMlBsQlpvbS1xdDZTdU1sdS0yYTlZeWt6UFRXOGZJU25PSGV5RTJlbWdjSlN0dWp4b1hVaXZWelo3SGI5Mi1KVW84Nmt2Z1pFeWZ5UFByci10RDVnWmkwYUZrNzM1MGRwN3c?oc=5"
+        "headline": "Auto stocks may outperform next week; IT counters could see profit booking: Hemang Gor, Axis Direct",
+        "source": "ANI News",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUVFIRkdjYm02OWtBc3hrbXg1a1V0aS1PQ0x4b2dxaWJ6UDdkWEY3NXozRDhKaGl2YWE3ajNzdUpRLWhmMGZXWkw2WGc3SnJ5UE9Sb2M4Rm5qdTJFNXlyS3c0MGVKUmtMT2o2RDUwZF9iWE5xUlZBQUJWWkZZUm9naVNyOVRjN1ZrbTEyV21IVEJ6cHQ3TnIyQkNlY0pxTUEyd0k5Rm5sXzBwaW8zV3FiN1RncEJXUnRVUHRhSHM1UjRySVhrdnM0VWxMU0lBS3ozR1c1NzM0Zi1JcDlXSHR4Mw?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": -0.89,
+        "name": "NIFTY PHARMA",
+        "pct": 0.64,
         "catalyst": null,
-        "headline": "Top 45 Real Estate Shares To Watch In October 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBLdUphN3JOelNWNU0wOGJ2b3VTQXlrX3RUVHd3Z0pmV1lfb3pnZ091azhqSW5ycldqc2RQb3ZEOC1kRGg3VVBvWE9keFBvV0l3cXlTMWctQnF6ZTE3cWhMNi1NQmxOTGQyZjlGVHZodGZlS0l0c1J3X0ZaVQ?oc=5"
+        "headline": "Q2 earnings beat lifts this AI-picked Indian pharma stock 12%",
+        "source": "Investing.com India",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWU9hYnZyQkxuMzAxV3lqZGg0aFhIaDVKaGtLVDZUVEtlbjRDZzJzY1lhYmd5cVpXcmZfbmdTUmFmbmhlbFdoZFhCZmZMOFFxNEVsVkxjaHR3TDVUanNqWUk5X1B6TEpkZVVWQ2M4ZzR3N0ZlZHpHc3NlcFE5RHVzUVBWeXg3ZVdqUDEyV0RXQW5QVEZrUENxU2prRUdqa2FFelhSZi1qdlhXMWJ5V0NiVDEwWGp5Zw?oc=5"
       }
     ]
   }
