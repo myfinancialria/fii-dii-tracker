@@ -8,3 +8,4 @@ entry_date,exit_date,sector,A,B,direction,days_held,exit_reason,entry_z,exit_z,r
 2026-07-20,2026-09-07,PSU Banks,PNB,CANBK,short,35,time,2.794,1.299,-3.6103
 2026-06-30,2026-09-08,Oil & Gas,IOC,BPCL,long,50,time,-2.275,-0.604,-2.0774
 2026-08-20,2026-09-15,Metals,TATASTEEL,JINDALSTEL,long,17,target,-2.086,-0.368,1.1172
+2026-09-24,2026-10-29,Metals,NMDC,SAIL,long,0,target,-2.044,-0.495,5.9305
