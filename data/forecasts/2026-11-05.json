@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-05",
+  "forecast_for": "2026-11-06",
+  "symbols": {
+    "NIFTY 50": {
+      "close": 24536.6,
+      "today_open": 24378.05,
+      "today_high": 24579.9,
+      "today_low": 24296.3,
+      "today_date": "2026-11-05",
+      "chg": 576.0,
+      "chg_pct": 2.40394647880271,
+      "atr14": 336.27500000000015,
+      "rsi14": 78.08594106377149,
+      "macd_hist": 213.80275160651135,
+      "ema20": 23220.67488614965,
+      "ema50": 23315.461774485248,
+      "ret_std20": 0.010875330960422128,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 24368.462499999998,
+          "high": 24704.7375
+        },
+        "normal": {
+          "low": 24200.324999999997,
+          "high": 24872.875
+        },
+        "wide": {
+          "low": 24032.1875,
+          "high": 25041.012499999997
+        }
+      },
+      "pivot": {
+        "P": 24470.93333333333,
+        "R1": 24645.566666666662,
+        "S1": 24361.96666666666,
+        "R2": 24754.533333333333,
+        "S2": 24187.33333333333,
+        "R3": 24929.166666666664,
+        "S3": 24078.366666666658
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 56,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 83,
+          "notes": []
+        }
+      },
+      "ma_stack": "above both EMAs"
+    },
+    "SENSEX": {
+      "close": 79310.01,
+      "today_open": 78910.94,
+      "today_high": 79470.03,
+      "today_low": 78520.56,
+      "today_date": "2026-11-05",
+      "chg": 2008.6100000000006,
+      "chg_pct": 2.598413482808848,
+      "atr14": 1080.2435714285707,
+      "rsi14": 77.97444078004011,
+      "macd_hist": 666.1047205510201,
+      "ema20": 74892.73109283087,
+      "ema50": 74940.71450443327,
+      "ret_std20": 0.011233284518074836,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 78769.8882142857,
+          "high": 79850.13178571429
+        },
+        "normal": {
+          "low": 78229.76642857143,
+          "high": 80390.25357142856
+        },
+        "wide": {
+          "low": 77689.64464285714,
+          "high": 80930.37535714285
+        }
+      },
+      "pivot": {
+        "P": 79100.2,
+        "R1": 79679.84,
+        "S1": 78730.37,
+        "R2": 80049.67,
+        "S2": 78150.73,
+        "R3": 80629.31,
+        "S3": 77780.9
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 42,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 57,
+          "notes": []
+        }
+      },
+      "ma_stack": "above both EMAs"
+    },
+    "BANK NIFTY": {
+      "close": 57773.65,
+      "today_open": 57102.8,
+      "today_high": 57847.65,
+      "today_low": 56718.2,
+      "today_date": "2026-11-05",
+      "chg": 1860.050000000003,
+      "chg_pct": 3.3266504034796585,
+      "atr14": 803.5428571428575,
+      "rsi14": 65.56708878827047,
+      "macd_hist": 310.96164368957386,
+      "ema20": 55364.04827790758,
+      "ema50": 55772.23840297017,
+      "ret_std20": 0.010696109471891865,
+      "bias": "neutral",
+      "tomorrow": {
+        "tight": {
+          "low": 57371.87857142857,
+          "high": 58175.42142857143
+        },
+        "normal": {
+          "low": 56970.107142857145,
+          "high": 58577.19285714286
+        },
+        "wide": {
+          "low": 56568.33571428571,
+          "high": 58978.96428571429
+        }
+      },
+      "pivot": {
+        "P": 57446.5,
+        "R1": 58174.8,
+        "S1": 57045.35,
+        "R2": 58575.950000000004,
+        "S2": 56317.049999999996,
+        "R3": 59304.25000000001,
+        "S3": 55915.899999999994
+      },
+      "candles": {
+        "today": {
+          "color": "green",
+          "body_pct": 59,
+          "notes": []
+        },
+        "yesterday": {
+          "color": "green",
+          "body_pct": 66,
+          "notes": []
+        }
+      },
+      "ma_stack": "above both EMAs"
+    }
+  },
+  "backtest": {
+    "NIFTY 50": {
+      "prev_date": "2026-11-04",
+      "prev_forecast": {
+        "tight": {
+          "low": 23799.09107142857,
+          "high": 24122.108928571426
+        },
+        "normal": {
+          "low": 23637.58214285714,
+          "high": 24283.617857142857
+        },
+        "wide": {
+          "low": 23476.073214285712,
+          "high": 24445.126785714285
+        }
+      },
+      "actual_high_today": 24579.9,
+      "actual_low_today": 24296.3,
+      "actual_close": 24536.6,
+      "inside_tight": false,
+      "inside_normal": false,
+      "inside_wide": false,
+      "verdict": "MISS \u2014 broke all bands \u2717"
+    },
+    "SENSEX": {
+      "prev_date": "2026-11-04",
+      "prev_forecast": {
+        "tight": {
+          "low": 76783.42928571429,
+          "high": 77819.3707142857
+        },
+        "normal": {
+          "low": 76265.45857142856,
+          "high": 78337.34142857142
+        },
+        "wide": {
+          "low": 75747.48785714286,
+          "high": 78855.31214285713
+        }
+      },
+      "actual_high_today": 79470.03,
+      "actual_low_today": 78520.56,
+      "actual_close": 79310.01,
+      "inside_tight": false,
+      "inside_normal": false,
+      "inside_wide": false,
+      "verdict": "MISS \u2014 broke all bands \u2717"
+    },
+    "BANK NIFTY": {
+      "prev_date": "2026-11-04",
+      "prev_forecast": {
+        "tight": {
+          "low": 55552.8125,
+          "high": 56274.3875
+        },
+        "normal": {
+          "low": 55192.025,
+          "high": 56635.174999999996
+        },
+        "wide": {
+          "low": 54831.237499999996,
+          "high": 56995.9625
+        }
+      },
+      "actual_high_today": 57847.65,
+      "actual_low_today": 56718.2,
+      "actual_close": 57773.65,
+      "inside_tight": false,
+      "inside_normal": false,
+      "inside_wide": false,
+      "verdict": "MISS \u2014 broke all bands \u2717"
+    }
+  },
+  "oi": {
+    "NIFTY 50": {
+      "expiry": "09-11-2026",
+      "resistance_strike": 25000,
+      "resistance_oi": 12221235,
+      "support_strike": 23500,
+      "support_oi": 9722895,
+      "pcr": 0.86,
+      "pcr_read": "neutral"
+    },
+    "SENSEX": {
+      "expiry": "12-11-2026",
+      "resistance_strike": 81000,
+      "resistance_oi": 361280,
+      "support_strike": 78000,
+      "support_oi": 872800,
+      "pcr": 0.92,
+      "pcr_read": "neutral"
+    },
+    "BANK NIFTY": {
+      "expiry": "23-11-2026",
+      "resistance_strike": 58000,
+      "resistance_oi": 2251290,
+      "support_strike": 58000,
+      "support_oi": 1475940,
+      "pcr": 0.78,
+      "pcr_read": "bearish"
+    }
+  }
+}
