@@ -1,55 +1,51 @@
 {
-  "date": "2026-11-06",
-  "date_pretty": "Friday, 06 November 2026",
-  "mood": "Mixed",
+  "date": "2026-11-09",
+  "date_pretty": "Monday, 09 November 2026",
+  "mood": "Range-bound",
   "nifty": {
-    "last": 25030.35,
-    "change": 493.75,
-    "pct": 2.01,
+    "last": 25044.65,
+    "change": 58.25,
+    "pct": 0.23,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 46,
-    "declines": 4,
-    "unchanged": 0
+    "advances": 21,
+    "declines": 28,
+    "unchanged": 1
   },
   "banknifty": {
-    "last": 59086.0,
-    "change": 1312.35,
-    "pct": 2.27,
+    "last": 59741.25,
+    "change": 890.6,
+    "pct": 1.51,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 10,
+    "advances": 9,
     "declines": 4,
-    "unchanged": 0,
-    "catalyst": null,
-    "headline": "BFSI stocks in a week: Nifty Bank recovers nearly 8%; HDFC, ICICI Bank drove index",
-    "source": "bfsi.economictimes.indiatimes.com",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUC1BMlY4S0RpSUtfa3N6TkdzcVlvSlpoVFBvZG5CaTNWeDhCd2RyVDNhVDh6dzFjNWZxel9YSHJpVi1ycGtpa2VRaGdONk5SRXFSQVMxbHUwckw1YjRJaW1NVFB1NG9nbm5CVzBHclpvMUE1eWlpdmxLeG9palFxMmNMbE1CZXJoZHY4ZzZKZ2dieWk1WkJxeVVZOUNXV1B2bkhBc2Rqd2JleWd6WXNjWGJDcmRsRm16YlNWVnh6dThmbXVOM3NpYnFEVG9GWVViMXBrS2xB0gHbAUFVX3lxTE5wbmViMjZUQWt5enhPRXBrTTJPYXNUTm9PTWZZZTQ3TEtWUVhsTU85V2UtOUFHd3k2aG5xa3h2dzBZeUNweU5SeUlCS2g2UlZMSmFIdFBXWWdzYmZLa2o5RHJKdDkxSVdhdG40V0lldjc4RV9JQXlialhjckJ0dEYxWHp1ZnA4RjAyNHBRRXNHM0pScTFOTGFHSGJhVjFvbFctbTNJWGVUUVZ5ZVpWMkh1WlZRRE5DdlI1bnNMNzlvWFJWbU5meFVnTUtVSlR2cDJMQlpHWDlJZHdzQQ?oc=5"
+    "unchanged": 1
   },
   "sensex_proxy": {
-    "last": 25030.35,
-    "change": 493.75,
-    "pct": 2.01,
+    "last": 25044.65,
+    "change": 58.25,
+    "pct": 0.23,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 46,
-    "declines": 4,
-    "unchanged": 0
+    "advances": 21,
+    "declines": 28,
+    "unchanged": 1
   },
   "midcap": {
-    "last": 60606.65,
-    "change": -14.25,
-    "pct": -0.02,
+    "last": 61022.55,
+    "change": 334.4,
+    "pct": 0.55,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 48,
-    "declines": 51,
+    "advances": 63,
+    "declines": 36,
     "unchanged": 1
   },
   "vix": {
-    "last": 17.66,
-    "change": 2.08,
-    "pct": 13.35,
+    "last": 17.36,
+    "change": -1.07,
+    "pct": -5.79,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -57,184 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 30455.63,
-    "sell": 16705.81,
-    "net": 13749.82
+    "buy": 20310.99,
+    "sell": 13098.77,
+    "net": 7212.22
   },
   "dii": {
-    "buy": 18084.32,
-    "sell": 24053.02,
-    "net": -5968.7
+    "buy": 12764.97,
+    "sell": 19937.5,
+    "net": -7172.53
   },
   "global": {
     "Dow Jones": {
-      "last": 51295.4296875,
-      "change": -227.62890625,
-      "pct": -0.44180006479198525
+      "last": 52389.75,
+      "change": 1104.01953125,
+      "pct": 2.1526836434994596
     },
     "Nasdaq": {
-      "last": 24578.990234375,
-      "change": 263.990234375,
-      "pct": 1.0857093743573927
+      "last": 25253.138671875,
+      "change": 673.708984375,
+      "pct": 2.7409463642584773
     },
     "S&P 500": {
-      "last": 7378.27978515625,
-      "change": 24.5498046875,
-      "pct": 0.3338415301174156
+      "last": 7549.93994140625,
+      "change": 173.080078125,
+      "pct": 2.3462568265193187
     },
     "FTSE 100": {
-      "last": 10673.9404296875,
-      "change": -108.759765625,
-      "pct": -1.0086505574204918
+      "last": 10782.8701171875,
+      "change": 108.9697265625,
+      "pct": 1.0208988521029227
     },
     "Nikkei 225": {
-      "last": 61077.8984375,
-      "change": -1110.73046875,
-      "pct": -1.7860668232844263
+      "last": 57434.76953125,
+      "change": -3643.12890625,
+      "pct": -5.964725374397014
     },
     "Hang Seng": {
-      "last": 24796.98046875,
-      "change": 877.48046875,
-      "pct": 3.668473290620623
+      "last": 24481.859375,
+      "change": -315.12109375,
+      "pct": -1.2708042987214767
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 93.8949966430664,
-      "change": -0.6204071044921875,
-      "pct": -0.6564084581908302
+      "last": 93.91999816894531,
+      "change": -0.5389022827148438,
+      "pct": -0.570515091895051
     },
     "Dollar Index": {
-      "last": 102.31400299072266,
-      "change": 0.7639999389648438,
-      "pct": 0.7523386666718757
+      "last": 101.67900085449219,
+      "change": -0.621002197265625,
+      "pct": -0.6070402529229978
     },
     "Brent Crude": {
-      "last": 98.22000122070312,
-      "change": -0.06999969482421875,
-      "pct": -0.07121751365571567
+      "last": 92.30999755859375,
+      "change": -6.010002136230469,
+      "pct": -6.112695438247492
     },
     "Gold": {
-      "last": 4074.0,
-      "change": -39.5,
-      "pct": -0.9602528260605324
+      "last": 4146.60009765625,
+      "change": 71.7001953125,
+      "pct": 1.759557216884282
     },
     "US 10Y Yield": {
-      "last": 4.859000205993652,
-      "change": 0.02200031280517578,
-      "pct": 0.4548338493072306
+      "last": 4.863999843597412,
+      "change": 0.004999637603759766,
+      "pct": 0.10289436904309317
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "M&M",
-        "ltp": 3287.2,
-        "pct": 5.11,
+        "symbol": "SBIN",
+        "ltp": 1042.0,
+        "pct": 2.56,
         "catalyst": null,
-        "headline": "Market wrap: M&M, ICICI Bank, Tata Motors PV, Eicher Motors top gainers and losers on Nifty and Sensex on",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbDRvVUJ0czd2QXZNWUJFdDItODc5VVQ1ek15OU4ycTVRUTVjTWpnbjR2dndiMTBuWXl6dVlLdnM1eWI1WEhvX1Jfd2pJUWpkUk13TDV4R1JFeXQ4TUFBZDBGZEhyc3lXZ0lFMFVNbnFoLVUzbjZMbmNpWFNYeUV3cmZOQ2xyY0ZuTTBwWXVkN0FpYUttemtKVkxVOEpCOF9fUGx1NHFRUDZabXRId2R1SEFYYWxPWmN2N2hhUVlQeUNFNE9JOVJtSDRTcUxmWkY4S2xYbE9Gay03azM1UGV3WUtNV2RLSlk1VWtFSkUxMTl3SWFUS3oyVFNzb2JTTTEyWEhQNWlBRWVRRlZvR2fSAZMCQVVfeXFMTUhuZ3U3YjZGOE1mYVJISkJNY3F2Qk0xTjBIcnZDdW1ZdzJiQXotcjliQ29RUDFZM2VzX3NkM19lWWhXeTA5LWw3SHU5UVpsWGttVUt1ZTV1TEhIcHlJR1J6RTVQSzF3RFZWbXBNcjJTUXEtcFpJUDEybmJhbkVtRTJlVGlqQjlmNUlvQ3N4T0dQN293V1FabEdGclFSZXBXa1Ytd1ZSOXFUZ2hpTEtBUzJ0X2x3YjRaa0ktS3JvMTNJVnd3NDhJU1NCMFNJcFJGODc1U0FMSE9vTGY5SFZqTFhuYWFhMVJDcl81OVpPRl9WMl95Tll3RzFScHpoSXliYVoxOVdqN0gxa0NoTUdGLXUtY0k?oc=5"
+        "headline": "NIFTY, SENSEX continue to trade lower in noon deals; HDFC Bank, SBI, L&T, PVR Inox, Divi's Labs among top buzzing stocks",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmpvWTEtVzZQaFRJT0YtMm5SVnh0VDV4QTJBTXczT2FtcnJPS0tlUm9YRUd2RlZzaHI4dWJ6QVRlLWVPYlpvTUFTYzBPWDZwemtBQ0lPVnd1bVphSWszdW1ublpubThqYTdvbUQwY2JlZm5fTFIweUJINHFYT3dIdTJ3OHVITUdXejg0LTduQXUzRF9mY2ljNnAzZWRpMEVRTXFpeUlGZjdKUS1TTGZwNXVSODZ3bVJ1d09rSC1Cb0VEbUVmOWN6dVJaaHlFeDl0T250QVdRQ2NGUmxTZ19z?oc=5"
       },
       {
-        "symbol": "ICICIBANK",
-        "ltp": 1571.2,
-        "pct": 4.75,
+        "symbol": "TRENT",
+        "ltp": 3119.2,
+        "pct": 2.02,
         "catalyst": null,
-        "headline": "Market wrap: M&M, ICICI Bank, Tata Motors PV, Eicher Motors top gainers and losers on Nifty and Sensex on",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbDRvVUJ0czd2QXZNWUJFdDItODc5VVQ1ek15OU4ycTVRUTVjTWpnbjR2dndiMTBuWXl6dVlLdnM1eWI1WEhvX1Jfd2pJUWpkUk13TDV4R1JFeXQ4TUFBZDBGZEhyc3lXZ0lFMFVNbnFoLVUzbjZMbmNpWFNYeUV3cmZOQ2xyY0ZuTTBwWXVkN0FpYUttemtKVkxVOEpCOF9fUGx1NHFRUDZabXRId2R1SEFYYWxPWmN2N2hhUVlQeUNFNE9JOVJtSDRTcUxmWkY4S2xYbE9Gay03azM1UGV3WUtNV2RLSlk1VWtFSkUxMTl3SWFUS3oyVFNzb2JTTTEyWEhQNWlBRWVRRlZvR2fSAZMCQVVfeXFMTUhuZ3U3YjZGOE1mYVJISkJNY3F2Qk0xTjBIcnZDdW1ZdzJiQXotcjliQ29RUDFZM2VzX3NkM19lWWhXeTA5LWw3SHU5UVpsWGttVUt1ZTV1TEhIcHlJR1J6RTVQSzF3RFZWbXBNcjJTUXEtcFpJUDEybmJhbkVtRTJlVGlqQjlmNUlvQ3N4T0dQN293V1FabEdGclFSZXBXa1Ytd1ZSOXFUZ2hpTEtBUzJ0X2x3YjRaa0ktS3JvMTNJVnd3NDhJU1NCMFNJcFJGODc1U0FMSE9vTGY5SFZqTFhuYWFhMVJDcl81OVpPRl9WMl95Tll3RzFScHpoSXliYVoxOVdqN0gxa0NoTUdGLXUtY0k?oc=5"
+        "headline": "Top gainers and losers on Nov 9: SBI, Trent up 2%, Nestle gains 1.9%; Tata Steel, HCL Tech drop over 2% among top movers",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQlVJb3hRTlhtYUlFVnVVNVdkSHY1UURvX1laV3pZdDRnTEdkbXpKT3VHdDRsb2F6TmttZHJUUzlHdU1EdkQxV244RmR3VTRCbGwteDdHRTRJTlNLMXpCbkdzR2U1QWg5TElLak9vSE5oQ3QzbVlDOHpYT2kxdjloVWVQX1hfaU0tUFdyTm1zaFdxME15cHpnckNGemhOQXZNa1otSFRnUVlKc2ZJeEtoY05sU1RFay1OUUI4dndCNTVWSlhMbTVMTE9zbUNMWkFzT0d1Y05tcS1waXZEa3ZXZHBtS1NURlQxU010aHpYd21KZm4tT0JMekJsZi1EQ2Fr?oc=5"
       },
       {
-        "symbol": "HDFCLIFE",
-        "ltp": 565.3,
-        "pct": 3.95,
+        "symbol": "NESTLEIND",
+        "ltp": 1297.8,
+        "pct": 1.91,
         "catalyst": null,
-        "headline": "HDFC Life (HDFCLIFE) Share Price Today (NSE), Market News",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vMEFKTjY2dUxNZjhBdlBfTFU5dldGMTVPeU1ZNURPaF9HZnpvbUNLYUhRQTBOVm9SYmp1ZUllMVdTb09fV0N3SnFlR3JKMmdJXzE0MWc0T1YwQm1EUl9TMnhn?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "HDFCBANK",
-        "ltp": 788.25,
-        "pct": 3.72
+        "symbol": "NTPC",
+        "ltp": 328.75,
+        "pct": 1.87
       },
       {
-        "symbol": "TITAN",
-        "ltp": 5000.0,
-        "pct": 3.42
+        "symbol": "LT",
+        "ltp": 4185.0,
+        "pct": 1.82
       }
     ],
     "losers": [
       {
-        "symbol": "TMPV",
-        "ltp": 292.0,
-        "pct": -0.58,
+        "symbol": "TATASTEEL",
+        "ltp": 184.85,
+        "pct": -2.81,
         "catalyst": null,
-        "headline": "Tata Motors Passenger Vehicles (TMPV) Share Price Today (NSE), Market News",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2NHVobGNkZ05JMjB5bTlxeVN3bk9zNzcwU09RTC1SQnpjTlNSOGh1cm9CNGxfNXJnbVBna0RndTl2aVFQcWNHR2xNVExYY1E5V2lXTWd2UTJNS1NV?oc=5"
+        "headline": "Top gainers and losers on Nov 9: SBI, Trent up 2%, Nestle gains 1.9%; Tata Steel, HCL Tech drop over 2% among top movers",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQlVJb3hRTlhtYUlFVnVVNVdkSHY1UURvX1laV3pZdDRnTEdkbXpKT3VHdDRsb2F6TmttZHJUUzlHdU1EdkQxV244RmR3VTRCbGwteDdHRTRJTlNLMXpCbkdzR2U1QWg5TElLak9vSE5oQ3QzbVlDOHpYT2kxdjloVWVQX1hfaU0tUFdyTm1zaFdxME15cHpnckNGemhOQXZNa1otSFRnUVlKc2ZJeEtoY05sU1RFay1OUUI4dndCNTVWSlhMbTVMTE9zbUNMWkFzT0d1Y05tcS1waXZEa3ZXZHBtS1NURlQxU010aHpYd21KZm4tT0JMekJsZi1EQ2Fr?oc=5"
       },
       {
-        "symbol": "EICHERMOT",
-        "ltp": 7669.5,
-        "pct": -0.56,
+        "symbol": "HCLTECH",
+        "ltp": 1407.0,
+        "pct": -2.43,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Sensex Today Trades Lower | Nifty Below 24,500 | HCL Tech & Bharti Airtel Top Losers",
+        "source": "Equitymaster",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUXBJVlF3TzVldFBKYlpVYVpJV3ZxVzg1eUFHNmhrUjJnV3dlRk9SRmNwTVR0ZGdldm8teEE3WkR6OWs3dVRtNDBmS2NNVk1vODZCY1Y2VHpMbHRyVnlTZTRDSXJLcGVZa2NxSVpTOGJtUmxxU1kwb0ZiUldsWjNVZms0Y2ZIWDFtVHlMMTE1Skt3U3B1V2stRTkybW1rSzMtYnc0cm5ycXV1STdJbXFTQ25BVlF4QWdMSDNBS3REWE5xMng4T3pHLXZZNGQ0Mi1XOVZ4aFlqaEs?oc=5"
       },
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 961.15,
-        "pct": -0.3,
+        "symbol": "ULTRACEMCO",
+        "ltp": 12275.0,
+        "pct": -1.79,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Weekly Recap: Fuel costs up 24% and Diwali stock pick inclusion",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb3ZuSDF6X3p6OUJMZkE4UVJ4QzRPRkFmY3Z1ZW9DMG91VWUtVmlxcGc5VlJYa0FuZG1rWlEyRjg1SDh6eDRxWXoybFhZcmcwbWhCNGozS1pOeWxaTW81VXBZcEJpXzRkd1lCb3BiUnBhcHpaNXRFbzhLU1o3bnZaVm9pam5xMURyWjdHR0d5aWNZM1dhVWRvWDJiN2ZwUXRISXJFeldCbkV3Y24xTndxaTZiY3dLRjVEVDFsVzM4UG0?oc=5"
       },
       {
-        "symbol": "GRASIM",
-        "ltp": 3227.0,
-        "pct": -0.02
+        "symbol": "ITC",
+        "ltp": 278.8,
+        "pct": -1.64
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "ltp": 1064.85,
+        "pct": -1.56
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY FINANCIAL SERVICES",
-        "pct": 2.57,
+        "name": "NIFTY PSU BANK",
+        "pct": 3.73,
         "catalyst": null,
-        "headline": "Financial Inclusion in India: Banking Every Citizen, Empowering Every Household",
-        "source": "www.pib.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSDh4Yno3TDg5RFdPellHbUVJOG96cVZqOV9qOXN4SEdVelZIU1I1ZEU5TTV6N2J6YWU2aXZPWnllNmJIbGd0MDJWdHRJOFk0NXkyMDBZQVVJU183WFhSM2l0ZHZvaW1HanAyeUZ4eFo1dmFoWHdQOXhBTzQ2MXdsQzh0MFNNcjNpWW1ablZ3?oc=5"
+        "headline": "MARKET NOV 9: Sensex, Nifty end higher as PSU banks rally; Nifty reclaims 25,000",
+        "source": "The Indian Awaaz",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1dkaGMzbzV2SEpsbHFtUTAtVlNDTmZRdDUyOWRMU21UMzE5U3hlXzN5Sk93czhvZVdudjRrSmFITVJNbzc4amFYbEY0YlZuWW51cHh0TXdjNjV0OGV4aFJPM2k4bFA0SFJVR3BQdEwwR0VhampRT1pIUzhtblJEbWRRTlgzQURUMHFRT192aUZYMmMySUtLTnQzaWc4S0k0Wm9hX3g5aw?oc=5"
       },
       {
-        "name": "NIFTY BANK",
-        "pct": 2.27,
+        "name": "NIFTY PHARMA",
+        "pct": 1.65,
         "catalyst": null,
-        "headline": "BFSI stocks in a week: Nifty Bank recovers nearly 8%; HDFC, ICICI Bank drove index",
-        "source": "bfsi.economictimes.indiatimes.com",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUC1BMlY4S0RpSUtfa3N6TkdzcVlvSlpoVFBvZG5CaTNWeDhCd2RyVDNhVDh6dzFjNWZxel9YSHJpVi1ycGtpa2VRaGdONk5SRXFSQVMxbHUwckw1YjRJaW1NVFB1NG9nbm5CVzBHclpvMUE1eWlpdmxLeG9palFxMmNMbE1CZXJoZHY4ZzZKZ2dieWk1WkJxeVVZOUNXV1B2bkhBc2Rqd2JleWd6WXNjWGJDcmRsRm16YlNWVnh6dThmbXVOM3NpYnFEVG9GWVViMXBrS2xB0gHbAUFVX3lxTE5wbmViMjZUQWt5enhPRXBrTTJPYXNUTm9PTWZZZTQ3TEtWUVhsTU85V2UtOUFHd3k2aG5xa3h2dzBZeUNweU5SeUlCS2g2UlZMSmFIdFBXWWdzYmZLa2o5RHJKdDkxSVdhdG40V0lldjc4RV9JQXlialhjckJ0dEYxWHp1ZnA4RjAyNHBRRXNHM0pScTFOTGFHSGJhVjFvbFctbTNJWGVUUVZ5ZVpWMkh1WlZRRE5DdlI1bnNMNzlvWFJWbU5meFVnTUtVSlR2cDJMQlpHWDlJZHdzQQ?oc=5"
+        "headline": "After a blockbuster Samvat, what's next for pharma stocks? | MC Diwali Special",
+        "source": "LinkedIn",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMU1sb2RPSmRqck1udGlaYWl0LUUtSFNtbzV5SUlJTDVYa3Jyek5qd0MwV2t6dlRPRHh0YXlOOG5yX1F2V1gtcW1kOFJMRTVHZy1QSWdESGhjbDZNU3VNRC1mVUkwekhvcE5aSDgwSmFLTU42bjZUaXZvNkZqd1cwd2VaTklwVDNLQ0xKSE1qWmUxMzBUaXRlLWRZMl9HYVJKaTBpUEVaazJHbmpNMFFhbnd4Zmk2Y3Ztbm0w?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY ENERGY",
-        "pct": -0.05,
+        "name": "NIFTY IT",
+        "pct": -1.22,
         "catalyst": null,
-        "headline": "Indian Green Energy Stocks Witness Mixed Trading As Sensex Rallies 1.9% On November 6",
-        "source": "SolarQuarter",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWHdnRXp3NnF3TkxPNl9FN0lsM2RqbGdrZGJROEQ4VDBodkFpZmxJUDRVZUtVc1VhMlhCVnUxZmM0dm9qdmVQS3RBaFJzVGlGdXRZbmoyQnRXQXlVNldZOEN0NW90REF5Sy1Nd1FoMnY4WHI2dUVHUTFCbEhMcU1VTk9EQlpQb0ZDR1RpWWtadC1iMmlFTHR2bldCUW1qOWpJOG1pNzlIUDVqZGFxa3g3cGdTSEtqMVRudzVpVzBR?oc=5"
+        "headline": "Citi, HSBC bet on India as oil slide, AI rotation fuel market revival",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGhBSG5USUdjc1BWelIxb215ZlBXRjhSbGZiLVRGYzZWaE9nYXhUdHU5alNZa0xhRFZ4QnlnTnhRb0s1Z3NDTTVTV1ZMdm82N0lYMVhpb2I1VlRqeUZkVFJ1WnpPNTd1VFRjX3dvZE1MZmxwc29seXBhT3RHUnA1MlYyTjZSWVhscHpCQlBKSXRoRVFvMWtWdnZCQzB6RTJhczVvVQ?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": 0.09,
+        "name": "NIFTY METAL",
+        "pct": -0.46,
         "catalyst": null,
-        "headline": "From India to Dubai: Why investors may be watching Dubai South's booming property market: Anarock study",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQNGoxUTZ3QkZaandid1l6dS1CZGdDd2hVYUpJLWZyMXNfX19feGVGLWNTZGhjMnBGZ2ZYY3JXSmx2dGNRM2pXTUpoR1NkSFM0QTJ4ajB2RHhnNEw4aGVXZUF0TzBTSDRKZkRHSHJtX09aaE45SHVlVVJvUmloY2dJWm52Nm5FeTMyWHZxLVdxcGEydzVYT21zTFpicG1aZXdsS3c1bG53em9NN3F0SFprSTZ1aXZpTzg1WEJKR0hMZC1DNlRmYmphY2k3TWtJV2ttYmFyY2RwUEdmLUgxUnJ1eE0yTGRUMXJXWjZxaHBGOUJPZTg1VHhfQ1ZHVnN0b1FKVnRIWU9ydjRlSUZmUHI2eDNPZWMxcVo0VzQ4TjYwVdIBpAJBVV95cUxNN1N0TnBDdEt0OGdtX0toMHBKMEE1cTljUDhJX0tzOGlNbDdjcmgxaHRJSnZyT21YS0MxM201cVp1dnFmM2FjdkFDV0JuMkxSdUNtN0xhOGJPNjhRS245ejl5RWY0a1NRSFFvdXpVUTQ1RTdldEZvd3RoSHhBejhBbGs2RWZjcDdROEluOUJPZFk4R0RyRncxbV9jMWtsUkd6TVRmaEVlbXA0Nm1qSHJIRDF5R3FTRUdWT21SMzhuVWc4ZlIxQ2UxaURWSWtSNkQtSHFrSmxKV1JqV0hNOXcwVENkNXgxRWJLRjhqODg2ZUtUaTFQanlXaHdZNFVITkFfT0dYTVRsemdQNXlBbmlPaHN4VWVDaVE5bS1wejZvWHNPMzZa?oc=5"
+        "headline": "Welspun Corp, JSW Steel, SAIL, NMDC to Tata Steel: Which metal stock to buy in Samvat 2083? Experts' views, targets, SL",
+        "source": "Livemint",
+        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMVN4RDhpX1d5dXZ1M2lKcnk1d3owam1UdUtiOVZnWnhFLVFvN05RcEpLNVpOX1lhb3EwcklQNWNYV3dDVHRjUWU3aWNVUWV5X1JfNmVCbXlaRlhoWjgzYmxWcUZQLTJhZ0NWWGhSMDJndFJva003aEtHMUlSRnJkNXdLZldpOW5hWVF1N0VXQlMyZmNocENjbE1rRlNweGpZRWpmNlNtakU1amlhMFYxY3FlLXQ3U0J5TUNmbEFIZGoyRURsWGw3NXFZbEU1TDVLRk1FcjVqSnQ2dmNiMS1kYWJJOFdrVlVGNXRYS3A4dFBNZmFQbUVjRXc0RkQzR001bXMwcDJ4NXBDeUozcXfSAZMCQVVfeXFMTkdSWHAzbUc3cU5GaEstYWVrZU1xdWIzUlo4MTdWUGJLWEVySi1xR3BZellXbnRJR0d2Sl9yTmI1dDBCajhWMS1OMlRldV9NNHgzUWstSnlGcEQ2Zjh1SFNZd1pIVzdCaU9leXJZM2dJZDRXdHd2Y2hxUGZfOTVsZGhLWEhrX0FTMFE3eHViN2NWek91SmUyNGJ0N2tJbUxxNlNOZktONGZhX1JBRlJoclpWNDdlTk1VenV1ZnJnS1hNYmotRl93eGEtdS1BenY3dS1FQ3RWWU9LcGVndV9OalFzbzdGbkZLWUZHZFZKTEUtNW1qbEg5cFBoV3RfWHRCUVliRTBIVDEyc0RxejlwZV8tZzg?oc=5"
       }
     ]
   }
