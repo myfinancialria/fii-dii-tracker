@@ -241,10 +241,10 @@
     "NIFTY 50": {
       "expiry": "17-11-2026",
       "resistance_strike": 26000,
-      "resistance_oi": 7326800,
+      "resistance_oi": 7321920,
       "support_strike": 24000,
-      "support_oi": 5379075,
-      "pcr": 0.9,
+      "support_oi": 5379080,
+      "pcr": 0.91,
       "pcr_read": "neutral"
     },
     "SENSEX": {
