@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-09",
-  "date_pretty": "Monday, 09 November 2026",
-  "mood": "Range-bound",
+  "date": "2026-11-11",
+  "date_pretty": "Wednesday, 11 November 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 25044.65,
-    "change": 58.25,
-    "pct": 0.23,
+    "last": 25255.05,
+    "change": 210.4,
+    "pct": 0.84,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 21,
-    "declines": 28,
-    "unchanged": 1
+    "advances": 37,
+    "declines": 13,
+    "unchanged": 0
   },
   "banknifty": {
-    "last": 59741.25,
-    "change": 890.6,
-    "pct": 1.51,
+    "last": 60792.4,
+    "change": 1051.15,
+    "pct": 1.76,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 9,
-    "declines": 4,
-    "unchanged": 1
+    "advances": 13,
+    "declines": 1,
+    "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 25044.65,
-    "change": 58.25,
-    "pct": 0.23,
+    "last": 25255.05,
+    "change": 210.4,
+    "pct": 0.84,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 21,
-    "declines": 28,
-    "unchanged": 1
+    "advances": 37,
+    "declines": 13,
+    "unchanged": 0
   },
   "midcap": {
-    "last": 61022.55,
-    "change": 334.4,
-    "pct": 0.55,
+    "last": 61519.1,
+    "change": 496.55,
+    "pct": 0.81,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 63,
-    "declines": 36,
-    "unchanged": 1
+    "advances": 68,
+    "declines": 32,
+    "unchanged": 0
   },
   "vix": {
-    "last": 17.36,
-    "change": -1.07,
-    "pct": -5.79,
+    "last": 17.58,
+    "change": 0.16,
+    "pct": 0.88,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,151 +53,151 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 20310.99,
-    "sell": 13098.77,
-    "net": 7212.22
+    "buy": 30087.21,
+    "sell": 17523.88,
+    "net": 12563.33
   },
   "dii": {
-    "buy": 12764.97,
-    "sell": 19937.5,
-    "net": -7172.53
+    "buy": 19704.39,
+    "sell": 28138.92,
+    "net": -8434.53
   },
   "global": {
     "Dow Jones": {
-      "last": 52231.890625,
-      "change": -157.859375,
-      "pct": -0.30131729011877323
+      "last": 52486.48828125,
+      "change": 254.59765625,
+      "pct": 0.48743718292314825
     },
     "Nasdaq": {
-      "last": 25065.875,
-      "change": -187.265625,
-      "pct": -0.7415538042607324
+      "last": 25466.189453125,
+      "change": 400.3203125,
+      "pct": 1.5970733360735094
     },
     "S&P 500": {
-      "last": 7520.93017578125,
-      "change": -29.009765625,
-      "pct": -0.3842383628232763
+      "last": 7619.3798828125,
+      "change": 98.44970703125,
+      "pct": 1.3090097199449584
     },
     "FTSE 100": {
-      "last": 10751.58984375,
-      "change": -31.310546875,
-      "pct": -0.2903722165719197
+      "last": 10835.4697265625,
+      "change": 83.8701171875,
+      "pct": 0.7800710613736801
     },
     "Nikkei 225": {
-      "last": 58775.5,
-      "change": 1340.73046875,
-      "pct": 2.3343533537128835
+      "last": 60459.578125,
+      "change": 1684.078125,
+      "pct": 2.865272307338942
     },
     "Hang Seng": {
-      "last": 24448.94921875,
-      "change": -32.91015625,
-      "pct": -0.13442670242443544
+      "last": 24557.0390625,
+      "change": 108.08984375,
+      "pct": 0.44210425070990556
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 93.91799926757812,
-      "change": 0.0149993896484375,
-      "pct": 0.0159732805852168
+      "last": 93.68000030517578,
+      "change": -0.2667999267578125,
+      "pct": -0.2839904351176871
     },
     "Dollar Index": {
-      "last": 102.26000213623047,
-      "change": 0.6100006103515625,
-      "pct": 0.6000989682191628
+      "last": 102.9219970703125,
+      "change": 0.6919937133789062,
+      "pct": 0.6768988463815528
     },
     "Brent Crude": {
-      "last": 91.95999908447266,
-      "change": -0.6100006103515625,
-      "pct": -0.658961447944856
+      "last": 92.63999938964844,
+      "change": 1.1500015258789062,
+      "pct": 1.2569696718009349
     },
     "Gold": {
-      "last": 4039.800048828125,
-      "change": -74.699951171875,
-      "pct": -1.8155292543899624
+      "last": 3994.39990234375,
+      "change": -35.800048828125,
+      "pct": -0.8882946072617389
     },
     "US 10Y Yield": {
-      "last": 4.9830002784729,
-      "change": 0.11900043487548828,
-      "pct": 2.4465550719976097
+      "last": 4.998000144958496,
+      "change": 0.015000343322753906,
+      "pct": 0.3010303816955768
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "SBIN",
-        "ltp": 1042.0,
-        "pct": 2.56,
+        "symbol": "M&M",
+        "ltp": 3465.0,
+        "pct": 5.3,
         "catalyst": null,
-        "headline": "IOB.NS (IOB) Share Price Today (NSE), Market News",
-        "source": "TechGraph",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkMGJnTDFLakRZdlkxUUxHZ1ZVaVN1QlpTV1pxMnRPT2Y5dFR0Mld5Y1FrUDQ0Qy1tX09QNE5zZDVJMlJackRGZU82eHNZNDU4dTJ1akhteVlkN28?oc=5"
+        "headline": "Top gainers and losers, Nov 11: M&M, IndiGo shares soar 4%, Trent rises 3%, Adani Port falls 2%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNjlpN2t1TGQ0X2UwOUt5Sk1KSFhaeGxqdjgwX2VLWF9yb3gxaGNGUGVOWUt0VDUyQ0tzRTZVTjRfekROTUt1NjBYaWtfWVZJZHV5VEZ6Q3JPS0l5LUh4ZHFoVC1Dem90c2EtUUFHTWRlVkhRQmtTN1N3ZHJGQWRyaldiWloydGhEcVlaRjM2akxkSkVENVZYcjZFV3VWU0d0eFhhaG9IN19ZOW1TQnd0YmdSTklfeHU2aFZ1OTgyRUNodzlvbGtZLUVseFFyUklaZUZwYzU4QmtHN1JBa0dLajNpSDB4VkphTUQzWVZSWDJ0TTk0?oc=5"
+      },
+      {
+        "symbol": "INDIGO",
+        "ltp": 5665.0,
+        "pct": 4.33,
+        "catalyst": null,
+        "headline": "Top gainers and losers, Nov 11: M&M, IndiGo shares soar 4%, Trent rises 3%, Adani Port falls 2%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNjlpN2t1TGQ0X2UwOUt5Sk1KSFhaeGxqdjgwX2VLWF9yb3gxaGNGUGVOWUt0VDUyQ0tzRTZVTjRfekROTUt1NjBYaWtfWVZJZHV5VEZ6Q3JPS0l5LUh4ZHFoVC1Dem90c2EtUUFHTWRlVkhRQmtTN1N3ZHJGQWRyaldiWloydGhEcVlaRjM2akxkSkVENVZYcjZFV3VWU0d0eFhhaG9IN19ZOW1TQnd0YmdSTklfeHU2aFZ1OTgyRUNodzlvbGtZLUVseFFyUklaZUZwYzU4QmtHN1JBa0dLajNpSDB4VkphTUQzWVZSWDJ0TTk0?oc=5"
       },
       {
         "symbol": "TRENT",
-        "ltp": 3119.2,
-        "pct": 2.02,
+        "ltp": 3222.7,
+        "pct": 3.32,
         "catalyst": null,
-        "headline": "Trent Share Price",
+        "headline": "Top gainers and losers, Nov 11: M&M, IndiGo shares soar 4%, Trent rises 3%, Adani Port falls 2%; check list",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rMko0cG80WFpzNFh4clB2SXR6Zzh0QVpxdGlVdnh1QXo3aG9EVjh2d1EzUW1YZldSWDZCeGtySXZ1ZmJrbnNyZV9Gb2RtbzFtYWhKalVrRWpOMWJf?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNjlpN2t1TGQ0X2UwOUt5Sk1KSFhaeGxqdjgwX2VLWF9yb3gxaGNGUGVOWUt0VDUyQ0tzRTZVTjRfekROTUt1NjBYaWtfWVZJZHV5VEZ6Q3JPS0l5LUh4ZHFoVC1Dem90c2EtUUFHTWRlVkhRQmtTN1N3ZHJGQWRyaldiWloydGhEcVlaRjM2akxkSkVENVZYcjZFV3VWU0d0eFhhaG9IN19ZOW1TQnd0YmdSTklfeHU2aFZ1OTgyRUNodzlvbGtZLUVseFFyUklaZUZwYzU4QmtHN1JBa0dLajNpSDB4VkphTUQzWVZSWDJ0TTk0?oc=5"
       },
       {
-        "symbol": "NESTLEIND",
-        "ltp": 1297.8,
-        "pct": 1.91,
-        "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "symbol": "TATASTEEL",
+        "ltp": 189.28,
+        "pct": 2.4
       },
       {
-        "symbol": "NTPC",
-        "ltp": 328.75,
-        "pct": 1.87
-      },
-      {
-        "symbol": "LT",
-        "ltp": 4185.0,
-        "pct": 1.82
+        "symbol": "BSE",
+        "ltp": 3906.0,
+        "pct": 2.34
       }
     ],
     "losers": [
       {
-        "symbol": "TATASTEEL",
-        "ltp": 184.85,
-        "pct": -2.81,
+        "symbol": "ADANIPORTS",
+        "ltp": 1907.0,
+        "pct": -1.84,
         "catalyst": null,
-        "headline": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeEQ4OVQ1MTM5Vy16eGhvUF9YZlh5NHMzSWN1MXVkWnZwbGJUQVBmQklGR3VpdnVTeTBWa3Jhay1jbGJldF9Xd1lxNHU0RF9fSGV2RUpETnQ5TDdkcXp4SGlkZW52YlBnUEJPUEpKdmw1UThRWG5PeENWTDB4UVY0Ty1tRUNIaWVRRVJfaGIta2FGc0liZnBFU0ZHam1RT0dVMk5MNlN3a2dfRU9KNlIxWjlDcVdLaEFCUTQ3Nm01YkNIVmlHMEphYW5VTE04T0QzZEtSUkwxM3o2c2U5R2l4WTh2Y9IB6AFBVV95cUxNNklaVHZicXk5ekJ5TU1lTHpBNTRaY2hEUzFyU3N4MVN0OF9SN25WM0xEckNjZ0pSYlZQcXNRWTdUajU5Q3dKMlZVQmhqSkp1M3ltVENhN28wVEF5bE1IbTRxajllaXBlUlJXQUtfcU1ZVWtia0NrSTQtMmU5Q0FvRElnYmFQamc1bWQ1YXdwejVpZGNUbUZ4TEpnRk0yV29qNmNxcF9aYWxRRTBUa1NyTWJ4WkJyaGJESjBHakc2Z0FHaWNET1RXblYycFZKUHh2SkFMNWt2TUVQYW0yZkRQZFQ0R3h2dDVn?oc=5"
+        "headline": "At new highs! Eternal, Groww, Adani Ports, Ather, 16 more NSE 500 stocks",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORTR6T3NuWXFaZDhwbl9HcmhfREhRT29BZ3VqWWR5aTJpZkRlT1lxRlM1YThkM05iM0I5TF8xamlaT0RkcTNXNTFQUVZVUGxQak5UX1pSRkdQLXhJWnU5MlFtR0NhaVl2VXRJYnV5Z1Znai1GUzl1dXl1NUhiSDBMOGhRekI0XzRoRkRobFphb1lWVnFQZkVhakp2dlVjNV9WdFdxbXFfLVRYWVZJY3JQVUYyNlNTZWlBREdoa1E0VlZ1Z25YdTBxdGgxMzN3elnSAdQBQVVfeXFMUHlVbHZtdFRJOU1EWWc5S0hSNGdPVWFCcDdocVJuUnVmbzFIUmVlTlFlS0U5S2xTTXZtck9oQmNMYkVnQ1VYZXhZaVdKZHpOUDJUTTNwVzhaS09wNmdRdlVRVTluejVLQ251VEFRVXBkUVdua2hsRE43bzdZUW5tVWhVZlNiUjhXaGpzelFSQkNFTTZOQmFCLWY2bGlaNTV0U3JuQ3Nmbzg4MzhFQVVwRUsyRnZHR3dzRFZVbW9sWjVBWnRUZzdmRGRKSVJpZ29tZVFwNW8?oc=5"
+      },
+      {
+        "symbol": "ICICIBANK",
+        "ltp": 1571.6,
+        "pct": -1.1,
+        "catalyst": null,
+        "headline": "At new highs! Eternal, Groww, Adani Ports, Ather, 16 more NSE 500 stocks",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORTR6T3NuWXFaZDhwbl9HcmhfREhRT29BZ3VqWWR5aTJpZkRlT1lxRlM1YThkM05iM0I5TF8xamlaT0RkcTNXNTFQUVZVUGxQak5UX1pSRkdQLXhJWnU5MlFtR0NhaVl2VXRJYnV5Z1Znai1GUzl1dXl1NUhiSDBMOGhRekI0XzRoRkRobFphb1lWVnFQZkVhakp2dlVjNV9WdFdxbXFfLVRYWVZJY3JQVUYyNlNTZWlBREdoa1E0VlZ1Z25YdTBxdGgxMzN3elnSAdQBQVVfeXFMUHlVbHZtdFRJOU1EWWc5S0hSNGdPVWFCcDdocVJuUnVmbzFIUmVlTlFlS0U5S2xTTXZtck9oQmNMYkVnQ1VYZXhZaVdKZHpOUDJUTTNwVzhaS09wNmdRdlVRVTluejVLQ251VEFRVXBkUVdua2hsRE43bzdZUW5tVWhVZlNiUjhXaGpzelFSQkNFTTZOQmFCLWY2bGlaNTV0U3JuQ3Nmbzg4MzhFQVVwRUsyRnZHR3dzRFZVbW9sWjVBWnRUZzdmRGRKSVJpZ29tZVFwNW8?oc=5"
+      },
+      {
+        "symbol": "TECHM",
+        "ltp": 1788.5,
+        "pct": -0.91,
+        "catalyst": null,
+        "headline": "Borosil Renewables Ltd.",
+        "source": "Moneycontrol.com",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2hnbloySkkzdmI1OEFBRFd3ME9pSnVIdGJyek1UZkdGLXZ1YW1VZWVFdHVRN2hhTEpKcVdZQnFMa0tRTWwyYnRDVks3Y05oY1Y3dnZWTjdfQ0h5Z0M5Q3N4UV9LTnVwMzVzenZ0ajVUSkVRVVl1QkR4eE5VZl9IaW1lcVduMFo2ajFGSmRDT1dIdDdKSm9ydU0yUQ?oc=5"
       },
       {
         "symbol": "HCLTECH",
-        "ltp": 1407.0,
-        "pct": -2.43,
-        "catalyst": null,
-        "headline": "HCLTech NSE:HCLTECH Semiconductor PLM PTC Windchill Deal",
-        "source": "Kalkine India",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYmNBLVRWem9wRURVZEYwdzVxYm5INXYwSkxCV21tY1JPdGtMeXR6dWFYMGhxWGhuU2h6MXdYbktBR2tldEYtOGJIeHViQ3ZzcFBZRVFUQzhlY1dfSWRpaGY3Tk1TTlNZNnlrSTc3LVpPX0d0aE1qYkxkaU9aZC1lRWhOdTVXSTlDTkpJR1RjYng2Z0ZaaDJTTTF4d3p3aVgxQ3BKNlRFYTh1cmdPY1ZGNTRBVFhfSTZrczc2blhjZTNFUVNsYm5lR3BfTGJRWlJNX2VjMVlR?oc=5"
+        "ltp": 1395.0,
+        "pct": -0.85
       },
       {
-        "symbol": "ULTRACEMCO",
-        "ltp": 12275.0,
-        "pct": -1.79,
-        "catalyst": null,
-        "headline": "Ultratech Cement Share Price - Live NSE: ULTRACEMCO Stock Price & Chart",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByVldRTGlKcUxJZDNMd1ZycmNHV21mVVdwODhWMWp6bDRESl9UMjBsc1JGaEREX0NJTng4T3QwaWZSZGNkRUE0c1hic0l3UFBhbVd1QlI1ZVpITEp5VW13d3JFZnVnVWhLXzlPN2kzLWQ?oc=5"
-      },
-      {
-        "symbol": "ITC",
-        "ltp": 278.8,
-        "pct": -1.64
-      },
-      {
-        "symbol": "BAJFINANCE",
-        "ltp": 1064.85,
-        "pct": -1.56
+        "symbol": "NESTLEIND",
+        "ltp": 1288.0,
+        "pct": -0.76
       }
     ]
   },
@@ -205,37 +205,37 @@
     "top": [
       {
         "name": "NIFTY PSU BANK",
-        "pct": 3.73,
+        "pct": 2.94,
         "catalyst": null,
-        "headline": "Nifty PSU Bank Index Performance: Bank of India, UCO Bank among 7 stocks rebound 15\u201356% from 1-yr lows - here\u2019s why",
-        "source": "Livemint",
-        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcW1GcjdqWVdRem5kVHNxbWpnTWpZUjkyZlcxMTZwUm9EWWNjRzlWVWRkbF9iRU5ueDVjb2xIV01oZmZRanNCVXpjeEJ0UVBzTFF1eEsyYy1BaS1CMTZ2cEZ1YW5IVGZqU3BvUXRPblFmWHBwZ0R0MUFGUjlDVTlrNkhtanRYYXVTa2VNMW9RY0ZvRk8wWXk1bEVUMGZhdktnbkU0emZ0SDZDeVhfby1GR3VGT2JYVUJzN25sTVV1UEp1djROcWh0QUM5eWxuOTJueE1UcVlBTG5kMUN2V3ZTWkpmY3g4RUlwcFhyMWotVGtOdWQ1dGhoUEhYS3AyUGlKOWFlODdhVF9RN1lM0gGSAkFVX3lxTFB6cXhfTzhEYi13WV9vZGRRNE13RWR4T1RnSWxPUHJWT05lUzBwZWZEVDJPLVdzcFI3dGRBcjlwZWo0RHB3Y3l5NzNpMEx3ODd4cFA1em9PN2d5ZEl1SVJQMklER2kwaWtqck1ZVWVCMTBNRW1sTDZpSnhQeUQ2MEhKdW1CZ2o5ZVVEQ1p2VDQ4N0VtWndoeUhMcy1mSEljazdRbzNGVGpyeEFNRE1GZjlicERMMjhZRDFUMlBCRlRzejZiUkJnbVFITDcyX21lUlQyLVh2dkZLSHVveWpkQ2FlR2VkSnF3S0ZlNUduX19IbHc1MzdxRTNnRGRScFJGUEdWVm5rU2w1bTNLNThHVGlaeGc?oc=5"
+        "headline": "PSBs improve profitability but fail to bridge valuation gap with private peers",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYTRRNDZBTnU4MlpYWjRnUDJhaXY4bUF2eGlPcC0wV1AxMXAzbVZHZEF5Sk5YQWx0ek9GaWE2TXhGMlVwMUR3OEM4cTJyd05JNHNKd3ZscGRtSUdvWVYzR0pkNDVjWFFjNjJmeDFEZGNyUW15b1RsbUtlZXFSMThZbEJiOHNUSTVQWkw5QW9FWlBGNlZMSEV5NXc0R1lueFg0dGYtMEt2NEJZeE5DR0ZQaXhqZmNKdzItQUtvMFB0QjBLSWhfWXlwRUEwQUtsM1psRnlncGRQWVNfTjRERTF4ZTBTc1p1NTZ5WWh1elltWEFnbkRSekplVHJiTW5mdmFvN1NxNtIB_gFBVV95cUxPbzI5b0locTFfS0EwVGkwTXhOOW0wb0Nya193X1Mwb3VTelNrM2R0NVJYRDFGZnR1ekdGWWNmTDBHbDJDdHVmVHItY1BUS3VFcXhGZVRKczdMTkNzYm0wWEZvQ2ZCRUlWTWVYaGJvZmI3QzZiRGdfa2I2VEJXN3dfU2c0WFA4Y3BRMmNpOFQtNUtKWWJSWUhBTnZBaXBuRzY0WnYwZUZEMTN3QTRvWU5HSjNtdlUtSzRTMkxnZFhuQl9rSFMxbndlTThFM0dlbFhSWmhSX1lTQWQyMXMxV0hRTXZsQ0lzVmw1MkhzMVF5Mm1FaUt6N3AwMHRhN1M3Zw?oc=5"
       },
       {
-        "name": "NIFTY PHARMA",
-        "pct": 1.65,
+        "name": "NIFTY AUTO",
+        "pct": 2.14,
         "catalyst": null,
-        "headline": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeEQ4OVQ1MTM5Vy16eGhvUF9YZlh5NHMzSWN1MXVkWnZwbGJUQVBmQklGR3VpdnVTeTBWa3Jhay1jbGJldF9Xd1lxNHU0RF9fSGV2RUpETnQ5TDdkcXp4SGlkZW52YlBnUEJPUEpKdmw1UThRWG5PeENWTDB4UVY0Ty1tRUNIaWVRRVJfaGIta2FGc0liZnBFU0ZHam1RT0dVMk5MNlN3a2dfRU9KNlIxWjlDcVdLaEFCUTQ3Nm01YkNIVmlHMEphYW5VTE04T0QzZEtSUkwxM3o2c2U5R2l4WTh2Y9IB6AFBVV95cUxNNklaVHZicXk5ekJ5TU1lTHpBNTRaY2hEUzFyU3N4MVN0OF9SN25WM0xEckNjZ0pSYlZQcXNRWTdUajU5Q3dKMlZVQmhqSkp1M3ltVENhN28wVEF5bE1IbTRxajllaXBlUlJXQUtfcU1ZVWtia0NrSTQtMmU5Q0FvRElnYmFQamc1bWQ1YXdwejVpZGNUbUZ4TEpnRk0yV29qNmNxcF9aYWxRRTBUa1NyTWJ4WkJyaGJESjBHakc2Z0FHaWNET1RXblYycFZKUHh2SkFMNWt2TUVQYW0yZkRQZFQ0R3h2dDVn?oc=5"
+        "headline": "Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR216Q0l0LWVPSmd5eHZNZGtkWkNSSWg3NHhxT1FHM2NNVHlKZW11VFBRM2FXZTdnZWVjN2hDUjJCZ2VrWlQ3c3RENUFzOElhcUowMjJyeFI1MExaM3FDU1U1X2dqMk8tV0ZDTmY2R1dNVmNXdHFkVXJ5SXZlbWVIU0gzVGE5VnFLYks2aVZTUXVuU05wY2kwSXUwZDJqQXZpTlE?oc=5"
       }
     ],
     "bottom": [
       {
         "name": "NIFTY IT",
-        "pct": -1.22,
+        "pct": -0.53,
         "catalyst": null,
-        "headline": "Here's Where Investors Turned To As They Fled AI Stocks",
-        "source": "Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52N1F2M1Q1a2lGYUI0TS01UDBrYm5FNlhiYnRrWnpHV3JqeTRyMnF1Q1l3WHdDM0hLdnlNSGhicjZxbjVNMk1RUmR4VzVrSlZxc3NKbm9Ccl9PbHlSVld6THRGU2dIbnZUaGc1RjZhUzc?oc=5"
+        "headline": "Indian shares rise on foreign flow optimism; financials, autos lead",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWGIzT1Bsa3NLR1VMamE3ZXpZblhwbFVuV0I1Q1UxZDhGQW9RR3E5NmpQVVBiMW1ibUhkYXRoN1ZESUlRZVIteU9OX2FfcUlyZEJiU1lFcllZQm5jaWx1Wkh2WGhqMjRWYUc5NjJBY252UERLVU5HTEFmb1pwNHlXYXVUN3Z5dE4xVkVRbXJnMkZTTGpDNldBMS1PTlBRVFpPVjhOUEE5eEFsQkE0bHVjU2FJN0NSdw?oc=5"
       },
       {
-        "name": "NIFTY METAL",
-        "pct": -0.46,
+        "name": "NIFTY REALTY",
+        "pct": -0.42,
         "catalyst": null,
-        "headline": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeEQ4OVQ1MTM5Vy16eGhvUF9YZlh5NHMzSWN1MXVkWnZwbGJUQVBmQklGR3VpdnVTeTBWa3Jhay1jbGJldF9Xd1lxNHU0RF9fSGV2RUpETnQ5TDdkcXp4SGlkZW52YlBnUEJPUEpKdmw1UThRWG5PeENWTDB4UVY0Ty1tRUNIaWVRRVJfaGIta2FGc0liZnBFU0ZHam1RT0dVMk5MNlN3a2dfRU9KNlIxWjlDcVdLaEFCUTQ3Nm01YkNIVmlHMEphYW5VTE04T0QzZEtSUkwxM3o2c2U5R2l4WTh2Y9IB6AFBVV95cUxNNklaVHZicXk5ekJ5TU1lTHpBNTRaY2hEUzFyU3N4MVN0OF9SN25WM0xEckNjZ0pSYlZQcXNRWTdUajU5Q3dKMlZVQmhqSkp1M3ltVENhN28wVEF5bE1IbTRxajllaXBlUlJXQUtfcU1ZVWtia0NrSTQtMmU5Q0FvRElnYmFQamc1bWQ1YXdwejVpZGNUbUZ4TEpnRk0yV29qNmNxcF9aYWxRRTBUa1NyTWJ4WkJyaGJESjBHakc2Z0FHaWNET1RXblYycFZKUHh2SkFMNWt2TUVQYW0yZkRQZFQ0R3h2dDVn?oc=5"
+        "headline": "Sensex, Nifty pare gains as investors book profits after sharp rally",
+        "source": "National Herald",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2QtOVl4c3pnbkZod3QxcTNQNE0wY1BHaE8zSHJLUW40ZkdkZ3ZmVG9xRVA0dFphalF5S1UtTTZ3V0E1Z25YbVB5enl2WXVNOWQzeV90Nm5LWDQ0YVNiVDY0SUh1TGl1c21uTzlhck9LV0xxM3Y0QklmWTJ0NjB1UUVVZ0FKSE1EVlREY2x1eU9RaTgxTTBLNXRvVHV1M052dkMzcFZyUDd4Z1JCY3lnVjV0QUtUQVlkVXA1eHpITdIBvwFBVV95cUxOX2QtOVl4c3pnbkZod3QxcTNQNE0wY1BHaE8zSHJLUW40ZkdkZ3ZmVG9xRVA0dFphalF5S1UtTTZ3V0E1Z25YbVB5enl2WXVNOWQzeV90Nm5LWDQ0YVNiVDY0SUh1TGl1c21uTzlhck9LV0xxM3Y0QklmWTJ0NjB1UUVVZ0FKSE1EVlREY2x1eU9RaTgxTTBLNXRvVHV1M052dkMzcFZyUDd4Z1JCY3lnVjV0QUtUQVlkVXA1eHpITQ?oc=5"
       }
     ]
   }
