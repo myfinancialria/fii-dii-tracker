@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-11",
-  "date_pretty": "Wednesday, 11 November 2026",
-  "mood": "Mixed",
+  "date": "2026-11-12",
+  "date_pretty": "Thursday, 12 November 2026",
+  "mood": "Range-bound",
   "nifty": {
-    "last": 25255.05,
-    "change": 210.4,
-    "pct": 0.84,
+    "last": 25299.35,
+    "change": 44.3,
+    "pct": 0.18,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 37,
-    "declines": 13,
+    "advances": 20,
+    "declines": 30,
     "unchanged": 0
   },
   "banknifty": {
-    "last": 60792.4,
-    "change": 1051.15,
-    "pct": 1.76,
+    "last": 61518.5,
+    "change": 726.1,
+    "pct": 1.19,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 13,
-    "declines": 1,
+    "advances": 14,
+    "declines": 0,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 25255.05,
-    "change": 210.4,
-    "pct": 0.84,
+    "last": 25299.35,
+    "change": 44.3,
+    "pct": 0.18,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 37,
-    "declines": 13,
+    "advances": 20,
+    "declines": 30,
     "unchanged": 0
   },
   "midcap": {
-    "last": 61519.1,
-    "change": 496.55,
-    "pct": 0.81,
+    "last": 62039.0,
+    "change": 519.9,
+    "pct": 0.85,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 68,
-    "declines": 32,
-    "unchanged": 0
+    "advances": 64,
+    "declines": 35,
+    "unchanged": 1
   },
   "vix": {
-    "last": 17.58,
-    "change": 0.16,
-    "pct": 0.88,
+    "last": 16.61,
+    "change": -0.95,
+    "pct": -5.38,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 30087.21,
-    "sell": 17523.88,
-    "net": 12563.33
+    "buy": 20273.32,
+    "sell": 12442.72,
+    "net": 7830.6
   },
   "dii": {
-    "buy": 19704.39,
-    "sell": 28138.92,
-    "net": -8434.53
+    "buy": 15855.13,
+    "sell": 22186.3,
+    "net": -6331.17
   },
   "global": {
     "Dow Jones": {
-      "last": 52486.48828125,
-      "change": 254.59765625,
-      "pct": 0.48743718292314825
+      "last": 52297.08984375,
+      "change": -189.3984375,
+      "pct": -0.3608517995814548
     },
     "Nasdaq": {
-      "last": 25466.189453125,
-      "change": 400.3203125,
-      "pct": 1.5970733360735094
+      "last": 25366.09375,
+      "change": -100.095703125,
+      "pct": -0.39305332000786275
     },
     "S&P 500": {
-      "last": 7619.3798828125,
-      "change": 98.44970703125,
-      "pct": 1.3090097199449584
+      "last": 7592.39990234375,
+      "change": -26.97998046875,
+      "pct": -0.35409680162568596
     },
     "FTSE 100": {
-      "last": 10835.4697265625,
-      "change": 83.8701171875,
-      "pct": 0.7800710613736801
+      "last": 10863.08984375,
+      "change": 27.58984375,
+      "pct": 0.25462455585805915
     },
     "Nikkei 225": {
-      "last": 60459.578125,
-      "change": 1684.078125,
-      "pct": 2.865272307338942
+      "last": 61248.58984375,
+      "change": 789.01171875,
+      "pct": 1.305023526824353
     },
     "Hang Seng": {
-      "last": 24557.0390625,
-      "change": 108.08984375,
-      "pct": 0.44210425070990556
+      "last": 24315.919921875,
+      "change": -241.119140625,
+      "pct": -0.9818738326364546
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 93.68000030517578,
-      "change": -0.2667999267578125,
-      "pct": -0.2839904351176871
+      "last": 94.03299713134766,
+      "change": 0.10799407958984375,
+      "pct": 0.1149790535863311
     },
     "Dollar Index": {
-      "last": 102.9219970703125,
-      "change": 0.6919937133789062,
-      "pct": 0.6768988463815528
+      "last": 103.18900299072266,
+      "change": 0.27899932861328125,
+      "pct": 0.27111001718485656
     },
     "Brent Crude": {
-      "last": 92.63999938964844,
-      "change": 1.1500015258789062,
-      "pct": 1.2569696718009349
+      "last": 95.76000213623047,
+      "change": 3.0,
+      "pct": 3.2341525775237683
     },
     "Gold": {
-      "last": 3994.39990234375,
-      "change": -35.800048828125,
-      "pct": -0.8882946072617389
+      "last": 3879.60009765625,
+      "change": -120.89990234375,
+      "pct": -3.022119793619548
     },
     "US 10Y Yield": {
-      "last": 4.998000144958496,
-      "change": 0.015000343322753906,
-      "pct": 0.3010303816955768
+      "last": 5.102999687194824,
+      "change": 0.10499954223632812,
+      "pct": 2.100831116266405
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "M&M",
-        "ltp": 3465.0,
-        "pct": 5.3,
+        "symbol": "HDFCLIFE",
+        "ltp": 597.8,
+        "pct": 4.23,
         "catalyst": null,
-        "headline": "Top gainers and losers, Nov 11: M&M, IndiGo shares soar 4%, Trent rises 3%, Adani Port falls 2%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNjlpN2t1TGQ0X2UwOUt5Sk1KSFhaeGxqdjgwX2VLWF9yb3gxaGNGUGVOWUt0VDUyQ0tzRTZVTjRfekROTUt1NjBYaWtfWVZJZHV5VEZ6Q3JPS0l5LUh4ZHFoVC1Dem90c2EtUUFHTWRlVkhRQmtTN1N3ZHJGQWRyaldiWloydGhEcVlaRjM2akxkSkVENVZYcjZFV3VWU0d0eFhhaG9IN19ZOW1TQnd0YmdSTklfeHU2aFZ1OTgyRUNodzlvbGtZLUVseFFyUklaZUZwYzU4QmtHN1JBa0dLajNpSDB4VkphTUQzWVZSWDJ0TTk0?oc=5"
+        "headline": "Nifty Ends at 25,299 as Nifty Bank Surges 1.19%, Realty Jumps 4.5% and Insurers Rally on Strong October Premium Data",
+        "source": "India Infoline",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdTM2VzY0a3BQWXZQLU0xcFVleUJuMUV0Z051ZDZRZ3hoUXNEOFNWcDZzUFZUM3h4bHZYdDg3RWF4WUVmREQ3YlhKUGxDMDA2Z2lJVDVYOWd3MmlhbEdZMWgzaDBRZExIbWxzRWNWdjEzdDhheWZOZDJLNVEzWGVrb3VONlVHVEtjSTloSmhJQTVyNzNDZXA4Tm5PbmdtWVhLVThqQm42ZEpNX2x5bTlFc1V3Q1JQVjE2UURIc1ItbVRab2lTS2lEellYVEV2aUhXWk16elRQQ1VoTE9hYW9ENGQ2QjB4bkNMWVNR?oc=5"
       },
       {
-        "symbol": "INDIGO",
-        "ltp": 5665.0,
-        "pct": 4.33,
+        "symbol": "SHRIRAMFIN",
+        "ltp": 1003.8,
+        "pct": 3.58,
         "catalyst": null,
-        "headline": "Top gainers and losers, Nov 11: M&M, IndiGo shares soar 4%, Trent rises 3%, Adani Port falls 2%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNjlpN2t1TGQ0X2UwOUt5Sk1KSFhaeGxqdjgwX2VLWF9yb3gxaGNGUGVOWUt0VDUyQ0tzRTZVTjRfekROTUt1NjBYaWtfWVZJZHV5VEZ6Q3JPS0l5LUh4ZHFoVC1Dem90c2EtUUFHTWRlVkhRQmtTN1N3ZHJGQWRyaldiWloydGhEcVlaRjM2akxkSkVENVZYcjZFV3VWU0d0eFhhaG9IN19ZOW1TQnd0YmdSTklfeHU2aFZ1OTgyRUNodzlvbGtZLUVseFFyUklaZUZwYzU4QmtHN1JBa0dLajNpSDB4VkphTUQzWVZSWDJ0TTk0?oc=5"
+        "headline": "Shriram Finance SHRIRAMFIN Investor Meet Morgan Stanley 2026",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHU5LXREb0dTTUxxOUhjUFYweGlNdkhZeDljckR5cUsxdG1yUU45LUk5NmlrYkV1VjFNYnpZNWhsSWlsa0ExT3dwZUMyMjBmLXJJdkhuZ2x5eWozMUs2YzVsQmlpZ09QY1czRFBnYjBPblBPN0Rhb1JZdXZhdW9FcXN6eUYwdWd4MzRnTzlPSlM5ODRtQ2ZNLTNCd1VYaWZBbEZTOVByWUxCYTZUNWtMOGFkM1BFWDBVMkRlT0sxYXBETVRiT1FLcU9SR3d0QkpSaDkwb2pyVUdNWkNv?oc=5"
       },
       {
-        "symbol": "TRENT",
-        "ltp": 3222.7,
-        "pct": 3.32,
+        "symbol": "BAJFINANCE",
+        "ltp": 1115.0,
+        "pct": 3.36,
         "catalyst": null,
-        "headline": "Top gainers and losers, Nov 11: M&M, IndiGo shares soar 4%, Trent rises 3%, Adani Port falls 2%; check list",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPNjlpN2t1TGQ0X2UwOUt5Sk1KSFhaeGxqdjgwX2VLWF9yb3gxaGNGUGVOWUt0VDUyQ0tzRTZVTjRfekROTUt1NjBYaWtfWVZJZHV5VEZ6Q3JPS0l5LUh4ZHFoVC1Dem90c2EtUUFHTWRlVkhRQmtTN1N3ZHJGQWRyaldiWloydGhEcVlaRjM2akxkSkVENVZYcjZFV3VWU0d0eFhhaG9IN19ZOW1TQnd0YmdSTklfeHU2aFZ1OTgyRUNodzlvbGtZLUVseFFyUklaZUZwYzU4QmtHN1JBa0dLajNpSDB4VkphTUQzWVZSWDJ0TTk0?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "symbol": "TATASTEEL",
-        "ltp": 189.28,
-        "pct": 2.4
+        "symbol": "SBILIFE",
+        "ltp": 1819.5,
+        "pct": 2.97
       },
       {
-        "symbol": "BSE",
-        "ltp": 3906.0,
-        "pct": 2.34
+        "symbol": "SBIN",
+        "ltp": 1086.5,
+        "pct": 2.38
       }
     ],
     "losers": [
       {
-        "symbol": "ADANIPORTS",
-        "ltp": 1907.0,
-        "pct": -1.84,
+        "symbol": "ONGC",
+        "ltp": 224.5,
+        "pct": -4.39,
         "catalyst": null,
-        "headline": "At new highs! Eternal, Groww, Adani Ports, Ather, 16 more NSE 500 stocks",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORTR6T3NuWXFaZDhwbl9HcmhfREhRT29BZ3VqWWR5aTJpZkRlT1lxRlM1YThkM05iM0I5TF8xamlaT0RkcTNXNTFQUVZVUGxQak5UX1pSRkdQLXhJWnU5MlFtR0NhaVl2VXRJYnV5Z1Znai1GUzl1dXl1NUhiSDBMOGhRekI0XzRoRkRobFphb1lWVnFQZkVhakp2dlVjNV9WdFdxbXFfLVRYWVZJY3JQVUYyNlNTZWlBREdoa1E0VlZ1Z25YdTBxdGgxMzN3elnSAdQBQVVfeXFMUHlVbHZtdFRJOU1EWWc5S0hSNGdPVWFCcDdocVJuUnVmbzFIUmVlTlFlS0U5S2xTTXZtck9oQmNMYkVnQ1VYZXhZaVdKZHpOUDJUTTNwVzhaS09wNmdRdlVRVTluejVLQ251VEFRVXBkUVdua2hsRE43bzdZUW5tVWhVZlNiUjhXaGpzelFSQkNFTTZOQmFCLWY2bGlaNTV0U3JuQ3Nmbzg4MzhFQVVwRUsyRnZHR3dzRFZVbW9sWjVBWnRUZzdmRGRKSVJpZ29tZVFwNW8?oc=5"
-      },
-      {
-        "symbol": "ICICIBANK",
-        "ltp": 1571.6,
-        "pct": -1.1,
-        "catalyst": null,
-        "headline": "At new highs! Eternal, Groww, Adani Ports, Ather, 16 more NSE 500 stocks",
-        "source": "Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORTR6T3NuWXFaZDhwbl9HcmhfREhRT29BZ3VqWWR5aTJpZkRlT1lxRlM1YThkM05iM0I5TF8xamlaT0RkcTNXNTFQUVZVUGxQak5UX1pSRkdQLXhJWnU5MlFtR0NhaVl2VXRJYnV5Z1Znai1GUzl1dXl1NUhiSDBMOGhRekI0XzRoRkRobFphb1lWVnFQZkVhakp2dlVjNV9WdFdxbXFfLVRYWVZJY3JQVUYyNlNTZWlBREdoa1E0VlZ1Z25YdTBxdGgxMzN3elnSAdQBQVVfeXFMUHlVbHZtdFRJOU1EWWc5S0hSNGdPVWFCcDdocVJuUnVmbzFIUmVlTlFlS0U5S2xTTXZtck9oQmNMYkVnQ1VYZXhZaVdKZHpOUDJUTTNwVzhaS09wNmdRdlVRVTluejVLQ251VEFRVXBkUVdua2hsRE43bzdZUW5tVWhVZlNiUjhXaGpzelFSQkNFTTZOQmFCLWY2bGlaNTV0U3JuQ3Nmbzg4MzhFQVVwRUsyRnZHR3dzRFZVbW9sWjVBWnRUZzdmRGRKSVJpZ29tZVFwNW8?oc=5"
-      },
-      {
-        "symbol": "TECHM",
-        "ltp": 1788.5,
-        "pct": -0.91,
-        "catalyst": null,
-        "headline": "Borosil Renewables Ltd.",
+        "headline": "Chennai Petro, ONGC, Oil India fall up to 3% amid declining crude oil prices",
         "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2hnbloySkkzdmI1OEFBRFd3ME9pSnVIdGJyek1UZkdGLXZ1YW1VZWVFdHVRN2hhTEpKcVdZQnFMa0tRTWwyYnRDVks3Y05oY1Y3dnZWTjdfQ0h5Z0M5Q3N4UV9LTnVwMzVzenZ0ajVUSkVRVVl1QkR4eE5VZl9IaW1lcVduMFo2ajFGSmRDT1dIdDdKSm9ydU0yUQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUEJLeFZhcTBQTW1KSER5YnkxeEdIV0VzWWdlVDJ0ZkQ2Sk9JTEd4QTVjdXdIUlBDQ3E5LXFyazdZTDJrc2dRTUtQZDFKWG95aWQyYk85Sy03RGZNejQxbjhXTWxCelRwblI3akxlN3BaRTFOR2N5V1l1U3ZZUEg0a0FfazBpYnlMbkM5cGZpcy1JbWtMMjkwVXdzQWgxSXhRUE1qbnRTOVRRNTJxN2Z6YXJ3ZzZ6YzNreG5SbnlxVGYybUR4UW1pU1lnRk1Uenk5ZzN4OdIB2gFBVV95cUxQX3EzNUI5OWtGeDNTaFZCM3AxU1gtMVVPZVZpUFZoZHFnQXZsNGhGc2t0UnJOMTJXaDVzZnFoMjFJNE52WHo0SExWQnI2Rm5iRmVGZ1ExMmRjcHhraklyaTk2VjFTVHUyNjBrWjNwTjV3UGo5Wi1faUszd09pWHdJcTBiVDVrZHVZZ2Q0QUg4WEhCMW9Vd3JBLXI1Q0hZeDJIOV9XMDhYYmtlQldCcXRJbURqREw0VVNZejR1M01ZTzEtZ1NKejFwMy1wVXp4THhrN1JVTURNTmgzdw?oc=5"
       },
       {
-        "symbol": "HCLTECH",
-        "ltp": 1395.0,
-        "pct": -0.85
+        "symbol": "HINDUNILVR",
+        "ltp": 1974.0,
+        "pct": -2.39,
+        "catalyst": null,
+        "headline": "Hindustan Unilever Share Price - Live NSE: HINDUNILVR Stock Price & Chart",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00bURGcnlweERKTnRINldLZmR6b09TWm9SMDUzTkdvUlh3VDVoVGEtdkdFb1JYc2NtWEc1aExJUXJWZmZNc3NCVVhDNHJBNUxLdmVsMTJwZ1NLZWtZR3ZSd0Nhd2h6ZEk2UnJnMXFn?oc=5"
       },
       {
         "symbol": "NESTLEIND",
-        "ltp": 1288.0,
-        "pct": -0.76
+        "ltp": 1260.9,
+        "pct": -2.1,
+        "catalyst": null,
+        "headline": null,
+        "source": null,
+        "link": null
+      },
+      {
+        "symbol": "M&M",
+        "ltp": 3399.0,
+        "pct": -1.9
+      },
+      {
+        "symbol": "POWERGRID",
+        "ltp": 259.45,
+        "pct": -1.63
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY PSU BANK",
-        "pct": 2.94,
+        "name": "NIFTY REALTY",
+        "pct": 4.51,
         "catalyst": null,
-        "headline": "PSBs improve profitability but fail to bridge valuation gap with private peers",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYTRRNDZBTnU4MlpYWjRnUDJhaXY4bUF2eGlPcC0wV1AxMXAzbVZHZEF5Sk5YQWx0ek9GaWE2TXhGMlVwMUR3OEM4cTJyd05JNHNKd3ZscGRtSUdvWVYzR0pkNDVjWFFjNjJmeDFEZGNyUW15b1RsbUtlZXFSMThZbEJiOHNUSTVQWkw5QW9FWlBGNlZMSEV5NXc0R1lueFg0dGYtMEt2NEJZeE5DR0ZQaXhqZmNKdzItQUtvMFB0QjBLSWhfWXlwRUEwQUtsM1psRnlncGRQWVNfTjRERTF4ZTBTc1p1NTZ5WWh1elltWEFnbkRSekplVHJiTW5mdmFvN1NxNtIB_gFBVV95cUxPbzI5b0locTFfS0EwVGkwTXhOOW0wb0Nya193X1Mwb3VTelNrM2R0NVJYRDFGZnR1ekdGWWNmTDBHbDJDdHVmVHItY1BUS3VFcXhGZVRKczdMTkNzYm0wWEZvQ2ZCRUlWTWVYaGJvZmI3QzZiRGdfa2I2VEJXN3dfU2c0WFA4Y3BRMmNpOFQtNUtKWWJSWUhBTnZBaXBuRzY0WnYwZUZEMTN3QTRvWU5HSjNtdlUtSzRTMkxnZFhuQl9rSFMxbndlTThFM0dlbFhSWmhSX1lTQWQyMXMxV0hRTXZsQ0lzVmw1MkhzMVF5Mm1FaUt6N3AwMHRhN1M3Zw?oc=5"
+        "headline": "Indian Stocks Close Higher as Realty and Banking Gains Lift Sensex, Nifty",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGFCTzJ0UzBpdmVNcE9GMmhjaWQzZ1I0Y0NfWmRnRFdxNFhRaFFOR2RCZF9haWxrQ05aTXBLdkNRMjhCMTVYNE1mV1p6LWdqd1gtNVpuVWxhUFVkTEpnVGtjYmZGTXo1VTVSSWd3TEJmcFNRZGNWdXphUUY4cVBTWGVTMUJnaFI1WmQ1NDdLQWc2bW05OFQyNC13b3JxZGlVWW00?oc=5"
       },
       {
-        "name": "NIFTY AUTO",
-        "pct": 2.14,
+        "name": "NIFTY PSU BANK",
+        "pct": 1.51,
         "catalyst": null,
-        "headline": "Indian Stocks Rally as Sensex Jumps 773 Points, Nifty Closes Above 25,250",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR216Q0l0LWVPSmd5eHZNZGtkWkNSSWg3NHhxT1FHM2NNVHlKZW11VFBRM2FXZTdnZWVjN2hDUjJCZ2VrWlQ3c3RENUFzOElhcUowMjJyeFI1MExaM3FDU1U1X2dqMk8tV0ZDTmY2R1dNVmNXdHFkVXJ5SXZlbWVIU0gzVGE5VnFLYks2aVZTUXVuU05wY2kwSXUwZDJqQXZpTlE?oc=5"
+        "headline": "Top 12 Bank Stocks To Buy In India November 2026",
+        "source": "Samco",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVTJGTjNBTndCWnlCMVF4am9OclFTVEN0clJWVXBKc3BWX0E4bDhwTUxlVWFKd0xReUJWSVl6T0M3UnExVHowUHZHdkExQ016S1MtX1lJdjNKYUNoRzBpM19fbTZYeTNOVGpNY0NPMTQydUdvWDZWMGFveE12Umh4eVRkVC02b1FMYVJhZQ?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY IT",
-        "pct": -0.53,
+        "name": "NIFTY AUTO",
+        "pct": -1.02,
         "catalyst": null,
-        "headline": "Indian shares rise on foreign flow optimism; financials, autos lead",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWGIzT1Bsa3NLR1VMamE3ZXpZblhwbFVuV0I1Q1UxZDhGQW9RR3E5NmpQVVBiMW1ibUhkYXRoN1ZESUlRZVIteU9OX2FfcUlyZEJiU1lFcllZQm5jaWx1Wkh2WGhqMjRWYUc5NjJBY252UERLVU5HTEFmb1pwNHlXYXVUN3Z5dE4xVkVRbXJnMkZTTGpDNldBMS1PTlBRVFpPVjhOUEE5eEFsQkE0bHVjU2FJN0NSdw?oc=5"
+        "headline": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
+        "source": "The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZC1VVjdrdHl6aEpyNHN6aUVoNGRuNDRHZUluZWFwWjF6ZnBkdkVYUmpwZDJIN1JhTVRIcFVMT1doWDA5aDhuLS1sQklHLVdWVVRwSFc3NVZ2RWFQTzJicWZwTU8yMjNBWHRHSi1hZGVzUXhrbUQ3Z3VFOWFVZ2NEeF9oTlBBel9PdVFXSU0zZHM5MTE0ODVEMnRfemFRNmFWXzdKM1dIcTVBcXlnV3ljSEpLT0F2NklPR1ZMNjd0Qy04QdIByAFBVV95cUxPb2VmWlRsZ21uNWFWZHk5WlV0X0VZT0JRc0RLS09HVkQzaUxUYVRUeFliYXlTU0VqekdBWUUzb05KcHMtbWxsQlQzelFRZVNBcmF1czJaVUZpZElweFRsUUF6dUVyejQ3N2tSOXJWTUFIb0Z6dkxZSko0MXQ4ZHp0NnBXR0NjcFd0R3dsUGtOMlpPaHk4MDExcG5MMzFaN1dqWXF3eUdCQVNURTU4SUFCY2FhQ3hHSmstM2Q5Mlg0OVVFZUNETHdSaA?oc=5"
       },
       {
-        "name": "NIFTY REALTY",
-        "pct": -0.42,
+        "name": "NIFTY FMCG",
+        "pct": -0.74,
         "catalyst": null,
-        "headline": "Sensex, Nifty pare gains as investors book profits after sharp rally",
-        "source": "National Herald",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2QtOVl4c3pnbkZod3QxcTNQNE0wY1BHaE8zSHJLUW40ZkdkZ3ZmVG9xRVA0dFphalF5S1UtTTZ3V0E1Z25YbVB5enl2WXVNOWQzeV90Nm5LWDQ0YVNiVDY0SUh1TGl1c21uTzlhck9LV0xxM3Y0QklmWTJ0NjB1UUVVZ0FKSE1EVlREY2x1eU9RaTgxTTBLNXRvVHV1M052dkMzcFZyUDd4Z1JCY3lnVjV0QUtUQVlkVXA1eHpITdIBvwFBVV95cUxOX2QtOVl4c3pnbkZod3QxcTNQNE0wY1BHaE8zSHJLUW40ZkdkZ3ZmVG9xRVA0dFphalF5S1UtTTZ3V0E1Z25YbVB5enl2WXVNOWQzeV90Nm5LWDQ0YVNiVDY0SUh1TGl1c21uTzlhck9LV0xxM3Y0QklmWTJ0NjB1UUVVZ0FKSE1EVlREY2x1eU9RaTgxTTBLNXRvVHV1M052dkMzcFZyUDd4Z1JCY3lnVjV0QUtUQVlkVXA1eHpITQ?oc=5"
+        "headline": "Rajnish Wellness Partners With JNTL Consumer India for FMCG Distribution; Shares Rise 2.63%",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdDduZEFfQlE5VUFvdl94R3NVUTJEM3Q4czNWUVUtNU9KMXBzY3BTelU5T2pxMWNrUmc5X3gtVVRTb2VoQUpNa0U5M05BRTExemRGV1owUUpuWUlGQS1seHhiOUdYSUFMOF9sU0NpNjd1b0F1b1V6YlN4OGNVTzg5NVRlYW1LT1ZLMXFkTWR6S2dtRkREbWEwZ09JZUlOeXRoYmFZWjFuREhTMmhXOGo1SkNaVGtpcTl0Z1FFeXkxSQ?oc=5"
       }
     ]
   }
