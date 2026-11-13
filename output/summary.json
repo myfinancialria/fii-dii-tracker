@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-12",
-  "date_pretty": "Thursday, 12 November 2026",
-  "mood": "Range-bound",
+  "date": "2026-11-13",
+  "date_pretty": "Friday, 13 November 2026",
+  "mood": "Mixed",
   "nifty": {
-    "last": 25299.35,
-    "change": 44.3,
-    "pct": 0.18,
+    "last": 25144.3,
+    "change": -155.05,
+    "pct": -0.61,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 20,
-    "declines": 30,
-    "unchanged": 0
+    "advances": 11,
+    "declines": 38,
+    "unchanged": 1
   },
   "banknifty": {
-    "last": 61518.5,
-    "change": 726.1,
-    "pct": 1.19,
+    "last": 61034.1,
+    "change": -484.4,
+    "pct": -0.79,
     "year_high": 61764.85,
     "year_low": 49954.85,
-    "advances": 14,
-    "declines": 0,
+    "advances": 1,
+    "declines": 13,
     "unchanged": 0
   },
   "sensex_proxy": {
-    "last": 25299.35,
-    "change": 44.3,
-    "pct": 0.18,
+    "last": 25144.3,
+    "change": -155.05,
+    "pct": -0.61,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 20,
-    "declines": 30,
-    "unchanged": 0
-  },
-  "midcap": {
-    "last": 62039.0,
-    "change": 519.9,
-    "pct": 0.85,
-    "year_high": 64450.9,
-    "year_low": 52032.85,
-    "advances": 64,
-    "declines": 35,
+    "advances": 11,
+    "declines": 38,
     "unchanged": 1
   },
+  "midcap": {
+    "last": 61889.5,
+    "change": -149.5,
+    "pct": -0.24,
+    "year_high": 64450.9,
+    "year_low": 52032.85,
+    "advances": 31,
+    "declines": 69,
+    "unchanged": 0
+  },
   "vix": {
-    "last": 16.61,
-    "change": -0.95,
-    "pct": -5.38,
+    "last": 15.78,
+    "change": -0.84,
+    "pct": -5.06,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +53,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 20273.32,
-    "sell": 12442.72,
-    "net": 7830.6
+    "buy": 18339.57,
+    "sell": 12603.02,
+    "net": 5736.55
   },
   "dii": {
-    "buy": 15855.13,
-    "sell": 22186.3,
-    "net": -6331.17
+    "buy": 11745.95,
+    "sell": 13999.53,
+    "net": -2253.58
   },
   "global": {
     "Dow Jones": {
-      "last": 52297.08984375,
-      "change": -189.3984375,
-      "pct": -0.3608517995814548
+      "last": 52347.55078125,
+      "change": 50.4609375,
+      "pct": 0.0964889970947983
     },
     "Nasdaq": {
-      "last": 25366.09375,
-      "change": -100.095703125,
-      "pct": -0.39305332000786275
+      "last": 25136.2734375,
+      "change": -229.81640625,
+      "pct": -0.9059985502914432
     },
     "S&P 500": {
-      "last": 7592.39990234375,
-      "change": -26.97998046875,
-      "pct": -0.35409680162568596
+      "last": 7561.669921875,
+      "change": -30.72998046875,
+      "pct": -0.4047466000738943
     },
     "FTSE 100": {
-      "last": 10863.08984375,
-      "change": 27.58984375,
-      "pct": 0.25462455585805915
+      "last": 10902.5595703125,
+      "change": 39.4599609375,
+      "pct": 0.3632477134191564
     },
     "Nikkei 225": {
-      "last": 61248.58984375,
-      "change": 789.01171875,
-      "pct": 1.305023526824353
+      "last": 60819.359375,
+      "change": -429.23046875,
+      "pct": -0.7008005732785046
     },
     "Hang Seng": {
-      "last": 24315.919921875,
-      "change": -241.119140625,
-      "pct": -0.9818738326364546
+      "last": 24008.55078125,
+      "change": -307.369140625,
+      "pct": -1.2640654419514092
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.03299713134766,
-      "change": 0.10799407958984375,
-      "pct": 0.1149790535863311
+      "last": 94.2300033569336,
+      "change": 0.5316009521484375,
+      "pct": 0.5673532723128786
     },
     "Dollar Index": {
-      "last": 103.18900299072266,
-      "change": 0.27899932861328125,
-      "pct": 0.27111001718485656
+      "last": 103.39900207519531,
+      "change": 0.22900390625,
+      "pct": 0.22196753931796745
     },
     "Brent Crude": {
-      "last": 95.76000213623047,
-      "change": 3.0,
-      "pct": 3.2341525775237683
+      "last": 96.25,
+      "change": 0.43000030517578125,
+      "pct": 0.44875840799966943
     },
     "Gold": {
-      "last": 3879.60009765625,
-      "change": -120.89990234375,
-      "pct": -3.022119793619548
+      "last": 3879.10009765625,
+      "change": -6.199951171875,
+      "pct": -0.1595745783841074
     },
     "US 10Y Yield": {
-      "last": 5.102999687194824,
-      "change": 0.10499954223632812,
-      "pct": 2.100831116266405
+      "last": 5.154000282287598,
+      "change": 0.051000118255615234,
+      "pct": 0.9994143957722122
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "HDFCLIFE",
-        "ltp": 597.8,
-        "pct": 4.23,
+        "symbol": "EICHERMOT",
+        "ltp": 7650.0,
+        "pct": 1.34,
         "catalyst": null,
-        "headline": "Nifty Ends at 25,299 as Nifty Bank Surges 1.19%, Realty Jumps 4.5% and Insurers Rally on Strong October Premium Data",
-        "source": "India Infoline",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdTM2VzY0a3BQWXZQLU0xcFVleUJuMUV0Z051ZDZRZ3hoUXNEOFNWcDZzUFZUM3h4bHZYdDg3RWF4WUVmREQ3YlhKUGxDMDA2Z2lJVDVYOWd3MmlhbEdZMWgzaDBRZExIbWxzRWNWdjEzdDhheWZOZDJLNVEzWGVrb3VONlVHVEtjSTloSmhJQTVyNzNDZXA4Tm5PbmdtWVhLVThqQm42ZEpNX2x5bTlFc1V3Q1JQVjE2UURIc1ItbVRab2lTS2lEellYVEV2aUhXWk16elRQQ1VoTE9hYW9ENGQ2QjB4bkNMWVNR?oc=5"
+        "headline": "Q2 Results, Nov 13: Grasim, Eicher Motors, ABB India, Tata Motors PV, Manipal Health, Indo-MIM, RVNL, Godrej Industries, others to post earnings",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQR21QbTdmTnZZTmpKN3FBRXNMU3QtWEtHclhDMUxpZm9ERC0zcWhRc3BuYlh4WW5ESHpJRDZTNk5xeXR5RE0zQUtHSVlaaXYzZlNhUTNSYkdtNHZ4WXRJR25OdTU0c2tCQUZmcllRcTd2Nmx5TFkzcXpmUGpOTGNfTzZBdFNWZE95VFhOdU1Ba0pSRkdHd1JIX191MkxqRm4zUkEweTZCcmpyZEh3b0VpYndyMmZwMHFrY3lxZ2NuM0ZJSlk4X2xFWHQ0Q2FfSDZsU0ZSeXp5RVRtcm1kQ2paRWlReXQ4RjF2ZmM3THRiTjVGbDBscGJtdnVrY0dELTBQdzZUbDVJdThmRmMwbkpoalpwbXV0NFdzdG5kTkl2WHk?oc=5"
       },
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 1003.8,
-        "pct": 3.58,
+        "symbol": "HINDUNILVR",
+        "ltp": 1992.9,
+        "pct": 0.96,
         "catalyst": null,
-        "headline": "Shriram Finance SHRIRAMFIN Investor Meet Morgan Stanley 2026",
-        "source": "Kalkine India",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHU5LXREb0dTTUxxOUhjUFYweGlNdkhZeDljckR5cUsxdG1yUU45LUk5NmlrYkV1VjFNYnpZNWhsSWlsa0ExT3dwZUMyMjBmLXJJdkhuZ2x5eWozMUs2YzVsQmlpZ09QY1czRFBnYjBPblBPN0Rhb1JZdXZhdW9FcXN6eUYwdWd4MzRnTzlPSlM5ODRtQ2ZNLTNCd1VYaWZBbEZTOVByWUxCYTZUNWtMOGFkM1BFWDBVMkRlT0sxYXBETVRiT1FLcU9SR3d0QkpSaDkwb2pyVUdNWkNv?oc=5"
+        "headline": "HUL Share Price Today, HUL Stock Price Live NSE/BSE Updates",
+        "source": "The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUE9mc0I1c2JSMFMwWXVtb1FMbi0ybkJWdkN2V1hvSzdiRTFsbzhGZHoyZTE2LW5BZDhrWmtMa09tQmRHaEJTeVZuNGdKMGZPN29ETDdYQVduVnZuZU1saTZXOE56dkM1M09wU3ZxMUZRR1pTQ0wweWZLcFhPQUtoZVJ0TWpWc0tvT0FIeEFIOA?oc=5"
       },
       {
-        "symbol": "BAJFINANCE",
-        "ltp": 1115.0,
-        "pct": 3.36,
+        "symbol": "BSE",
+        "ltp": 3937.7,
+        "pct": 0.73,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
+        "source": "DD News",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcVVFclRSOV9YQk81TC1BX1dhVXQtRWp1c3Q0bHFqbVpKVUdrSnBoZ1FlRlFDLTJkODhJaTduSkNQRHpVSXZOa3Vidm5TRF8wTUpvazkyWGlER185WWdYVDV3MV9IZUI5TmpOTDhKQU1LMkgyWGphOEQ2dXBNNFBZWmpRb1loaGh3dnlHMWJFVnJJY1RPaHJTY21SX19LS0k?oc=5"
       },
       {
-        "symbol": "SBILIFE",
-        "ltp": 1819.5,
-        "pct": 2.97
+        "symbol": "ASIANPAINT",
+        "ltp": 2550.0,
+        "pct": 0.53
       },
       {
-        "symbol": "SBIN",
-        "ltp": 1086.5,
-        "pct": 2.38
+        "symbol": "BHARTIARTL",
+        "ltp": 2106.0,
+        "pct": 0.48
       }
     ],
     "losers": [
       {
-        "symbol": "ONGC",
-        "ltp": 224.5,
-        "pct": -4.39,
+        "symbol": "SHRIRAMFIN",
+        "ltp": 970.0,
+        "pct": -3.37,
         "catalyst": null,
-        "headline": "Chennai Petro, ONGC, Oil India fall up to 3% amid declining crude oil prices",
-        "source": "Moneycontrol.com",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUEJLeFZhcTBQTW1KSER5YnkxeEdIV0VzWWdlVDJ0ZkQ2Sk9JTEd4QTVjdXdIUlBDQ3E5LXFyazdZTDJrc2dRTUtQZDFKWG95aWQyYk85Sy03RGZNejQxbjhXTWxCelRwblI3akxlN3BaRTFOR2N5V1l1U3ZZUEg0a0FfazBpYnlMbkM5cGZpcy1JbWtMMjkwVXdzQWgxSXhRUE1qbnRTOVRRNTJxN2Z6YXJ3ZzZ6YzNreG5SbnlxVGYybUR4UW1pU1lnRk1Uenk5ZzN4OdIB2gFBVV95cUxQX3EzNUI5OWtGeDNTaFZCM3AxU1gtMVVPZVZpUFZoZHFnQXZsNGhGc2t0UnJOMTJXaDVzZnFoMjFJNE52WHo0SExWQnI2Rm5iRmVGZ1ExMmRjcHhraklyaTk2VjFTVHUyNjBrWjNwTjV3UGo5Wi1faUszd09pWHdJcTBiVDVrZHVZZ2Q0QUg4WEhCMW9Vd3JBLXI1Q0hZeDJIOV9XMDhYYmtlQldCcXRJbURqREw0VVNZejR1M01ZTzEtZ1NKejFwMy1wVXp4THhrN1JVTURNTmgzdw?oc=5"
-      },
-      {
-        "symbol": "HINDUNILVR",
-        "ltp": 1974.0,
-        "pct": -2.39,
-        "catalyst": null,
-        "headline": "Hindustan Unilever Share Price - Live NSE: HINDUNILVR Stock Price & Chart",
+        "headline": "Market wrap, Nov 13: Indices snap winning streak; SENSEX falls 319 pts, NIFTY50 ends at 25,144; Shriram Fin top loser",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00bURGcnlweERKTnRINldLZmR6b09TWm9SMDUzTkdvUlh3VDVoVGEtdkdFb1JYc2NtWEc1aExJUXJWZmZNc3NCVVhDNHJBNUxLdmVsMTJwZ1NLZWtZR3ZSd0Nhd2h6ZEk2UnJnMXFn?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPY0p5ZUNCSGRGTWdHY2JTYUluNGVwamFrOE1POHBFWi1YTWF3amNNQUg2UWM1azNkOE5FM1VLcmtETjZXLWU0ZWM3OERicDJHUXFQck5aNmJ2Z0lZRDBYZG1oSjdYM25XenJXbGtUUHJoNHhJZl8tMC15bVo5b21qNklWY2hNVEw5bzNnZXg0TnZ5akIzWEo4emluUDdZUFpKVHNVLWNvX3ZCbXNMdlEzUkZQU3AxYXZVOHFiNUNfUHEyNVp1LW40T1JLLXBjQm9sc3ZMc1FoTTdlUVpKZDhOTkpFeTllNWZDVGZObkNqUXNDRzllR2RyX2FLMnhNYVJVclE?oc=5"
       },
       {
-        "symbol": "NESTLEIND",
-        "ltp": 1260.9,
-        "pct": -2.1,
+        "symbol": "TMPV",
+        "ltp": 287.4,
+        "pct": -3.31,
         "catalyst": null,
-        "headline": null,
-        "source": null,
-        "link": null
+        "headline": "Stocks to watch, Nov 13: ABB India, ZEEL, Eicher Motors, Ola Electric, Religare Enterprises, TMPV, Vi",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPendKcE9kVVVCR1JlVjVQbTFUaUZSTjNhbWtlYmdJSXhRaWFXa1RFOG82Ri1fWTdsVHR6UENZMm1WczNBLWlXY0RUVHpIS3IySGNXR1U3QVpUdzVrXzY0dUZINGZielBLR1BaaGtXQnBrVmF1d3hpb25xTlVtMEwxUjBaSGtXeXhTSXZ6ZWpHZjN5YUFyNmZKLUFjOUdiUFFqR1BSSk1PR2R1RzZmNXlfRmRLb0VEQkZidVdRcWZPNERqTF9tdmtzM2JkT3o0SU1rY2FTM2JESTVHNWdfTEQ0NTk4YW5VM3NWZkd3ZElMaTRMVlhG?oc=5"
       },
       {
-        "symbol": "M&M",
-        "ltp": 3399.0,
-        "pct": -1.9
+        "symbol": "GRASIM",
+        "ltp": 3034.0,
+        "pct": -2.6,
+        "catalyst": null,
+        "headline": "Indian stocks slip as oil, inflation cap weekly rally",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1E4QjJWZklPblVub0xweU1jNXRDdDlBdDFpbDFlZDl1d21idHhkbnAtTkZOcGEzZ3dSRnh0dWhQOFRPQXRuQVR2QkE0RFVvbnVSM2N3MmtWZjhsa0FhSGRLTlVtZUxXeTVGQUlUWTQyTjlwNm9HT2pvek1nZ0JXWkVWd0FVdEdvMFpZbkxuU2VlcHFUbDMtNzlzc09oeVB1eVVLaE12MHE1QXh6eEFIZ3lyUlUyRks0eU8tbA?oc=5"
       },
       {
-        "symbol": "POWERGRID",
-        "ltp": 259.45,
-        "pct": -1.63
+        "symbol": "HINDALCO",
+        "ltp": 943.6,
+        "pct": -2.12
+      },
+      {
+        "symbol": "ADANIENT",
+        "ltp": 2688.0,
+        "pct": -1.95
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY REALTY",
-        "pct": 4.51,
+        "name": "NIFTY ENERGY",
+        "pct": 0.03,
         "catalyst": null,
-        "headline": "Indian Stocks Close Higher as Realty and Banking Gains Lift Sensex, Nifty",
-        "source": "INDIA New England News",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGFCTzJ0UzBpdmVNcE9GMmhjaWQzZ1I0Y0NfWmRnRFdxNFhRaFFOR2RCZF9haWxrQ05aTXBLdkNRMjhCMTVYNE1mV1p6LWdqd1gtNVpuVWxhUFVkTEpnVGtjYmZGTXo1VTVSSWd3TEJmcFNRZGNWdXphUUY4cVBTWGVTMUJnaFI1WmQ1NDdLQWc2bW05OFQyNC13b3JxZGlVWW00?oc=5"
+        "headline": "33 Best Power Sector Stocks In India November 2026 | Best Energy Stocks To Invest",
+        "source": "Samco",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JLVJiY1FqOUtqSDRBanhEV2hCb0stQzFQXzYtWjB3UXZ5UEJDa2ZZZnkxamRKUHItS2Q1aDlPLTRHUW5JQ2Z6MEQyQURNUFRhUTUzd3RvVmdVQnMzdUhyMzRyeVlCQnM5RlptUg?oc=5"
       },
       {
-        "name": "NIFTY PSU BANK",
-        "pct": 1.51,
+        "name": "NIFTY FMCG",
+        "pct": -0.01,
         "catalyst": null,
-        "headline": "Top 12 Bank Stocks To Buy In India November 2026",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVTJGTjNBTndCWnlCMVF4am9OclFTVEN0clJWVXBKc3BWX0E4bDhwTUxlVWFKd0xReUJWSVl6T0M3UnExVHowUHZHdkExQ016S1MtX1lJdjNKYUNoRzBpM19fbTZYeTNOVGpNY0NPMTQydUdvWDZWMGFveE12Umh4eVRkVC02b1FMYVJhZQ?oc=5"
+        "headline": "Cigarette Stocks in India 2026",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkTlUtcjhyV0VOeDNfMFNwSFZ0ZEdadHJXS1BpWlRYTFBNU0E1MnB1cmhsN25aNU5SN0pYV2ZBSnFYRURBX2JvN3d5RWs0dkhhUFduVzNRQmEzd3c1RXBTcg?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY AUTO",
-        "pct": -1.02,
+        "name": "NIFTY REALTY",
+        "pct": -1.39,
         "catalyst": null,
-        "headline": "Auto stocks skid 1% on profit booking despite softer crude, firm markets",
-        "source": "The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZC1VVjdrdHl6aEpyNHN6aUVoNGRuNDRHZUluZWFwWjF6ZnBkdkVYUmpwZDJIN1JhTVRIcFVMT1doWDA5aDhuLS1sQklHLVdWVVRwSFc3NVZ2RWFQTzJicWZwTU8yMjNBWHRHSi1hZGVzUXhrbUQ3Z3VFOWFVZ2NEeF9oTlBBel9PdVFXSU0zZHM5MTE0ODVEMnRfemFRNmFWXzdKM1dIcTVBcXlnV3ljSEpLT0F2NklPR1ZMNjd0Qy04QdIByAFBVV95cUxPb2VmWlRsZ21uNWFWZHk5WlV0X0VZT0JRc0RLS09HVkQzaUxUYVRUeFliYXlTU0VqekdBWUUzb05KcHMtbWxsQlQzelFRZVNBcmF1czJaVUZpZElweFRsUUF6dUVyejQ3N2tSOXJWTUFIb0Z6dkxZSko0MXQ4ZHp0NnBXR0NjcFd0R3dsUGtOMlpPaHk4MDExcG5MMzFaN1dqWXF3eUdCQVNURTU4SUFCY2FhQ3hHSmstM2Q5Mlg0OVVFZUNETHdSaA?oc=5"
+        "headline": "Auto, Metal, Realty Stocks Lead Sectoral Losses",
+        "source": "HDFC Sky",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdS1sNEtLbWxZZGxfWHZKcTdCS2tmSkVFWV9KNkc1RXYxWE1sV2hOT0kzZ0ctM21wN281cHlSMlhYMFVzc1ExMU1pU0JEa0lETlRyWlJFTVFvWS1WVS1iREtFMnJqZTFUamtodmJnTHVUMC1JMUwtaXUwUDdCX003aHNRV1BPU1VkeUExUDM1VHpGcDd0RUhhNDNNSGp3V3llUGFId1Y1NXlDOU9aMkJkMTB5MU9fZjhOeVBfbWZNME9mejZXSnU4NFl0X3htaktrOFBuZFlDZlA?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": -0.74,
+        "name": "NIFTY AUTO",
+        "pct": -1.07,
         "catalyst": null,
-        "headline": "Rajnish Wellness Partners With JNTL Consumer India for FMCG Distribution; Shares Rise 2.63%",
+        "headline": "Auto, Metal, Realty Stocks Lead Sectoral Losses",
         "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdDduZEFfQlE5VUFvdl94R3NVUTJEM3Q4czNWUVUtNU9KMXBzY3BTelU5T2pxMWNrUmc5X3gtVVRTb2VoQUpNa0U5M05BRTExemRGV1owUUpuWUlGQS1seHhiOUdYSUFMOF9sU0NpNjd1b0F1b1V6YlN4OGNVTzg5NVRlYW1LT1ZLMXFkTWR6S2dtRkREbWEwZ09JZUlOeXRoYmFZWjFuREhTMmhXOGo1SkNaVGtpcTl0Z1FFeXkxSQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdS1sNEtLbWxZZGxfWHZKcTdCS2tmSkVFWV9KNkc1RXYxWE1sV2hOT0kzZ0ctM21wN281cHlSMlhYMFVzc1ExMU1pU0JEa0lETlRyWlJFTVFvWS1WVS1iREtFMnJqZTFUamtodmJnTHVUMC1JMUwtaXUwUDdCX003aHNRV1BPU1VkeUExUDM1VHpGcDd0RUhhNDNNSGp3V3llUGFId1Y1NXlDOU9aMkJkMTB5MU9fZjhOeVBfbWZNME9mejZXSnU4NFl0X3htaktrOFBuZFlDZlA?oc=5"
       }
     ]
   }
