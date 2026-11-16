@@ -1,51 +1,55 @@
 {
-  "date": "2026-11-13",
-  "date_pretty": "Friday, 13 November 2026",
+  "date": "2026-11-16",
+  "date_pretty": "Monday, 16 November 2026",
   "mood": "Mixed",
   "nifty": {
-    "last": 25144.3,
-    "change": -155.05,
-    "pct": -0.61,
+    "last": 25291.1,
+    "change": 146.8,
+    "pct": 0.58,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 11,
-    "declines": 38,
-    "unchanged": 1
-  },
-  "banknifty": {
-    "last": 61034.1,
-    "change": -484.4,
-    "pct": -0.79,
-    "year_high": 61764.85,
-    "year_low": 49954.85,
-    "advances": 1,
-    "declines": 13,
+    "advances": 31,
+    "declines": 19,
     "unchanged": 0
   },
+  "banknifty": {
+    "last": 61575.9,
+    "change": 541.8,
+    "pct": 0.89,
+    "year_high": 61764.85,
+    "year_low": 49954.85,
+    "advances": 13,
+    "declines": 1,
+    "unchanged": 0,
+    "catalyst": null,
+    "headline": "Sensex Gains 510 Points as Banking and Consumer Stocks Lift Indian Markets",
+    "source": "INDIA New England News",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGRLWUtGWVVyMW1pVkwyVU9YaXR1a28yZ1JTcXAwTDNxcVAwb1c1X3NFMExTSVk5enhwdkZIb05hYlZ0eFktLU5hMmRBYk8wS0dDQjVxZlkxM3VqY01VcDZORDIxaThPcWdpaDNaYmdqdXV1dkt4YUNtYzh2SkhkWTE5LUVKejIwaTUtRWxXX1ptZml4X0dKTHJxVGNLQ0VDdDFkRmZR?oc=5"
+  },
   "sensex_proxy": {
-    "last": 25144.3,
-    "change": -155.05,
-    "pct": -0.61,
+    "last": 25291.1,
+    "change": 146.8,
+    "pct": 0.58,
     "year_high": 26373.2,
     "year_low": 22179.9,
-    "advances": 11,
-    "declines": 38,
-    "unchanged": 1
+    "advances": 31,
+    "declines": 19,
+    "unchanged": 0
   },
   "midcap": {
-    "last": 61889.5,
-    "change": -149.5,
-    "pct": -0.24,
+    "last": 61576.4,
+    "change": -313.1,
+    "pct": -0.51,
     "year_high": 64450.9,
     "year_low": 52032.85,
-    "advances": 31,
-    "declines": 69,
+    "advances": 40,
+    "declines": 60,
     "unchanged": 0
   },
   "vix": {
-    "last": 15.78,
-    "change": -0.84,
-    "pct": -5.06,
+    "last": 15.7,
+    "change": 0.2,
+    "pct": 1.32,
     "year_high": 28.91,
     "year_low": 8.72,
     "advances": null,
@@ -53,189 +57,189 @@
     "unchanged": null
   },
   "fii": {
-    "buy": 18339.57,
-    "sell": 12603.02,
-    "net": 5736.55
+    "buy": 15636.88,
+    "sell": 10772.2,
+    "net": 4864.68
   },
   "dii": {
-    "buy": 11745.95,
-    "sell": 13999.53,
-    "net": -2253.58
+    "buy": 11752.03,
+    "sell": 15271.08,
+    "net": -3519.05
   },
   "global": {
     "Dow Jones": {
-      "last": 52347.55078125,
-      "change": 50.4609375,
-      "pct": 0.0964889970947983
+      "last": 51608.171875,
+      "change": -739.37890625,
+      "pct": -1.4124422159495433
     },
     "Nasdaq": {
-      "last": 25136.2734375,
-      "change": -229.81640625,
-      "pct": -0.9059985502914432
+      "last": 24509.7578125,
+      "change": -626.51171875,
+      "pct": -2.4924610152318185
     },
     "S&P 500": {
-      "last": 7561.669921875,
-      "change": -30.72998046875,
-      "pct": -0.4047466000738943
+      "last": 7416.58984375,
+      "change": -145.080078125,
+      "pct": -1.9186248490601372
     },
     "FTSE 100": {
-      "last": 10902.5595703125,
-      "change": 39.4599609375,
-      "pct": 0.3632477134191564
+      "last": 10881.5498046875,
+      "change": -21.0498046875,
+      "pct": -0.19307142738140684
     },
     "Nikkei 225": {
-      "last": 60819.359375,
-      "change": -429.23046875,
-      "pct": -0.7008005732785046
+      "last": 61142.3515625,
+      "change": 322.9921875,
+      "pct": 0.53106805270423
     },
     "Hang Seng": {
-      "last": 24008.55078125,
-      "change": -307.369140625,
-      "pct": -1.2640654419514092
+      "last": 23637.599609375,
+      "change": -370.951171875,
+      "pct": -1.5450793979814157
     }
   },
   "fx_commodities": {
     "USD/INR": {
-      "last": 94.2300033569336,
-      "change": 0.5316009521484375,
-      "pct": 0.5673532723128786
+      "last": 93.91200256347656,
+      "change": -0.121795654296875,
+      "pct": -0.1295232741899968
     },
     "Dollar Index": {
-      "last": 103.39900207519531,
-      "change": 0.22900390625,
-      "pct": 0.22196753931796745
+      "last": 103.58599853515625,
+      "change": 0.175994873046875,
+      "pct": 0.17019134205036446
     },
     "Brent Crude": {
-      "last": 96.25,
-      "change": 0.43000030517578125,
-      "pct": 0.44875840799966943
+      "last": 92.12999725341797,
+      "change": -3.7099990844726562,
+      "pct": -3.871034251079053
     },
     "Gold": {
-      "last": 3879.10009765625,
-      "change": -6.199951171875,
-      "pct": -0.1595745783841074
+      "last": 3855.39990234375,
+      "change": -30.900146484375,
+      "pct": -0.7951044977521134
     },
     "US 10Y Yield": {
-      "last": 5.154000282287598,
-      "change": 0.051000118255615234,
-      "pct": 0.9994143957722122
+      "last": 5.120999813079834,
+      "change": -0.03299999237060547,
+      "pct": -0.6402792707851374
     }
   },
   "movers": {
     "gainers": [
       {
-        "symbol": "EICHERMOT",
-        "ltp": 7650.0,
-        "pct": 1.34,
+        "symbol": "MAXHEALTH",
+        "ltp": 1009.9,
+        "pct": 6.63,
         "catalyst": null,
-        "headline": "Q2 Results, Nov 13: Grasim, Eicher Motors, ABB India, Tata Motors PV, Manipal Health, Indo-MIM, RVNL, Godrej Industries, others to post earnings",
+        "headline": "Market wrap, Nov 16: SENSEX rises 512 pts, NIFTY50 ends at 25,291 led by FMCG stocks; Max Healthcare top gainer",
         "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQR21QbTdmTnZZTmpKN3FBRXNMU3QtWEtHclhDMUxpZm9ERC0zcWhRc3BuYlh4WW5ESHpJRDZTNk5xeXR5RE0zQUtHSVlaaXYzZlNhUTNSYkdtNHZ4WXRJR25OdTU0c2tCQUZmcllRcTd2Nmx5TFkzcXpmUGpOTGNfTzZBdFNWZE95VFhOdU1Ba0pSRkdHd1JIX191MkxqRm4zUkEweTZCcmpyZEh3b0VpYndyMmZwMHFrY3lxZ2NuM0ZJSlk4X2xFWHQ0Q2FfSDZsU0ZSeXp5RVRtcm1kQ2paRWlReXQ4RjF2ZmM3THRiTjVGbDBscGJtdnVrY0dELTBQdzZUbDVJdThmRmMwbkpoalpwbXV0NFdzdG5kTkl2WHk?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQS3plc2VuWlo3OExHV2lsQmhFNXJLNnhNMnhSRnY5WVhXeXNDRW9xTVp2Mkw4TWtFcGRMZXBxYlJ5elVXa3Q2dUI4c2dDY0RXUk10eGVyYkV1Tk5BVkw1SGpxZlR1MHotUG1kZG5TU09ET0ZicERZT29nUXRQeVNyWnVDTjhKM0FUZHJEU3RKM2trWVBxbktUZmFRMndIMjFhS3dnTVRpZHlUdGNBWElzVTg3V0dVUTJRb1dHX1R1aHpCNHlVcFdLUGhxN2VxS0VWQThaelVuQnRmTEJXZ3g3SGZNajFNdDNtZXNPclFjY2psN2NLa3huOWc4VQ?oc=5"
       },
       {
-        "symbol": "HINDUNILVR",
-        "ltp": 1992.9,
-        "pct": 0.96,
+        "symbol": "TATACONSUM",
+        "ltp": 1117.5,
+        "pct": 3.57,
         "catalyst": null,
-        "headline": "HUL Share Price Today, HUL Stock Price Live NSE/BSE Updates",
-        "source": "The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUE9mc0I1c2JSMFMwWXVtb1FMbi0ybkJWdkN2V1hvSzdiRTFsbzhGZHoyZTE2LW5BZDhrWmtMa09tQmRHaEJTeVZuNGdKMGZPN29ETDdYQVduVnZuZU1saTZXOE56dkM1M09wU3ZxMUZRR1pTQ0wweWZLcFhPQUtoZVJ0TWpWc0tvT0FIeEFIOA?oc=5"
+        "headline": "Tata Consumer Products TATACONSUM ESOP Share Allotment Nov 2026",
+        "source": "Kalkine India",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcnRnUFUyTWVBQTNKMEVDN2pydC1Tb192aGR5UHEwajRUQ3kxb1owUG9ULTh0NldQVWlaWjlJUjh2b1p1b2xXZ2tGTmNwamk2ZVpwbThmSHQxbWNoWkdyWnZoMTZyaTR2eHJDUFVxbUNBSl9KZ2dsTTBpOUlIUHJzaHFoQlVkWGxTQzk3MWRJWm55X2dhb0M3Sk9FV04yVE5DVXlPOGY5bWxRNTBRRG1vcVpxYkFpRGNldnA1bXYxU1pGNkwxUTZjTWFaTURJTXJCNkZoMGkxR1owckc5eTYwRA?oc=5"
       },
       {
-        "symbol": "BSE",
-        "ltp": 3937.7,
-        "pct": 0.73,
+        "symbol": "ITC",
+        "ltp": 295.1,
+        "pct": 3.54,
         "catalyst": null,
-        "headline": "Markets snap 3-day rally; Sensex drops 318 points, Nifty slips below 25,150",
-        "source": "DD News",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcVVFclRSOV9YQk81TC1BX1dhVXQtRWp1c3Q0bHFqbVpKVUdrSnBoZ1FlRlFDLTJkODhJaTduSkNQRHpVSXZOa3Vidm5TRF8wTUpvazkyWGlER185WWdYVDV3MV9IZUI5TmpOTDhKQU1LMkgyWGphOEQ2dXBNNFBZWmpRb1loaGh3dnlHMWJFVnJJY1RPaHJTY21SX19LS0k?oc=5"
+        "headline": "India stocks higher at close of trade; Nifty 50 up 0.58%",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUVfU0RvaTc4VTk3MjZ0VmtLdTI4RmpiTXZuZ2JCTTMtaWIxRmhraFFDSkJBNTl1a1VMZEF6ZTlBNkpPYWpYM0xJb0ZvUVk5T3AwdXhoUDYxVGF1MTNVVWY4WjU5a1YxN3RBRzhNWGNNbFJRQ0dVbEwxOHhibF90OUtMWjYwTUYtcG9qeFNBelUxaEFXLW5VQmlaWlAwRkhlX2tORHVEYmk5UlpFTDB3?oc=5"
       },
       {
-        "symbol": "ASIANPAINT",
-        "ltp": 2550.0,
-        "pct": 0.53
+        "symbol": "APOLLOHOSP",
+        "ltp": 8771.0,
+        "pct": 2.87
       },
       {
-        "symbol": "BHARTIARTL",
-        "ltp": 2106.0,
-        "pct": 0.48
+        "symbol": "NESTLEIND",
+        "ltp": 1297.0,
+        "pct": 2.68
       }
     ],
     "losers": [
       {
-        "symbol": "SHRIRAMFIN",
-        "ltp": 970.0,
-        "pct": -3.37,
-        "catalyst": null,
-        "headline": "Market wrap, Nov 13: Indices snap winning streak; SENSEX falls 319 pts, NIFTY50 ends at 25,144; Shriram Fin top loser",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPY0p5ZUNCSGRGTWdHY2JTYUluNGVwamFrOE1POHBFWi1YTWF3amNNQUg2UWM1azNkOE5FM1VLcmtETjZXLWU0ZWM3OERicDJHUXFQck5aNmJ2Z0lZRDBYZG1oSjdYM25XenJXbGtUUHJoNHhJZl8tMC15bVo5b21qNklWY2hNVEw5bzNnZXg0TnZ5akIzWEo4emluUDdZUFpKVHNVLWNvX3ZCbXNMdlEzUkZQU3AxYXZVOHFiNUNfUHEyNVp1LW40T1JLLXBjQm9sc3ZMc1FoTTdlUVpKZDhOTkpFeTllNWZDVGZObkNqUXNDRzllR2RyX2FLMnhNYVJVclE?oc=5"
-      },
-      {
         "symbol": "TMPV",
-        "ltp": 287.4,
-        "pct": -3.31,
+        "ltp": 262.4,
+        "pct": -8.7,
         "catalyst": null,
-        "headline": "Stocks to watch, Nov 13: ABB India, ZEEL, Eicher Motors, Ola Electric, Religare Enterprises, TMPV, Vi",
-        "source": "Upstox",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPendKcE9kVVVCR1JlVjVQbTFUaUZSTjNhbWtlYmdJSXhRaWFXa1RFOG82Ri1fWTdsVHR6UENZMm1WczNBLWlXY0RUVHpIS3IySGNXR1U3QVpUdzVrXzY0dUZINGZielBLR1BaaGtXQnBrVmF1d3hpb25xTlVtMEwxUjBaSGtXeXhTSXZ6ZWpHZjN5YUFyNmZKLUFjOUdiUFFqR1BSSk1PR2R1RzZmNXlfRmRLb0VEQkZidVdRcWZPNERqTF9tdmtzM2JkT3o0SU1rY2FTM2JESTVHNWdfTEQ0NTk4YW5VM3NWZkd3ZElMaTRMVlhG?oc=5"
+        "headline": "Tata Motors PV shares plunge 9% after Q2 results; brokerages cut target",
+        "source": "Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcEhLZFpmQml1REpCWkJXRUoyVUl4V0d5dWt5ZTg1UGhIUHJtdTFxTEJkZ3QzU1ZTQmEyYjVneGljQXBWZzBHbVRLR0t1ckdyMW81bDRpbVBJRWFnUnlRS3RNR0pIcm5Uei03andMd3AzOTZDaC15VGUwdFZISGRMNzBMUXlTdTdTYzcwclpYVThwQkJ6YmZfUFRaelR6QU5YajBJUEJIbUdqU09CUVFEMHp4eE1qV0NleG1FWkp5dW1LV2FYbS1hRFpnTXIzT1JvRlHSAdcBQVVfeXFMT3ZvWjA2TTgxUVpNNEpKbVNHWk1saUJCaE9CSTRUUldaTFhBVVpJd0FwWlhDZFFsNklod1NUdVJkWWlNQmFzQ1UtMTZVSFBYTGRtSjFlSlpMX1hkbW4xbnFkdEJxRW5hNlRGRkVPeDhua2JDV3N2M0loRUJGZlo2bTl4RzAyX2xsZ0pOdW0wV2doT1NTV3JLODFjVXJzYjcyZXJzTFZsME9MWDhzd1dOSjVVRzB5cFU0c0xMSFZvNTV3YzVXXzZSZ3JERTc5R2hzNWFaNnAyeE0?oc=5"
       },
       {
-        "symbol": "GRASIM",
-        "ltp": 3034.0,
-        "pct": -2.6,
+        "symbol": "TATASTEEL",
+        "ltp": 182.26,
+        "pct": -2.37,
         "catalyst": null,
-        "headline": "Indian stocks slip as oil, inflation cap weekly rally",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1E4QjJWZklPblVub0xweU1jNXRDdDlBdDFpbDFlZDl1d21idHhkbnAtTkZOcGEzZ3dSRnh0dWhQOFRPQXRuQVR2QkE0RFVvbnVSM2N3MmtWZjhsa0FhSGRLTlVtZUxXeTVGQUlUWTQyTjlwNm9HT2pvek1nZ0JXWkVWd0FVdEdvMFpZbkxuU2VlcHFUbDMtNzlzc09oeVB1eVVLaE12MHE1QXh6eEFIZ3lyUlUyRks0eU8tbA?oc=5"
+        "headline": "Top gainers and losers, Nov 16: Max Health soars 7%, Tata Consumer surges 4%, TMPV tumbles 9%; check list",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaWF5MmViWmxGRVpOX2hWWjZpWjdxYVNhMkZBSlRWbXFpUTdFM0dwU0tRRkktLUMwUXlpenBud0RqTWhUT3plV2hhUzFSR3dOc2F4M1hiYWZlOGhTaFZjSnUtcU0tUDRTNUxXS1ZPWTVUcTNnN2Vac3Z0Qkc2N3ZQZVdZeExmXzBqSGxmYnlUVnlVaTlpOElMVDUxQVdQVGlEUmVrR1E2eDhtVl9yblZVZUVxU3VoZ3BEZDhicXg1U244UHh3aWdMemxBdGlYXzRnMmhQZl85Nm1yVDZ2MjR5SUFWZHl3SXZuLXBjLQ?oc=5"
+      },
+      {
+        "symbol": "MARUTI",
+        "ltp": 12571.0,
+        "pct": -2.2,
+        "catalyst": null,
+        "headline": "National Stock Exchange of Ind Share Price - Live NSE Stock Price & Chart",
+        "source": "Upstox",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YampiQS1ZVEFBaF9PbU1mcGROYjRFQzBtVXY2M1FYY3U0Vm0xSmhrbjFfT1g0NXVuVC1FbDhZUVRNbWdiRUFqaHhOVm16dmxibHBINA?oc=5"
       },
       {
         "symbol": "HINDALCO",
-        "ltp": 943.6,
-        "pct": -2.12
+        "ltp": 923.3,
+        "pct": -2.15
       },
       {
-        "symbol": "ADANIENT",
-        "ltp": 2688.0,
-        "pct": -1.95
+        "symbol": "COALINDIA",
+        "ltp": 397.5,
+        "pct": -1.49
       }
     ]
   },
   "catalyst_sectors": {
     "top": [
       {
-        "name": "NIFTY ENERGY",
-        "pct": 0.03,
+        "name": "NIFTY FMCG",
+        "pct": 1.87,
         "catalyst": null,
-        "headline": "33 Best Power Sector Stocks In India November 2026 | Best Energy Stocks To Invest",
-        "source": "Samco",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JLVJiY1FqOUtqSDRBanhEV2hCb0stQzFQXzYtWjB3UXZ5UEJDa2ZZZnkxamRKUHItS2Q1aDlPLTRHUW5JQ2Z6MEQyQURNUFRhUTUzd3RvVmdVQnMzdUhyMzRyeVlCQnM5RlptUg?oc=5"
+        "headline": "Sensex Gains 510 Points as Banking and Consumer Stocks Lift Indian Markets",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGRLWUtGWVVyMW1pVkwyVU9YaXR1a28yZ1JTcXAwTDNxcVAwb1c1X3NFMExTSVk5enhwdkZIb05hYlZ0eFktLU5hMmRBYk8wS0dDQjVxZlkxM3VqY01VcDZORDIxaThPcWdpaDNaYmdqdXV1dkt4YUNtYzh2SkhkWTE5LUVKejIwaTUtRWxXX1ptZml4X0dKTHJxVGNLQ0VDdDFkRmZR?oc=5"
       },
       {
-        "name": "NIFTY FMCG",
-        "pct": -0.01,
+        "name": "NIFTY BANK",
+        "pct": 0.89,
         "catalyst": null,
-        "headline": "Cigarette Stocks in India 2026",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkTlUtcjhyV0VOeDNfMFNwSFZ0ZEdadHJXS1BpWlRYTFBNU0E1MnB1cmhsN25aNU5SN0pYV2ZBSnFYRURBX2JvN3d5RWs0dkhhUFduVzNRQmEzd3c1RXBTcg?oc=5"
+        "headline": "Sensex Gains 510 Points as Banking and Consumer Stocks Lift Indian Markets",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGRLWUtGWVVyMW1pVkwyVU9YaXR1a28yZ1JTcXAwTDNxcVAwb1c1X3NFMExTSVk5enhwdkZIb05hYlZ0eFktLU5hMmRBYk8wS0dDQjVxZlkxM3VqY01VcDZORDIxaThPcWdpaDNaYmdqdXV1dkt4YUNtYzh2SkhkWTE5LUVKejIwaTUtRWxXX1ptZml4X0dKTHJxVGNLQ0VDdDFkRmZR?oc=5"
       }
     ],
     "bottom": [
       {
-        "name": "NIFTY REALTY",
-        "pct": -1.39,
+        "name": "NIFTY PHARMA",
+        "pct": -1.53,
         "catalyst": null,
-        "headline": "Auto, Metal, Realty Stocks Lead Sectoral Losses",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdS1sNEtLbWxZZGxfWHZKcTdCS2tmSkVFWV9KNkc1RXYxWE1sV2hOT0kzZ0ctM21wN281cHlSMlhYMFVzc1ExMU1pU0JEa0lETlRyWlJFTVFvWS1WVS1iREtFMnJqZTFUamtodmJnTHVUMC1JMUwtaXUwUDdCX003aHNRV1BPU1VkeUExUDM1VHpGcDd0RUhhNDNNSGp3V3llUGFId1Y1NXlDOU9aMkJkMTB5MU9fZjhOeVBfbWZNME9mejZXSnU4NFl0X3htaktrOFBuZFlDZlA?oc=5"
+        "headline": null,
+        "source": null,
+        "link": null
       },
       {
-        "name": "NIFTY AUTO",
-        "pct": -1.07,
+        "name": "NIFTY METAL",
+        "pct": -1.5,
         "catalyst": null,
-        "headline": "Auto, Metal, Realty Stocks Lead Sectoral Losses",
-        "source": "HDFC Sky",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdS1sNEtLbWxZZGxfWHZKcTdCS2tmSkVFWV9KNkc1RXYxWE1sV2hOT0kzZ0ctM21wN281cHlSMlhYMFVzc1ExMU1pU0JEa0lETlRyWlJFTVFvWS1WVS1iREtFMnJqZTFUamtodmJnTHVUMC1JMUwtaXUwUDdCX003aHNRV1BPU1VkeUExUDM1VHpGcDd0RUhhNDNNSGp3V3llUGFId1Y1NXlDOU9aMkJkMTB5MU9fZjhOeVBfbWZNME9mejZXSnU4NFl0X3htaktrOFBuZFlDZlA?oc=5"
+        "headline": "Sensex Gains 384 Points, Nifty Nears 24,000 as Indian Stocks Rise for Fifth Straight Session",
+        "source": "INDIA New England News",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYkJCUGNkMHlRVFVJQmxmYlU1MlpyU2ROakkzTWtiQkpUUTZ6SlpRV25hZmprV2ZoUEEwYjdoNXhKb2pqTlVKWmZsSHdBYlBpVkUyVWFWb3dBSmtqeGs4TUxHdkpRdHM4emtRc1cxM21vOVA0ZFJIYTJmMHVzSEd2VkRYZVprbjBIVm5hWDQwWHY1cTlBRVZvcE9Uamx5OUY1ZW5YZ0JkbkpWa2lSNkxmOV9Na3doSkhUUlNR?oc=5"
       }
     ]
   }
