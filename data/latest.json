@@ -1,19 +1,19 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-25",
   "rows": [
     {
-      "date": "2026-11-23",
+      "date": "2026-11-25",
       "category": "DII",
-      "buy_value": 16505.75,
-      "sell_value": 19265.87,
-      "net_value": -2760.12
+      "buy_value": 22379.82,
+      "sell_value": 18361.1,
+      "net_value": 4018.72
     },
     {
-      "date": "2026-11-23",
+      "date": "2026-11-25",
       "category": "FII/FPI",
-      "buy_value": 23473.67,
-      "sell_value": 17800.68,
-      "net_value": 5672.99
+      "buy_value": 24309.87,
+      "sell_value": 19830.79,
+      "net_value": 4479.08
     }
   ]
 }
